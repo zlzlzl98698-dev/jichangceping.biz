@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-24",
+  "totalTopics": 10,
+  "items": [
+    {
+      "topic": "机场选型与排行",
+      "hubUrl": "/recommend/",
+      "upstreamUrls": [
+        "/"
+      ],
+      "downstreamUrls": [
+        "/rankings/",
+        "/recommend/stable/",
+        "/recommend/beginner/",
+        "/recommend/multi-device/",
+        "/brands/",
+        "/compare/"
+      ],
+      "lateralUrls": [
+        "/plans/",
+        "/risks/",
+        "/methodology/"
+      ]
+    },
+    {
+      "topic": "套餐定价与优惠",
+      "hubUrl": "/plans/",
+      "upstreamUrls": [
+        "/recommend/",
+        "/"
+      ],
+      "downstreamUrls": [
+        "/plans/database/",
+        "/plans/budget/",
+        "/plans/non-expiring/",
+        "/deals/"
+      ],
+      "lateralUrls": [
+        "/risks/billing-risks/",
+        "/compare/monthly-vs-annual/"
+      ]
+    },
+    {
+      "topic": "品牌库与深度测评",
+      "hubUrl": "/brands/",
+      "upstreamUrls": [
+        "/",
+        "/recommend/"
+      ],
+      "downstreamUrls": [
+        "/reviews/",
+        "/compare/",
+        "/reviews/guangsuyun/"
+      ],
+      "lateralUrls": [
+        "/benchmarks/",
+        "/risks/archives/"
+      ]
+    },
+    {
+      "topic": "VPN 与游戏加速器",
+      "hubUrl": "/vpn/",
+      "upstreamUrls": [
+        "/"
+      ],
+      "downstreamUrls": [
+        "/vpn/vpn-vs-airport/",
+        "/vpn/platforms/",
+        "/vpn/game-booster/"
+      ],
+      "lateralUrls": [
+        "/clients/",
+        "/network/"
+      ]
+    },
+    {
+      "topic": "客户端生态与兼容",
+      "hubUrl": "/clients/",
+      "upstreamUrls": [
+        "/",
+        "/guides/"
+      ],
+      "downstreamUrls": [
+        "/clients/compatibility/",
+        "/clients/clash-verge-rev/",
+        "/clients/v2rayn/",
+        "/clients/shadowrocket/",
+        "/clients/sing-box/"
+      ],
+      "lateralUrls": [
+        "/troubleshooting/",
+        "/guides/subscription/"
+      ]
+    },
+    {
+      "topic": "AI 与流媒体解锁",
+      "hubUrl": "/ai-streaming/",
+      "upstreamUrls": [
+        "/",
+        "/recommend/"
+      ],
+      "downstreamUrls": [
+        "/ai-streaming/ai-tools/",
+        "/ai-streaming/streaming/",
+        "/ai-streaming/matrix/"
+      ],
+      "lateralUrls": [
+        "/benchmarks/",
+        "/network/regions/"
+      ]
+    },
+    {
+      "topic": "线路架构与测速实验室",
+      "hubUrl": "/network/",
+      "upstreamUrls": [
+        "/",
+        "/recommend/"
+      ],
+      "downstreamUrls": [
+        "/network/iepl-vs-iplc/",
+        "/network/regions/",
+        "/benchmarks/",
+        "/methodology/"
+      ],
+      "lateralUrls": [
+        "/knowledge/protocols/",
+        "/compare/iepl-vs-iplc/"
+      ]
+    },
+    {
+      "topic": "使用教程与协议科普",
+      "hubUrl": "/guides/",
+      "upstreamUrls": [
+        "/",
+        "/clients/"
+      ],
+      "downstreamUrls": [
+        "/guides/subscription/",
+        "/guides/tun-dns/",
+        "/guides/speedtest-guide/",
+        "/knowledge/",
+        "/knowledge/protocols/"
+      ],
+      "lateralUrls": [
+        "/troubleshooting/"
+      ]
+    },
+    {
+      "topic": "故障诊断中心",
+      "hubUrl": "/troubleshooting/",
+      "upstreamUrls": [
+        "/guides/",
+        "/clients/"
+      ],
+      "downstreamUrls": [
+        "/troubleshooting/subscription-failed/",
+        "/troubleshooting/node-timeout/",
+        "/troubleshooting/tun-dns-error/"
+      ],
+      "lateralUrls": [
+        "/risks/alternatives/",
+        "/guides/tun-dns/"
+      ]
+    },
+    {
+      "topic": "风险控制与替代方案",
+      "hubUrl": "/risks/",
+      "upstreamUrls": [
+        "/recommend/",
+        "/plans/"
+      ],
+      "downstreamUrls": [
+        "/risks/exit-scam-signals/",
+        "/risks/billing-risks/",
+        "/risks/archives/",
+        "/risks/alternatives/"
+      ],
+      "lateralUrls": [
+        "/about/",
+        "/methodology/"
+      ]
+    }
+  ]
+}

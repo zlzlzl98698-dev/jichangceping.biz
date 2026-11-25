@@ -1,0 +1,227 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-24",
+  "totalRefreshTasks": 22,
+  "items": [
+    {
+      "id": "refresh-brand-guangsuyun",
+      "targetUrl": "/reviews/guangsuyun/",
+      "entityId": "brand-guangsuyun",
+      "reason": "存在 3 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "high",
+      "recommendedCadenceDays": 30,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-muguang",
+      "targetUrl": "/reviews/muguang/",
+      "entityId": "brand-muguang",
+      "reason": "存在 2 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "high",
+      "recommendedCadenceDays": 30,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-xingdaomeng",
+      "targetUrl": "/reviews/xingdaomeng/",
+      "entityId": "brand-xingdaomeng",
+      "reason": "存在 2 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "high",
+      "recommendedCadenceDays": 30,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-yinxingren",
+      "targetUrl": "/reviews/yinxingren/",
+      "entityId": "brand-yinxingren",
+      "reason": "存在 3 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "high",
+      "recommendedCadenceDays": 30,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-ermao",
+      "targetUrl": "/reviews/ermao/",
+      "entityId": "brand-ermao",
+      "reason": "存在 3 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "high",
+      "recommendedCadenceDays": 30,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-weitu",
+      "targetUrl": "/reviews/weitu/",
+      "entityId": "brand-weitu",
+      "reason": "存在 2 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "high",
+      "recommendedCadenceDays": 30,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-firefly",
+      "targetUrl": "/reviews/firefly/",
+      "entityId": "brand-firefly",
+      "reason": "存在 2 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "high",
+      "recommendedCadenceDays": 30,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-yuzhou",
+      "targetUrl": "/reviews/yuzhou/",
+      "entityId": "brand-yuzhou",
+      "reason": "关键信息（套餐/节点/测速）存在待核实项",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-u1s1",
+      "targetUrl": "/reviews/u1s1/",
+      "entityId": "brand-u1s1",
+      "reason": "存在 2 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-lingmao",
+      "targetUrl": "/reviews/lingmao/",
+      "entityId": "brand-lingmao",
+      "reason": "存在 3 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-guangnian",
+      "targetUrl": "/reviews/guangnian/",
+      "entityId": "brand-guangnian",
+      "reason": "存在 2 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-yifan",
+      "targetUrl": "/reviews/yifan/",
+      "entityId": "brand-yifan",
+      "reason": "存在 2 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-sogo",
+      "targetUrl": "/reviews/sogo/",
+      "entityId": "brand-sogo",
+      "reason": "存在 3 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-kexin",
+      "targetUrl": "/reviews/kexin/",
+      "entityId": "brand-kexin",
+      "reason": "存在 2 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-sujie",
+      "targetUrl": "/reviews/sujie/",
+      "entityId": "brand-sujie",
+      "reason": "存在 2 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-quanqiu",
+      "targetUrl": "/reviews/quanqiu/",
+      "entityId": "brand-quanqiu",
+      "reason": "存在 2 项源文档口径冲突（如优惠码/域名/协议/流量），需随新测试批次核销",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-liulianyun",
+      "targetUrl": "/reviews/liulianyun/",
+      "entityId": "brand-liulianyun",
+      "reason": "关键信息（套餐/节点/测速）存在待核实项",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-lingdong",
+      "targetUrl": "/reviews/lingdong/",
+      "entityId": "brand-lingdong",
+      "reason": "2026-08-09 历史追加条目，需进行近 30 日入口可用性、套餐价格与测速复核",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-langwang",
+      "targetUrl": "/reviews/langwang/",
+      "entityId": "brand-langwang",
+      "reason": "2026-08-09 历史追加条目，需进行近 30 日入口可用性、套餐价格与测速复核",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-brand-edgenova",
+      "targetUrl": "/reviews/edgenova/",
+      "entityId": "brand-edgenova",
+      "reason": "2026-08-09 历史追加条目，需进行近 30 日入口可用性、套餐价格与测速复核",
+      "priority": "medium",
+      "recommendedCadenceDays": 60,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-client-nekobox-mihomo-party",
+      "targetUrl": "/clients/",
+      "entityId": "client-nekobox-for-android",
+      "reason": "NekoBox 维护资源有限及 Google Play 假冒提示、Mihomo Party 维护状态需定期复核 GitHub Release 活跃度",
+      "priority": "high",
+      "recommendedCadenceDays": 30,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    },
+    {
+      "id": "refresh-benchmarks-peak",
+      "targetUrl": "/benchmarks/",
+      "entityId": "src-speedtest-text-2026-10-19",
+      "reason": "2026-10-19 非晚高峰记录需补齐晚高峰 (20:00-23:00 CST) MiaoKo 截图批次",
+      "priority": "high",
+      "recommendedCadenceDays": 30,
+      "lastVerifiedDate": "2026-11-24",
+      "status": "scheduled"
+    }
+  ]
+}

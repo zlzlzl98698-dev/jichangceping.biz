@@ -1,0 +1,246 @@
+/**
+ * Dark Network Observatory (#0b1220 / #131d31) 样式系统
+ * 用于所有测速报告、延迟带宽图、拓扑图、可用性矩阵与商业技术指标卡
+ */
+
+.observatory-panel {
+  --obs-bg: #0b1220;
+  --obs-surface: #131d31;
+  --obs-surface-2: #18253d;
+  --obs-border: rgba(148, 163, 184, 0.18);
+  --obs-border-strong: rgba(56, 189, 248, 0.35);
+  --obs-text: #f1f5f9;
+  --obs-muted: #94a3b8;
+  --obs-dim: #64748b;
+  --obs-accent: #38bdf8;
+  --obs-accent-soft: rgba(56, 189, 248, 0.14);
+  --obs-green: #10b981;
+  --obs-amber: #f59e0b;
+  --obs-red: #ef4444;
+
+  background-color: var(--obs-bg);
+  background-image:
+    linear-gradient(to right, rgba(148, 163, 184, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+  border: 1px solid var(--obs-border);
+  border-radius: 12px;
+  color: var(--obs-text);
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 12px 32px -12px rgba(2, 6, 23, 0.45);
+  overflow: hidden;
+}
+
+.observatory-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--obs-border);
+}
+
+.observatory-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--obs-text);
+  letter-spacing: -0.01em;
+}
+
+.observatory-subtitle {
+  margin: 4px 0 0;
+  font-size: 12.5px;
+  color: var(--obs-muted);
+}
+
+.observatory-card {
+  background-color: var(--obs-surface);
+  border: 1px solid var(--obs-border);
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+
+.observatory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+}
+
+.observatory-kpi-label {
+  font-size: 12px;
+  color: var(--obs-muted);
+  margin-bottom: 6px;
+}
+
+.observatory-kpi-value {
+  font-family: var(--vp-font-family-mono);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--obs-text);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.25;
+}
+
+.observatory-mono {
+  font-family: var(--vp-font-family-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 系统状态徽章 */
+.obs-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.4;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.obs-badge::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.obs-badge--measured {
+  color: #34d399;
+  background: rgba(16, 185, 129, 0.14);
+  border-color: rgba(16, 185, 129, 0.35);
+}
+
+.obs-badge--vendor {
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.14);
+  border-color: rgba(56, 189, 248, 0.35);
+}
+
+.obs-badge--historical {
+  color: #fbbf24;
+  background: rgba(245, 158, 11, 0.14);
+  border-color: rgba(245, 158, 11, 0.35);
+}
+
+.obs-badge--conflicting {
+  color: #f87171;
+  background: rgba(239, 68, 68, 0.14);
+  border-color: rgba(239, 68, 68, 0.35);
+}
+
+.obs-badge--unverified,
+.obs-badge--not-tested {
+  color: #cbd5e1;
+  background: rgba(148, 163, 184, 0.14);
+  border-color: rgba(148, 163, 184, 0.3);
+}
+
+/* 进度条与频谱条 */
+.obs-meter-track {
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.16);
+  overflow: hidden;
+}
+
+.obs-meter-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #0284c7, #38bdf8);
+  transition: width 0.25s ease;
+}
+
+/* 水印页脚（仅用于站点自绘图表） */
+.obs-watermark-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid var(--obs-border);
+  font-size: 11.5px;
+  color: var(--obs-muted);
+}
+
+.obs-watermark-tag {
+  font-family: var(--vp-font-family-mono);
+  color: rgba(226, 232, 240, 0.65);
+  letter-spacing: 0.02em;
+}
+
+.dark .observatory-panel {
+  border-color: rgba(56, 189, 248, 0.28);
+  box-shadow: 0 14px 34px -12px rgba(2, 6, 23, 0.78);
+}
+
+.dark .observatory-card {
+  border-color: rgba(148, 163, 184, 0.24);
+}
+
+/* 覆盖 VitePress .vp-doc 默认白底斑马纹表格样式，确保暗色观测台表格高对比度 */
+#app .vp-doc .obs-frame table,
+#app .vp-doc .observatory-panel table {
+  display: table !important;
+  width: 100% !important;
+  margin: 0 !important;
+  border-collapse: collapse !important;
+  background-color: transparent !important;
+  color: #e2e8f0 !important;
+}
+
+#app .vp-doc .obs-frame tr,
+#app .vp-doc .obs-frame tr:nth-child(2n),
+#app .vp-doc .observatory-panel tr,
+#app .vp-doc .observatory-panel tr:nth-child(2n) {
+  background-color: transparent !important;
+  border-top: 1px solid rgba(148, 163, 184, 0.16) !important;
+}
+
+#app .vp-doc .obs-frame th,
+#app .vp-doc .observatory-panel th {
+  background-color: #131d31 !important;
+  color: #94a3b8 !important;
+  border: 0 !important;
+  border-bottom: 1px solid #1e2d4a !important;
+}
+
+#app .vp-doc .obs-frame td,
+#app .vp-doc .observatory-panel td {
+  background-color: #0d1628 !important;
+  color: #e2e8f0 !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(30, 45, 74, 0.75) !important;
+}
+
+#app .vp-doc .obs-frame tbody tr:nth-child(2n) td,
+#app .vp-doc .observatory-panel tbody tr:nth-child(2n) td {
+  background-color: #111c33 !important;
+}
+
+#app .vp-doc .obs-frame tbody tr:hover td,
+#app .vp-doc .observatory-panel tbody tr:hover td {
+  background-color: #18253d !important;
+}
+
+/* 移动端响应式保护 */
+@media (max-width: 640px) {
+  .observatory-panel {
+    padding: 14px;
+    border-radius: 10px;
+  }
+
+  .observatory-kpi-value {
+    font-size: 17px;
+  }
+}

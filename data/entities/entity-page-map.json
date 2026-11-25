@@ -1,0 +1,4510 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-25",
+  "totalMappedEntities": 431,
+  "items": [
+    {
+      "entityId": "proto-vless",
+      "entityType": "NetworkProtocol",
+      "name": "VLESS",
+      "primaryUrl": "/knowledge/protocols/",
+      "secondaryUrls": [
+        "/clients/"
+      ],
+      "schemaType": "TechArticle"
+    },
+    {
+      "entityId": "proto-vless-reality",
+      "entityType": "NetworkProtocol",
+      "name": "VLESS-Reality",
+      "primaryUrl": "/knowledge/protocols/",
+      "secondaryUrls": [
+        "/clients/"
+      ],
+      "schemaType": "TechArticle"
+    },
+    {
+      "entityId": "proto-shadowsocks",
+      "entityType": "NetworkProtocol",
+      "name": "Shadowsocks",
+      "primaryUrl": "/knowledge/protocols/",
+      "secondaryUrls": [
+        "/clients/"
+      ],
+      "schemaType": "TechArticle"
+    },
+    {
+      "entityId": "proto-trojan",
+      "entityType": "NetworkProtocol",
+      "name": "Trojan",
+      "primaryUrl": "/knowledge/protocols/",
+      "secondaryUrls": [
+        "/clients/"
+      ],
+      "schemaType": "TechArticle"
+    },
+    {
+      "entityId": "proto-vmess",
+      "entityType": "NetworkProtocol",
+      "name": "VMess",
+      "primaryUrl": "/knowledge/protocols/",
+      "secondaryUrls": [
+        "/clients/"
+      ],
+      "schemaType": "TechArticle"
+    },
+    {
+      "entityId": "proto-hysteria2",
+      "entityType": "NetworkProtocol",
+      "name": "Hysteria 2",
+      "primaryUrl": "/knowledge/protocols/",
+      "secondaryUrls": [
+        "/clients/"
+      ],
+      "schemaType": "TechArticle"
+    },
+    {
+      "entityId": "proto-anytls",
+      "entityType": "NetworkProtocol",
+      "name": "AnyTLS",
+      "primaryUrl": "/knowledge/protocols/",
+      "secondaryUrls": [
+        "/clients/",
+        "/recommend/isp-telecom/"
+      ],
+      "schemaType": "TechArticle"
+    },
+    {
+      "entityId": "proto-tuic",
+      "entityType": "NetworkProtocol",
+      "name": "TUIC",
+      "primaryUrl": "/knowledge/protocols/",
+      "secondaryUrls": [
+        "/clients/"
+      ],
+      "schemaType": "TechArticle"
+    },
+    {
+      "entityId": "proto-ssr",
+      "entityType": "NetworkProtocol",
+      "name": "SSR",
+      "primaryUrl": "/knowledge/protocols/",
+      "secondaryUrls": [
+        "/clients/"
+      ],
+      "schemaType": "TechArticle"
+    },
+    {
+      "entityId": "region-hk",
+      "entityType": "Region",
+      "name": "香港",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-tw",
+      "entityType": "Region",
+      "name": "台湾",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-jp",
+      "entityType": "Region",
+      "name": "日本",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-sg",
+      "entityType": "Region",
+      "name": "新加坡",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-us",
+      "entityType": "Region",
+      "name": "美国",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-kr",
+      "entityType": "Region",
+      "name": "韩国",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-my",
+      "entityType": "Region",
+      "name": "马来西亚",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-gb",
+      "entityType": "Region",
+      "name": "英国",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-fr",
+      "entityType": "Region",
+      "name": "法国",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-de",
+      "entityType": "Region",
+      "name": "德国",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-tr",
+      "entityType": "Region",
+      "name": "土耳其",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-th",
+      "entityType": "Region",
+      "name": "泰国",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-br",
+      "entityType": "Region",
+      "name": "巴西",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "region-sea",
+      "entityType": "Region",
+      "name": "东南亚",
+      "primaryUrl": "/network/regions/",
+      "secondaryUrls": [
+        "/benchmarks/",
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Place"
+    },
+    {
+      "entityId": "route-iepl",
+      "entityType": "NetworkRoute",
+      "name": "IEPL专线",
+      "primaryUrl": "/network/iepl-vs-iplc/",
+      "secondaryUrls": [
+        "/compare/iepl-vs-iplc/",
+        "/recommend/isp-telecom/",
+        "/recommend/remote-work/",
+        "/recommend/backup-strategy/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "route-iplc",
+      "entityType": "NetworkRoute",
+      "name": "IPLC专线",
+      "primaryUrl": "/network/iepl-vs-iplc/",
+      "secondaryUrls": [
+        "/compare/iepl-vs-iplc/",
+        "/recommend/isp-telecom/",
+        "/recommend/remote-work/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "route-intranet",
+      "entityType": "NetworkRoute",
+      "name": "企业级内网专线",
+      "primaryUrl": "/network/",
+      "secondaryUrls": [
+        "/compare/iepl-vs-iplc/",
+        "/recommend/cross-border-ecom/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "route-bgp",
+      "entityType": "NetworkRoute",
+      "name": "BGP智能调度",
+      "primaryUrl": "/network/",
+      "secondaryUrls": [
+        "/compare/iepl-vs-iplc/",
+        "/recommend/isp-telecom/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "route-tri-net",
+      "entityType": "NetworkRoute",
+      "name": "三网优化",
+      "primaryUrl": "/network/",
+      "secondaryUrls": [
+        "/compare/iepl-vs-iplc/",
+        "/recommend/isp-telecom/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "route-relay",
+      "entityType": "NetworkRoute",
+      "name": "中转优化线路",
+      "primaryUrl": "/network/",
+      "secondaryUrls": [
+        "/compare/iepl-vs-iplc/",
+        "/recommend/backup-strategy/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "route-residential-ip",
+      "entityType": "NetworkRoute",
+      "name": "原生住宅 IP",
+      "primaryUrl": "/network/",
+      "secondaryUrls": [
+        "/compare/iepl-vs-iplc/",
+        "/recommend/cross-border-ecom/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "route-lb",
+      "entityType": "NetworkRoute",
+      "name": "智能负载均衡",
+      "primaryUrl": "/network/",
+      "secondaryUrls": [
+        "/compare/iepl-vs-iplc/",
+        "/recommend/remote-work/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "service-chatgpt",
+      "entityType": "ServiceAvailability",
+      "name": "ChatGPT",
+      "primaryUrl": "/ai-streaming/ai-tools/",
+      "secondaryUrls": [
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Service"
+    },
+    {
+      "entityId": "service-claude",
+      "entityType": "ServiceAvailability",
+      "name": "Claude",
+      "primaryUrl": "/ai-streaming/ai-tools/",
+      "secondaryUrls": [
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Service"
+    },
+    {
+      "entityId": "service-gemini",
+      "entityType": "ServiceAvailability",
+      "name": "Gemini",
+      "primaryUrl": "/ai-streaming/ai-tools/",
+      "secondaryUrls": [
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Service"
+    },
+    {
+      "entityId": "service-netflix",
+      "entityType": "ServiceAvailability",
+      "name": "Netflix",
+      "primaryUrl": "/ai-streaming/streaming/",
+      "secondaryUrls": [
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Service"
+    },
+    {
+      "entityId": "service-disney",
+      "entityType": "ServiceAvailability",
+      "name": "Disney+",
+      "primaryUrl": "/ai-streaming/streaming/",
+      "secondaryUrls": [
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Service"
+    },
+    {
+      "entityId": "service-youtube",
+      "entityType": "ServiceAvailability",
+      "name": "YouTube",
+      "primaryUrl": "/ai-streaming/streaming/",
+      "secondaryUrls": [
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Service"
+    },
+    {
+      "entityId": "service-hbomax",
+      "entityType": "ServiceAvailability",
+      "name": "HBO Max",
+      "primaryUrl": "/ai-streaming/streaming/",
+      "secondaryUrls": [
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Service"
+    },
+    {
+      "entityId": "service-tiktok",
+      "entityType": "ServiceAvailability",
+      "name": "TikTok",
+      "primaryUrl": "/ai-streaming/streaming/",
+      "secondaryUrls": [
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Service"
+    },
+    {
+      "entityId": "service-spotify",
+      "entityType": "ServiceAvailability",
+      "name": "Spotify",
+      "primaryUrl": "/ai-streaming/streaming/",
+      "secondaryUrls": [
+        "/ai-streaming/matrix/"
+      ],
+      "schemaType": "Service"
+    },
+    {
+      "entityId": "client-clash-verge-rev",
+      "entityType": "ClientSoftware",
+      "name": "Clash Verge Rev",
+      "primaryUrl": "/clients/clash-verge-rev/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/",
+        "/guides/clash-rules/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-v2rayn",
+      "entityType": "ClientSoftware",
+      "name": "v2rayN",
+      "primaryUrl": "/clients/v2rayn/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-flclash",
+      "entityType": "ClientSoftware",
+      "name": "FlClash",
+      "primaryUrl": "/clients/sing-box/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/",
+        "/guides/clash-rules/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-clash-nyanpasu",
+      "entityType": "ClientSoftware",
+      "name": "Clash Nyanpasu",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/",
+        "/guides/clash-rules/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-hiddify",
+      "entityType": "ClientSoftware",
+      "name": "Hiddify",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-karing",
+      "entityType": "ClientSoftware",
+      "name": "Karing",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-clash-mi",
+      "entityType": "ClientSoftware",
+      "name": "Clash Mi",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/",
+        "/guides/clash-rules/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-mihomo-party",
+      "entityType": "ClientSoftware",
+      "name": "Mihomo Party",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/",
+        "/guides/clash-rules/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-v2rayng",
+      "entityType": "ClientSoftware",
+      "name": "v2rayNG",
+      "primaryUrl": "/clients/v2rayn/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-clash-meta-for-android",
+      "entityType": "ClientSoftware",
+      "name": "Clash Meta for Android",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-nekobox-for-android",
+      "entityType": "ClientSoftware",
+      "name": "NekoBox for Android",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-sing-box",
+      "entityType": "ClientSoftware",
+      "name": "sing-box 官方客户端 (SFA / SFI / SFM / Desktop)",
+      "primaryUrl": "/clients/sing-box/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-shadowrocket",
+      "entityType": "ClientSoftware",
+      "name": "Shadowrocket（小火箭）",
+      "primaryUrl": "/clients/shadowrocket/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-stash",
+      "entityType": "ClientSoftware",
+      "name": "Stash",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/",
+        "/guides/clash-rules/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-quantumult-x",
+      "entityType": "ClientSoftware",
+      "name": "Quantumult X（圈 X）",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-surge",
+      "entityType": "ClientSoftware",
+      "name": "Surge (Surge 5 / Surge Mac)",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-streisand",
+      "entityType": "ClientSoftware",
+      "name": "Streisand",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-potatso",
+      "entityType": "ClientSoftware",
+      "name": "Potatso",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-oneclick",
+      "entityType": "ClientSoftware",
+      "name": "OneClick",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-v2raya",
+      "entityType": "ClientSoftware",
+      "name": "v2rayA",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-openclash",
+      "entityType": "ClientSoftware",
+      "name": "OpenClash",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/",
+        "/guides/clash-rules/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-passwall2",
+      "entityType": "ClientSoftware",
+      "name": "PassWall2",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-nikki",
+      "entityType": "ClientSoftware",
+      "name": "Nikki",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "client-homeproxy",
+      "entityType": "ClientSoftware",
+      "name": "HomeProxy",
+      "primaryUrl": "/clients/",
+      "secondaryUrls": [
+        "/clients/",
+        "/clients/compatibility/"
+      ],
+      "schemaType": "SoftwareApplication"
+    },
+    {
+      "entityId": "brand-guangsuyun",
+      "entityType": "Brand",
+      "name": "光速云",
+      "primaryUrl": "/reviews/guangsuyun/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-guangsuyun",
+      "entityType": "Review",
+      "name": "光速云 深度测评",
+      "primaryUrl": "/reviews/guangsuyun/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-muguang",
+      "entityType": "Brand",
+      "name": "暮光加速",
+      "primaryUrl": "/reviews/muguang/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-muguang",
+      "entityType": "Review",
+      "name": "暮光加速 深度测评",
+      "primaryUrl": "/reviews/muguang/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-feimao",
+      "entityType": "Brand",
+      "name": "飞猫云",
+      "primaryUrl": "/reviews/feimao/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-feimao",
+      "entityType": "Review",
+      "name": "飞猫云 深度测评",
+      "primaryUrl": "/reviews/feimao/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-weifeng",
+      "entityType": "Brand",
+      "name": "微风网络",
+      "primaryUrl": "/reviews/weifeng/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-weifeng",
+      "entityType": "Review",
+      "name": "微风网络 深度测评",
+      "primaryUrl": "/reviews/weifeng/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-dalaoyun",
+      "entityType": "Brand",
+      "name": "大佬云",
+      "primaryUrl": "/reviews/dalaoyun/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-dalaoyun",
+      "entityType": "Review",
+      "name": "大佬云 深度测评",
+      "primaryUrl": "/reviews/dalaoyun/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-xingdaomeng",
+      "entityType": "Brand",
+      "name": "星岛梦",
+      "primaryUrl": "/reviews/xingdaomeng/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-xingdaomeng",
+      "entityType": "Review",
+      "name": "星岛梦 深度测评",
+      "primaryUrl": "/reviews/xingdaomeng/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-yinxingren",
+      "entityType": "Brand",
+      "name": "隐形人",
+      "primaryUrl": "/reviews/yinxingren/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-yinxingren",
+      "entityType": "Review",
+      "name": "隐形人 深度测评",
+      "primaryUrl": "/reviews/yinxingren/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-ermao",
+      "entityType": "Brand",
+      "name": "二猫云",
+      "primaryUrl": "/reviews/ermao/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-ermao",
+      "entityType": "Review",
+      "name": "二猫云 深度测评",
+      "primaryUrl": "/reviews/ermao/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-wuyou",
+      "entityType": "Brand",
+      "name": "无忧链接",
+      "primaryUrl": "/reviews/wuyou/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-wuyou",
+      "entityType": "Review",
+      "name": "无忧链接 深度测评",
+      "primaryUrl": "/reviews/wuyou/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-weitu",
+      "entityType": "Brand",
+      "name": "唯兔云",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-weitu",
+      "entityType": "Review",
+      "name": "唯兔云 深度测评",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-firefly",
+      "entityType": "Brand",
+      "name": "Firefly",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-firefly",
+      "entityType": "Review",
+      "name": "Firefly 深度测评",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-yuzhou",
+      "entityType": "Brand",
+      "name": "宇宙云",
+      "primaryUrl": "/reviews/yuzhou/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-yuzhou",
+      "entityType": "Review",
+      "name": "宇宙云 深度测评",
+      "primaryUrl": "/reviews/yuzhou/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-u1s1",
+      "entityType": "Brand",
+      "name": "U1S1",
+      "primaryUrl": "/reviews/u1s1/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-u1s1",
+      "entityType": "Review",
+      "name": "U1S1 深度测评",
+      "primaryUrl": "/reviews/u1s1/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-lingmao",
+      "entityType": "Brand",
+      "name": "灵猫网络",
+      "primaryUrl": "/reviews/lingmao/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-lingmao",
+      "entityType": "Review",
+      "name": "灵猫网络 深度测评",
+      "primaryUrl": "/reviews/lingmao/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-jilian",
+      "entityType": "Brand",
+      "name": "极连云",
+      "primaryUrl": "/reviews/jilian/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-jilian",
+      "entityType": "Review",
+      "name": "极连云 深度测评",
+      "primaryUrl": "/reviews/jilian/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-guangnian",
+      "entityType": "Brand",
+      "name": "光年梯",
+      "primaryUrl": "/reviews/guangnian/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-guangnian",
+      "entityType": "Review",
+      "name": "光年梯 深度测评",
+      "primaryUrl": "/reviews/guangnian/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-yifan",
+      "entityType": "Brand",
+      "name": "一翻云",
+      "primaryUrl": "/reviews/yifan/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-yifan",
+      "entityType": "Review",
+      "name": "一翻云 深度测评",
+      "primaryUrl": "/reviews/yifan/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-sogo",
+      "entityType": "Brand",
+      "name": "SOGO 云",
+      "primaryUrl": "/reviews/sogo/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-sogo",
+      "entityType": "Review",
+      "name": "SOGO 云 深度测评",
+      "primaryUrl": "/reviews/sogo/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-kexin",
+      "entityType": "Brand",
+      "name": "可信云",
+      "primaryUrl": "/reviews/kexin/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-kexin",
+      "entityType": "Review",
+      "name": "可信云 深度测评",
+      "primaryUrl": "/reviews/kexin/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-sujie",
+      "entityType": "Brand",
+      "name": "速界",
+      "primaryUrl": "/reviews/sujie/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-sujie",
+      "entityType": "Review",
+      "name": "速界 深度测评",
+      "primaryUrl": "/reviews/sujie/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-shanyue",
+      "entityType": "Brand",
+      "name": "闪跃",
+      "primaryUrl": "/reviews/shanyue/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-shanyue",
+      "entityType": "Review",
+      "name": "闪跃 深度测评",
+      "primaryUrl": "/reviews/shanyue/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-quanqiu",
+      "entityType": "Brand",
+      "name": "全球云",
+      "primaryUrl": "/reviews/quanqiu/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-quanqiu",
+      "entityType": "Review",
+      "name": "全球云 深度测评",
+      "primaryUrl": "/reviews/quanqiu/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-shandianshu",
+      "entityType": "Brand",
+      "name": "闪电鼠",
+      "primaryUrl": "/reviews/shandianshu/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-shandianshu",
+      "entityType": "Review",
+      "name": "闪电鼠 深度测评",
+      "primaryUrl": "/reviews/shandianshu/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-yunjiexian",
+      "entityType": "Brand",
+      "name": "云界线",
+      "primaryUrl": "/reviews/yunjiexian/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-yunjiexian",
+      "entityType": "Review",
+      "name": "云界线 深度测评",
+      "primaryUrl": "/reviews/yunjiexian/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-liulianyun",
+      "entityType": "Brand",
+      "name": "榴莲云",
+      "primaryUrl": "/reviews/liulianyun/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-liulianyun",
+      "entityType": "Review",
+      "name": "榴莲云 深度测评",
+      "primaryUrl": "/reviews/liulianyun/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-shenxing",
+      "entityType": "Brand",
+      "name": "神行加速",
+      "primaryUrl": "/reviews/shenxing/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-shenxing",
+      "entityType": "Review",
+      "name": "神行加速 深度测评",
+      "primaryUrl": "/reviews/shenxing/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-huanqiuti",
+      "entityType": "Brand",
+      "name": "环球梯",
+      "primaryUrl": "/reviews/huanqiuti/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-huanqiuti",
+      "entityType": "Review",
+      "name": "环球梯 深度测评",
+      "primaryUrl": "/reviews/huanqiuti/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-tiziyun",
+      "entityType": "Brand",
+      "name": "梯子云",
+      "primaryUrl": "/reviews/tiziyun/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-tiziyun",
+      "entityType": "Review",
+      "name": "梯子云 深度测评",
+      "primaryUrl": "/reviews/tiziyun/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-lingdong",
+      "entityType": "Brand",
+      "name": "灵动云",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-lingdong",
+      "entityType": "Review",
+      "name": "灵动云 深度测评",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-langwang",
+      "entityType": "Brand",
+      "name": "浪网",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-langwang",
+      "entityType": "Review",
+      "name": "浪网 深度测评",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "brand-edgenova",
+      "entityType": "Brand",
+      "name": "边缘节点 EdgeNova",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/brands/",
+        "/compare/",
+        "/rankings/"
+      ],
+      "schemaType": "Organization"
+    },
+    {
+      "entityId": "review-edgenova",
+      "entityType": "Review",
+      "name": "边缘节点 EdgeNova 深度测评",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/reviews/"
+      ],
+      "schemaType": "Article"
+    },
+    {
+      "entityId": "plan-guangsuyun-147-onetime",
+      "entityType": "SubscriptionPlan",
+      "name": "光速云·致敬斯诺克147永久套餐",
+      "primaryUrl": "/reviews/guangsuyun/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/recommend/backup-strategy/",
+        "/plans/cost-per-gb-methodology/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-guangsuyun-lite-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "光速云·轻量版",
+      "primaryUrl": "/reviews/guangsuyun/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/cost-per-gb-methodology/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-guangsuyun-speed-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "光速云·极速版",
+      "primaryUrl": "/reviews/guangsuyun/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/cost-per-gb-methodology/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-guangsuyun-stream-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "光速云·流光版",
+      "primaryUrl": "/reviews/guangsuyun/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-guangsuyun-quantum-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "光速云·量子版",
+      "primaryUrl": "/reviews/guangsuyun/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-guangsuyun-unlimited-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "光速云·无界版",
+      "primaryUrl": "/reviews/guangsuyun/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-guangsuyun-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "光速云·定制套餐",
+      "primaryUrl": "/reviews/guangsuyun/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-muguang-basic-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "【暮光·基础版】",
+      "primaryUrl": "/reviews/muguang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-muguang-std-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "【暮光·标准版】",
+      "primaryUrl": "/reviews/muguang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-muguang-flagship-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "【暮光·旗舰版】",
+      "primaryUrl": "/reviews/muguang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-muguang-ultimate-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "【暮光·至尊版】",
+      "primaryUrl": "/reviews/muguang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-muguang-lite-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "【暮光·年付轻量版】",
+      "primaryUrl": "/reviews/muguang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-muguang-ot-lite",
+      "entityType": "SubscriptionPlan",
+      "name": "【暮光·不限时轻量包】",
+      "primaryUrl": "/reviews/muguang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-muguang-ot-std",
+      "entityType": "SubscriptionPlan",
+      "name": "【暮光·不限时标准包】",
+      "primaryUrl": "/reviews/muguang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-muguang-ot-large",
+      "entityType": "SubscriptionPlan",
+      "name": "【暮光·不限时大容量包】",
+      "primaryUrl": "/reviews/muguang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-muguang-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "独享私人定制节点",
+      "primaryUrl": "/reviews/muguang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-feimao-student-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "飞猫·学生版",
+      "primaryUrl": "/reviews/feimao/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-feimao-star-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "飞猫·星耀版",
+      "primaryUrl": "/reviews/feimao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-feimao-ring-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "飞猫·星环版",
+      "primaryUrl": "/reviews/feimao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-feimao-galaxy-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "飞猫·银河版",
+      "primaryUrl": "/reviews/feimao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-feimao-universe-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "飞猫·宇宙版",
+      "primaryUrl": "/reviews/feimao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-feimao-ot-1tb",
+      "entityType": "SubscriptionPlan",
+      "name": "飞猫·不限时套餐",
+      "primaryUrl": "/reviews/feimao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-feimao-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "飞猫·定制套餐",
+      "primaryUrl": "/reviews/feimao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weifeng-breeze-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "清风 (Breeze)",
+      "primaryUrl": "/reviews/weifeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weifeng-riding-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "乘风 (Riding)",
+      "primaryUrl": "/reviews/weifeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weifeng-breaking-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "破风 (Breaking)",
+      "primaryUrl": "/reviews/weifeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weifeng-mastery-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "御风 (Mastery)",
+      "primaryUrl": "/reviews/weifeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weifeng-ot-270",
+      "entityType": "SubscriptionPlan",
+      "name": "信风·不限时",
+      "primaryUrl": "/reviews/weifeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weifeng-ot-570",
+      "entityType": "SubscriptionPlan",
+      "name": "长风·不限时",
+      "primaryUrl": "/reviews/weifeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-xingdaomeng-small-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "星岛梦·贴心小包",
+      "primaryUrl": "/reviews/xingdaomeng/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-xingdaomeng-150-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "星岛梦·超量150G",
+      "primaryUrl": "/reviews/xingdaomeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-xingdaomeng-300-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "星岛梦·进阶300G",
+      "primaryUrl": "/reviews/xingdaomeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-xingdaomeng-500-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "星岛梦·闪光500G",
+      "primaryUrl": "/reviews/xingdaomeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-xingdaomeng-1t-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "星岛梦·旗舰1T版",
+      "primaryUrl": "/reviews/xingdaomeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-xingdaomeng-ot-100",
+      "entityType": "SubscriptionPlan",
+      "name": "星岛梦·永久不限时100",
+      "primaryUrl": "/reviews/xingdaomeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-xingdaomeng-ot-300",
+      "entityType": "SubscriptionPlan",
+      "name": "星岛梦·永久不限时300",
+      "primaryUrl": "/reviews/xingdaomeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-xingdaomeng-ot-1tb",
+      "entityType": "SubscriptionPlan",
+      "name": "星岛梦·永久不限时1TB",
+      "primaryUrl": "/reviews/xingdaomeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-xingdaomeng-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "星岛梦·定制套餐",
+      "primaryUrl": "/reviews/xingdaomeng/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-ermao-ot-100",
+      "entityType": "SubscriptionPlan",
+      "name": "二猫云·不限时套餐",
+      "primaryUrl": "/reviews/ermao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-ermao-small-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "二猫年付小包",
+      "primaryUrl": "/reviews/ermao/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-ermao-white-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "二猫云·白猫套餐",
+      "primaryUrl": "/reviews/ermao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-ermao-orange-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "二猫云·橘猫畅玩版",
+      "primaryUrl": "/reviews/ermao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-ermao-milk-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "二猫云·牛奶猫尊享版",
+      "primaryUrl": "/reviews/ermao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-ermao-black-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "二猫云·黑猫重度用户版",
+      "primaryUrl": "/reviews/ermao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-wuyou-mini-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "MINI链接",
+      "primaryUrl": "/reviews/wuyou/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-wuyou-shuxin-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "舒心链接",
+      "primaryUrl": "/reviews/wuyou/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-wuyou-shengxin-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "省心链接",
+      "primaryUrl": "/reviews/wuyou/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-wuyou-suixin-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "随心链接",
+      "primaryUrl": "/reviews/wuyou/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-wuyou-wangyou-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "忘忧链接",
+      "primaryUrl": "/reviews/wuyou/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-wuyou-ot-100",
+      "entityType": "SubscriptionPlan",
+      "name": "100G永久不限时 无忧链接",
+      "primaryUrl": "/reviews/wuyou/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-wuyou-ot-300",
+      "entityType": "SubscriptionPlan",
+      "name": "300G永久不限时 无忧链接",
+      "primaryUrl": "/reviews/wuyou/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weitu-annual-75",
+      "entityType": "SubscriptionPlan",
+      "name": "唯兔云·年付加强专线",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weitu-annual-45",
+      "entityType": "SubscriptionPlan",
+      "name": "唯兔云·年付版限量款",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weitu-holiday-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "唯兔云·节假日限时开启（14.9元）",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weitu-normal-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "唯兔云·普通版",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weitu-adv-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "唯兔云·进阶版",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weitu-pro-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "唯兔云·专业版",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weitu-ult-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "唯兔云·至尊版",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weitu-ot-100",
+      "entityType": "SubscriptionPlan",
+      "name": "唯兔云·永久不限时 100G",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weitu-ot-200",
+      "entityType": "SubscriptionPlan",
+      "name": "唯兔云·永久不限时 200G",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-weitu-ot-500",
+      "entityType": "SubscriptionPlan",
+      "name": "唯兔云·永久不限时 500G",
+      "primaryUrl": "/reviews/weitu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly 年付版",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-lite-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Lite",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-lite-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Lite（季付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-lite-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Lite（半年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-lite-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Lite（年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-lite-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Lite（两年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-lite-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Lite（三年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-plus-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Plus",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-plus-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Plus（季付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-plus-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Plus（半年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-plus-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Plus（年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-plus-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Plus（两年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-plus-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Plus（三年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-blaze-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Blaze",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-blaze-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Blaze（季付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-blaze-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Blaze（半年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-blaze-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Blaze（年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-blaze-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Blaze（两年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-blaze-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Blaze（三年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-nova-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Nova",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-nova-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Nova（季付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-nova-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Nova（半年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-nova-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Nova（年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-nova-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Nova（两年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-nova-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly Nova（三年付）",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-firefly-ot-100",
+      "entityType": "SubscriptionPlan",
+      "name": "Firefly 不限时",
+      "primaryUrl": "/reviews/firefly/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yuzhou-entry-historical",
+      "entityType": "SubscriptionPlan",
+      "name": "历史年付起价（待核实）",
+      "primaryUrl": "/reviews/yuzhou/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-u1s1-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "u1s1·就是好用包",
+      "primaryUrl": "/reviews/u1s1/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-u1s1-120-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "u1s1·普通人真够了包",
+      "primaryUrl": "/reviews/u1s1/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-u1s1-300-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "u1s1·你以为用不到包",
+      "primaryUrl": "/reviews/u1s1/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-u1s1-700-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "u1s1·瘾大就拉满包",
+      "primaryUrl": "/reviews/u1s1/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-u1s1-1500-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "u1s1·我全都要包",
+      "primaryUrl": "/reviews/u1s1/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingmao-small-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "灵猫·年付小包",
+      "primaryUrl": "/reviews/lingmao/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingmao-small-annual-150",
+      "entityType": "SubscriptionPlan",
+      "name": "灵猫·年付Small",
+      "primaryUrl": "/reviews/lingmao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingmao-big-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "灵猫·年付Big",
+      "primaryUrl": "/reviews/lingmao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingmao-big-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵猫·季付Big",
+      "primaryUrl": "/reviews/lingmao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingmao-small-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵猫·月付Small",
+      "primaryUrl": "/reviews/lingmao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingmao-big-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵猫·月付Big",
+      "primaryUrl": "/reviews/lingmao/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-jilian-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "极连云·基础月付档",
+      "primaryUrl": "/reviews/jilian/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-guangnian-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "光年梯·基础月付档",
+      "primaryUrl": "/reviews/guangnian/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yifan-lite-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "轻享版",
+      "primaryUrl": "/reviews/yifan/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yifan-comfort-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "舒享版",
+      "primaryUrl": "/reviews/yifan/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yifan-pro-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "尊享版",
+      "primaryUrl": "/reviews/yifan/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yifan-ult-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "极致版",
+      "primaryUrl": "/reviews/yifan/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yifan-small-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "98¥·年付小包",
+      "primaryUrl": "/reviews/yifan/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yifan-ot-100",
+      "entityType": "SubscriptionPlan",
+      "name": "轻享版·不限时包",
+      "primaryUrl": "/reviews/yifan/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yifan-ot-250",
+      "entityType": "SubscriptionPlan",
+      "name": "舒享版·不限时包",
+      "primaryUrl": "/reviews/yifan/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yifan-ot-500",
+      "entityType": "SubscriptionPlan",
+      "name": "尊享版·不限时包",
+      "primaryUrl": "/reviews/yifan/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-sogo-small-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "小包-年付版",
+      "primaryUrl": "/reviews/sogo/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-sogo-basic-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "基础版",
+      "primaryUrl": "/reviews/sogo/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-sogo-pref-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "优选版",
+      "primaryUrl": "/reviews/sogo/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-sogo-enh-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "强化版",
+      "primaryUrl": "/reviews/sogo/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-sogo-top-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "顶配版",
+      "primaryUrl": "/reviews/sogo/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-sogo-ot-120",
+      "entityType": "SubscriptionPlan",
+      "name": "SOGO基础餐不限时版",
+      "primaryUrl": "/reviews/sogo/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-sogo-ot-250",
+      "entityType": "SubscriptionPlan",
+      "name": "SOGO优选餐不限时版",
+      "primaryUrl": "/reviews/sogo/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-sogo-ot-500",
+      "entityType": "SubscriptionPlan",
+      "name": "SOGO强化餐不限时版",
+      "primaryUrl": "/reviews/sogo/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-sogo-ot-1000",
+      "entityType": "SubscriptionPlan",
+      "name": "SOGO至尊餐不限时版",
+      "primaryUrl": "/reviews/sogo/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-kexin-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "可信云·基础月付档",
+      "primaryUrl": "/reviews/kexin/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-sujie-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "速界·基础月付档",
+      "primaryUrl": "/reviews/sujie/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-shanyue-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "闪跃年付版",
+      "primaryUrl": "/reviews/shanyue/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-shanyue-flicker-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "闪动 (Flicker)",
+      "primaryUrl": "/reviews/shanyue/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-shanyue-leap-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "飞跃 (Leap)",
+      "primaryUrl": "/reviews/shanyue/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-shanyue-teleport-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "瞬移 (Teleport)",
+      "primaryUrl": "/reviews/shanyue/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-shanyue-warp-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "跃迁 (Warp)",
+      "primaryUrl": "/reviews/shanyue/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-quanqiu-ot-100",
+      "entityType": "SubscriptionPlan",
+      "name": "BGP 智能优化·不限时轻量包",
+      "primaryUrl": "/reviews/quanqiu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-quanqiu-ot-400",
+      "entityType": "SubscriptionPlan",
+      "name": "BGP 智能优化·不限时标准包",
+      "primaryUrl": "/reviews/quanqiu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-quanqiu-ot-800",
+      "entityType": "SubscriptionPlan",
+      "name": "BGP 智能优化·不限时大容量包",
+      "primaryUrl": "/reviews/quanqiu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-quanqiu-lite-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "轻量版",
+      "primaryUrl": "/reviews/quanqiu/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-quanqiu-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "BGP 智能优化·入门方案",
+      "primaryUrl": "/reviews/quanqiu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-quanqiu-adv-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "BGP 智能优化·进阶方案",
+      "primaryUrl": "/reviews/quanqiu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-quanqiu-high-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "BGP 智能优化·高端方案",
+      "primaryUrl": "/reviews/quanqiu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-quanqiu-biz-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "BGP 智能优化·商业方案",
+      "primaryUrl": "/reviews/quanqiu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-quanqiu-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "独享私人专线节点",
+      "primaryUrl": "/reviews/quanqiu/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yinxingren-silver-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "隐形人 白银纪元",
+      "primaryUrl": "/reviews/yinxingren/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yinxingren-gold-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "隐形人 黄金序列",
+      "primaryUrl": "/reviews/yinxingren/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yinxingren-plat-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "隐形人 铂金至臻",
+      "primaryUrl": "/reviews/yinxingren/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yinxingren-diamond-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "隐形人 钻石穹顶",
+      "primaryUrl": "/reviews/yinxingren/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yinxingren-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "王者定制版",
+      "primaryUrl": "/reviews/yinxingren/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yinxingren-star-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "星耀风暴 365天不熄",
+      "primaryUrl": "/reviews/yinxingren/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yinxingren-ot-160",
+      "entityType": "SubscriptionPlan",
+      "name": "一次性小流量",
+      "primaryUrl": "/reviews/yinxingren/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yinxingren-ot-420",
+      "entityType": "SubscriptionPlan",
+      "name": "一次性标准流量包",
+      "primaryUrl": "/reviews/yinxingren/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-yinxingren-ot-1000",
+      "entityType": "SubscriptionPlan",
+      "name": "一次性精英流量包",
+      "primaryUrl": "/reviews/yinxingren/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·拂风",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·拂风",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·拂风",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·拂风",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·拂风",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·拂风",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·驭浪",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·驭浪",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·驭浪",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·驭浪",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·驭浪",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·驭浪",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·破晓",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·破晓",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·破晓",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·破晓",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·破晓",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·破晓",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·凌霄",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·凌霄",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·凌霄",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·凌霄",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·凌霄",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·凌霄",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-chuanyun-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·穿云",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/",
+        "/plans/under-100-cny-annual/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-ot-150",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·闲云（小流量包）",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-ot-400",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·惊云（标准流量包）",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-ot-800",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动·飞云（精英流量包）",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-lingdong-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "灵动云·至尊私人定制",
+      "primaryUrl": "/reviews/lingdong/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 入门",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-entry-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 入门",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-entry-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 入门",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-entry-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 入门",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-entry-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 入门",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-entry-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 入门",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-adv-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 进阶",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-adv-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 进阶",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-adv-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 进阶",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-adv-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 进阶",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-adv-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 进阶",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-adv-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 进阶",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-high-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 高端",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-high-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 高端",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-high-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 高端",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-high-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 高端",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-high-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 高端",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-high-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 高端",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-biz-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 商业",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-biz-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 商业",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-biz-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 商业",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-biz-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 商业",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-biz-biennial",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 商业",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-biz-triennial",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 商业",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-std-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 年付标准",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-ot-180",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 小流量包",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-ot-450",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 标准流量包",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-ot-900",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 精英流量包",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-langwang-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "浪网 定制线路包",
+      "primaryUrl": "/reviews/langwang/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-promo-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "限时月付",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-promo-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "限时年付",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-std-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·标准",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-std-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·标准",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-std-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·标准",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-std-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·标准",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-adv-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·进阶",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-adv-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·进阶",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-adv-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·进阶",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-adv-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·进阶",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-high-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·高级",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-high-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·高级",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-high-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·高级",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-high-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·高级",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-ult-monthly",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·极限",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-ult-quarterly",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·极限",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-ult-semiannual",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·极限",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "plan-edgenova-ult-annual",
+      "entityType": "SubscriptionPlan",
+      "name": "极界·极限",
+      "primaryUrl": "/reviews/edgenova/",
+      "secondaryUrls": [
+        "/plans/database/"
+      ],
+      "schemaType": "Offer"
+    },
+    {
+      "entityId": "bench-0811-sogo",
+      "entityType": "Benchmark",
+      "name": "SOGO 云 2026-08-11T18:57:59+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/sogo/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-u1s1",
+      "entityType": "Benchmark",
+      "name": "U1S1 2026-08-11T22:33:29+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/u1s1/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-ermao",
+      "entityType": "Benchmark",
+      "name": "二猫云 2026-08-11T10:45:27+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/ermao/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-feimao",
+      "entityType": "Benchmark",
+      "name": "飞猫云 2026-08-11T08:52:30+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/feimao/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-guangnian",
+      "entityType": "Benchmark",
+      "name": "光年梯 2026-08-11T14:38:04+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/guangnian/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-guangsuyun",
+      "entityType": "Benchmark",
+      "name": "光速云 2026-08-11T14:32:56+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/guangsuyun/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-jilian",
+      "entityType": "Benchmark",
+      "name": "极连云 2026-08-11T22:46:50+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/jilian/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-kexin",
+      "entityType": "Benchmark",
+      "name": "可信云 2026-08-11T15:32:35+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/kexin/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-lingmao",
+      "entityType": "Benchmark",
+      "name": "灵猫网络 2026-08-11T18:45:40+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/lingmao/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-quanqiu",
+      "entityType": "Benchmark",
+      "name": "全球云 2026-08-11T15:50:43+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/quanqiu/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-sujie",
+      "entityType": "Benchmark",
+      "name": "速界 2026-08-11T15:39:36+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/sujie/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-weitu",
+      "entityType": "Benchmark",
+      "name": "唯兔云 2026-08-11T13:55:08+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/weitu/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-xingdaomeng",
+      "entityType": "Benchmark",
+      "name": "星岛梦 2026-08-11T01:48:13+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/xingdaomeng/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-yifan",
+      "entityType": "Benchmark",
+      "name": "一翻云 2026-08-11T00:21:30+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/yifan/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0811-yuzhou",
+      "entityType": "Benchmark",
+      "name": "宇宙云 2026-08-11T21:04:24+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/yuzhou/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0719-weifeng",
+      "entityType": "Benchmark",
+      "name": "微风网络 2026-07-19T18:38:20+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/weifeng/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0718-wuyou-speed",
+      "entityType": "Benchmark",
+      "name": "无忧链接 2026-07-18T21:40:48+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/wuyou/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0718-wuyou-unlock",
+      "entityType": "Benchmark",
+      "name": "无忧链接 2026-07-18T21:47:23+08:00 unlock-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/wuyou/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0819-ss-ct",
+      "entityType": "Benchmark",
+      "name": "光速云 2026-08-19T12:13:01+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/guangsuyun/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0819-ss-cm",
+      "entityType": "Benchmark",
+      "name": "光速云 2026-08-19T12:13:50+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/guangsuyun/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0819-ss-cu",
+      "entityType": "Benchmark",
+      "name": "光速云 2026-08-19T12:13:58+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/guangsuyun/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0819-vless-unlock",
+      "entityType": "Benchmark",
+      "name": "光速云 2026-08-19T12:18:40+08:00 unlock-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/guangsuyun/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0819-vless-speed",
+      "entityType": "Benchmark",
+      "name": "光速云 2026-08-19T12:20:10+08:00 screenshot-evidence",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/guangsuyun/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-0720-lingdong-summary",
+      "entityType": "Benchmark",
+      "name": "灵动云 2026-07-20/21 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/lingdong/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-guangsuyun",
+      "entityType": "Benchmark",
+      "name": "光速云 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/guangsuyun/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-muguang",
+      "entityType": "Benchmark",
+      "name": "暮光加速 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/muguang/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-feimao",
+      "entityType": "Benchmark",
+      "name": "飞猫云 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/feimao/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-weifeng",
+      "entityType": "Benchmark",
+      "name": "微风网络 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/weifeng/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-xingdaomeng",
+      "entityType": "Benchmark",
+      "name": "星岛梦 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/xingdaomeng/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-ermao",
+      "entityType": "Benchmark",
+      "name": "二猫云 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/ermao/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-wuyou",
+      "entityType": "Benchmark",
+      "name": "无忧链接 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/wuyou/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-weitu",
+      "entityType": "Benchmark",
+      "name": "唯兔云 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/weitu/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-firefly",
+      "entityType": "Benchmark",
+      "name": "Firefly 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/firefly/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-u1s1",
+      "entityType": "Benchmark",
+      "name": "U1S1 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/u1s1/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-lingmao",
+      "entityType": "Benchmark",
+      "name": "灵猫网络 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/lingmao/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-yifan",
+      "entityType": "Benchmark",
+      "name": "一翻云 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/yifan/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-sogo",
+      "entityType": "Benchmark",
+      "name": "SOGO 云 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/sogo/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-shanyue",
+      "entityType": "Benchmark",
+      "name": "闪跃 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/shanyue/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "bench-1019-quanqiu",
+      "entityType": "Benchmark",
+      "name": "全球云 2026-10-19 text-historical-record",
+      "primaryUrl": "/benchmarks/",
+      "secondaryUrls": [
+        "/reviews/quanqiu/"
+      ],
+      "schemaType": "Dataset"
+    },
+    {
+      "entityId": "risk-guangsuyun-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "光速云：存在 3 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/guangsuyun/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-guangsuyun-no-refund-2",
+      "entityType": "RiskEvent",
+      "name": "光速云：特殊商品不支持退款",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/guangsuyun/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-muguang-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "暮光加速：存在 2 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/muguang/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-feimao-exclusive-client-lockin-1",
+      "entityType": "RiskEvent",
+      "name": "飞猫云：不提供第三方通用订阅链接",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/feimao/",
+        "/risks/",
+        "/risks/exclusive-client-lockin/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-feimao-source-conflict-2",
+      "entityType": "RiskEvent",
+      "name": "飞猫云：存在 1 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/feimao/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-weifeng-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "微风网络：存在 1 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/weifeng/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-xingdaomeng-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "星岛梦：存在 2 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/xingdaomeng/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-yinxingren-exclusive-client-lockin-1",
+      "entityType": "RiskEvent",
+      "name": "隐形人：不提供第三方通用订阅链接",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/yinxingren/",
+        "/risks/",
+        "/risks/exclusive-client-lockin/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-yinxingren-source-conflict-2",
+      "entityType": "RiskEvent",
+      "name": "隐形人：存在 3 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/yinxingren/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-ermao-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "二猫云：存在 3 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/ermao/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-wuyou-short-track-record-1",
+      "entityType": "RiskEvent",
+      "name": "无忧链接：2025 年上线新品牌",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/wuyou/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-wuyou-exclusive-client-lockin-2",
+      "entityType": "RiskEvent",
+      "name": "无忧链接：不提供第三方通用订阅链接",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/wuyou/",
+        "/risks/",
+        "/risks/exclusive-client-lockin/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-wuyou-source-conflict-3",
+      "entityType": "RiskEvent",
+      "name": "无忧链接：存在 1 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/wuyou/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-weitu-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "唯兔云：存在 2 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/weitu/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-firefly-exclusive-client-lockin-1",
+      "entityType": "RiskEvent",
+      "name": "Firefly：不提供第三方通用订阅链接",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/firefly/",
+        "/risks/",
+        "/risks/exclusive-client-lockin/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-firefly-source-conflict-2",
+      "entityType": "RiskEvent",
+      "name": "Firefly：存在 2 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/firefly/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-yuzhou-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "宇宙云：存在 1 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/yuzhou/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-u1s1-short-track-record-1",
+      "entityType": "RiskEvent",
+      "name": "U1S1：2025 年上线新品牌",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/u1s1/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-u1s1-source-conflict-2",
+      "entityType": "RiskEvent",
+      "name": "U1S1：存在 2 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/u1s1/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-lingmao-short-track-record-1",
+      "entityType": "RiskEvent",
+      "name": "灵猫网络：2025 年上线新品牌",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/lingmao/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-lingmao-exclusive-client-lockin-2",
+      "entityType": "RiskEvent",
+      "name": "灵猫网络：不提供第三方通用订阅链接",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/lingmao/",
+        "/risks/",
+        "/risks/exclusive-client-lockin/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-lingmao-source-conflict-3",
+      "entityType": "RiskEvent",
+      "name": "灵猫网络：存在 3 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/lingmao/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-jilian-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "极连云：存在 1 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/jilian/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-guangnian-short-track-record-1",
+      "entityType": "RiskEvent",
+      "name": "光年梯：2025 年上线新品牌",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/guangnian/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-guangnian-source-conflict-2",
+      "entityType": "RiskEvent",
+      "name": "光年梯：存在 2 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/guangnian/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-yifan-short-track-record-1",
+      "entityType": "RiskEvent",
+      "name": "一翻云：2025 年上线新品牌",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/yifan/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-yifan-source-conflict-2",
+      "entityType": "RiskEvent",
+      "name": "一翻云：存在 2 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/yifan/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-sogo-short-track-record-1",
+      "entityType": "RiskEvent",
+      "name": "SOGO 云：2026 年上线新品牌",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/sogo/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-sogo-exclusive-client-lockin-2",
+      "entityType": "RiskEvent",
+      "name": "SOGO 云：不提供第三方通用订阅链接",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/sogo/",
+        "/risks/",
+        "/risks/exclusive-client-lockin/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-sogo-source-conflict-3",
+      "entityType": "RiskEvent",
+      "name": "SOGO 云：存在 3 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/sogo/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-kexin-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "可信云：存在 2 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/kexin/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-sujie-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "速界：存在 2 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/sujie/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-shanyue-exclusive-client-lockin-1",
+      "entityType": "RiskEvent",
+      "name": "闪跃：不提供第三方通用订阅链接",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/shanyue/",
+        "/risks/",
+        "/risks/exclusive-client-lockin/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-quanqiu-short-track-record-1",
+      "entityType": "RiskEvent",
+      "name": "全球云：2026 年上线新品牌",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/quanqiu/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-quanqiu-exclusive-client-lockin-2",
+      "entityType": "RiskEvent",
+      "name": "全球云：不提供第三方通用订阅链接",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/quanqiu/",
+        "/risks/",
+        "/risks/exclusive-client-lockin/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-quanqiu-source-conflict-3",
+      "entityType": "RiskEvent",
+      "name": "全球云：存在 2 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/quanqiu/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-yunjiexian-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "云界线：存在 1 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/yunjiexian/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-yunjiexian-url-format-anomaly-2",
+      "entityType": "RiskEvent",
+      "name": "云界线：注册链接格式与主流模板不同",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/yunjiexian/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-huanqiuti-url-format-anomaly-1",
+      "entityType": "RiskEvent",
+      "name": "环球梯：注册链接格式与主流模板不同",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/huanqiuti/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-tiziyun-short-track-record-1",
+      "entityType": "RiskEvent",
+      "name": "梯子云：2025 年上线新品牌",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/tiziyun/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-tiziyun-source-conflict-2",
+      "entityType": "RiskEvent",
+      "name": "梯子云：存在 1 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/tiziyun/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-lingdong-short-track-record-1",
+      "entityType": "RiskEvent",
+      "name": "灵动云：2025 年上线新品牌",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/lingdong/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-lingdong-source-conflict-2",
+      "entityType": "RiskEvent",
+      "name": "灵动云：存在 1 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/lingdong/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-lingdong-historical-archive-3",
+      "entityType": "RiskEvent",
+      "name": "灵动云：源自 2026-08-09 历史品牌库",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/lingdong/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-langwang-source-conflict-1",
+      "entityType": "RiskEvent",
+      "name": "浪网：存在 1 项资料口径冲突",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/langwang/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-langwang-historical-archive-2",
+      "entityType": "RiskEvent",
+      "name": "浪网：源自 2026-08-09 历史品牌库",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/langwang/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    },
+    {
+      "entityId": "risk-edgenova-historical-archive-1",
+      "entityType": "RiskEvent",
+      "name": "边缘节点 EdgeNova：源自 2026-08-09 历史品牌库",
+      "primaryUrl": "/risks/archives/",
+      "secondaryUrls": [
+        "/reviews/edgenova/",
+        "/risks/"
+      ],
+      "schemaType": "DefinedTerm"
+    }
+  ]
+}

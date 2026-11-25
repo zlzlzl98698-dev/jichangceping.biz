@@ -1,0 +1,799 @@
+[
+  {
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "提供自研客户端，同时支持 Clash、Shadowrocket 等第三方客户端订阅导入。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "muguang",
+    "brandName": "暮光加速",
+    "clientMode": "unverified",
+    "hasExclusiveClient": null,
+    "supportsThirdPartySubscription": null,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux"
+    ],
+    "compatibleClientSlugs": [],
+    "notes": "品牌资料宣称覆盖 Windows、macOS、iOS、Android、Linux 全平台，但是否强制自研客户端或提供订阅链接尚未明确。",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "brandSlug": "feimao",
+    "brandName": "飞猫云",
+    "clientMode": "exclusive-only",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": false,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "compatibleClientSlugs": [],
+    "notes": "专属客户端下载登录即用，不提供第三方订阅链接（无法直接导入 Clash / Shadowrocket）。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "weifeng",
+    "brandName": "微风网络",
+    "clientMode": "unverified",
+    "hasExclusiveClient": null,
+    "supportsThirdPartySubscription": null,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "品牌资料未明确限定专属客户端，2026-07-19 实测截图通过 VLESS 订阅导入 MiaoKo 测试。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "dalaoyun",
+    "brandName": "大佬云",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "品牌资料标注支持自研客户端 + 第三方订阅导入。",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "brandSlug": "xingdaomeng",
+    "brandName": "星岛梦",
+    "clientMode": "unverified",
+    "hasExclusiveClient": null,
+    "supportsThirdPartySubscription": null,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "品牌资料未明确限制专属客户端，2026-08-11 实测通过 Shadowsocks 订阅节点测速。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "yinxingren",
+    "brandName": "隐形人",
+    "clientMode": "exclusive-only",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": false,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "compatibleClientSlugs": [],
+    "notes": "仅限自带专属客户端，不提供订阅链接，Clash / Shadowrocket 等第三方客户端无法使用。",
+    "dataStatus": "Conflicting"
+  },
+  {
+    "brandSlug": "ermao",
+    "brandName": "二猫云",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "配备独家定制客户端；正文提及 VLESS 协议，且 2026-08-11 截图显示 Shadowsocks 节点可测速，具体第三方订阅权限以官网为准。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "wuyou",
+    "brandName": "无忧链接",
+    "clientMode": "exclusive-only",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": false,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "compatibleClientSlugs": [],
+    "notes": "正文标注 2026 年 10 月起改用官方专属客户端下载登录即用（但汇总表曾提及“订阅无需转换”，2026-07-18 曾以 VLESS 订阅实测，存在新旧切换期冲突）。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "weitu",
+    "brandName": "唯兔云",
+    "clientMode": "unverified",
+    "hasExclusiveClient": null,
+    "supportsThirdPartySubscription": null,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "品牌资料未强制限制专属客户端，2026-08-11 实测通过 Shadowsocks 节点测速。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "firefly",
+    "brandName": "Firefly",
+    "clientMode": "exclusive-only",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": false,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "compatibleClientSlugs": [],
+    "notes": "10 月主体资料注明“2026 年 10 月起专属客户端下载登录即用，不提供订阅链接”；2026-08-09 历史资料仅提及 IPLC + VLESS 规格。",
+    "dataStatus": "Conflicting"
+  },
+  {
+    "brandSlug": "yuzhou",
+    "brandName": "宇宙云",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "正文标注“待核实”，汇总表提及自研客户端；2026-08-11 测速截图通过 VLESS 订阅测速。",
+    "dataStatus": "Unverified"
+  },
+  {
+    "brandSlug": "u1s1",
+    "brandName": "U1S1",
+    "clientMode": "unverified",
+    "hasExclusiveClient": null,
+    "supportsThirdPartySubscription": null,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "品牌资料未明确限定专属客户端，2026-08-11 晚高峰测速通过 Shadowsocks 节点完成。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "lingmao",
+    "brandName": "灵猫网络",
+    "clientMode": "exclusive-only",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": false,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "compatibleClientSlugs": [],
+    "notes": "2026 年 10 月起改用专属客户端下载登录即用，不提供订阅链接（但 08-11 曾以 Shadowsocks 测速）。",
+    "dataStatus": "Conflicting"
+  },
+  {
+    "brandSlug": "jilian",
+    "brandName": "极连云",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "quantumult-x",
+      "surge",
+      "oneclick",
+      "openclash"
+    ],
+    "notes": "品牌资料明确支持自研客户端 + 第三方客户端，2026-08-11 晚高峰通过 Shadowsocks 测速。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "guangnian",
+    "brandName": "光年梯",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "支持自研客户端 + 第三方订阅导入。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "yifan",
+    "brandName": "一翻云",
+    "clientMode": "third-party",
+    "hasExclusiveClient": false,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "提供 Hysteria 2 / VLESS-Reality / Shadowsocks 三协议，支持 Clash Verge Rev / v2rayN / Shadowrocket 等主流第三方客户端。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "sogo",
+    "brandName": "SOGO 云",
+    "clientMode": "exclusive-only",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": false,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [],
+    "notes": "正文注明不提供订阅链接，只能通过自研客户端（支持 Win/macOS/iOS/Android 与主流软路由）使用，Clash/Shadowrocket 无法直接导入。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "kexin",
+    "brandName": "可信云",
+    "clientMode": "third-party",
+    "hasExclusiveClient": false,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "品牌资料标注支持第三方客户端。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "sujie",
+    "brandName": "速界",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "支持自研客户端 + 第三方订阅导入。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "shanyue",
+    "brandName": "闪跃",
+    "clientMode": "exclusive-only",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": false,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "compatibleClientSlugs": [],
+    "notes": "专属客户端下载登录即用，不提供订阅链接。",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "brandSlug": "quanqiu",
+    "brandName": "全球云",
+    "clientMode": "exclusive-only",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": false,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "compatibleClientSlugs": [],
+    "notes": "正文注明专属客户端下载登录即用、不提供订阅链接（但 2026-08-11 测速截图显示以 Shadowsocks 节点完成测速）。",
+    "dataStatus": "Measured"
+  },
+  {
+    "brandSlug": "shandianshu",
+    "brandName": "闪电鼠",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "支持自研客户端 + 第三方订阅导入。",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "brandSlug": "yunjiexian",
+    "brandName": "云界线",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "支持自研客户端 + 第三方订阅导入。",
+    "dataStatus": "Conflicting"
+  },
+  {
+    "brandSlug": "liulianyun",
+    "brandName": "榴莲云",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "quantumult-x",
+      "surge",
+      "oneclick",
+      "openclash"
+    ],
+    "notes": "支持自研客户端 + 第三方订阅导入。",
+    "dataStatus": "Unverified"
+  },
+  {
+    "brandSlug": "shenxing",
+    "brandName": "神行加速",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "支持自研客户端 + 第三方订阅导入。",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "brandSlug": "huanqiuti",
+    "brandName": "环球梯",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "支持自研客户端 + 第三方订阅导入。",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "brandSlug": "tiziyun",
+    "brandName": "梯子云",
+    "clientMode": "self-hosted-and-third-party",
+    "hasExclusiveClient": true,
+    "supportsThirdPartySubscription": true,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "品牌资料同时提供自研全平台一键登录客户端与通用订阅导入（兼顾新手与进阶用户）。",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "brandSlug": "lingdong",
+    "brandName": "灵动云",
+    "clientMode": "unverified",
+    "hasExclusiveClient": null,
+    "supportsThirdPartySubscription": null,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "Linux",
+      "OpenWrt"
+    ],
+    "compatibleClientSlugs": [
+      "clash-verge-rev",
+      "v2rayn",
+      "flclash",
+      "hiddify",
+      "karing",
+      "clash-mi",
+      "v2rayng",
+      "shadowrocket",
+      "stash",
+      "sing-box",
+      "openclash",
+      "passwall2"
+    ],
+    "notes": "历史资料未限定专属客户端，已通过 VLESS 订阅完成 60 节点实测。",
+    "dataStatus": "Historical Data"
+  },
+  {
+    "brandSlug": "langwang",
+    "brandName": "浪网",
+    "clientMode": "unverified",
+    "hasExclusiveClient": null,
+    "supportsThirdPartySubscription": null,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "compatibleClientSlugs": [],
+    "notes": "待核实",
+    "dataStatus": "Historical Data"
+  },
+  {
+    "brandSlug": "edgenova",
+    "brandName": "边缘节点 EdgeNova",
+    "clientMode": "unverified",
+    "hasExclusiveClient": null,
+    "supportsThirdPartySubscription": null,
+    "supportedOs": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "compatibleClientSlugs": [],
+    "notes": "待核实",
+    "dataStatus": "Historical Data"
+  }
+]

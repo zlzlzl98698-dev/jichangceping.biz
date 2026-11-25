@@ -1,0 +1,4002 @@
+[
+  {
+    "entityId": "brand-guangsuyun",
+    "slug": "guangsuyun",
+    "name": "光速云",
+    "englishName": "LightSpeed",
+    "aliases": [
+      "LightSpeed",
+      "光速云 LightSpeed"
+    ],
+    "featuredRank": 1,
+    "isLeadBrand": true,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/guangsuyun.webp",
+    "accentColor": "#0284c7",
+    "foundedYear": 2020,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://sahude.gsyvipaff.com/#/?code=keqgvT5Y",
+    "affiliateUrlNote": "含推广链接；另在 24 个站点 aff 前缀表中存在 https://mdlky.gsyaff.com 备用域名前缀。",
+    "couponCode": "AMM",
+    "couponDiscount": "新人优惠券（具体折扣比例以官网结算页为准；轻量版/147永久版标注不打折）",
+    "couponRestriction": "致敬斯诺克147永久套餐与轻量版标注不打折；极速版及定制版标注半年9折/年付8折/两年75折/三年7折",
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks",
+      "AnyTLS"
+    ],
+    "routeTypes": [
+      "IEPL专线",
+      "企业级内网专线",
+      "IPLC专线"
+    ],
+    "nodeCountLabel": "62 节点（2026-08-19 SS 批次）/ 70 节点（2026-08-19 VLESS+AnyTLS 批次）；品牌资料列 57+ 节点（港20/台5/日10/新10/美10/马2及英法德土泰巴）",
+    "regions": [
+      "香港",
+      "台湾",
+      "日本",
+      "新加坡",
+      "美国",
+      "马来西亚",
+      "英国",
+      "法国",
+      "德国",
+      "土耳其",
+      "泰国",
+      "巴西"
+    ],
+    "deviceLimit": "不限设备数量（品牌资料）",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "提供自研客户端，同时支持 Clash、Shadowrocket 等第三方客户端订阅导入。",
+    "entryMonthlyCny": 8.25,
+    "entryLabel": "¥99/年（折合 ¥8.25/月 · 69GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "视节点而定（2026-08-19 实测美/日/新多解锁，港多显示美国或 N/A）",
+        "dataStatus": "Measured",
+        "note": "2026-08-19 70节点图显示香港 OpenAI 多识别为 US 或仅 APP/N/A，美日新多正常解锁"
+      },
+      "Claude": {
+        "status": "品牌资料标注支持（未在 08-19 截图单独测试）",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定（2026-08-19 SS 实测仅新加坡/土耳其/马来西亚等部分节点解锁，港日美多失败）",
+        "dataStatus": "Measured"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "2026-08-19 实测港/台/日/新/美多数节点解锁",
+        "dataStatus": "Measured"
+      },
+      "Disney+": {
+        "status": "2026-08-19 实测日/新/美/港多数解锁，台湾节点 SS 批次失败、VLESS 批次识别 GB",
+        "dataStatus": "Measured"
+      },
+      "YouTube": {
+        "status": "2026-08-19 实测港/日/美解锁，新加坡与台湾节点在 VLESS 批次出现送中(CN)",
+        "dataStatus": "Measured"
+      },
+      "HBO Max": {
+        "status": "品牌资料标注支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "2026-08-19 实测港区多为 ALISG 或失败，日/台约半数失败，美区全解锁",
+        "dataStatus": "Measured"
+      },
+      "Spotify": {
+        "status": "品牌资料标注支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "特殊商品不支持退款，建议先购月付或小额套餐实测晚高峰后再考虑长期订阅。",
+    "supportChannels": "7×24 运维与官方客服（以官网工单/在线客服为准）",
+    "positioning": "2020 年运营老牌综合型旗舰 · IEPL + 企业级内网双架构 · 实测证据最完整",
+    "summary": "2020 年起运营的老牌综合型机场，强调 IEPL 专线与企业级内网专线双线路架构，兼具自研客户端与第三方订阅导入能力，且在本站拥有 2026-08-11、2026-08-19（5 张 MiaoKo 实测图）及 2026-10-19 三批次数据记录。",
+    "pros": [
+      "运营时间可追溯至 2020 年，在本站拥有最完整的实测截图包（62 节点三网 SS 测速 + 70 节点 VLESS/AnyTLS 解锁与速度）",
+      "同时支持自研客户端与 Clash / Shadowrocket 等第三方订阅导入，兼容全平台工作流",
+      "套餐跨度覆盖 ¥99/年轻量版、¥147 247GB 永久包到 ¥680/月企业独享定制，支付支持支付宝/微信/USDT",
+      "品牌资料明确标注不限设备同时在线"
+    ],
+    "limitations": [
+      "2026-08-19 实测显示不同批次协议（Shadowsocks 62 节点 vs VLESS+AnyTLS 70 节点）及节点状态差异明显，德国/美国02 曾出现 KB 级异常低速节点",
+      "新加坡与台湾部分节点在 08-19 VLESS 批次出现 YouTube 送中(CN)，Gemini 与 TikTok 解锁高度依赖具体节点",
+      "特殊商品不支持退款，且 99 元/年入门档流量口径在历史摘要(59GB)与套餐表(69GB)间存在差异"
+    ],
+    "risks": [
+      "存在多组推广域名（gsyvipaff.com 与 gsyaff.com）及 59GB/69GB 文档口径冲突，下单前需以官网当前页面为准",
+      "2026-08-19 的三网测速和 2026-10-19 文本记录均属于特定时间快照，不能保证所有地区晚高峰零波动"
+    ],
+    "suitableFor": [
+      "看重 2020 年老牌背景与可查实测证据的用户",
+      "同时需要第三方订阅（Clash/小火箭）与自研客户端的用户",
+      "预算在 ¥8.25/月（年付）到 ¥25/月之间的常规与多地区流媒体用户"
+    ],
+    "notSuitableFor": [
+      "要求全节点 100% 原生解锁 Gemini 或 TikTok 且不愿手动切换节点的用户",
+      "无法接受特殊商品不退款规则的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "entryTrafficGb",
+        "primaryValue": "69GB/月（轻量版 99元/年）",
+        "conflictingValue": "59GB/月",
+        "primarySource": "32家机场品牌清单.txt & 光速云品牌信息.txt 套餐明细",
+        "conflictingSource": "光速云品牌信息.txt 第8行入门摘要",
+        "note": "同一份品牌资料摘要行写 59GB，下方轻量版明细与总清单写 69GB/月；本站以套餐明细 69GB/月为主值并保留冲突说明。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://sahude.gsyvipaff.com/#/?code=keqgvT5Y",
+        "conflictingValue": "https://mdlky.gsyaff.com",
+        "primarySource": "32家机场品牌清单.txt & 光速云品牌信息.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "两个文档分别记录了 gsyvipaff.com 与 gsyaff.com 推广前缀，后者无 invite code 参数。"
+      },
+      {
+        "field": "benchmarkBatchProtocol",
+        "primaryValue": "62节点 Shadowsocks (2026-08-19 三网 normalspeed)",
+        "conflictingValue": "70节点 VLESS + 10 电信 AnyTLS (2026-08-19 珠海联通)",
+        "primarySource": "photo_2026-08-19_12-13-01/50/58.jpg",
+        "conflictingSource": "photo_2026-08-19_12-18-40.jpg & 12-20-10.jpg",
+        "note": "同一天两组测试采用不同节点订阅架构（62节点 SS vs 60 VLESS + 10 AnyTLS），且 08-11 截图显示 Shadowsocks，品牌资料写 VLESS。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-guangsuyun-info",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-guangsuyun-2026-08-19",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/guangsuyun/"
+  },
+  {
+    "entityId": "brand-muguang",
+    "slug": "muguang",
+    "name": "暮光加速",
+    "englishName": "Twilight",
+    "aliases": [
+      "muguang",
+      "暮光网络",
+      "暮光"
+    ],
+    "featuredRank": 2,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/muguang.svg",
+    "accentColor": "#6366f1",
+    "foundedYear": 2023,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://varnexa.twilightaff.com/#/?code=D1LHglg3",
+    "couponCode": "muguang5555",
+    "couponDiscount": "品牌资料未明确折扣比例（且正文存在无公开优惠码冲突表述）",
+    "couponRestriction": "存在文档内冲突，下单前请实测核验是否可用",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "routeTypes": [
+      "BGP智能调度",
+      "专线级出口"
+    ],
+    "nodeCountLabel": "待核实（品牌资料未标注具体节点数）",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "支持多设备同时在线（具体上限待核实）",
+    "clientMode": "unverified",
+    "clientNotes": "品牌资料宣称覆盖 Windows、macOS、iOS、Android、Linux 全平台，但是否强制自研客户端或提供订阅链接尚未明确。",
+    "entryMonthlyCny": 9.08,
+    "entryLabel": "¥109/年（折合 ¥9.08/月 · 70GB/月）；月付 ¥20 起（120GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "品牌资料宣称 7×24 小时真人客服",
+    "positioning": "2023 年运营 · BGP 智能调度 · 全平台多设备在线",
+    "summary": "2023 年起运营，主打 BGP 智能调度与专线级出口，套餐从 ¥109/年轻量版覆盖到 ¥180/月 1500GB 及 ¥959 800GB 不限时包，支持多设备同时在线。",
+    "pros": [
+      "套餐体系完整，涵盖年付轻量、多档月付、不限时流量包与私人定制",
+      "品牌资料明确覆盖五大桌面与移动操作系统",
+      "提供 2026-10-19 非晚高峰 5 地区文本测速记录"
+    ],
+    "limitations": [
+      "缺少 2026-08-11 第三方测速截图证据",
+      "具体传输协议与客户端订阅模式未在清单中明确披露",
+      "原文存在“优惠码 muguang5555”与“目前没有查到公开优惠码”两处矛盾表述"
+    ],
+    "risks": [
+      "缺少晚高峰实测截图与退款政策说明",
+      "支付方式未在品牌资料中明示"
+    ],
+    "suitableFor": [
+      "需要 120GB–1500GB 大跨度月付或 800GB 不限时包的跨平台用户",
+      "重视 BGP 智能调度与官方宣称真人客服的团队/个人用户"
+    ],
+    "notSuitableFor": [
+      "依赖公开实测截图或必须提前确认协议细节的进阶用户"
+    ],
+    "conflicts": [
+      {
+        "field": "couponCode",
+        "primaryValue": "muguang5555",
+        "conflictingValue": "目前没有查到公开的优惠码信息",
+        "primarySource": "32家机场品牌清单.txt 第52行基础数据",
+        "conflictingSource": "32家机场品牌清单.txt 第84行介绍说明",
+        "note": "同一节内基础数据给出优惠码 muguang5555，正文介绍却称未查到公开优惠码。"
+      },
+      {
+        "field": "entryMonthlyCny",
+        "primaryValue": "¥109/年 (¥9.08/月 · 70GB)",
+        "conflictingValue": "20元/月 120GB/月（基础数据） / 9元/月起（正文）",
+        "primarySource": "32家机场品牌清单.txt 套餐表",
+        "conflictingSource": "32家机场品牌清单.txt 第52行及第84行",
+        "note": "年付轻量版折算约 9.08 元/月，月付门槛为 20 元/月。"
+      }
+    ],
+    "dataStatus": "Vendor Data",
+    "evidenceCompleteness": "medium",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/muguang/"
+  },
+  {
+    "entityId": "brand-feimao",
+    "slug": "feimao",
+    "name": "飞猫云",
+    "englishName": "FlyCat",
+    "aliases": [
+      "feimao",
+      "FlyCat"
+    ],
+    "featuredRank": 3,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/feimao.webp",
+    "accentColor": "#f97316",
+    "foundedYear": 2023,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.flycataff.com/#/?code=6uq0Xe9y",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://flycat1.flycatvipaff.cc。",
+    "couponCode": "flycat888",
+    "couponDiscount": "8 折（汇总表标注“7元档 + 8折”，适用条件以结账页为准）",
+    "couponRestriction": "具体适用套餐范围待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "专线/中转混合（正文未强调顶级专线）"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "exclusive-only",
+    "clientNotes": "专属客户端下载登录即用，不提供第三方订阅链接（无法直接导入 Clash / Shadowrocket）。",
+    "entryMonthlyCny": 7,
+    "entryLabel": "¥84/年学生版（折合 ¥7.00/月 · 50GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2023 年运营 · 新手零配置专属客户端 · ¥84/年学生轻量入门",
+    "summary": "2023 年起运营，主打“下载专属客户端登录即用、免去寻找订阅与配置 Clash 门槛”，提供 ¥84/年学生版（50GB/月）至 ¥150/月 1000GB 及 ¥680 1TB 不限时套餐，具备 2026-08-11 实测截图证据。",
+    "pros": [
+      "有 2026-08-11 实测 PNG 截图（Shadowsocks，MAI-TEST-BOT，08:52:30 CST）与 2026-10-19 文本测速",
+      "学生版年付 ¥84（¥7/月）入门成本低",
+      "专属客户端无需折腾订阅转换，适合纯新手快速上手"
+    ],
+    "limitations": [
+      "仅支持专属客户端登录，不支持导入第三方 Clash / Shadowrocket 客户端",
+      "2026-08-11 截图测试时间为早晨 08:52 CST（非晚高峰），不代表晚高峰表现"
+    ],
+    "risks": [
+      "专属客户端封闭生态对路由器（OpenWrt）和进阶分流规则用户不友好",
+      "存在两套推广域名前缀（flycataff.com 与 flycatvipaff.cc）"
+    ],
+    "suitableFor": [
+      "不想学习 Clash/Shadowrocket 配置的入门新手",
+      "需要低门槛 ¥84/年轻量备用方案的用户"
+    ],
+    "notSuitableFor": [
+      "需要在 OpenWrt 软路由或 Surge/Clash Verge Rev 中自定义分流规则的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.flycataff.com/#/?code=6uq0Xe9y",
+        "conflictingValue": "https://flycat1.flycatvipaff.cc",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "两个资料文件中的推广域名不同（flycataff.com vs flycatvipaff.cc）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/feimao/"
+  },
+  {
+    "entityId": "brand-weifeng",
+    "slug": "weifeng",
+    "name": "微风网络",
+    "englishName": "Breezenet",
+    "aliases": [
+      "weifeng",
+      "微风",
+      "Breezenet"
+    ],
+    "featuredRank": 4,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/weifeng.svg",
+    "accentColor": "#0ea5e9",
+    "foundedYear": 2023,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://edp01.breezenetaff.com/#/?code=t3huofyI",
+    "couponCode": "flat888",
+    "couponDiscount": "9 折（汇总表标注“7元档 + 9折”）",
+    "couponRestriction": "具体适用周期以官网结算页为准",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "50 节点（2026-07-19 实测截图显示 50/50 节点：港15/台5/新10/日10/美10）",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "unverified",
+    "clientNotes": "品牌资料未明确限定专属客户端，2026-07-19 实测截图通过 VLESS 订阅导入 MiaoKo 测试。",
+    "entryMonthlyCny": 11.42,
+    "entryLabel": "¥137/年清风版（折合 ¥11.42/月 · 100GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "7×24 小时在线客服（夜间由 AI 客服值守）",
+    "positioning": "2023 年运营 · IEPL + VLESS 入门性价比 · 50 节点实测存档",
+    "summary": "2023 年运营的 IEPL + VLESS 专线机场，提供 100GB 年付（¥137）到 1200GB 月付及两档不限时流量包，保留有 2026-07-19 50 节点 VLESS MiaoKo 测速截图与 2026-10-19 文本测速记录。",
+    "pros": [
+      "持有 2026-07-19 50 节点 VLESS 实测截图（珠海联通 9Gbps，香港 01–15 均值约 469–546MB/s）",
+      "IEPL 专线 + VLESS 协议架构，另有信风/长风两档一次性不限时流量包",
+      "7×24 客服加夜间 AI 值守"
+    ],
+    "limitations": [
+      "2026-07-19 实测中台湾 02 出现 0.00B、日本 05 仅 8.00KB 的异常节点",
+      "基础数据行写的“年付约7元/月 50GB”与套餐明细“清风 ¥137/年 100GB（约11.42元/月）”不一致"
+    ],
+    "risks": [
+      "未在 2026-08-11 16 家 manifest 中更新，7 月 19 日截图需注意时效性",
+      "缺乏明确设备数量上限与退款规则"
+    ],
+    "suitableFor": [
+      "寻找百元级 IEPL 年付 100GB 或高性价比大流量月付（27元 200GB）的用户",
+      "重视夜间客服响应的新手或轻中度用户"
+    ],
+    "notSuitableFor": [
+      "要求全节点零故障或对设备数上限有硬性书面承诺的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "entryMonthlyCny",
+        "primaryValue": "¥137/年（¥11.42/月 · 100GB/月）",
+        "conflictingValue": "年付约7元/月 50GB/月",
+        "primarySource": "32家机场品牌清单.txt 套餐表（第136行）& 正文“11元/月起”",
+        "conflictingSource": "32家机场品牌清单.txt 第127行基础数据与第924行汇总表",
+        "note": "摘要写了已下线或旧档位“7元/50GB”，而实际套餐表最低年付为清风 ¥137/年（100GB/月，折合 11.42 元/月）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/weifeng/"
+  },
+  {
+    "entityId": "brand-dalaoyun",
+    "slug": "dalaoyun",
+    "name": "大佬云",
+    "aliases": [
+      "dalaoyun"
+    ],
+    "featuredRank": 5,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/dalaoyun.svg",
+    "accentColor": "#f59e0b",
+    "foundedYear": 2024,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN",
+    "couponCode": "dly888",
+    "couponDiscount": "季付及以上 7 折（来源品牌资料）",
+    "couponRestriction": "季付及以上适用（以官网结算为准）",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "品牌资料标注支持自研客户端 + 第三方订阅导入。",
+    "entryMonthlyCny": 5.6,
+    "entryLabel": "年付约 ¥5.6/月（60GB/月，完整套餐表待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      "Claude": {
+        "status": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      "Gemini": {
+        "status": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      "Disney+": {
+        "status": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      "YouTube": {
+        "status": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      "HBO Max": {
+        "status": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      "Spotify": {
+        "status": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2024 年运营 · ¥5.6/月极限平价档（同质化 5 家模板之一）",
+    "summary": "2024 年成立的极限平价档机场，品牌资料标明 IEPL 专线 + VLESS 协议、年付约 5.6 元/月 60GB、季付及以上 7 折且支持自研与第三方订阅；与闪电鼠、云界线、榴莲云、环球梯规格高度一致。",
+    "pros": [
+      "年付折算约 ¥5.6/月（60GB/月），属于全库最低预算区间",
+      "同时支持自研客户端与第三方订阅导入",
+      "明确标注 VLESS 协议与季付以上 7 折"
+    ],
+    "limitations": [
+      "缺少独立测速截图、完整套餐表、节点地区与 AI/流媒体实测数据",
+      "与闪电鼠、云界线、榴莲云、环球梯参数高度同质化，缺乏独有差异点"
+    ],
+    "risks": [
+      "极限低价档需关注长期运营稳定性与带宽拥塞风险",
+      "大量核心字段（节点数、支付方式、退款规则）待核实"
+    ],
+    "suitableFor": [
+      "预算极低、仅需 ¥5.6/月基础 VLESS 备用线路且会用第三方客户端的用户"
+    ],
+    "notSuitableFor": [
+      "需要明确实测解锁表现或完整多档月付套餐说明的用户"
+    ],
+    "conflicts": [],
+    "dataStatus": "Vendor Data",
+    "evidenceCompleteness": "basic",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32"
+    ],
+    "reviewUrl": "/reviews/dalaoyun/"
+  },
+  {
+    "entityId": "brand-xingdaomeng",
+    "slug": "xingdaomeng",
+    "name": "星岛梦",
+    "englishName": "StarDream",
+    "aliases": [
+      "xingdaomeng",
+      "StarDream",
+      "星岛梦 StarDream"
+    ],
+    "featuredRank": 6,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/xingdaomeng.webp",
+    "accentColor": "#8b5cf6",
+    "foundedYear": 2020,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://kfccbb.xingdaomeng.com。",
+    "couponCode": "nmw888",
+    "couponDiscount": "待核实（品牌资料未标注具体折扣率）",
+    "couponRestriction": "待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "香港",
+      "台湾",
+      "日本",
+      "美国",
+      "新加坡",
+      "韩国",
+      "东南亚"
+    ],
+    "deviceLimit": "不限设备数量（品牌资料）",
+    "clientMode": "unverified",
+    "clientNotes": "品牌资料未明确限制专属客户端，2026-08-11 实测通过 Shadowsocks 订阅节点测速。",
+    "entryMonthlyCny": 8,
+    "entryLabel": "¥96/年贴心小包（折合 ¥8.00/月 · 60GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "海外技术团队与多人客服（品牌资料）",
+    "positioning": "2020 年运营老牌 · IEPL 1 倍流量不限设备 · 含不限时套餐",
+    "summary": "2020 年起运营的老牌机场之一，品牌资料标明 IEPL 专线、1 倍流量不限设备，覆盖港台日美新及韩国/东南亚地区，提供 ¥96/年小包至 1TB 月付及三档永久不限时包，并拥有 2026-08-11 测速截图与 2026-10-19 文本记录。",
+    "pros": [
+      "2020 年运营背景，兼有 2026-08-11 实测 PNG 截图与 2026-10-19 文本测速",
+      "不限设备数量且覆盖韩国与东南亚节点，适合多设备家庭/小团队",
+      "提供 100GB / 300GB / 1TB 三档一次性不限时流量包"
+    ],
+    "limitations": [
+      "2026-08-11 截图测试时间为凌晨 01:48 CST，无法代表晚高峰表现",
+      "正文标注 Trojan 协议，而 08-11 测速图显示为 Shadowsocks"
+    ],
+    "risks": [
+      "存在 guangs 与 kfccbb 两个推广子域名记录",
+      "缺少退款政策与支付方式核实"
+    ],
+    "suitableFor": [
+      "看重 2020 年运营年限且需要多设备同时在线的用户",
+      "有韩国/东南亚节点或大额不限时包需求的用户"
+    ],
+    "notSuitableFor": [
+      "依赖晚高峰独立测速报告才下单的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "protocols",
+        "primaryValue": "Shadowsocks（2026-08-11 测速截图实测显示）",
+        "conflictingValue": "Trojan（32家清单介绍说明）",
+        "primarySource": "speedtest-manifest.json (星岛梦-节点测速实测.png)",
+        "conflictingSource": "32家机场品牌清单.txt 第218行",
+        "note": "实际节点协议可能同时支持或已从 Trojan 调整为 Shadowsocks。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR",
+        "conflictingValue": "https://kfccbb.xingdaomeng.com",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（guangs vs kfccbb）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/xingdaomeng/"
+  },
+  {
+    "entityId": "brand-yinxingren",
+    "slug": "yinxingren",
+    "name": "隐形人",
+    "aliases": [
+      "yinxingren",
+      "Invisible"
+    ],
+    "featuredRank": 7,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/yinxingren.webp",
+    "accentColor": "#64748b",
+    "foundedYear": 2024,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://varnexa.invisibleaff.com。",
+    "couponCode": "moon80",
+    "couponDiscount": "8 折（正文与基础信息标注）；汇总表另列优惠码 yxr888",
+    "couponRestriction": "未标注限制条件",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "routeTypes": [
+      "企业级 IPLC 专线"
+    ],
+    "nodeCountLabel": "品牌汇总表提及 60+ 节点详细清单（正文未列具体数量）",
+    "regions": [
+      "香港",
+      "日本",
+      "美国",
+      "新加坡",
+      "台湾"
+    ],
+    "deviceLimit": "设备数量以具体套餐而定",
+    "clientMode": "exclusive-only",
+    "clientNotes": "仅限自带专属客户端，不提供订阅链接，Clash / Shadowrocket 等第三方客户端无法使用。",
+    "entryMonthlyCny": 9.08,
+    "entryLabel": "¥109/年星耀风暴（折合 ¥9.08/月 · 80GB/月）；月付 ¥24 起（144GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实（无免费试用）",
+    "supportChannels": "汇总表提及“1小时修复承诺”（属品牌资料自述，未独立验证）",
+    "positioning": "2024 年运营 · 企业级 IPLC 专线 · 仅限自带客户端（无第三方订阅）",
+    "summary": "2024 年起运营，定位偏高阶企业级 IPLC 专线，提供 ¥109/年（80GB/月）和 ¥24/月（144GB/月）至 ¥185/月（1.6TB/月）套餐及不限时流量包，但强制使用自带客户端、不提供第三方订阅且暂无公开测速截图。",
+    "pros": [
+      "大流量档位高达 1.6TB/月，并有 160GB/420GB/1TB 一次性流量包",
+      "覆盖港/日/美/新/台五大常用地区"
+    ],
+    "limitations": [
+      "不提供第三方订阅链接，Clash / Shadowrocket / 软路由均无法导入",
+      "2026-10-19 测速栏全部为“—”空白，且无 2026-08-11 实测截图",
+      "官方不提供试用，且存在 dual coupon（yxr888 vs moon80）与月付入门流量（100GB vs 144GB）冲突"
+    ],
+    "risks": [
+      "高客单价（一次性精英包 ¥1199）+ 无试用 + 缺少独立第三方测速截图",
+      "封闭客户端对多设备或路由器用户限制较大"
+    ],
+    "suitableFor": [
+      "只使用官方一键客户端、需要大流量 IPLC 套餐且愿自行小额试水的用户"
+    ],
+    "notSuitableFor": [
+      "需要使用 Clash / Shadowrocket / OpenWrt 订阅的用户",
+      "要求先看实测数据再决策的理性买家"
+    ],
+    "conflicts": [
+      {
+        "field": "couponCode",
+        "primaryValue": "moon80（8折）",
+        "conflictingValue": "yxr888",
+        "primarySource": "32家机场品牌清单.txt 第855/887行",
+        "conflictingSource": "32家机场品牌清单.txt 第850行及汇总表第948行",
+        "note": "同一品牌同时存在 yxr888 与 moon80 两个优惠码记录。"
+      },
+      {
+        "field": "entryPlanTraffic",
+        "primaryValue": "白银纪元 ¥24/月 144GB/月",
+        "conflictingValue": "24元/月 100GB/月",
+        "primarySource": "32家机场品牌清单.txt 套餐表（第864行）",
+        "conflictingSource": "32家机场品牌清单.txt 基础数据（第850行）",
+        "note": "基础数据写 100GB/月，套餐明细写 144GB/月。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT",
+        "conflictingValue": "https://varnexa.invisibleaff.com",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（yinxingren1 vs varnexa）。"
+      }
+    ],
+    "dataStatus": "Conflicting",
+    "evidenceCompleteness": "medium",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24"
+    ],
+    "reviewUrl": "/reviews/yinxingren/"
+  },
+  {
+    "entityId": "brand-ermao",
+    "slug": "ermao",
+    "name": "二猫云",
+    "englishName": "2mao",
+    "aliases": [
+      "ermao",
+      "2mao",
+      "二猫云 2mao"
+    ],
+    "featuredRank": 8,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/ermao.webp",
+    "accentColor": "#ec4899",
+    "foundedYear": 2023,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://waaa.2maoyunaff.cc。",
+    "couponCode": "ermao5555",
+    "couponDiscount": "待核实",
+    "couponRestriction": "待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "全线 IEPL 专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "账号不限设备连接数（品牌资料）",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "配备独家定制客户端；正文提及 VLESS 协议，且 2026-08-11 截图显示 Shadowsocks 节点可测速，具体第三方订阅权限以官网为准。",
+    "entryMonthlyCny": 7.42,
+    "entryLabel": "¥89/年二猫年付小包（折合 ¥7.42/月 · 60GB/月）；月付白猫 ¥20 起（130GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "海外技术团队主理",
+    "positioning": "2023 年运营 · 全线 IEPL 专线 · 不限设备数量",
+    "summary": "2023 年起运营，强调全线 IEPL 专线与长期稳定，不限设备同时在线，提供 ¥89/年小包、¥99/100GB 不限时套餐及白猫/橘猫/牛奶猫/黑猫月付档，具备 2026-08-11 实测截图证据。",
+    "pros": [
+      "具备 2026-08-11 实测 PNG 截图（Shadowsocks，10:45:27 CST）与 2026-10-19 文本测速",
+      "账号不限设备连接数，并有 ¥89/年小包与 ¥99 100GB 不限时入门选项",
+      "全线 IEPL 专线定位，海外技术团队主理"
+    ],
+    "limitations": [
+      "正文介绍称“少了新加坡这一站”与同节测速表包含新加坡 407Mbps 存在明显矛盾",
+      "协议文本写 VLESS，而 2026-08-11 实测截图显示 Shadowsocks",
+      "Claude 与 Gemini 解锁情况官方未作明确承诺"
+    ],
+    "risks": [
+      "2026-08-11 截图测试时间为上午 10:45 CST，非晚高峰",
+      "节点地区覆盖需以最新订阅列表为准"
+    ],
+    "suitableFor": [
+      "需要不限设备数量、偏好稳定 IEPL 专线且预算在 ¥89/年或 ¥20/月起的用户"
+    ],
+    "notSuitableFor": [
+      "极度依赖新加坡节点且未先确认最新节点列表的用户",
+      "对 Claude/Gemini 稳定解锁有刚性要求的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "regions",
+        "primaryValue": "香港、台湾、新加坡、日本、美国（2026-10-19 测速表含新加坡 46ms/407Mbps）",
+        "conflictingValue": "正文第254行称“比不少同类机场少了新加坡这一站”",
+        "primarySource": "32家机场品牌清单.txt 第246行测速表",
+        "conflictingSource": "32家机场品牌清单.txt 第254行介绍说明",
+        "note": "同一品牌条目内测速表列有新加坡节点，而下方介绍说明却称缺少新加坡。"
+      },
+      {
+        "field": "protocols",
+        "primaryValue": "Shadowsocks（2026-08-11 测速截图实测显示）",
+        "conflictingValue": "VLESS（32家清单介绍说明第254行）",
+        "primarySource": "speedtest-manifest.json (二猫云-节点测速实测.png)",
+        "conflictingSource": "32家机场品牌清单.txt 第254行",
+        "note": "实测图显示 Shadowsocks，品牌说明写 VLESS。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW",
+        "conflictingValue": "https://waaa.2maoyunaff.cc",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（guangs vs waaa）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/ermao/"
+  },
+  {
+    "entityId": "brand-wuyou",
+    "slug": "wuyou",
+    "name": "无忧链接",
+    "aliases": [
+      "wuyou",
+      "无忧"
+    ],
+    "featuredRank": 9,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/wuyou.svg",
+    "accentColor": "#10b981",
+    "foundedYear": 2025,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL",
+    "couponCode": "wuyou666",
+    "couponDiscount": "待核实",
+    "couponRestriction": "待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "routeTypes": [
+      "待核实（品牌资料未标注 IEPL/IPLC 专线）"
+    ],
+    "nodeCountLabel": "50 节点（2026-07-18 晚高峰实测截图显示 50/50 节点：HKG 15 / TYO 10 / SIN 10 / LAX 10 / TPE 5）",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限设备数量（品牌资料）",
+    "clientMode": "exclusive-only",
+    "clientNotes": "正文标注 2026 年 10 月起改用官方专属客户端下载登录即用（但汇总表曾提及“订阅无需转换”，2026-07-18 曾以 VLESS 订阅实测，存在新旧切换期冲突）。",
+    "entryMonthlyCny": 6.58,
+    "entryLabel": "¥79/年 MINI链接（折合 ¥6.58/月 · 40GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "2026-07-18 晚高峰 50 节点实测全解锁（HK/TW/SG/JP/US）",
+        "dataStatus": "Measured"
+      },
+      "Disney+": {
+        "status": "2026-07-18 晚高峰 50 节点实测全解锁（HK/TW/SG/JP/US）",
+        "dataStatus": "Measured"
+      },
+      "YouTube": {
+        "status": "2026-07-18 晚高峰 49/50 节点解锁，HKG-01 出现送中(CN)",
+        "dataStatus": "Measured"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持（品牌资料强调 TikTok 跨区直连）",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "7×24 小时在线客服（夜间由 AI 客服值守）",
+    "positioning": "2025 年运营 · ¥79/年低门槛 · 含 2026-07-18 晚高峰 50 节点实测",
+    "summary": "2025 年起运营的高性价比入门机场，全线 1 倍流量、不限速不限设备，¥79/年（40GB/月）为全库低门槛代表之一；保留有 2026-07-18 21:40 CST 晚高峰 50 节点测速及御三家流媒体解锁两张高清截图。",
+    "pros": [
+      "拥有罕见的 2026-07-18 晚高峰（21:40 CST）50 节点实测与御三家流媒体解锁截图",
+      "香港节点晚高峰实测均值约 393–547MB/s，Netflix/Disney+ 50/50 全解锁",
+      "¥79/年 MINI 套餐门槛极低，另有 100GB/300GB 永久不限时流量包"
+    ],
+    "limitations": [
+      "2026-07-18 晚高峰测速中 新加坡SIN-02 出现 17.59KB 近零速异常，HKG-01 YouTube 送中(CN)，美国 LAX 均值 12–18MB/s",
+      "2026 年 10 月起转向官方专属客户端，与早期“订阅无需转换”口径存在变化"
+    ],
+    "risks": [
+      "2025 年上线新品牌，长期运维稳定性待持续观察",
+      "转向专属客户端后第三方 Clash/Shadowrocket 兼容性可能受限"
+    ],
+    "suitableFor": [
+      "预算敏感、追求 ¥79/年低门槛备用机场或 TikTok 轻度用户",
+      "看重晚高峰流媒体解锁实测截图的读者"
+    ],
+    "notSuitableFor": [
+      "重度大流量用户（MINI 档仅 40GB/月）或美国节点高带宽依赖用户"
+    ],
+    "conflicts": [
+      {
+        "field": "clientMode",
+        "primaryValue": "2026 年 10 月起官方专属客户端（登录即用）",
+        "conflictingValue": "订阅无需转换（汇总表第926行）及 2026-07-18 VLESS 订阅实测",
+        "primarySource": "32家机场品牌清单.txt 第267、293行",
+        "conflictingSource": "32家机场品牌清单.txt 第926行及无忧链接.jpg",
+        "note": "该品牌在 2026 年 10 月调整为专属客户端形态，历史订阅兼容性与现行政策存在差异。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/wuyou/"
+  },
+  {
+    "entityId": "brand-weitu",
+    "slug": "weitu",
+    "name": "唯兔云",
+    "aliases": [
+      "weitu",
+      "V2云",
+      "唯兔云（V2云）"
+    ],
+    "featuredRank": 10,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/weitu.webp",
+    "accentColor": "#6366f1",
+    "foundedYear": 2023,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.v2yunvipaff.com/#/?code=xIutqOBA",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://fast.v2yunvipaff.com。",
+    "couponCode": "weitu666",
+    "couponDiscount": "待核实",
+    "couponRestriction": "待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "IPLC专线",
+      "三网优化",
+      "智能负载均衡"
+    ],
+    "nodeCountLabel": "60+ 节点（汇总表标注）",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限设备连接（品牌资料）",
+    "clientMode": "unverified",
+    "clientNotes": "品牌资料未强制限制专属客户端，2026-08-11 实测通过 Shadowsocks 节点测速。",
+    "entryMonthlyCny": 6.66,
+    "entryLabel": "¥79.9/年限量版（折合 ¥6.66/月 · 45GB/月）；限时月付 ¥14.9 起（100GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "海外技术团队与多人客服支持（品牌资料）",
+    "positioning": "2023 年运营 · IPLC 专线 1 倍流量不限设备 · 套餐档位极细",
+    "summary": "2023 年运营的 IPLC 专线机场，1 倍流量、不限速不限设备，拥有从 ¥79.9/年限量版、¥14.9 节假日月付到 1000GB 至尊版及 3 档永久不限时包的完整梯度，具备 2026-08-11 实测截图。",
+    "pros": [
+      "套餐梯度极丰富，含 ¥79.9 年付限量、¥14.9 限时月付及 100/200/500GB 三档不限时包",
+      "具备 2026-08-11 实测 PNG 截图（13:55:08 CST）与 2026-10-19 文本测速",
+      "60+ 节点 + 三网优化与智能负载均衡定位，不限设备数量"
+    ],
+    "limitations": [
+      "正文介绍写 Trojan 协议，而 2026-08-11 实测截图显示 Shadowsocks",
+      "“节假日限时开启（14.9元）”并非全年常驻供应"
+    ],
+    "risks": [
+      "存在 guangs 与 fast 两个推广子域名记录",
+      "2026-08-11 截图测试时间为下午 13:55 CST，非晚高峰"
+    ],
+    "suitableFor": [
+      "希望在 ¥14.9–¥29.9/月中间档位选择 IPLC 专线且不限设备数的个人或家庭用户"
+    ],
+    "notSuitableFor": [
+      "依赖特定协议（如必须原生 VLESS）而不愿测试调整的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "protocols",
+        "primaryValue": "Shadowsocks（2026-08-11 测速截图实测显示）",
+        "conflictingValue": "Trojan（32家清单介绍说明第333行）",
+        "primarySource": "speedtest-manifest.json (唯兔云-节点测速实测.png)",
+        "conflictingSource": "32家机场品牌清单.txt 第333行",
+        "note": "实测图显示 Shadowsocks，品牌说明写 Trojan。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.v2yunvipaff.com/#/?code=xIutqOBA",
+        "conflictingValue": "https://fast.v2yunvipaff.com",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（guangs vs fast）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/weitu/"
+  },
+  {
+    "entityId": "brand-firefly",
+    "slug": "firefly",
+    "name": "Firefly",
+    "englishName": "Firefly",
+    "aliases": [
+      "firefly",
+      "Firefly 萤火虫",
+      "飞为",
+      "飞为（Firefly）"
+    ],
+    "featuredRank": 11,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/firefly.svg",
+    "accentColor": "#f97316",
+    "foundedYear": null,
+    "officialUrlStatus": "exempt-from-wall-per-vendor",
+    "affiliateUrl": "https://vip02.fireflyaff.com/#/?code=2n7VURre",
+    "affiliateUrlNote": "含推广链接；同文档合并的 2026-08-09 萤火虫记录中另附同域名邀请码 #/?code=jTp9wSgZ。",
+    "couponCode": "firefly",
+    "couponDiscount": "8 折（新用户 8 折；年付版不适用；追加历史资料另注季9/半85/年8折，最高约64折）",
+    "couponRestriction": "年付版不适用新用户 8 折",
+    "paymentMethods": [
+      "支付宝",
+      "USDT（历史资料注明无微信）"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "routeTypes": [
+      "IPLC专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限设备数量（品牌资料）",
+    "clientMode": "exclusive-only",
+    "clientNotes": "10 月主体资料注明“2026 年 10 月起专属客户端下载登录即用，不提供订阅链接”；2026-08-09 历史资料仅提及 IPLC + VLESS 规格。",
+    "entryMonthlyCny": 8,
+    "entryLabel": "¥96/年 Firefly 年付版（折合 ¥8.00/月 · 60GB/月）；Lite 月付 ¥25 起（150GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定（2026-08-09 历史资料另列支持 ChatGPT/Gemini/Meta AI）",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "7×24 小时在线客服（夜间由 AI 客服值守）；品牌资料称 8 年海外技术团队并支持免翻墙访问官网",
+    "positioning": "IPLC + VLESS 原生 IP · 合并原 Firefly 与萤火虫两条目 · 不限设备",
+    "summary": "合并原清单“#8 Firefly”与末尾追加“Firefly 萤火虫”两份资料后的统一品牌档案：采用 IPLC 专线与 VLESS 协议，提供 ¥96/年、¥100 不限时及 Lite/Plus/Blaze/Nova 月付至三年付多周期档位，并标注与微风、飞鸟、一云梯存在同系关系。",
+    "pros": [
+      "拥有从月付到三年付完整周期阶梯及 ¥100 100GB 不限时套餐",
+      "资料标注免翻墙访问官网、IPLC + VLESS 原生 IP 及不限设备数量",
+      "拥有 2026-10-19 非晚高峰 5 地区文本测速记录"
+    ],
+    "limitations": [
+      "2026 年 10 月主体资料注明改用专属客户端且不提供订阅链接，第三方客户端兼容受限",
+      "缺少 2026-08-11 第三方测速 PNG 截图证据",
+      "支付方式历史资料注明不支持微信（仅支付宝/USDT）"
+    ],
+    "risks": [
+      "存在双邀请码（2n7VURre vs jTp9wSgZ）与“无微信支付/专属客户端切换”等历史与新版记录差异",
+      "多周期预付（两年/三年付）需谨慎评估长期风险"
+    ],
+    "suitableFor": [
+      "偏好 IPLC 专线原生 IP、能接受专属客户端且有支付宝/USDT 支付条件的用户"
+    ],
+    "notSuitableFor": [
+      "依赖微信支付或必须使用 Clash/Shadowrocket 第三方订阅的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://vip02.fireflyaff.com/#/?code=2n7VURre",
+        "conflictingValue": "https://vip02.fireflyaff.com/#/?code=jTp9wSgZ",
+        "primarySource": "32家机场品牌清单.txt 第339行（Firefly）",
+        "conflictingSource": "32家机场品牌清单.txt 第1145行（Firefly 萤火虫 2026-08-09 历史记录）",
+        "note": "同一域名 vip02.fireflyaff.com 存在两套 invite code，合并为同一实体 firefly 后一并记录。"
+      },
+      {
+        "field": "clientMode",
+        "primaryValue": "exclusive-only（2026 年 10 月起专属客户端，不提供订阅链接）",
+        "conflictingValue": "2026-08-09 历史记录未限定专属客户端，仅写 IPLC + VLESS",
+        "primarySource": "32家机场品牌清单.txt 第345、373行",
+        "conflictingSource": "32家机场品牌清单.txt 第1146行",
+        "note": "2026 年 10 月起收紧为仅官方专属客户端登录使用。"
+      }
+    ],
+    "dataStatus": "Conflicting",
+    "evidenceCompleteness": "medium",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-brand-list-32-appended",
+      "src-aff-prefixes-24",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/firefly/"
+  },
+  {
+    "entityId": "brand-yuzhou",
+    "slug": "yuzhou",
+    "name": "宇宙云",
+    "englishName": "YuZhou",
+    "aliases": [
+      "yuzhou",
+      "YuZhou",
+      "宇宙云 YuZhou"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/yuzhou_logo.webp",
+    "accentColor": "#7c3aed",
+    "foundedYear": null,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://wzjc.yuzoucloud.cc/#/?code=yrThwMP1",
+    "couponCode": "YUZHOU553",
+    "couponDiscount": "历史资料称新用户 8 折",
+    "couponRestriction": "早期历史资料记录，现行有效性待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "routeTypes": [
+      "IEPL专线",
+      "三网优化",
+      "智能负载均衡"
+    ],
+    "nodeCountLabel": "60+ 节点（较早期历史资料）",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "正文标注“待核实”，汇总表提及自研客户端；2026-08-11 测速截图通过 VLESS 订阅测速。",
+    "entryMonthlyCny": 8,
+    "entryLabel": "历史起价 ¥96/年（折合 ¥8.00/月，月流量及现行完整套餐表待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "待核实",
+        "dataStatus": "Unverified"
+      },
+      "Claude": {
+        "status": "待核实",
+        "dataStatus": "Unverified"
+      },
+      "Gemini": {
+        "status": "待核实",
+        "dataStatus": "Unverified"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "待核实",
+        "dataStatus": "Unverified"
+      },
+      "Disney+": {
+        "status": "待核实",
+        "dataStatus": "Unverified"
+      },
+      "YouTube": {
+        "status": "待核实",
+        "dataStatus": "Unverified"
+      },
+      "HBO Max": {
+        "status": "待核实",
+        "dataStatus": "Unverified"
+      },
+      "TikTok": {
+        "status": "待核实",
+        "dataStatus": "Unverified"
+      },
+      "Spotify": {
+        "status": "待核实",
+        "dataStatus": "Unverified"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "资料待补充品牌 · 持有 2026-08-11 晚间 VLESS 实测截图",
+    "summary": "拥有 2026-08-11 21:04 CST 晚高峰时段 VLESS 实测截图（珠海联通 9Gbps 后端），但当前资料仅存 ¥96/年早期起价与优惠码 YUZHOU553，完整套餐表、节点地区及解锁情况均标注为“待核实”。",
+    "pros": [
+      "拥有 2026-08-11 21:04 CST 晚高峰 VLESS 实测 PNG 截图",
+      "推广域名前缀在主清单与 24 站点前缀表中完全一致（wzjc.yuzoucloud.cc）"
+    ],
+    "limitations": [
+      "现有资料不足以列出完整套餐与月流量",
+      "2026-10-19 文本测速、节点地区与流媒体/AI 解锁均缺失"
+    ],
+    "risks": [
+      "信息缺口较大，不得将历史 ¥96/年起价直接视作当前完整套餐表"
+    ],
+    "suitableFor": [
+      "愿意自行核实官网最新套餐与条款并参考 08-11 VLESS 截图的用户"
+    ],
+    "notSuitableFor": [
+      "需要购买前明确知晓全部流量档位、设备数与解锁矩阵的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "clientMode",
+        "primaryValue": "待核实（正文第384行）",
+        "conflictingValue": "IEPL+VLESS+自研客户端（汇总表第931行）",
+        "primarySource": "32家机场品牌清单.txt 第384行",
+        "conflictingSource": "32家机场品牌清单.txt 第931行",
+        "note": "正文与汇总表在自研客户端及最新套餐完整性上存在缺口。"
+      }
+    ],
+    "dataStatus": "Unverified",
+    "evidenceCompleteness": "basic",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11"
+    ],
+    "reviewUrl": "/reviews/yuzhou/"
+  },
+  {
+    "entityId": "brand-u1s1",
+    "slug": "u1s1",
+    "name": "U1S1",
+    "aliases": [
+      "u1s1",
+      "有一说一",
+      "U1S1（有一说一）"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/u1s1.webp",
+    "accentColor": "#2563eb",
+    "foundedYear": 2025,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.vipaff.cc/#/?code=xhX5X22f",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://pkdj7.vipaff.cc。",
+    "couponCode": "akaka",
+    "couponDiscount": "待核实",
+    "couponRestriction": "待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "IPLC专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限设备同时连接（品牌资料）",
+    "clientMode": "unverified",
+    "clientNotes": "品牌资料未明确限定专属客户端，2026-08-11 晚高峰测速通过 Shadowsocks 节点完成。",
+    "entryMonthlyCny": 8,
+    "entryLabel": "¥96/年就是好用包（折合 ¥8.00/月 · 60GB/月）；月付 ¥20 起（120GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2025 年新站 · IPLC 专线 · 含 2026-08-11 22:33 晚高峰实测图",
+    "summary": "2025 年上线的新晋 IPLC 专线机场，官方宣称 2000Mbps 带宽与晚高峰不限速，不限设备同时连接，套餐从 ¥96/年到 1500GB 月付，具备 2026-08-11 22:33 CST 晚高峰实测 PNG 截图。",
+    "pros": [
+      "具备 2026-08-11 22:33 CST 晚高峰实测截图（Shadowsocks，MAI-TEST-BOT）及 2026-10-19 文本测速",
+      "不限设备数量，大流量月付最高至 1500GB",
+      "年付 ¥96（¥8/月）门槛适中"
+    ],
+    "limitations": [
+      "正文介绍提及“1000GB 一次性大流量包”，但同节套餐表并未列出该条目",
+      "2025 年上线，长期运维稳定性仍待观察"
+    ],
+    "risks": [
+      "存在 guangs 与 pkdj7 两个推广子域名记录",
+      "新品牌先购月付更稳妥，不宜直接大额年付"
+    ],
+    "suitableFor": [
+      "需要晚高峰实测截图参考、不限设备且流量需求在 120GB–1500GB 的用户"
+    ],
+    "notSuitableFor": [
+      "只考虑运营 3 年以上老牌机场的保守用户"
+    ],
+    "conflicts": [
+      {
+        "field": "plans",
+        "primaryValue": "套餐表含 5 档周期套餐（60GB 年付至 1500GB 月付）",
+        "conflictingValue": "正文第438行提及“还有 1000GB 的一次性大流量包”",
+        "primarySource": "32家机场品牌清单.txt 第418–423行套餐表",
+        "conflictingSource": "32家机场品牌清单.txt 第438行介绍说明",
+        "note": "正文提到 1000GB 一次性大流量包，但套餐表未给出价格，本站不编造其售价。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.vipaff.cc/#/?code=xhX5X22f",
+        "conflictingValue": "https://pkdj7.vipaff.cc",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（guangs vs pkdj7）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/u1s1/"
+  },
+  {
+    "entityId": "brand-lingmao",
+    "slug": "lingmao",
+    "name": "灵猫网络",
+    "aliases": [
+      "lingmao",
+      "灵猫"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/lingmao.svg",
+    "accentColor": "#8b5cf6",
+    "foundedYear": 2025,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://vip01.civetnet.com/#/?code=8MIAyxak",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有不同域名 https://vip02.civetaff.com。",
+    "couponCode": "lingmao",
+    "couponDiscount": "8 折（基础信息标注；另在基础数据及汇总表记录优惠码 lmao888）",
+    "couponRestriction": "年付小包不适用",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "中转优化线路"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限设备数量（品牌资料）",
+    "clientMode": "exclusive-only",
+    "clientNotes": "2026 年 10 月起改用专属客户端下载登录即用，不提供订阅链接（但 08-11 曾以 Shadowsocks 测速）。",
+    "entryMonthlyCny": 7.08,
+    "entryLabel": "¥85/年年付小包（折合 ¥7.08/月 · 45GB/月）；月付 Small ¥25（150GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2025 年运营 · 中转优化 · 不限设备 · 2026 年 10 月转向专属客户端",
+    "summary": "2025 年上线的多设备中转优化机场，1 倍流量不限速不限设备，提供年付 ¥85 小包到季付/年付 Big 多周期套餐，持有 2026-08-11 18:45 CST 实测截图，但存在双域名、双优惠码与月付起价冲突记录。",
+    "pros": [
+      "具备 2026-08-11 18:45 CST 实测 PNG 截图（Shadowsocks）与 2026-10-19 文本测速",
+      "不限设备数量，适合家庭多端共享",
+      "提供年付 Small/Big 折扣周期"
+    ],
+    "limitations": [
+      "2026 年 10 月起转向官方专属客户端，不支持第三方订阅",
+      "文档内存在双优惠码（lmao888 vs lingmao）、双域名（civetnet.com vs civetaff.com）与三套起价口径"
+    ],
+    "risks": [
+      "2025 年新品牌且为中转优化线路（非 IEPL/IPLC 专线标注）",
+      "月付 Small 表标 ¥25 而摘要标 ¥19，下单前需核对实时面板价"
+    ],
+    "suitableFor": [
+      "多设备家用、只用官方专属客户端且关注入门年付的用户"
+    ],
+    "notSuitableFor": [
+      "必须使用 Clash/Shadowrocket 订阅或明确要求 IEPL 专线的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "couponCode",
+        "primaryValue": "lingmao（8折，年付小包不适用）",
+        "conflictingValue": "lmao888",
+        "primarySource": "32家机场品牌清单.txt 第449行",
+        "conflictingSource": "32家机场品牌清单.txt 第445行及汇总表第933行",
+        "note": "同时记录了 lmao888 与 lingmao 两个优惠码。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://vip01.civetnet.com/#/?code=8MIAyxak",
+        "conflictingValue": "https://vip02.civetaff.com",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "主域名完全不同（vip01.civetnet.com vs vip02.civetaff.com）。"
+      },
+      {
+        "field": "entryMonthlyCny",
+        "primaryValue": "¥85/年（¥7.08/月 · 45GB）；月付Small ¥25（150GB）",
+        "conflictingValue": "19元/月 150GB/月（第445行）/ 7.1元/月起（第448行）",
+        "primarySource": "32家机场品牌清单.txt 套餐表（第458、462行）",
+        "conflictingSource": "32家机场品牌清单.txt 第445、448行",
+        "note": "月付 150GB 摘要写 ¥19，套餐表写 ¥25。"
+      }
+    ],
+    "dataStatus": "Conflicting",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/lingmao/"
+  },
+  {
+    "entityId": "brand-jilian",
+    "slug": "jilian",
+    "name": "极连云",
+    "aliases": [
+      "jilian"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/jilian.webp",
+    "accentColor": "#0284c7",
+    "foundedYear": 2024,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.jlyvipaff.com/#/?code=VM1rKGUu",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://kdjhao.jlyvipaff.com。",
+    "couponCode": "ji8888",
+    "couponDiscount": "待核实",
+    "couponRestriction": "待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "品牌资料明确支持自研客户端 + 第三方客户端，2026-08-11 晚高峰通过 Shadowsocks 测速。",
+    "entryMonthlyCny": 18,
+    "entryLabel": "¥18/月（100GB/月 · 完整多档套餐表待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "品牌资料称覆盖常见 AI 工具使用场景（未分项实测）",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "品牌资料称覆盖常见 AI 工具（未分项实测）",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "未分项实测",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Disney+": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "YouTube": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "HBO Max": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Spotify": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2024 年运营 · ¥18/月 IEPL + AI 场景 · 含 08-11 22:46 晚高峰实测",
+    "summary": "2024 年运营的 ¥18/月档 IEPL 专线机场（100GB/月），支持自研客户端与第三方订阅，品牌资料强调“覆盖常见 AI 工具使用场景”，并持有 2026-08-11 22:46 CST 晚高峰实测 PNG 截图。",
+    "pros": [
+      "持有 2026-08-11 22:46 CST 晚高峰实测截图（Shadowsocks）",
+      "同时支持自研客户端与第三方客户端",
+      "¥18/月 100GB IEPL 定位清晰"
+    ],
+    "limitations": [
+      "缺少多周期/年付完整套餐表与流媒体分项数据",
+      "同 18 元档光年梯提供 110GB（多 10GB）"
+    ],
+    "risks": [
+      "存在 guangs 与 kdjhao 两个推广子域名记录",
+      "流媒体解锁与退款政策尚未核实"
+    ],
+    "suitableFor": [
+      "预算在 ¥18/月、需要第三方客户端兼容与晚高峰实测图参考的 AI/网页用户"
+    ],
+    "notSuitableFor": [
+      "需要明确流媒体逐项解锁实测的影音重度用户"
+    ],
+    "conflicts": [
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.jlyvipaff.com/#/?code=VM1rKGUu",
+        "conflictingValue": "https://kdjhao.jlyvipaff.com",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（guangs vs kdjhao）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "medium",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11"
+    ],
+    "reviewUrl": "/reviews/jilian/"
+  },
+  {
+    "entityId": "brand-guangnian",
+    "slug": "guangnian",
+    "name": "光年梯",
+    "aliases": [
+      "guangnian"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/guangnian.webp",
+    "accentColor": "#3b82f6",
+    "foundedYear": 2025,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.gntaff.com/#/?code=X1FoxjGE",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://ggmq.gntaff.com。",
+    "couponCode": "gnt6666",
+    "couponDiscount": "待核实",
+    "couponRestriction": "待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "支持自研客户端 + 第三方订阅导入。",
+    "entryMonthlyCny": 18,
+    "entryLabel": "¥18/月（110GB/月 · 完整多档套餐表待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "品牌资料称支持常见 AI 工具使用场景",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "品牌资料称支持常见 AI 工具",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "未分项实测",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "品牌资料称支持主流流媒体使用场景",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "品牌资料称支持主流流媒体",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "品牌资料称支持主流流媒体",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "未分项实测",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "未分项实测",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "未分项实测",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2025 年新品牌 · ¥18/月 110GB IEPL + VLESS · 含 08-11 实测图",
+    "summary": "2025 年成立的 ¥18/月档 IEPL 专线机场，月流量给到 110GB（比同价极连云多 10GB），支持自研客户端与第三方订阅，具备 2026-08-11 14:38 CST 实测截图。",
+    "pros": [
+      "拥有 2026-08-11 14:38 CST 实测 PNG 截图（Shadowsocks）",
+      "同为 18 元 IEPL 档位流量给到 110GB/月",
+      "支持自研客户端与第三方订阅导入"
+    ],
+    "limitations": [
+      "2025 年新品牌，长期稳定性需持续观察",
+      "资料写 VLESS 协议而 08-11 截图显示 Shadowsocks",
+      "缺少完整多档价格表与分项解锁实测"
+    ],
+    "risks": [
+      "存在 guangs 与 ggmq 两个推广子域名记录",
+      "08-11 测试时间为 14:38 CST（午后非晚高峰）"
+    ],
+    "suitableFor": [
+      "需要第三方订阅兼容、预算 ¥18/月且想要 110GB 稍大月流量的用户"
+    ],
+    "notSuitableFor": [
+      "优先考虑多年运营老品牌的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "protocols",
+        "primaryValue": "Shadowsocks（2026-08-11 测速截图实测显示）",
+        "conflictingValue": "VLESS（32家清单第511行）",
+        "primarySource": "speedtest-manifest.json (光年梯-节点测速实测.png)",
+        "conflictingSource": "32家机场品牌清单.txt 第511行",
+        "note": "品牌资料写 VLESS，实测截图显示 Shadowsocks。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.gntaff.com/#/?code=X1FoxjGE",
+        "conflictingValue": "https://ggmq.gntaff.com",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（guangs vs ggmq）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "medium",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11"
+    ],
+    "reviewUrl": "/reviews/guangnian/"
+  },
+  {
+    "entityId": "brand-yifan",
+    "slug": "yifan",
+    "name": "一翻云",
+    "englishName": "1fly",
+    "aliases": [
+      "yifan",
+      "1fly",
+      "一翻云 1fly"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/1fly_logo.webp",
+    "accentColor": "#06b6d4",
+    "foundedYear": 2025,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://wzjc.1flyunaff.cc。",
+    "couponCode": "1FLYYUN",
+    "couponDiscount": "9 折（正文标注 1FLYYUN；基础数据及汇总表另列优惠码 yfy6666）",
+    "couponRestriction": "待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "Hysteria 2",
+      "VLESS-Reality",
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "全节点 IEPL 物理专线",
+      "原生住宅 IP"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限设备数量（品牌资料）",
+    "clientMode": "third-party",
+    "clientNotes": "提供 Hysteria 2 / VLESS-Reality / Shadowsocks 三协议，支持 Clash Verge Rev / v2rayN / Shadowrocket 等主流第三方客户端。",
+    "entryMonthlyCny": 8.17,
+    "entryLabel": "¥98/年年付小包（折合 ¥8.17/月 · 60GB/月）；月付轻享 ¥20 起（150GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实（官方未提供免费试用）",
+    "supportChannels": "待核实",
+    "positioning": "2025 年新站 · IEPL 物理专线 + 三协议可选 · 含 08-11 截图",
+    "summary": "2025 年上线，强调全节点 IEPL 物理专线与原生住宅 IP，开放 Hysteria 2 / VLESS-Reality / Shadowsocks 三协议且不限设备数，同时提供年付 ¥98 小包、多档月付及 100/250/500GB 不限时包，具备 2026-08-11 实测图。",
+    "pros": [
+      "同时提供 Hysteria 2、VLESS-Reality 与 Shadowsocks 三协议，第三方客户端自由度高",
+      "持有 2026-08-11 实测 PNG 截图与 2026-10-19 文本测速，节点包含台湾站",
+      "提供 100GB/250GB/500GB 永久不限时流量包且不限设备数量"
+    ],
+    "limitations": [
+      "2026-08-11 截图测试时间为凌晨 00:21 CST（非晚高峰），官方声明“晚高峰 0 丢包”缺乏晚高峰截图背书",
+      "官方不提供试用；正文优惠码 1FLYYUN 与表格 yfy6666 不一致"
+    ],
+    "risks": [
+      "2025 年新品牌且无零成本试用，建议先购月付验证",
+      "存在 guangs 与 wzjc 两个推广子域名记录"
+    ],
+    "suitableFor": [
+      "需要 Hysteria 2 / VLESS-Reality 多协议、偏好第三方客户端且需要台湾节点的用户"
+    ],
+    "notSuitableFor": [
+      "必须有免费试用才肯下单的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "couponCode",
+        "primaryValue": "1FLYYUN（9折）",
+        "conflictingValue": "yfy6666",
+        "primarySource": "32家机场品牌清单.txt 第560行",
+        "conflictingSource": "32家机场品牌清单.txt 第529行及汇总表第936行",
+        "note": "同一条目存在 yfy6666 与 1FLYYUN 两个优惠码。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r",
+        "conflictingValue": "https://wzjc.1flyunaff.cc",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（guangs vs wzjc）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/yifan/"
+  },
+  {
+    "entityId": "brand-sogo",
+    "slug": "sogo",
+    "name": "SOGO 云",
+    "aliases": [
+      "sogo",
+      "Sogo云"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/sogo.webp",
+    "accentColor": "#0ea5e9",
+    "foundedYear": 2026,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.sogoyunaff.cc/#/?code=327Vs0w7",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://wzjc.sogoyunaff.cc。",
+    "couponCode": "SOGO10000",
+    "couponDiscount": "9 折（基础信息与正文标注 SOGO10000；汇总表另列 sss777）",
+    "couponRestriction": "未标注限制条件",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "全线 IEPL 专线",
+      "三网 BGP 优化"
+    ],
+    "nodeCountLabel": "15 个国家和地区（品牌资料称本站覆盖面最广）",
+    "regions": [
+      "香港",
+      "台湾",
+      "日本",
+      "新加坡",
+      "美国",
+      "韩国",
+      "其他10+国家地区"
+    ],
+    "deviceLimit": "不限设备数量（品牌资料）",
+    "clientMode": "exclusive-only",
+    "clientNotes": "正文注明不提供订阅链接，只能通过自研客户端（支持 Win/macOS/iOS/Android 与主流软路由）使用，Clash/Shadowrocket 无法直接导入。",
+    "entryMonthlyCny": 8.17,
+    "entryLabel": "¥98/年小包（折合 ¥8.17/月 · 60GB/月）；月付基础版 ¥25 起（150GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实（官方未提供试用）",
+    "supportChannels": "海外团队运营",
+    "positioning": "2026 年新品牌 · 覆盖 15 国/地区 · IEPL + 三网 BGP · 仅自研客户端",
+    "summary": "汇总表标注为 2026 年新品牌，全线 IEPL + 三网 BGP 优化，节点覆盖 15 个国家和地区，不限速不限设备，拥有 2026-08-11 18:57 CST 实测截图与 2026-10-19 文本测速，但正文明确不提供第三方订阅链接。",
+    "pros": [
+      "拥有 2026-08-11 18:57 CST 实测 PNG 截图（Shadowsocks）与 2026-10-19 文本测速",
+      "节点覆盖 15 个国家和地区（包含韩国及多欧美地区），不限设备数",
+      "不限时包覆盖 120GB 至 1.0TB 四档"
+    ],
+    "limitations": [
+      "2026 年新品牌，长期运营稳定性有待检验",
+      "不提供第三方订阅链接（Clash/Shadowrocket 不可用），且正文写 VLESS 而 08-11 截图显示 Shadowsocks",
+      "官方无试用，且存在双优惠码（SOGO10000 vs sss777）"
+    ],
+    "risks": [
+      "新站运营年限较短 + 无试用 + 专属客户端生态锁定",
+      "存在 guangs 与 wzjc 两个推广子域名记录"
+    ],
+    "suitableFor": [
+      "需要 15 个国家/地区多冷门节点且不介意使用官方自研客户端的用户"
+    ],
+    "notSuitableFor": [
+      "依赖 Clash / Shadowrocket / 第三方订阅链接管理多机场的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "couponCode",
+        "primaryValue": "SOGO10000（9折）",
+        "conflictingValue": "sss777",
+        "primarySource": "32家机场品牌清单.txt 第571、604行",
+        "conflictingSource": "32家机场品牌清单.txt 汇总表第937行",
+        "note": "基础信息写 SOGO10000，汇总表写 sss777。"
+      },
+      {
+        "field": "protocols",
+        "primaryValue": "Shadowsocks（2026-08-11 测速截图实测显示）",
+        "conflictingValue": "VLESS（32家清单第569、577行）",
+        "primarySource": "speedtest-manifest.json (SOGO云-节点测速实测.png)",
+        "conflictingSource": "32家机场品牌清单.txt 第569、577行",
+        "note": "品牌资料写 VLESS，2026-08-11 实测图显示 Shadowsocks。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.sogoyunaff.cc/#/?code=327Vs0w7",
+        "conflictingValue": "https://wzjc.sogoyunaff.cc",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（guangs vs wzjc）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/sogo/"
+  },
+  {
+    "entityId": "brand-kexin",
+    "slug": "kexin",
+    "name": "可信云",
+    "aliases": [
+      "kexin"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/kexin.svg",
+    "accentColor": "#14b8a6",
+    "foundedYear": 2024,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.kosingaff.com/#/register?code=UYDtNlCY",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://work.kosingaff.com。",
+    "couponCode": "kkk333",
+    "couponDiscount": "待核实",
+    "couponRestriction": "待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "third-party",
+    "clientNotes": "品牌资料标注支持第三方客户端。",
+    "entryMonthlyCny": 25,
+    "entryLabel": "¥25/月（150GB/月 · 完整多档套餐表待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "未测试（品牌资料明确注明缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      },
+      "Claude": {
+        "status": "未测试（缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      },
+      "Gemini": {
+        "status": "未测试（缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "未测试（品牌资料明确注明缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      },
+      "Disney+": {
+        "status": "未测试（缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      },
+      "YouTube": {
+        "status": "未测试（缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      },
+      "HBO Max": {
+        "status": "未测试",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "未测试",
+        "dataStatus": "Not Tested"
+      },
+      "Spotify": {
+        "status": "未测试",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2024 年运营 · 如实披露 AI/流媒体数据缺口 · 含 08-11 截图（日期待复核）",
+    "summary": "2024 年起运营，¥25/月 150GB IEPL 专线方案，支持第三方客户端；在品牌资料中罕见地明确声明“AI 与流媒体目前缺乏统一实测数据，保持中性描述”，同时持有 2026-08-11 15:32 CST 测速 PNG 截图（manifest 提示日期来自批次推断需复核）。",
+    "pros": [
+      "保有 2026-08-11 15:32 CST 测速 PNG 截图（Shadowsocks）",
+      "品牌资料诚实标注 AI/流媒体数据缺口，无夸大承诺",
+      "支持第三方客户端"
+    ],
+    "limitations": [
+      "2026-08-11 截图底部未清晰显示完整日期（manifest 标记 dateConfidence 为推断，待发布前复核原始记录）",
+      "缺少完整多档套餐表与 AI/流媒体独立解锁测试"
+    ],
+    "risks": [
+      "存在 guangs 与 work 两个推广子域名记录",
+      "协议文字写 VLESS 而 08-11 截图显示 Shadowsocks"
+    ],
+    "suitableFor": [
+      "支持第三方客户端、偏好参数透明且能自行实测解锁的 25 元档用户"
+    ],
+    "notSuitableFor": [
+      "购买前需要明确解锁保证的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "protocols",
+        "primaryValue": "Shadowsocks（2026-08-11 测速截图实测显示）",
+        "conflictingValue": "VLESS（32家清单第616行）",
+        "primarySource": "speedtest-manifest.json (可信云-节点测速实测.png)",
+        "conflictingSource": "32家机场品牌清单.txt 第616行",
+        "note": "品牌资料写 VLESS，实测截图显示 Shadowsocks。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.kosingaff.com/#/register?code=UYDtNlCY",
+        "conflictingValue": "https://work.kosingaff.com",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（guangs vs work）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "medium",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11"
+    ],
+    "reviewUrl": "/reviews/kexin/"
+  },
+  {
+    "entityId": "brand-sujie",
+    "slug": "sujie",
+    "name": "速界",
+    "englishName": "SuJie",
+    "aliases": [
+      "sujie",
+      "速界 SuJie"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/sujie.webp",
+    "accentColor": "#0284c7",
+    "foundedYear": 2024,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://work.speedworldaff.cc。",
+    "couponCode": "sss1111",
+    "couponDiscount": "待核实",
+    "couponRestriction": "待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "支持自研客户端 + 第三方订阅导入。",
+    "entryMonthlyCny": 25,
+    "entryLabel": "¥25/月（150GB/月 · 完整多档套餐表待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "品牌资料重点强调支持（提示受 IP 与平台规则影响不承诺永久稳定）",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "品牌资料重点强调支持（受 IP 影响）",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "品牌资料重点强调支持（受 IP 影响）",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Disney+": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "YouTube": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "HBO Max": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Spotify": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2024 年运营 · ¥25/月 AI 工具导向 IEPL · 含 08-11 实测图",
+    "summary": "2024 年运营，¥25/月 150GB IEPL 专线机场，支持自研与第三方订阅导入；在 25 元档中明确突出 ChatGPT、Claude、Gemini 等 AI 工具访问场景，并严谨声明不承诺永久稳定支持，持有 2026-08-11 15:39 CST 实测图。",
+    "pros": [
+      "保有 2026-08-11 15:39 CST 实测 PNG 截图（Shadowsocks）",
+      "同时支持自研客户端与第三方订阅导入",
+      "品牌资料针对 AI 工具场景且合规提示 IP/平台规则变动风险"
+    ],
+    "limitations": [
+      "缺少多周期完整套餐表及流媒体实测结果",
+      "协议文本写 VLESS 而 08-11 截图显示 Shadowsocks"
+    ],
+    "risks": [
+      "存在 guangs 与 work 两个推广子域名记录",
+      "08-11 截图测试时间为下午 15:39 CST（非晚高峰）"
+    ],
+    "suitableFor": [
+      "主要诉求为 AI 工具访问且需要第三方订阅的 25 元档用户"
+    ],
+    "notSuitableFor": [
+      "需求为多地区流媒体评测背书的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "protocols",
+        "primaryValue": "Shadowsocks（2026-08-11 测速截图实测显示）",
+        "conflictingValue": "VLESS（32家清单第638行）",
+        "primarySource": "speedtest-manifest.json (速界-节点测速实测.png)",
+        "conflictingSource": "32家机场品牌清单.txt 第638行",
+        "note": "品牌资料写 VLESS，实测图显示 Shadowsocks。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB",
+        "conflictingValue": "https://work.speedworldaff.cc",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（guangs vs work）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "medium",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11"
+    ],
+    "reviewUrl": "/reviews/sujie/"
+  },
+  {
+    "entityId": "brand-shanyue",
+    "slug": "shanyue",
+    "name": "闪跃",
+    "englishName": "FlashLeap",
+    "aliases": [
+      "shanyue",
+      "FlashLeap",
+      "闪跃 FlashLeap"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/shanyue.svg",
+    "accentColor": "#ec4899",
+    "foundedYear": null,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://vip02.flashleapaff.com/#/?code=3lgzm9mm",
+    "couponCode": "shanyue",
+    "couponDiscount": "8 折",
+    "couponRestriction": "仅限闪动 / 飞跃 / 瞬移 / 跃迁四档月付套餐，年付版不适用",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "routeTypes": [
+      "纯 IPLC 专线",
+      "骨干网接入"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "exclusive-only",
+    "clientNotes": "专属客户端下载登录即用，不提供订阅链接。",
+    "entryMonthlyCny": 8,
+    "entryLabel": "¥96/年闪跃年付版（折合 ¥8.00/月 · 60GB/月）；闪动月付 ¥24（150GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定（正文称支持，解锁清单列为视节点而定）",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "中高端 IPLC 纯专线 · 仅专属客户端 · 2026-10-19 文本测速",
+    "summary": "主打纯 IPLC 专线与骨干网晚高峰稳定的中高端定位机场，提供 ¥96/年年付版及闪动(¥24)/飞跃(¥44)/瞬移(¥84)/跃迁(¥134) 四档 8 折可享月付，拥有 2026-10-19 文本测速但暂无 08-11 截图且不提供订阅链接。",
+    "pros": [
+      "推广域名在两份清单中一致（vip02.flashleapaff.com）",
+      "月付四档明确适用 shanyue 8 折优惠码（折后低至 ¥19.2/月 150GB）",
+      "拥有 2026-10-19 非晚高峰 5 地区文本测速记录"
+    ],
+    "limitations": [
+      "不提供订阅链接，仅限专属客户端使用",
+      "缺少 2026-08-11 第三方测速 PNG 截图，且协议类型原文未标注"
+    ],
+    "risks": [
+      "缺乏独立晚高峰实测截图验证“晚高峰不掉速”宣称",
+      "无不限时套餐与设备数/退款条款说明"
+    ],
+    "suitableFor": [
+      "注重月付 8 折优惠、习惯直接用专属客户端的中高频用户"
+    ],
+    "notSuitableFor": [
+      "需要使用 Clash / Shadowrocket / 软路由订阅的用户"
+    ],
+    "conflicts": [],
+    "dataStatus": "Vendor Data",
+    "evidenceCompleteness": "medium",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/shanyue/"
+  },
+  {
+    "entityId": "brand-quanqiu",
+    "slug": "quanqiu",
+    "name": "全球云",
+    "aliases": [
+      "quanqiu"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/quanqiu.webp",
+    "accentColor": "#0284c7",
+    "foundedYear": 2026,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://sswdh.gcvipaff.com。",
+    "couponCode": "qq88",
+    "couponDiscount": "8 折（基础信息标注 qq88；汇总表另列 qqy7777）",
+    "couponRestriction": "未标注限制条件",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "routeTypes": [
+      "IPLC/IEPL专线中转",
+      "BGP智能优化"
+    ],
+    "nodeCountLabel": "60+ 节点（品牌资料）",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "exclusive-only",
+    "clientNotes": "正文注明专属客户端下载登录即用、不提供订阅链接（但 2026-08-11 测速截图显示以 Shadowsocks 节点完成测速）。",
+    "entryMonthlyCny": 8.25,
+    "entryLabel": "¥99/年轻量版（折合 ¥8.25/月 · 59GB/月）；月付入门 ¥20（120GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2026 年新品牌 · 60+ 节点 · 仅专属客户端 · 含 08-11 实测截图",
+    "summary": "汇总表标注为 2026 年新品牌，号称 60+ 节点、2Gbps+ 带宽及 Trojan/Shadowsocks 双协议，提供 ¥99/年轻量版、BGP 月付四档、独享定制及 100/400/800GB 不限时包，持有 2026-08-11 15:50 CST 实测图。",
+    "pros": [
+      "持有 2026-08-11 15:50 CST 实测 PNG 截图（Shadowsocks）与 2026-10-19 文本测速",
+      "套餐覆盖年付、月付、不限时包与定制线路",
+      "60+ 节点规模较大"
+    ],
+    "limitations": [
+      "2026 年新品牌，长期口碑仍需验证",
+      "不提供第三方订阅链接（专属客户端登录即用）",
+      "存在双优惠码（qq88 vs qqy7777）与两个推广子域"
+    ],
+    "risks": [
+      "08-11 截图测试时间为下午 15:50 CST（非晚高峰）",
+      "起步价摘要写 ¥20/月起而套餐表含 ¥99/年轻量版"
+    ],
+    "suitableFor": [
+      "看重多地区节点数量、需要不限时包且接受专属客户端的用户"
+    ],
+    "notSuitableFor": [
+      "依赖第三方 Clash/Shadowrocket 订阅或只要老牌机场的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "couponCode",
+        "primaryValue": "qq88（8折）",
+        "conflictingValue": "qqy7777",
+        "primarySource": "32家机场品牌清单.txt 第699行",
+        "conflictingSource": "32家机场品牌清单.txt 汇总表第941行",
+        "note": "基础信息列 qq88，汇总表列 qqy7777。"
+      },
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C",
+        "conflictingValue": "https://sswdh.gcvipaff.com",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（guangs vs sswdh）。"
+      }
+    ],
+    "dataStatus": "Measured",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ],
+    "reviewUrl": "/reviews/quanqiu/"
+  },
+  {
+    "entityId": "brand-shandianshu",
+    "slug": "shandianshu",
+    "name": "闪电鼠",
+    "aliases": [
+      "shandianshu"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/shandianshu.svg",
+    "accentColor": "#eab308",
+    "foundedYear": 2024,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://qwerty.shandianshuaff.com/#/?code=rUE75iYh",
+    "couponCode": "sd88",
+    "couponDiscount": "季付及以上 7 折（品牌资料）",
+    "couponRestriction": "季付及以上适用",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "支持自研客户端 + 第三方订阅导入。",
+    "entryMonthlyCny": 5.6,
+    "entryLabel": "年付约 ¥5.6/月（60GB/月，完整套餐表待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Claude": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Gemini": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Disney+": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "YouTube": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "HBO Max": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Spotify": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2024 年运营 · ¥5.6/月极限平价 IEPL + VLESS",
+    "summary": "2024 年运营的极限平价档机场之一（年付约 ¥5.6/月 60GB），明确标注 IEPL 专线、VLESS 协议、季付及以上 7 折以及自研与第三方订阅双支持。",
+    "pros": [
+      "¥5.6/月档位门槛极低，且明确标注 VLESS 协议与推广链接格式正常",
+      "支持自研客户端与第三方订阅导入"
+    ],
+    "limitations": [
+      "缺少测速截图、完整多档价格表、节点地区与 AI/流媒体实测",
+      "与大佬云、云界线、榴莲云、环球梯高度同质化"
+    ],
+    "risks": [
+      "极限低价档需关注晚高峰并发拥塞与商家持续运营能力"
+    ],
+    "suitableFor": [
+      "预算极其有限、只需要基础 VLESS 备用线路的用户"
+    ],
+    "notSuitableFor": [
+      "有流媒体/AI 稳定解锁需求或看重实测数据的用户"
+    ],
+    "conflicts": [],
+    "dataStatus": "Vendor Data",
+    "evidenceCompleteness": "basic",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32"
+    ],
+    "reviewUrl": "/reviews/shandianshu/"
+  },
+  {
+    "entityId": "brand-yunjiexian",
+    "slug": "yunjiexian",
+    "name": "云界线",
+    "aliases": [
+      "yunjiexian"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/yunjiexian.svg",
+    "accentColor": "#3b82f6",
+    "foundedYear": 2024,
+    "officialUrlStatus": "aff-link-format-anomaly-missing-hash",
+    "affiliateUrl": "https://qwerty.yunjiexianaff.com/?code=aycnwNUi",
+    "affiliateUrlNote": "含推广链接；同文件汇总表第944行记录另一邀请码 ?code=HBaZ91c6，且两处 URL 均缺少 #/ 路由片段，注册前需确认页面可正常打开。",
+    "couponCode": "yjx888",
+    "couponDiscount": "季付及以上 7 折",
+    "couponRestriction": "季付及以上适用",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "支持自研客户端 + 第三方订阅导入。",
+    "entryMonthlyCny": 5.6,
+    "entryLabel": "年付约 ¥5.6/月（60GB/月，完整套餐表待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Claude": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Gemini": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Disney+": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "YouTube": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "HBO Max": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Spotify": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2024 年运营 · ¥5.6/月 IEPL + VLESS（存在链接格式异常与双邀请码）",
+    "summary": "2024 年运营的 ¥5.6/月 60GB IEPL + VLESS 平价机场，支持自研与第三方订阅；资料特别提醒其推广链接缺少 `#` 且同文档出现两个不同 invite code。",
+    "pros": [
+      "年付约 ¥5.6/月入门门槛低，明确 VLESS 协议",
+      "支持自研与第三方订阅"
+    ],
+    "limitations": [
+      "推广链接缺少 `#/` 格式异常且同文档出现 aycnwNUi 与 HBaZ91c6 两套邀请码",
+      "缺少测速与解锁实测、完整套餐表与节点清单"
+    ],
+    "risks": [
+      "注册链接格式异常可能影响部分单页路由跳转，需先核实打开状态"
+    ],
+    "suitableFor": [
+      "极低预算且能自行核实注册入口的 VLESS 备用用户"
+    ],
+    "notSuitableFor": [
+      "依赖实测数据决策的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://qwerty.yunjiexianaff.com/?code=aycnwNUi",
+        "conflictingValue": "https://qwerty.yunjiexianaff.com/?code=HBaZ91c6",
+        "primarySource": "32家机场品牌清单.txt 第759行",
+        "conflictingSource": "32家机场品牌清单.txt 汇总表第944行",
+        "note": "同一文件内出现两组不同的 code 参数，且 URL 均缺少 #/（与其它品牌格式不同）。"
+      }
+    ],
+    "dataStatus": "Conflicting",
+    "evidenceCompleteness": "basic",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32"
+    ],
+    "reviewUrl": "/reviews/yunjiexian/"
+  },
+  {
+    "entityId": "brand-liulianyun",
+    "slug": "liulianyun",
+    "name": "榴莲云",
+    "aliases": [
+      "liulianyun"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/liulianyun.svg",
+    "accentColor": "#84cc16",
+    "foundedYear": 2024,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://qwerty.liulianyunaff.com#/?code=hS5pvbfE",
+    "affiliateUrlNote": "含推广链接；注意域名后直接接 #/?code=（缺少斜杠分隔），保留原样未改写。",
+    "couponCode": "ll88",
+    "couponDiscount": "季付及以上 7 折",
+    "couponRestriction": "季付及以上适用",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "支持自研客户端 + 第三方订阅导入。",
+    "entryMonthlyCny": 5.6,
+    "entryLabel": "年付约 ¥5.6/月（60GB/月，协议与完整套餐待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Claude": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Gemini": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Disney+": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "YouTube": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "HBO Max": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Spotify": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2024 年运营 · ¥5.6/月 IEPL（协议类型未明确）",
+    "summary": "2024 年运营的 ¥5.6/月 60GB IEPL 机场，支持自研与第三方订阅及季付以上 7 折，是 5.6 元档中唯一未在品牌资料中明确标注协议类型的站点。",
+    "pros": [
+      "年付约 ¥5.6/月 60GB 价格低",
+      "支持自研与第三方订阅"
+    ],
+    "limitations": [
+      "协议类型未统一提供，且缺少测速图、节点地区与完整套餐表"
+    ],
+    "risks": [
+      "注册前无法从资料确认具体兼容协议（VLESS/Trojan/SS）"
+    ],
+    "suitableFor": [
+      "只追求 ¥5.6/月低门槛且对具体协议无要求的备用场景"
+    ],
+    "notSuitableFor": [
+      "明确指定需要 VLESS 或 Hysteria 2 的客户端用户"
+    ],
+    "conflicts": [],
+    "dataStatus": "Unverified",
+    "evidenceCompleteness": "basic",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32"
+    ],
+    "reviewUrl": "/reviews/liulianyun/"
+  },
+  {
+    "entityId": "brand-shenxing",
+    "slug": "shenxing",
+    "name": "神行加速",
+    "aliases": [
+      "shenxing"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/shenxing.svg",
+    "accentColor": "#ef4444",
+    "foundedYear": 2024,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://qwerty.shenxingaff.com/#/?code=gawDQqVE",
+    "couponCode": "xs0077",
+    "couponDiscount": "新用户 7 折（品牌资料）",
+    "couponRestriction": "仅限新用户",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "支持自研客户端 + 第三方订阅导入。",
+    "entryMonthlyCny": 14,
+    "entryLabel": "年付约 ¥14/月（120GB/月，完整多档套餐表待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Claude": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Gemini": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Disney+": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "YouTube": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "HBO Max": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Spotify": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2024 年运营 · ¥14/月 120GB IEPL + VLESS 中间档",
+    "summary": "2024 年运营的中间价位 IEPL + VLESS 机场，年付约 ¥14/月提供 120GB/月（为 5.6 元档 60GB 的两倍），支持自研客户端与第三方订阅导入及新用户 7 折。",
+    "pros": [
+      "流量给到 120GB/月，填补 ¥5.6/月(60GB) 与 ¥20/月档之间的空缺",
+      "明确支持 VLESS 协议与第三方订阅导入"
+    ],
+    "limitations": [
+      "缺少测速截图、完整套餐表、节点列表与 AI/流媒体实测数据"
+    ],
+    "risks": [
+      "缺少可验证的晚高峰性能及售后退款条款"
+    ],
+    "suitableFor": [
+      "觉得 60GB 不够用、预算控制在 ¥14/月左右的年付用户"
+    ],
+    "notSuitableFor": [
+      "依赖实测截图验证解锁与速度的用户"
+    ],
+    "conflicts": [],
+    "dataStatus": "Vendor Data",
+    "evidenceCompleteness": "basic",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32"
+    ],
+    "reviewUrl": "/reviews/shenxing/"
+  },
+  {
+    "entityId": "brand-huanqiuti",
+    "slug": "huanqiuti",
+    "name": "环球梯",
+    "aliases": [
+      "huanqiuti"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/huanqiuti.svg",
+    "accentColor": "#06b6d4",
+    "foundedYear": 2024,
+    "officialUrlStatus": "aff-link-format-anomaly-missing-hash",
+    "affiliateUrl": "https://qwerty.huanqiutiaff.com/?code=9I4KRNPH",
+    "affiliateUrlNote": "含推广链接；URL 缺少 #/ 路由片段，注册前建议确认页面可正常加载。",
+    "couponCode": "HQ66",
+    "couponDiscount": "季付及以上 7 折",
+    "couponRestriction": "季付及以上适用",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "支持自研客户端 + 第三方订阅导入。",
+    "entryMonthlyCny": 5.6,
+    "entryLabel": "年付约 ¥5.6/月（60GB/月，完整套餐表待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Claude": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Gemini": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Disney+": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "YouTube": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "HBO Max": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Spotify": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2024 年运营 · ¥5.6/月 IEPL + VLESS（链接格式异常）",
+    "summary": "2024 年运营的 ¥5.6/月 60GB IEPL + VLESS 平价机场，支持自研与第三方订阅及季付以上 7 折；同云界线一样存在注册链接缺少 `#` 的格式差异。",
+    "pros": [
+      "¥5.6/月预算极低，明确支持 VLESS 与第三方订阅"
+    ],
+    "limitations": [
+      "推广链接缺少 `#/` 格式与多数站点不同",
+      "缺少实测数据、完整套餐表与节点覆盖清单"
+    ],
+    "risks": [
+      "注册入口格式异常需人工确认可打开性"
+    ],
+    "suitableFor": [
+      "极低预算且愿意先核实入口的 VLESS 备用用户"
+    ],
+    "notSuitableFor": [
+      "需要实测速度与流媒体解锁数据的用户"
+    ],
+    "conflicts": [],
+    "dataStatus": "Vendor Data",
+    "evidenceCompleteness": "basic",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32"
+    ],
+    "reviewUrl": "/reviews/huanqiuti/"
+  },
+  {
+    "entityId": "brand-tiziyun",
+    "slug": "tiziyun",
+    "name": "梯子云",
+    "englishName": "LadderCloud",
+    "aliases": [
+      "tiziyun",
+      "LadderCloud",
+      "梯子云 LadderCloud"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": false,
+    "logo": "/images/logos/opt/tiziyun.webp",
+    "accentColor": "#0284c7",
+    "foundedYear": 2025,
+    "officialUrlStatus": "aff-only-needs-domain-verification",
+    "affiliateUrl": "https://tiziyun3.ladderaff.com/#/?code=7EmnpHs0",
+    "affiliateUrlNote": "含推广链接；24个站点前缀表另列有 https://varnexa.ladderaff.com。",
+    "couponCode": "tiziyun",
+    "couponDiscount": "待核实",
+    "couponRestriction": "待核实",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "60+ 节点（品牌资料）",
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国",
+      "台湾"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "self-hosted-and-third-party",
+    "clientNotes": "品牌资料同时提供自研全平台一键登录客户端与通用订阅导入（兼顾新手与进阶用户）。",
+    "entryMonthlyCny": 7.4,
+    "entryLabel": "年付约 ¥7.4/月（60GB/月，完整多档套餐表待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "品牌资料称“完美解锁”（属厂商声明，未独立实测）",
+        "dataStatus": "Vendor Data"
+      },
+      "Claude": {
+        "status": "品牌资料称“完美解锁”（属厂商声明，未独立实测）",
+        "dataStatus": "Vendor Data"
+      },
+      "Gemini": {
+        "status": "未分项说明",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "品牌资料称“完美解锁”",
+        "dataStatus": "Vendor Data"
+      },
+      "Disney+": {
+        "status": "品牌资料称“完美解锁”",
+        "dataStatus": "Vendor Data"
+      },
+      "YouTube": {
+        "status": "未分项说明",
+        "dataStatus": "Vendor Data"
+      },
+      "HBO Max": {
+        "status": "未分项说明",
+        "dataStatus": "Vendor Data"
+      },
+      "TikTok": {
+        "status": "品牌资料称“完美解锁”",
+        "dataStatus": "Vendor Data"
+      },
+      "Spotify": {
+        "status": "未分项说明",
+        "dataStatus": "Vendor Data"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "在线客服与工单支持，海外专业技术团队常驻维护（品牌资料）",
+    "positioning": "2025 年运营 · 自研一键客户端 + 通用订阅双支持 · 60+ 节点",
+    "summary": "2025 年起运营的 IEPL + VLESS 机场，年付约 ¥7.4/月（60GB），同时支持自研全平台一键登录客户端与通用第三方订阅导入，官方宣称 60+ 节点与 2Gbps+ 独立带宽（含 500Mbps 高峰冗余）。",
+    "pros": [
+      "兼具自研全平台一键登录客户端与通用订阅双支持，比纯专属客户端机场更灵活",
+      "官方标称 60+ 节点、覆盖港日新美台核心枢纽与在线工单支持"
+    ],
+    "limitations": [
+      "缺少第三方测速截图与完整多档价格表",
+      "“完美解锁”等措辞仅为品牌资料声明，未经过本站独立实测"
+    ],
+    "risks": [
+      "2025 年新品牌，高规格带宽宣称缺乏截图证据支撑",
+      "存在 tiziyun3 与 varnexa 两个推广子域名记录"
+    ],
+    "suitableFor": [
+      "想要一键客户端上手同时也保留以后切换 Clash/Shadowrocket 自由度的新手"
+    ],
+    "notSuitableFor": [
+      "非实测截图不选的谨慎型用户"
+    ],
+    "conflicts": [
+      {
+        "field": "affiliateUrl",
+        "primaryValue": "https://tiziyun3.ladderaff.com/#/?code=7EmnpHs0",
+        "conflictingValue": "https://varnexa.ladderaff.com",
+        "primarySource": "32家机场品牌清单.txt",
+        "conflictingSource": "24个站点的aff替换前缀.txt",
+        "note": "推广子域名前缀不同（tiziyun3 vs varnexa）。"
+      }
+    ],
+    "dataStatus": "Vendor Data",
+    "evidenceCompleteness": "medium",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24"
+    ],
+    "reviewUrl": "/reviews/tiziyun/"
+  },
+  {
+    "entityId": "brand-lingdong",
+    "slug": "lingdong",
+    "name": "灵动云",
+    "aliases": [
+      "lingdong"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": true,
+    "logo": "/images/logos/灵动云256x256.png",
+    "accentColor": "#0ea5e9",
+    "foundedYear": 2025,
+    "officialUrlStatus": "historical-entry-needs-verification",
+    "affiliateUrl": "https://varnexa.lingdongaff.com/#/?code=wZvEhEoI",
+    "affiliateUrlNote": "含推广链接；来源 2026-08-09 历史品牌库记录，不保证当前持续有效。",
+    "couponCode": null,
+    "couponDiscount": "优惠码尚未核实",
+    "couponRestriction": null,
+    "paymentMethods": [
+      "支付宝",
+      "USDT（历史资料注明微信需联系客服）"
+    ],
+    "protocols": [
+      "VLESS",
+      "Trojan"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "60 节点（2026-07-20/21 实测摘要提及 60 测速 / 60 解锁）",
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限速不限设备（历史资料）",
+    "clientMode": "unverified",
+    "clientNotes": "历史资料未限定专属客户端，已通过 VLESS 订阅完成 60 节点实测。",
+    "entryMonthlyCny": 8.25,
+    "entryLabel": "¥99/年灵动·穿云（折合 ¥8.25/月 · 70GB/月）；拂风月付 ¥20（100GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "2026-07-20/21 实测各地区基本全解锁（亮点）",
+        "dataStatus": "Historical Data"
+      },
+      "Claude": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "Gemini": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "2026-07-20/21 实测台湾落地识别偏欧（ES）",
+        "dataStatus": "Historical Data"
+      },
+      "Disney+": {
+        "status": "2026-07-20/21 实测台湾落地识别偏欧（ES）",
+        "dataStatus": "Historical Data"
+      },
+      "YouTube": {
+        "status": "2026-07-20/21 实测新加坡/台湾 YouTube 送中",
+        "dataStatus": "Historical Data"
+      },
+      "HBO Max": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "2026-07-20/21 实测多失败",
+        "dataStatus": "Historical Data"
+      },
+      "Spotify": {
+        "status": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "历史资料提及微信支付需联系客服",
+    "positioning": "2025 年开业历史收录（末尾追加）· 全周期套餐 + 07-20/21 实测摘要",
+    "summary": "来自 2026-08-09 历史品牌库记录的 2025 年开业 IEPL/VLESS 专线机场，展开了月付至三年付全部周期价目、穿云 ¥99/年及三档一次性流量包，并附带 2026-07-20/21 60 节点测速与解锁文字实测摘要。",
+    "pros": [
+      "拥有完整的月/季/半年/年/两年/三年付展开价目表（含 ¥99/年 70GB 穿云与 150G/400G/800G 流量包）",
+      "具备 2026-07-20/21 珠海联通 9Gbps 60 节点实测摘要：20–80MB/s 且 OpenAI 各地区基本全解锁"
+    ],
+    "limitations": [
+      "2026-07-20/21 实测同时暴露出 HTTPS 延迟偏高、TikTok 多失败、新/台 YouTube 送中、美国01 整节点失败与台湾 NF/D+ 识别为 ES",
+      "至尊私人定制 ¥620/月 流量在原截图中被遮挡",
+      "2026-08-09 历史记录尚缺当前优惠码与近 30 日复测"
+    ],
+    "risks": [
+      "历史记录时效性风险：当前入口、优惠码与套餐价格均需核实"
+    ],
+    "suitableFor": [
+      "看重 OpenAI 全解锁历史实测及多周期（最长三年付）与大流量选项的用户"
+    ],
+    "notSuitableFor": [
+      "依赖 TikTok 稳定解锁、台湾原生流媒体或要求近 30 日最新实测的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "protocols",
+        "primaryValue": "VLESS（2026-07-20/21 实测）",
+        "conflictingValue": "站点页面文案 VLESS / Trojan 混提",
+        "primarySource": "32家机场品牌清单.txt 第970行",
+        "conflictingSource": "32家机场品牌清单.txt 第970行",
+        "note": "站点页面文案同时出现 VLESS 与 Trojan，实测为 VLESS。"
+      }
+    ],
+    "dataStatus": "Historical Data",
+    "evidenceCompleteness": "high",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32-appended",
+      "src-aff-prefixes-24",
+      "src-speedtest-lingdong-2026-07-20"
+    ],
+    "reviewUrl": "/reviews/lingdong/"
+  },
+  {
+    "entityId": "brand-langwang",
+    "slug": "langwang",
+    "name": "浪网",
+    "englishName": "WaveNet",
+    "aliases": [
+      "langwang",
+      "WaveNet",
+      "浪网 WaveNet"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": true,
+    "logo": "/images/logos/langwang.svg",
+    "accentColor": "#0284c7",
+    "foundedYear": null,
+    "officialUrlStatus": "historical-entry-needs-verification",
+    "affiliateUrl": "https://varnexa.wavenetaff.com/#/?code=xwAM4tTd",
+    "affiliateUrlNote": "含推广链接；来源 2026-08-09 历史品牌库记录，不保证当前有效。",
+    "couponCode": null,
+    "couponDiscount": "优惠码尚未核实",
+    "couponRestriction": null,
+    "paymentMethods": [
+      "待核实"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实（原截图被遮挡）",
+    "clientMode": "unverified",
+    "clientNotes": "待核实",
+    "entryMonthlyCny": 9.92,
+    "entryLabel": "¥119/年年付标准（折合 ¥9.92/月 · 80GB/月）；入门月付 ¥30（截150G 遮挡待核实）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      },
+      "Claude": {
+        "status": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      },
+      "Gemini": {
+        "status": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      },
+      "Disney+": {
+        "status": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      },
+      "YouTube": {
+        "status": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      },
+      "HBO Max": {
+        "status": "未实测",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "未实测",
+        "dataStatus": "Not Tested"
+      },
+      "Spotify": {
+        "status": "未实测",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2026-08-09 历史收录（末尾追加）· IEPL 全周期档（多字段待核实）",
+    "summary": "来自 2026-08-09 历史品牌库记录的 IEPL 专线机场，涵盖入门(¥30)、进阶(¥70)、高端(¥120)、商业(¥200) 月付至三年付及年付标准(¥119)、流量包与定制线路，但尚未实测且入门档流量与设备限制在原截图中被遮挡。",
+    "pros": [
+      "提供极完整的多周期价格阶梯（含 800G 高端与 2000G 商业级套餐）",
+      "推广前缀在两份文件中一致（varnexa.wavenetaff.com）"
+    ],
+    "limitations": [
+      "原资料明确标注未实测，无速度/延迟/解锁结果",
+      "入门档流量在原表中记为“截150G（截图遮挡）”，设备数量、节点地区、协议、支付与客户端均缺字段"
+    ],
+    "risks": [
+      "历史记录缺乏实测背书且多字段被遮挡，信息完整度低"
+    ],
+    "suitableFor": [
+      "仅做品牌档案检索或需要 2000G 商业级历史价格对照的研究型用户"
+    ],
+    "notSuitableFor": [
+      "希望直接参考实测数据与明确解锁表下单的用户"
+    ],
+    "conflicts": [
+      {
+        "field": "planTraffic",
+        "primaryValue": "入门档记录“截150G”（截图部分遮挡）",
+        "conflictingValue": "正文第1083行明确提示“套餐流量与设备限制被遮挡”",
+        "primarySource": "32家机场品牌清单.txt 第1066–1071行",
+        "conflictingSource": "32家机场品牌清单.txt 第1083行",
+        "note": "入门档 150G 字段存在截图遮挡，本站将入门档 trafficGb 保持 null 并在 trafficLabel 注明遮挡。"
+      }
+    ],
+    "dataStatus": "Historical Data",
+    "evidenceCompleteness": "basic",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32-appended",
+      "src-aff-prefixes-24"
+    ],
+    "reviewUrl": "/reviews/langwang/"
+  },
+  {
+    "entityId": "brand-edgenova",
+    "slug": "edgenova",
+    "name": "边缘节点 EdgeNova",
+    "englishName": "EdgeNova",
+    "aliases": [
+      "edgenova",
+      "EdgeNova",
+      "边缘节点"
+    ],
+    "featuredRank": null,
+    "isLeadBrand": false,
+    "isAppendedBrand": true,
+    "logo": "/images/logos/opt/edgenova.webp",
+    "accentColor": "#6366f1",
+    "foundedYear": null,
+    "officialUrlStatus": "historical-entry-needs-verification",
+    "affiliateUrl": "https://work.edgenovaaff.cc/#/register?code=cl3iB5YG",
+    "couponCode": "TH888",
+    "couponDiscount": "8 折（历史资料记录）",
+    "couponRestriction": "待核实现行有效性",
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "routeTypes": [
+      "高速直连",
+      "IPLC",
+      "多线路自动分配"
+    ],
+    "nodeCountLabel": "待核实",
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "clientMode": "unverified",
+    "clientNotes": "待核实",
+    "entryMonthlyCny": 9,
+    "entryLabel": "¥108/年限时年付（折合 ¥9.00/月 · 45GB/月）；限时月付 ¥15（72GB/月）",
+    "aiSupportSummary": {
+      "ChatGPT": {
+        "status": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      "Claude": {
+        "status": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      "Gemini": {
+        "status": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "streamingSummary": {
+      "Netflix": {
+        "status": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      "Disney+": {
+        "status": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      "YouTube": {
+        "status": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      "HBO Max": {
+        "status": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      "TikTok": {
+        "status": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      "Spotify": {
+        "status": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      }
+    },
+    "refundPolicy": "待核实",
+    "supportChannels": "待核实",
+    "positioning": "2026-08-09 历史收录（末尾追加）· 高速直连/IPLC · 支持支付宝/微信/USDT",
+    "summary": "来自 2026-08-09 历史品牌库记录，主打高速直连 / IPLC 与多线路自动分配，涵盖限时月付(¥15/72G)、限时年付(¥108/45G)及极界标准/进阶/高级/极限四档月付至年付，支持支付宝/微信/USDT，优惠码 TH888（8 折）。",
+    "pros": [
+      "提供清晰的多档月/季/半年/年价格表及限时年/月付入门档",
+      "支付方式明确支持支付宝、微信与 USDT",
+      "推广前缀在两份文件中一致（work.edgenovaaff.cc）"
+    ],
+    "limitations": [
+      "未提供可比的逐地区测速数据与 AI/流媒体独立逐项测试结果",
+      "缺少具体协议、节点地区、设备限制与客户端说明"
+    ],
+    "risks": [
+      "2026-08-09 历史记录，现行优惠码 TH888 与入口有效性需核实"
+    ],
+    "suitableFor": [
+      "需要国内主流支付 + USDT 且偏好 IPLC/多线路自动分配历史价目对比的用户"
+    ],
+    "notSuitableFor": [
+      "购买前需要明确测速与流媒体实测结果的用户"
+    ],
+    "conflicts": [],
+    "dataStatus": "Historical Data",
+    "evidenceCompleteness": "basic",
+    "verifiedDate": "2026-11-24",
+    "updatedDate": "2026-11-24",
+    "sourceIds": [
+      "src-brand-list-32-appended",
+      "src-aff-prefixes-24"
+    ],
+    "reviewUrl": "/reviews/edgenova/"
+  }
+]

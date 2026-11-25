@@ -1,0 +1,1887 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-25",
+  "totalMappedUrls": 121,
+  "cannibalizationChecksPassed": true,
+  "items": [
+    {
+      "canonicalUrl": "/",
+      "pageRole": "home",
+      "pillar": "home",
+      "primaryIntent": "实验室首页与全站机场评测导航",
+      "primaryKeyword": "机场测评",
+      "secondaryKeywords": [
+        "机场评测实验室",
+        "Airport Review Lab",
+        "jichangceping.biz"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场测评」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/recommend/",
+      "pageRole": "pillar",
+      "pillar": "recommend",
+      "primaryIntent": "2026 综合机场推荐与按场景选型指南",
+      "primaryKeyword": "机场推荐",
+      "secondaryKeywords": [
+        "好用机场推荐",
+        "机场怎么选",
+        "机场推荐指南"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场推荐」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/rankings/",
+      "pageRole": "subpage",
+      "pillar": "recommend",
+      "primaryIntent": "实测证据与合作展示分离的机场分级榜单",
+      "primaryKeyword": "机场排行",
+      "secondaryKeywords": [
+        "机场排行榜",
+        "机场排名 2026",
+        "梯子排行"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场排行」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/recommend/stable/",
+      "pageRole": "subpage",
+      "pillar": "recommend",
+      "primaryIntent": "老牌背景与专线架构下的稳定机场筛选标准",
+      "primaryKeyword": "稳定机场推荐",
+      "secondaryKeywords": [
+        "靠谱机场推荐",
+        "长期稳定机场",
+        "不丢包机场"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「稳定机场推荐」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/recommend/beginner/",
+      "pageRole": "subpage",
+      "pillar": "recommend",
+      "primaryIntent": "零基础入门与专属客户端机场对比选择",
+      "primaryKeyword": "新手机场推荐",
+      "secondaryKeywords": [
+        "老牌机场推荐",
+        "一键客户端机场",
+        "小白买机场"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「新手机场推荐」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/recommend/multi-device/",
+      "pageRole": "subpage",
+      "pillar": "recommend",
+      "primaryIntent": "多设备同时在线与高速专线机场选型",
+      "primaryKeyword": "不限设备机场",
+      "secondaryKeywords": [
+        "多设备共用机场",
+        "家庭团队机场",
+        "高速机场推荐"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「不限设备机场」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/plans/",
+      "pageRole": "pillar",
+      "pillar": "plans",
+      "primaryIntent": "机场套餐计费模式与单价评估总览",
+      "primaryKeyword": "机场价格套餐",
+      "secondaryKeywords": [
+        "机场多少钱一个月",
+        "机场流量套餐怎么选",
+        "机场月付年付对比"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场价格套餐」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/plans/database/",
+      "pageRole": "subpage",
+      "pillar": "plans",
+      "primaryIntent": "31家机场219档套餐与每GB单价横向检索",
+      "primaryKeyword": "机场套餐价格数据库",
+      "secondaryKeywords": [
+        "机场套餐价格表",
+        "机场每GB成本对比",
+        "机场套餐筛选"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场套餐价格数据库」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/plans/budget/",
+      "pageRole": "subpage",
+      "pillar": "plans",
+      "primaryIntent": "5.6元至10元月付入门高性价比机场真实限制分析",
+      "primaryKeyword": "便宜高性价比机场",
+      "secondaryKeywords": [
+        "便宜机场推荐",
+        "低价机场避坑",
+        "学生党平价机场"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「便宜高性价比机场」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/plans/non-expiring/",
+      "pageRole": "subpage",
+      "pillar": "plans",
+      "primaryIntent": "一次性不限时流量包价格、折算单价与风险对比",
+      "primaryKeyword": "不限时流量机场",
+      "secondaryKeywords": [
+        "按流量计费机场",
+        "不过期机场套餐",
+        "备用流量包机场"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「不限时流量机场」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/deals/",
+      "pageRole": "subpage",
+      "pillar": "plans",
+      "primaryIntent": "31家机场公开优惠码、折扣限制与口径冲突核查",
+      "primaryKeyword": "机场优惠码汇总",
+      "secondaryKeywords": [
+        "机场折扣码",
+        "机场新人优惠券",
+        "机场活动码核实"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场优惠码汇总」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/brands/",
+      "pageRole": "directory",
+      "pillar": "brands",
+      "primaryIntent": "31家在库机场品牌检索、筛选与核验档案入口",
+      "primaryKeyword": "机场品牌库",
+      "secondaryKeywords": [
+        "机场大全",
+        "机场品牌列表",
+        "机场名录 31 家"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场品牌库」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/reviews/",
+      "pageRole": "pillar",
+      "pillar": "brands",
+      "primaryIntent": "全部31家机场测评目录与证据完整度说明",
+      "primaryKeyword": "机场深度测评汇总",
+      "secondaryKeywords": [
+        "机场评测报告",
+        "机场真实测评",
+        "机场测评目录"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场深度测评汇总」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/compare/",
+      "pageRole": "subpage",
+      "pillar": "brands",
+      "primaryIntent": "多机场品牌套餐、专线、客户端与实测交互对比",
+      "primaryKeyword": "机场横向对比工具",
+      "secondaryKeywords": [
+        "机场对比",
+        "机场参数对比器",
+        "机场PK工具"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场横向对比工具」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/vpn/",
+      "pageRole": "pillar",
+      "pillar": "vpn",
+      "primaryIntent": "传统商业VPN、机场代理与游戏加速器定位总览",
+      "primaryKeyword": "VPN与加速器专题",
+      "secondaryKeywords": [
+        "VPN推荐对比",
+        "科学上网工具分类",
+        "代理服务选型"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「VPN与加速器专题」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/vpn/vpn-vs-airport/",
+      "pageRole": "subpage",
+      "pillar": "vpn",
+      "primaryIntent": "商业VPN与机场在协议、分流、并发与风险上的本质差异",
+      "primaryKeyword": "VPN和机场的区别",
+      "secondaryKeywords": [
+        "机场和VPN哪个好",
+        "传统VPN vs 机场",
+        "为什么用机场不用VPN"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「VPN和机场的区别」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/vpn/platforms/",
+      "pageRole": "subpage",
+      "pillar": "vpn",
+      "primaryIntent": "Windows/macOS/iOS/Android/路由器跨平台代理客户端与VPN搭配",
+      "primaryKeyword": "多平台VPN选型",
+      "secondaryKeywords": [
+        "全平台翻墙客户端",
+        "电脑手机通用代理",
+        "跨系统VPN方案"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「多平台VPN选型」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/vpn/game-booster/",
+      "pageRole": "subpage",
+      "pillar": "vpn",
+      "primaryIntent": "游戏联机加速器与机场代理在UDP/NAT/延迟上的区别",
+      "primaryKeyword": "游戏加速器与机场代理",
+      "secondaryKeywords": [
+        "机场能打游戏吗",
+        "FullCone NAT 机场",
+        "联机加速器区别"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「游戏加速器与机场代理」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/clients/",
+      "pageRole": "pillar",
+      "pillar": "clients",
+      "primaryIntent": "24款全平台第三方代理客户端总览与安全选型",
+      "primaryKeyword": "代理客户端软件",
+      "secondaryKeywords": [
+        "科学上网客户端下载",
+        "代理软件大全",
+        "开源代理客户端"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「代理客户端软件」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/clients/compatibility/",
+      "pageRole": "subpage",
+      "pillar": "clients",
+      "primaryIntent": "31家机场专属客户端与第三方订阅兼容对照表",
+      "primaryKeyword": "机场客户端兼容性矩阵",
+      "secondaryKeywords": [
+        "支持Clash的机场",
+        "专属客户端机场列表",
+        "不提供订阅的机场"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场客户端兼容性矩阵」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/ai-streaming/",
+      "pageRole": "pillar",
+      "pillar": "ai-streaming",
+      "primaryIntent": "ChatGPT/Claude/Gemini与Netflix/Disney+/YouTube解锁逻辑总览",
+      "primaryKeyword": "AI与流媒体解锁",
+      "secondaryKeywords": [
+        "流媒体解锁机场",
+        "AI工具代理节点",
+        "原生IP解锁原理"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「AI与流媒体解锁」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/ai-streaming/ai-tools/",
+      "pageRole": "subpage",
+      "pillar": "ai-streaming",
+      "primaryIntent": "主流AI对话服务地域封锁与节点ASN实测差异",
+      "primaryKeyword": "ChatGPT Claude Gemini 机场节点",
+      "secondaryKeywords": [
+        "解锁ChatGPT的机场",
+        "Claude防封号节点",
+        "Gemini解锁地区"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「ChatGPT Claude Gemini 机场节点」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/ai-streaming/streaming/",
+      "pageRole": "subpage",
+      "pillar": "ai-streaming",
+      "primaryIntent": "Netflix/Disney+/YouTube/TikTok解锁与送中(CN)检测解析",
+      "primaryKeyword": "Netflix Disney YouTube 解锁",
+      "secondaryKeywords": [
+        "YouTube送中怎么办",
+        "TikTok解锁机场",
+        "Netflix原生IP节点"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「Netflix Disney YouTube 解锁」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/ai-streaming/matrix/",
+      "pageRole": "subpage",
+      "pillar": "ai-streaming",
+      "primaryIntent": "31家机场9大AI与流媒体服务实测及声明状态对照表",
+      "primaryKeyword": "AI流媒体可用性矩阵",
+      "secondaryKeywords": [
+        "机场解锁对比表",
+        "流媒体支持矩阵",
+        "AI解锁对照"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「AI流媒体可用性矩阵」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/network/",
+      "pageRole": "pillar",
+      "pillar": "network",
+      "primaryIntent": "直连、中转、BGP、IEPL与IPLC线路架构及落地节点解析",
+      "primaryKeyword": "机场线路与节点技术",
+      "secondaryKeywords": [
+        "机场线路类型",
+        "中转与专线区别",
+        "节点拓扑解析"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场线路与节点技术」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/network/iepl-vs-iplc/",
+      "pageRole": "subpage",
+      "pillar": "network",
+      "primaryIntent": "IEPL以太网专线与IPLC国际专线技术原理与成本对比",
+      "primaryKeyword": "IEPL和IPLC区别",
+      "secondaryKeywords": [
+        "什么是IEPL专线",
+        "什么是IPLC专线",
+        "专线机场值不值得买"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「IEPL和IPLC区别」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/network/regions/",
+      "pageRole": "subpage",
+      "pillar": "network",
+      "primaryIntent": "香港、台湾、日本、新加坡、美国与欧洲节点延迟及用途差异",
+      "primaryKeyword": "港台日新美节点选择",
+      "secondaryKeywords": [
+        "香港节点和日本节点区别",
+        "新加坡节点用途",
+        "美区节点延迟"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「港台日新美节点选择」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/benchmarks/",
+      "pageRole": "subpage",
+      "pillar": "network",
+      "primaryIntent": "2026-07/08/10 多批次测速截图证据与非晚高峰历史记录检索",
+      "primaryKeyword": "机场测速数据库",
+      "secondaryKeywords": [
+        "机场测速结果",
+        "MiaoKo测速截图",
+        "晚高峰测速对比"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场测速数据库」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/methodology/",
+      "pageRole": "subpage",
+      "pillar": "network",
+      "primaryIntent": "6维权重评分体系(25/20/20/15/10/10)与数据真实性规范",
+      "primaryKeyword": "机场测评方法论",
+      "secondaryKeywords": [
+        "测评指标权重",
+        "数据状态标签说明",
+        "测速不可比原则"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场测评方法论」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/guides/",
+      "pageRole": "pillar",
+      "pillar": "guides",
+      "primaryIntent": "从购买订阅到客户端配置、分流优化与测速核验全流程",
+      "primaryKeyword": "机场使用教程",
+      "secondaryKeywords": [
+        "科学上网教程",
+        "代理客户端新手指南",
+        "机场入门教学"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场使用教程」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/guides/subscription/",
+      "pageRole": "subpage",
+      "pillar": "guides",
+      "primaryIntent": "Clash YAML、V2Ray/Base64、sing-box订阅链接导入与转换指南",
+      "primaryKeyword": "机场订阅导入教程",
+      "secondaryKeywords": [
+        "订阅链接怎么用",
+        "Clash导入订阅",
+        "订阅转换安全注意"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场订阅导入教程」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/guides/tun-dns/",
+      "pageRole": "subpage",
+      "pillar": "guides",
+      "primaryIntent": "虚拟网卡TUN模式、Fake-IP与Redir-Host及防DNS泄漏配置",
+      "primaryKeyword": "TUN模式与DNS分流设置",
+      "secondaryKeywords": [
+        "Clash TUN模式教程",
+        "Fake-IP和Redir-Host区别",
+        "DNS分流设置"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「TUN模式与DNS分流设置」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/guides/speedtest-guide/",
+      "pageRole": "subpage",
+      "pillar": "guides",
+      "primaryIntent": "如何正确读取MiaoKo/URL-Test延迟、单线程测速与避坑技巧",
+      "primaryKeyword": "机场自测速方法指南",
+      "secondaryKeywords": [
+        "怎么测机场速度",
+        "URL-Test延迟准吗",
+        "晚高峰自测步骤"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场自测速方法指南」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/knowledge/",
+      "pageRole": "subpage",
+      "pillar": "guides",
+      "primaryIntent": "代理原理、加密隧道、分流规则与NAT类型科普中心",
+      "primaryKeyword": "网络代理基础科普",
+      "secondaryKeywords": [
+        "代理协议科普",
+        "什么是节点倍率",
+        "ACL分流原理"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「网络代理基础科普」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/knowledge/protocols/",
+      "pageRole": "subpage",
+      "pillar": "guides",
+      "primaryIntent": "Shadowsocks、VMess、VLESS、Trojan、Hysteria 2、AnyTLS、TUIC技术特性对比",
+      "primaryKeyword": "代理协议对比 VLESS Trojan SS Hysteria2 AnyTLS",
+      "secondaryKeywords": [
+        "VLESS和Trojan区别",
+        "AnyTLS是什么协议",
+        "Hysteria2优缺点"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「代理协议对比 VLESS Trojan SS Hysteria2 AnyTLS」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/troubleshooting/",
+      "pageRole": "pillar",
+      "pillar": "troubleshooting",
+      "primaryIntent": "代理连接异常、订阅更新报错与系统代理冲突总诊断流程",
+      "primaryKeyword": "机场故障排查指南",
+      "secondaryKeywords": [
+        "梯子连不上怎么办",
+        "代理软件故障排查",
+        "机场断流解决"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场故障排查指南」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/troubleshooting/subscription-failed/",
+      "pageRole": "subpage",
+      "pillar": "troubleshooting",
+      "primaryIntent": "拉取订阅报错、SSL证书异常、YAML解析错误与被墙域名排查",
+      "primaryKeyword": "订阅更新失败怎么办",
+      "secondaryKeywords": [
+        "Clash下载配置失败",
+        "订阅链接打不开",
+        "节点列表为空"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「订阅更新失败怎么办」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/troubleshooting/node-timeout/",
+      "pageRole": "subpage",
+      "pillar": "troubleshooting",
+      "primaryIntent": "系统时间偏差、本地网络封锁、套餐流量耗尽与全节点Timeout排查",
+      "primaryKeyword": "节点全部超时不可用",
+      "secondaryKeywords": [
+        "节点延迟-1",
+        "全部节点timeout",
+        "连上节点没网"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「节点全部超时不可用」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/troubleshooting/tun-dns-error/",
+      "pageRole": "subpage",
+      "pillar": "troubleshooting",
+      "primaryIntent": "TUN权限冲突、本地DNS环路、IPv6泄漏与国内网站打不开排查",
+      "primaryKeyword": "开启TUN模式断网与DNS污染",
+      "secondaryKeywords": [
+        "TUN模式上不了网",
+        "DNS污染排查",
+        "开启代理国内网站慢"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「开启TUN模式断网与DNS污染」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/risks/",
+      "pageRole": "pillar",
+      "pillar": "risks",
+      "primaryIntent": "机场跑路风险、资金周期控制与隐私安全防范体系",
+      "primaryKeyword": "机场风险与避坑指南",
+      "secondaryKeywords": [
+        "买机场避坑",
+        "机场安全吗",
+        "机场风险控制"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场风险与避坑指南」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/risks/exit-scam-signals/",
+      "pageRole": "subpage",
+      "pillar": "risks",
+      "primaryIntent": "大额长期促销、工单失联、域名频繁失效与节点批量掉线识别",
+      "primaryKeyword": "机场跑路征兆与异常信号",
+      "secondaryKeywords": [
+        "机场要跑路的特征",
+        "如何判断机场稳不稳",
+        "跑路前兆"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场跑路征兆与异常信号」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/risks/billing-risks/",
+      "pageRole": "subpage",
+      "pillar": "risks",
+      "primaryIntent": "多年付沉没成本、不限时跑路风险与免费节点隐私安全警示",
+      "primaryKeyword": "机场年付不限时和免费机场风险",
+      "secondaryKeywords": [
+        "机场买月付还是年付",
+        "免费机场能用吗",
+        "不限时套餐风险"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场年付不限时和免费机场风险」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/risks/archives/",
+      "pageRole": "subpage",
+      "pillar": "risks",
+      "primaryIntent": "31家品牌开业时间、数据冲突、历史追加记录与风险等级归档",
+      "primaryKeyword": "机场品牌运营档案与冲突记录",
+      "secondaryKeywords": [
+        "机场老牌时间线",
+        "机场文档口径冲突",
+        "历史追加品牌档案"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场品牌运营档案与冲突记录」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/risks/alternatives/",
+      "pageRole": "subpage",
+      "pillar": "risks",
+      "primaryIntent": "多机场分散容灾策略与高风险/专属端锁定品牌的替代选择",
+      "primaryKeyword": "机场替代与备选方案",
+      "secondaryKeywords": [
+        "备用机场推荐",
+        "机场双备方案",
+        "停服替代机场"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场替代与备选方案」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/about/",
+      "pageRole": "about",
+      "pillar": "about",
+      "primaryIntent": "编辑团队、推广披露原则、数据源透明声明与合规提示",
+      "primaryKeyword": "关于机场测评实验室",
+      "secondaryKeywords": [
+        "机场测评编辑规范",
+        "佣金披露声明",
+        "联系机场测评"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「关于机场测评实验室」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/compare/guangsuyun-vs-feimao/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "光速云与飞猫云在价格、专线、客户端自由度与实测上的差异对比",
+      "primaryKeyword": "光速云和飞猫云对比",
+      "secondaryKeywords": [
+        "光速云 vs 飞猫云",
+        "飞猫云和光速云哪个好"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/compare/guangsuyun-vs-muguang/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "光速云与暮光加速在套餐结构、BGP/IEPL与实测证据上的对比",
+      "primaryKeyword": "光速云和暮光加速对比",
+      "secondaryKeywords": [
+        "光速云 vs 暮光加速",
+        "暮光和光速云怎么选"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/compare/guangsuyun-vs-xingdaomeng/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "两家2020年老牌机场光速云与星岛梦的套餐与多地区节点对比",
+      "primaryKeyword": "光速云和星岛梦对比",
+      "secondaryKeywords": [
+        "光速云 vs 星岛梦",
+        "2020老牌机场对比"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/compare/guangsuyun-vs-ermao/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "光速云与二猫云在年付价格、不限时包与专线实测上的对比",
+      "primaryKeyword": "光速云和二猫云对比",
+      "secondaryKeywords": [
+        "光速云 vs 二猫云",
+        "二猫云和光速云区别"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/compare/guangsuyun-vs-weifeng/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "光速云与微风网络在VLESS/SS实测速度与百元套餐上的对比",
+      "primaryKeyword": "光速云和微风网络对比",
+      "secondaryKeywords": [
+        "光速云 vs 微风网络",
+        "微风和光速云测评对比"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/compare/guangsuyun-vs-weitu/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "光速云与唯兔云在IPLC/IEPL专线、设备限制与价格梯度上的对比",
+      "primaryKeyword": "光速云和唯兔云对比",
+      "secondaryKeywords": [
+        "光速云 vs 唯兔云",
+        "唯兔云和光速云哪个好"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/compare/guangsuyun-vs-firefly/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "光速云与Firefly在客户端开放度、IPLC路线与优惠口径上的对比",
+      "primaryKeyword": "光速云和Firefly对比",
+      "secondaryKeywords": [
+        "光速云 vs Firefly",
+        "Firefly萤火虫和光速云对比"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/compare/iepl-vs-iplc/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "库内IEPL专线品牌与IPLC专线品牌的代表套餐与架构对比",
+      "primaryKeyword": "IEPL专线与IPLC专线机场横向对比",
+      "secondaryKeywords": [
+        "IEPL机场和IPLC机场区别",
+        "专线机场横向对比"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/compare/monthly-vs-annual/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "月付试错成本与年付折算单价、跑路风险的量化比较",
+      "primaryKeyword": "机场月付与年付套餐对比",
+      "secondaryKeywords": [
+        "机场买月付还是年付划算",
+        "年付机场风险评估"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/compare/non-expiring-plans/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "光速云、暮光、飞猫、微风、星岛梦、二猫、无忧不限时流量包单价对比",
+      "primaryKeyword": "不限时流量包套餐横向对比",
+      "secondaryKeywords": [
+        "不限时机场套餐排名",
+        "一次性流量包哪个划算"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/compare/budget-airports/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "5.6元至9元入门机场在协议、客户端与资料完整度上的对比",
+      "primaryKeyword": "平价入门机场横向对比",
+      "secondaryKeywords": [
+        "5元机场对比",
+        "百元以下年付机场对比"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/compare/client-compatibility/",
+      "pageRole": "comparison",
+      "pillar": "brands",
+      "primaryIntent": "exclusive-only专属端机场与支持Clash/Shadowrocket通用订阅机场对比",
+      "primaryKeyword": "专属客户端与通用订阅机场对比",
+      "secondaryKeywords": [
+        "支持第三方订阅机场对比",
+        "自研客户端机场优缺点"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "聚焦双品牌或多维度横向对照，不替代单品牌 /reviews/<slug>/ 深度档案。"
+    },
+    {
+      "canonicalUrl": "/reviews/guangsuyun/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "光速云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "光速云测评",
+      "secondaryKeywords": [
+        "光速云怎么样",
+        "光速云机场",
+        "光速云价格套餐",
+        "光速云优惠码",
+        "光速云官网",
+        "LightSpeed 机场"
+      ],
+      "brandSlug": "guangsuyun",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「光速云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/muguang/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "暮光加速 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "暮光加速测评",
+      "secondaryKeywords": [
+        "暮光加速怎么样",
+        "暮光加速机场",
+        "暮光加速价格套餐",
+        "暮光加速优惠码",
+        "暮光加速官网",
+        "Twilight 机场"
+      ],
+      "brandSlug": "muguang",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「暮光加速」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/feimao/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "飞猫云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "飞猫云测评",
+      "secondaryKeywords": [
+        "飞猫云怎么样",
+        "飞猫云机场",
+        "飞猫云价格套餐",
+        "飞猫云优惠码",
+        "飞猫云官网",
+        "FlyCat 机场"
+      ],
+      "brandSlug": "feimao",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「飞猫云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/weifeng/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "微风网络 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "微风网络测评",
+      "secondaryKeywords": [
+        "微风网络怎么样",
+        "微风网络机场",
+        "微风网络价格套餐",
+        "微风网络优惠码",
+        "微风网络官网",
+        "Breezenet 机场"
+      ],
+      "brandSlug": "weifeng",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「微风网络」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/dalaoyun/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "大佬云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "大佬云测评",
+      "secondaryKeywords": [
+        "大佬云怎么样",
+        "大佬云机场",
+        "大佬云价格套餐",
+        "大佬云优惠码",
+        "大佬云官网"
+      ],
+      "brandSlug": "dalaoyun",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「大佬云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/xingdaomeng/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "星岛梦 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "星岛梦测评",
+      "secondaryKeywords": [
+        "星岛梦怎么样",
+        "星岛梦机场",
+        "星岛梦价格套餐",
+        "星岛梦优惠码",
+        "星岛梦官网",
+        "StarDream 机场"
+      ],
+      "brandSlug": "xingdaomeng",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「星岛梦」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/yinxingren/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "隐形人 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "隐形人测评",
+      "secondaryKeywords": [
+        "隐形人怎么样",
+        "隐形人机场",
+        "隐形人价格套餐",
+        "隐形人优惠码",
+        "隐形人官网"
+      ],
+      "brandSlug": "yinxingren",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「隐形人」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/ermao/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "二猫云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "二猫云测评",
+      "secondaryKeywords": [
+        "二猫云怎么样",
+        "二猫云机场",
+        "二猫云价格套餐",
+        "二猫云优惠码",
+        "二猫云官网",
+        "2mao 机场"
+      ],
+      "brandSlug": "ermao",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「二猫云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/wuyou/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "无忧链接 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "无忧链接测评",
+      "secondaryKeywords": [
+        "无忧链接怎么样",
+        "无忧链接机场",
+        "无忧链接价格套餐",
+        "无忧链接优惠码",
+        "无忧链接官网"
+      ],
+      "brandSlug": "wuyou",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「无忧链接」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/weitu/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "唯兔云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "唯兔云测评",
+      "secondaryKeywords": [
+        "唯兔云怎么样",
+        "唯兔云机场",
+        "唯兔云价格套餐",
+        "唯兔云优惠码",
+        "唯兔云官网"
+      ],
+      "brandSlug": "weitu",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「唯兔云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/firefly/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "Firefly 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "Firefly测评",
+      "secondaryKeywords": [
+        "Firefly怎么样",
+        "Firefly机场",
+        "Firefly价格套餐",
+        "Firefly优惠码",
+        "Firefly官网",
+        "Firefly 机场"
+      ],
+      "brandSlug": "firefly",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「Firefly」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/yuzhou/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "宇宙云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "宇宙云测评",
+      "secondaryKeywords": [
+        "宇宙云怎么样",
+        "宇宙云机场",
+        "宇宙云价格套餐",
+        "宇宙云优惠码",
+        "宇宙云官网",
+        "YuZhou 机场"
+      ],
+      "brandSlug": "yuzhou",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「宇宙云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/u1s1/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "U1S1 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "U1S1测评",
+      "secondaryKeywords": [
+        "U1S1怎么样",
+        "U1S1机场",
+        "U1S1价格套餐",
+        "U1S1优惠码",
+        "U1S1官网"
+      ],
+      "brandSlug": "u1s1",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「U1S1」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/lingmao/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "灵猫网络 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "灵猫网络测评",
+      "secondaryKeywords": [
+        "灵猫网络怎么样",
+        "灵猫网络机场",
+        "灵猫网络价格套餐",
+        "灵猫网络优惠码",
+        "灵猫网络官网"
+      ],
+      "brandSlug": "lingmao",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「灵猫网络」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/jilian/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "极连云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "极连云测评",
+      "secondaryKeywords": [
+        "极连云怎么样",
+        "极连云机场",
+        "极连云价格套餐",
+        "极连云优惠码",
+        "极连云官网"
+      ],
+      "brandSlug": "jilian",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「极连云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/guangnian/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "光年梯 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "光年梯测评",
+      "secondaryKeywords": [
+        "光年梯怎么样",
+        "光年梯机场",
+        "光年梯价格套餐",
+        "光年梯优惠码",
+        "光年梯官网"
+      ],
+      "brandSlug": "guangnian",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「光年梯」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/yifan/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "一翻云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "一翻云测评",
+      "secondaryKeywords": [
+        "一翻云怎么样",
+        "一翻云机场",
+        "一翻云价格套餐",
+        "一翻云优惠码",
+        "一翻云官网",
+        "1fly 机场"
+      ],
+      "brandSlug": "yifan",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「一翻云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/sogo/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "SOGO 云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "SOGO 云测评",
+      "secondaryKeywords": [
+        "SOGO 云怎么样",
+        "SOGO 云机场",
+        "SOGO 云价格套餐",
+        "SOGO 云优惠码",
+        "SOGO 云官网"
+      ],
+      "brandSlug": "sogo",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「SOGO 云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/kexin/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "可信云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "可信云测评",
+      "secondaryKeywords": [
+        "可信云怎么样",
+        "可信云机场",
+        "可信云价格套餐",
+        "可信云优惠码",
+        "可信云官网"
+      ],
+      "brandSlug": "kexin",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「可信云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/sujie/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "速界 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "速界测评",
+      "secondaryKeywords": [
+        "速界怎么样",
+        "速界机场",
+        "速界价格套餐",
+        "速界优惠码",
+        "速界官网",
+        "SuJie 机场"
+      ],
+      "brandSlug": "sujie",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「速界」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/shanyue/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "闪跃 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "闪跃测评",
+      "secondaryKeywords": [
+        "闪跃怎么样",
+        "闪跃机场",
+        "闪跃价格套餐",
+        "闪跃优惠码",
+        "闪跃官网",
+        "FlashLeap 机场"
+      ],
+      "brandSlug": "shanyue",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「闪跃」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/quanqiu/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "全球云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "全球云测评",
+      "secondaryKeywords": [
+        "全球云怎么样",
+        "全球云机场",
+        "全球云价格套餐",
+        "全球云优惠码",
+        "全球云官网"
+      ],
+      "brandSlug": "quanqiu",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「全球云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/shandianshu/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "闪电鼠 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "闪电鼠测评",
+      "secondaryKeywords": [
+        "闪电鼠怎么样",
+        "闪电鼠机场",
+        "闪电鼠价格套餐",
+        "闪电鼠优惠码",
+        "闪电鼠官网"
+      ],
+      "brandSlug": "shandianshu",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「闪电鼠」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/yunjiexian/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "云界线 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "云界线测评",
+      "secondaryKeywords": [
+        "云界线怎么样",
+        "云界线机场",
+        "云界线价格套餐",
+        "云界线优惠码",
+        "云界线官网"
+      ],
+      "brandSlug": "yunjiexian",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「云界线」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/liulianyun/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "榴莲云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "榴莲云测评",
+      "secondaryKeywords": [
+        "榴莲云怎么样",
+        "榴莲云机场",
+        "榴莲云价格套餐",
+        "榴莲云优惠码",
+        "榴莲云官网"
+      ],
+      "brandSlug": "liulianyun",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「榴莲云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/shenxing/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "神行加速 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "神行加速测评",
+      "secondaryKeywords": [
+        "神行加速怎么样",
+        "神行加速机场",
+        "神行加速价格套餐",
+        "神行加速优惠码",
+        "神行加速官网"
+      ],
+      "brandSlug": "shenxing",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「神行加速」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/huanqiuti/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "环球梯 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "环球梯测评",
+      "secondaryKeywords": [
+        "环球梯怎么样",
+        "环球梯机场",
+        "环球梯价格套餐",
+        "环球梯优惠码",
+        "环球梯官网"
+      ],
+      "brandSlug": "huanqiuti",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「环球梯」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/tiziyun/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "梯子云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "梯子云测评",
+      "secondaryKeywords": [
+        "梯子云怎么样",
+        "梯子云机场",
+        "梯子云价格套餐",
+        "梯子云优惠码",
+        "梯子云官网",
+        "LadderCloud 机场"
+      ],
+      "brandSlug": "tiziyun",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「梯子云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/lingdong/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "灵动云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "灵动云测评",
+      "secondaryKeywords": [
+        "灵动云怎么样",
+        "灵动云机场",
+        "灵动云价格套餐",
+        "灵动云优惠码",
+        "灵动云官网"
+      ],
+      "brandSlug": "lingdong",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「灵动云」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/langwang/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "浪网 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "浪网测评",
+      "secondaryKeywords": [
+        "浪网怎么样",
+        "浪网机场",
+        "浪网价格套餐",
+        "浪网优惠码",
+        "浪网官网",
+        "WaveNet 机场"
+      ],
+      "brandSlug": "langwang",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「浪网」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/reviews/edgenova/",
+      "pageRole": "brand-review",
+      "pillar": "brands",
+      "primaryIntent": "边缘节点 EdgeNova 品牌资料、套餐价格、线路实测与风险深度评估",
+      "primaryKeyword": "边缘节点 EdgeNova测评",
+      "secondaryKeywords": [
+        "边缘节点 EdgeNova怎么样",
+        "边缘节点 EdgeNova机场",
+        "边缘节点 EdgeNova价格套餐",
+        "边缘节点 EdgeNova优惠码",
+        "边缘节点 EdgeNova官网",
+        "EdgeNova 机场"
+      ],
+      "brandSlug": "edgenova",
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「边缘节点 EdgeNova」单品牌深度评测意图；双品牌比较归属 /compare/，优惠码聚合归属 /deals/。"
+    },
+    {
+      "canonicalUrl": "/clients/clash-verge-rev/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Clash Verge Rev 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Clash Verge Rev 教程与下载",
+      "secondaryKeywords": [
+        "Clash Verge Rev 下载",
+        "Clash Verge Rev 支持什么协议",
+        "Clash Verge Rev 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "clash-verge-rev",
+      "cannibalizationGuard": "唯一承载「Clash Verge Rev」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/v2rayn/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "v2rayN 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "v2rayN 使用教程与下载",
+      "secondaryKeywords": [
+        "v2rayN 下载",
+        "v2rayN 支持什么协议",
+        "v2rayN 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "v2rayn",
+      "cannibalizationGuard": "唯一承载「v2rayN」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/v2rayng/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "v2rayNG 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "v2rayNG 安卓使用教程",
+      "secondaryKeywords": [
+        "v2rayNG 下载",
+        "v2rayNG 支持什么协议",
+        "v2rayNG 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "v2rayng",
+      "cannibalizationGuard": "唯一承载「v2rayNG」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/shadowrocket/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Shadowrocket (小火箭) 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Shadowrocket 小火箭使用教程",
+      "secondaryKeywords": [
+        "Shadowrocket (小火箭) 下载",
+        "Shadowrocket (小火箭) 支持什么协议",
+        "Shadowrocket (小火箭) 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "shadowrocket",
+      "cannibalizationGuard": "唯一承载「Shadowrocket (小火箭)」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/mihomo/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Mihomo 内核 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Mihomo 内核客户端生态指南",
+      "secondaryKeywords": [
+        "Mihomo 内核 下载",
+        "Mihomo 内核 支持什么协议",
+        "Mihomo 内核 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「Mihomo 内核」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/sing-box/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "sing-box 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "sing-box 客户端配置指南",
+      "secondaryKeywords": [
+        "sing-box 下载",
+        "sing-box 支持什么协议",
+        "sing-box 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "sing-box",
+      "cannibalizationGuard": "唯一承载「sing-box」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/flclash/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "FlClash 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "FlClash 跨平台客户端教程",
+      "secondaryKeywords": [
+        "FlClash 下载",
+        "FlClash 支持什么协议",
+        "FlClash 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "flclash",
+      "cannibalizationGuard": "唯一承载「FlClash」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/hiddify/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Hiddify 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Hiddify 全平台客户端教程",
+      "secondaryKeywords": [
+        "Hiddify 下载",
+        "Hiddify 支持什么协议",
+        "Hiddify 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "hiddify",
+      "cannibalizationGuard": "唯一承载「Hiddify」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/karing/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Karing 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Karing 客户端配置教程",
+      "secondaryKeywords": [
+        "Karing 下载",
+        "Karing 支持什么协议",
+        "Karing 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "karing",
+      "cannibalizationGuard": "唯一承载「Karing」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/stash/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Stash 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Stash iOS Clash客户端指南",
+      "secondaryKeywords": [
+        "Stash 下载",
+        "Stash 支持什么协议",
+        "Stash 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "stash",
+      "cannibalizationGuard": "唯一承载「Stash」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/surge/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Surge 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Surge iOS macOS 高级代理指南",
+      "secondaryKeywords": [
+        "Surge 下载",
+        "Surge 支持什么协议",
+        "Surge 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "surge",
+      "cannibalizationGuard": "唯一承载「Surge」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/quantumult-x/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Quantumult X 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Quantumult X 圈X 使用教程",
+      "secondaryKeywords": [
+        "Quantumult X 下载",
+        "Quantumult X 支持什么协议",
+        "Quantumult X 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "quantumult-x",
+      "cannibalizationGuard": "唯一承载「Quantumult X」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/clash-meta-for-android/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Clash Meta for Android 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Clash Meta for Android 下载教程",
+      "secondaryKeywords": [
+        "Clash Meta for Android 下载",
+        "Clash Meta for Android 支持什么协议",
+        "Clash Meta for Android 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "clash-meta-for-android",
+      "cannibalizationGuard": "唯一承载「Clash Meta for Android」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/clash-nyanpasu/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Clash Nyanpasu 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Clash Nyanpasu 桌面客户端指南",
+      "secondaryKeywords": [
+        "Clash Nyanpasu 下载",
+        "Clash Nyanpasu 支持什么协议",
+        "Clash Nyanpasu 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "clash-nyanpasu",
+      "cannibalizationGuard": "唯一承载「Clash Nyanpasu」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/clash-mi/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Clash Mi 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Clash Mi 全平台客户端指南",
+      "secondaryKeywords": [
+        "Clash Mi 下载",
+        "Clash Mi 支持什么协议",
+        "Clash Mi 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "clash-mi",
+      "cannibalizationGuard": "唯一承载「Clash Mi」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/openclash/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "OpenClash 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "OpenClash 软路由配置教程",
+      "secondaryKeywords": [
+        "OpenClash 下载",
+        "OpenClash 支持什么协议",
+        "OpenClash 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "openclash",
+      "cannibalizationGuard": "唯一承载「OpenClash」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/passwall2/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "PassWall2 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "PassWall2 OpenWrt 配置教程",
+      "secondaryKeywords": [
+        "PassWall2 下载",
+        "PassWall2 支持什么协议",
+        "PassWall2 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "passwall2",
+      "cannibalizationGuard": "唯一承载「PassWall2」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/nikki/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Nikki 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Nikki OpenWrt 24.10 插件教程",
+      "secondaryKeywords": [
+        "Nikki 下载",
+        "Nikki 支持什么协议",
+        "Nikki 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "nikki",
+      "cannibalizationGuard": "唯一承载「Nikki」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/homeproxy/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "HomeProxy 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "HomeProxy sing-box 软路由教程",
+      "secondaryKeywords": [
+        "HomeProxy 下载",
+        "HomeProxy 支持什么协议",
+        "HomeProxy 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": "homeproxy",
+      "cannibalizationGuard": "唯一承载「HomeProxy」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/windows/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Windows 代理客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Windows 电脑代理客户端推荐",
+      "secondaryKeywords": [
+        "Windows 代理客户端 下载",
+        "Windows 代理客户端 支持什么协议",
+        "Windows 代理客户端 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「Windows 代理客户端」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/macos/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "macOS 代理客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "macOS 苹果电脑代理客户端推荐",
+      "secondaryKeywords": [
+        "macOS 代理客户端 下载",
+        "macOS 代理客户端 支持什么协议",
+        "macOS 代理客户端 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「macOS 代理客户端」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/android/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Android 代理客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Android 安卓代理客户端推荐",
+      "secondaryKeywords": [
+        "Android 代理客户端 下载",
+        "Android 代理客户端 支持什么协议",
+        "Android 代理客户端 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「Android 代理客户端」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/ios/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "iOS 代理客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "iOS 苹果手机代理客户端推荐",
+      "secondaryKeywords": [
+        "iOS 代理客户端 下载",
+        "iOS 代理客户端 支持什么协议",
+        "iOS 代理客户端 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「iOS 代理客户端」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/linux/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "Linux 代理客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "Linux 桌面与终端代理客户端推荐",
+      "secondaryKeywords": [
+        "Linux 代理客户端 下载",
+        "Linux 代理客户端 支持什么协议",
+        "Linux 代理客户端 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「Linux 代理客户端」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/clients/openwrt/",
+      "pageRole": "client-guide",
+      "pillar": "clients",
+      "primaryIntent": "OpenWrt 软路由客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "primaryKeyword": "OpenWrt 软路由代理插件推荐",
+      "secondaryKeywords": [
+        "OpenWrt 软路由客户端 下载",
+        "OpenWrt 软路由客户端 支持什么协议",
+        "OpenWrt 软路由客户端 订阅导入"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「OpenWrt 软路由客户端」软件指南；通用订阅导入排障归属 /guides/subscription/ 与 /troubleshooting/。"
+    },
+    {
+      "canonicalUrl": "/recommend/isp-telecom/",
+      "pageRole": "subpage",
+      "pillar": "recommend",
+      "primaryIntent": "电信 163/CN2/IEPL 宽带环境下的机场线路实测与节点筛选",
+      "primaryKeyword": "电信宽带机场推荐",
+      "secondaryKeywords": [
+        "电信IEPL机场",
+        "电信163晚高峰机场",
+        "电信用户机场选择"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「电信宽带机场推荐」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/recommend/remote-work/",
+      "pageRole": "subpage",
+      "pillar": "recommend",
+      "primaryIntent": "远程办公与跨国视频会议低丢包、低 RTT 抖动机场筛选指南",
+      "primaryKeyword": "远程办公低抖动机场",
+      "secondaryKeywords": [
+        "Zoom Teams 机场",
+        "跨国会议稳定机场",
+        "低丢包办公机场"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「远程办公低抖动机场」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/recommend/cross-border-ecom/",
+      "pageRole": "subpage",
+      "pillar": "recommend",
+      "primaryIntent": "跨境电商后台多环境风控边界与共享机场节点适用范围解析",
+      "primaryKeyword": "跨境电商纯净出口机场",
+      "secondaryKeywords": [
+        "跨境电商能用机场吗",
+        "共享节点电商风控",
+        "独立原生IP定制门槛"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「跨境电商纯净出口机场」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/recommend/backup-strategy/",
+      "pageRole": "subpage",
+      "pillar": "recommend",
+      "primaryIntent": "主力月付专线搭配备用不限时流量包的双机场低成本容灾设计",
+      "primaryKeyword": "主备双机场容灾方案",
+      "secondaryKeywords": [
+        "双机场备用组合",
+        "主备机场怎么搭配",
+        "低成本机场容灾"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「主备双机场容灾方案」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/plans/cost-per-gb-methodology/",
+      "pageRole": "subpage",
+      "pillar": "plans",
+      "primaryIntent": "每 GB 流量单价计算模型、年付折算口径与高倍率节点扣费陷阱",
+      "primaryKeyword": "机场每GB单价计算",
+      "secondaryKeywords": [
+        "机场流量倍率陷阱",
+        "机场单价怎么算",
+        "高倍率节点扣费"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场每GB单价计算」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/plans/under-100-cny-annual/",
+      "pageRole": "subpage",
+      "pillar": "plans",
+      "primaryIntent": "60 至 100 元年付入门机场套餐配额、客户端限制与运营风险横向拆解",
+      "primaryKeyword": "百元以内年付机场",
+      "secondaryKeywords": [
+        "100元以下年付机场",
+        "入门年付机场对比",
+        "百元机场避坑"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「百元以内年付机场」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/guides/clash-rules/",
+      "pageRole": "subpage",
+      "pillar": "guides",
+      "primaryIntent": "Clash / Mihomo 规则分流、策略组、RULE-SET 与 AI/流媒体分流配置教程",
+      "primaryKeyword": "Clash分流规则配置教程",
+      "secondaryKeywords": [
+        "Mihomo分流规则",
+        "Clash策略组怎么设",
+        "AI流媒体分流规则"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「Clash分流规则配置教程」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    },
+    {
+      "canonicalUrl": "/risks/exclusive-client-lockin/",
+      "pageRole": "subpage",
+      "pillar": "risks",
+      "primaryIntent": "不提供第三方订阅的专属客户端锁定机场风险评估与迁移应对",
+      "primaryKeyword": "机场专属客户端锁定风险",
+      "secondaryKeywords": [
+        "exclusive-only机场风险",
+        "不支持Clash订阅机场",
+        "机场专属端局限"
+      ],
+      "brandSlug": null,
+      "clientSlug": null,
+      "cannibalizationGuard": "唯一承载「机场专属客户端锁定风险」核心意图；不与单品牌测评页或长尾对比页抢占同一主词。"
+    }
+  ]
+}

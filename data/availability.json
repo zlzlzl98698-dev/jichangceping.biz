@@ -1,0 +1,2204 @@
+[
+  {
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定（2026-08-19 实测美/日/新多解锁，港多显示美国或 N/A）",
+        "dataStatus": "Measured",
+        "note": "2026-08-19 70节点图显示香港 OpenAI 多识别为 US 或仅 APP/N/A，美日新多正常解锁"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "品牌资料标注支持（未在 08-19 截图单独测试）",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定（2026-08-19 SS 实测仅新加坡/土耳其/马来西亚等部分节点解锁，港日美多失败）",
+        "dataStatus": "Measured"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "2026-08-19 实测港/台/日/新/美多数节点解锁",
+        "dataStatus": "Measured"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "conditional",
+        "statusLabel": "2026-08-19 实测日/新/美/港多数解锁，台湾节点 SS 批次失败、VLESS 批次识别 GB",
+        "dataStatus": "Measured"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "conditional",
+        "statusLabel": "2026-08-19 实测港/日/美解锁，新加坡与台湾节点在 VLESS 批次出现送中(CN)",
+        "dataStatus": "Measured"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "品牌资料标注支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "conditional",
+        "statusLabel": "2026-08-19 实测港区多为 ALISG 或失败，日/台约半数失败，美区全解锁",
+        "dataStatus": "Measured"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "品牌资料标注支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "muguang",
+    "brandName": "暮光加速",
+    "dataStatus": "Vendor Data",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "feimao",
+    "brandName": "飞猫云",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "weifeng",
+    "brandName": "微风网络",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "dalaoyun",
+    "brandName": "大佬云",
+    "dataStatus": "Vendor Data",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供统一实测数据",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  },
+  {
+    "brandSlug": "xingdaomeng",
+    "brandName": "星岛梦",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "yinxingren",
+    "brandName": "隐形人",
+    "dataStatus": "Conflicting",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "ermao",
+    "brandName": "二猫云",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "wuyou",
+    "brandName": "无忧链接",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "2026-07-18 晚高峰 50 节点实测全解锁（HK/TW/SG/JP/US）",
+        "dataStatus": "Measured"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "2026-07-18 晚高峰 50 节点实测全解锁（HK/TW/SG/JP/US）",
+        "dataStatus": "Measured"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "conditional",
+        "statusLabel": "2026-07-18 晚高峰 49/50 节点解锁，HKG-01 出现送中(CN)",
+        "dataStatus": "Measured"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持（品牌资料强调 TikTok 跨区直连）",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "weitu",
+    "brandName": "唯兔云",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "firefly",
+    "brandName": "Firefly",
+    "dataStatus": "Conflicting",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定（2026-08-09 历史资料另列支持 ChatGPT/Gemini/Meta AI）",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "yuzhou",
+    "brandName": "宇宙云",
+    "dataStatus": "Unverified",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Unverified"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Unverified"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Unverified"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Unverified"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Unverified"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Unverified"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Unverified"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Unverified"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Unverified"
+      }
+    ]
+  },
+  {
+    "brandSlug": "u1s1",
+    "brandName": "U1S1",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "lingmao",
+    "brandName": "灵猫网络",
+    "dataStatus": "Conflicting",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "jilian",
+    "brandName": "极连云",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "品牌资料称覆盖常见 AI 工具使用场景（未分项实测）",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "品牌资料称覆盖常见 AI 工具（未分项实测）",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "not-tested",
+        "statusLabel": "未分项实测",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  },
+  {
+    "brandSlug": "guangnian",
+    "brandName": "光年梯",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "品牌资料称支持常见 AI 工具使用场景",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "品牌资料称支持常见 AI 工具",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "not-tested",
+        "statusLabel": "未分项实测",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "品牌资料称支持主流流媒体使用场景",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "品牌资料称支持主流流媒体",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "品牌资料称支持主流流媒体",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未分项实测",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未分项实测",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未分项实测",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "yifan",
+    "brandName": "一翻云",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "sogo",
+    "brandName": "SOGO 云",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "kexin",
+    "brandName": "可信云",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "not-tested",
+        "statusLabel": "未测试（品牌资料明确注明缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "not-tested",
+        "statusLabel": "未测试（缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "not-tested",
+        "statusLabel": "未测试（缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未测试（品牌资料明确注明缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未测试（缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未测试（缺乏统一实测数据）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未测试",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未测试",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未测试",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  },
+  {
+    "brandSlug": "sujie",
+    "brandName": "速界",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "品牌资料重点强调支持（提示受 IP 与平台规则影响不承诺永久稳定）",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "品牌资料重点强调支持（受 IP 影响）",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "品牌资料重点强调支持（受 IP 影响）",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  },
+  {
+    "brandSlug": "shanyue",
+    "brandName": "闪跃",
+    "dataStatus": "Vendor Data",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定（正文称支持，解锁清单列为视节点而定）",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "quanqiu",
+    "brandName": "全球云",
+    "dataStatus": "Measured",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "conditional",
+        "statusLabel": "视节点而定",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "支持",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "shandianshu",
+    "brandName": "闪电鼠",
+    "dataStatus": "Vendor Data",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  },
+  {
+    "brandSlug": "yunjiexian",
+    "brandName": "云界线",
+    "dataStatus": "Conflicting",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  },
+  {
+    "brandSlug": "liulianyun",
+    "brandName": "榴莲云",
+    "dataStatus": "Unverified",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  },
+  {
+    "brandSlug": "shenxing",
+    "brandName": "神行加速",
+    "dataStatus": "Vendor Data",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  },
+  {
+    "brandSlug": "huanqiuti",
+    "brandName": "环球梯",
+    "dataStatus": "Vendor Data",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  },
+  {
+    "brandSlug": "tiziyun",
+    "brandName": "梯子云",
+    "dataStatus": "Vendor Data",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "品牌资料称“完美解锁”（属厂商声明，未独立实测）",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "品牌资料称“完美解锁”（属厂商声明，未独立实测）",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "not-tested",
+        "statusLabel": "未分项说明",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "品牌资料称“完美解锁”",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "品牌资料称“完美解锁”",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未分项说明",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未分项说明",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "supported",
+        "statusLabel": "品牌资料称“完美解锁”",
+        "dataStatus": "Vendor Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "not-tested",
+        "statusLabel": "未分项说明",
+        "dataStatus": "Vendor Data"
+      }
+    ]
+  },
+  {
+    "brandSlug": "lingdong",
+    "brandName": "灵动云",
+    "dataStatus": "Historical Data",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "supported",
+        "statusLabel": "2026-07-20/21 实测各地区基本全解锁（亮点）",
+        "dataStatus": "Historical Data"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "conditional",
+        "statusLabel": "2026-07-20/21 实测台湾落地识别偏欧（ES）",
+        "dataStatus": "Historical Data"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "conditional",
+        "statusLabel": "2026-07-20/21 实测台湾落地识别偏欧（ES）",
+        "dataStatus": "Historical Data"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "conditional",
+        "statusLabel": "2026-07-20/21 实测新加坡/台湾 YouTube 送中",
+        "dataStatus": "Historical Data"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "conditional",
+        "statusLabel": "2026-07-20/21 实测多失败",
+        "dataStatus": "Historical Data"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "待核实",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  },
+  {
+    "brandSlug": "langwang",
+    "brandName": "浪网",
+    "dataStatus": "Historical Data",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未实测（缺字段）",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未实测",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未实测",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未实测",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  },
+  {
+    "brandSlug": "edgenova",
+    "brandName": "边缘节点 EdgeNova",
+    "dataStatus": "Historical Data",
+    "verifiedDate": "2026-11-24",
+    "services": [
+      {
+        "service": "ChatGPT",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Claude",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Gemini",
+        "category": "ai",
+        "status": "unverified",
+        "statusLabel": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Netflix",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Disney+",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "YouTube",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "HBO Max",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "TikTok",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      },
+      {
+        "service": "Spotify",
+        "category": "streaming",
+        "status": "unverified",
+        "statusLabel": "未提供独立逐项测试",
+        "dataStatus": "Not Tested"
+      }
+    ]
+  }
+]

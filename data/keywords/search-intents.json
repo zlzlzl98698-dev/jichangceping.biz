@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-24",
+  "intents": [
+    {
+      "intent": "informational",
+      "label": "信息科普与原理查询",
+      "userStage": "awareness / retention",
+      "description": "用户希望理解线路架构(IEPL/IPLC)、代理协议(VLESS/AnyTLS)、客户端机制或行业风险规律。",
+      "contentPattern": "Answer-First 核心结论 + 原理解析表 + 场景对比 + 常见误区",
+      "ctaPolicy": "克制引导至评测库或选型指南，不插入强推销按钮",
+      "mappedPillars": [
+        "vpn",
+        "network",
+        "guides",
+        "clients",
+        "risks"
+      ]
+    },
+    {
+      "intent": "commercial",
+      "label": "商业调研与横向对比",
+      "userStage": "consideration / decision",
+      "description": "用户在多个机场品牌、计费周期或客户端方案之间权衡速度、解锁与性价比。",
+      "contentPattern": "条件化结论 + 统一指标对照表 + 优缺点/适用人群 + 证据与冲突披露",
+      "ctaPolicy": "透明披露推广关系，使用 <AffiliateButton /> 与 <CouponInfo />",
+      "mappedPillars": [
+        "recommend",
+        "plans",
+        "brands",
+        "ai-streaming"
+      ]
+    },
+    {
+      "intent": "transactional",
+      "label": "优惠获取与下单核验",
+      "userStage": "decision",
+      "description": "用户已确定目标品牌，正在核对优惠码、折扣条件、退款政策与支付方式。",
+      "contentPattern": "优惠码状态与限制核查 + 冲突口径提示 + 月付试错建议 + 佣金披露",
+      "ctaPolicy": "必含 <AffiliateDisclosure /> 与 rel=\"nofollow sponsored noopener\"",
+      "mappedPillars": [
+        "plans",
+        "brands"
+      ]
+    },
+    {
+      "intent": "navigational",
+      "label": "品牌/官网/数据库直达",
+      "userStage": "awareness / decision",
+      "description": "用户检索品牌数据库入口、官网核验状态或特定客户端官方发布页。",
+      "contentPattern": "官方渠道核验 + 仿冒链接警告 + 跳转前核对清单",
+      "ctaPolicy": "明确标注 aff-only-needs-domain-verification 状态，提示防假冒域名",
+      "mappedPillars": [
+        "brands",
+        "clients",
+        "about"
+      ]
+    },
+    {
+      "intent": "troubleshooting",
+      "label": "故障诊断与异常修复",
+      "userStage": "retention",
+      "description": "用户遇到订阅拉取失败、节点全超时、TUN断网、DNS泄漏或YouTube送中等问题。",
+      "contentPattern": "症状定位表 -> 逐层排查步骤 -> 内核/系统差异 -> 验证命令",
+      "ctaPolicy": "优先解决技术问题，严禁在排障步骤中堆砌销售按钮",
+      "mappedPillars": [
+        "troubleshooting",
+        "guides",
+        "ai-streaming"
+      ]
+    }
+  ]
+}

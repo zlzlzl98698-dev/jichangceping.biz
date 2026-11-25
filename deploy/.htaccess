@@ -1,0 +1,96 @@
+# Apache 2.4 .htaccess for 机场测评 (https://jichangceping.biz)
+# Deploy alongside VitePress static build output (docs/.vitepress/dist/)
+
+Options -Indexes +FollowSymLinks
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+# Block hidden files & sensitive dotfiles (keep .well-known accessible if needed)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # 1. Force HTTPS (supports direct SSL and X-Forwarded-Proto behind reverse proxy)
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+  RewriteRule ^ https://jichangceping.biz%{REQUEST_URI} [R=301,L]
+
+  # 2. Force non-www canonical host (www.jichangceping.biz -> jichangceping.biz)
+  RewriteCond %{HTTP_HOST} ^www\.jichangceping\.biz$ [NC]
+  RewriteRule ^ https://jichangceping.biz%{REQUEST_URI} [R=301,L]
+
+  # 3. Block dotfiles except .well-known
+  RewriteRule (^|/)\.(?!well-known/) - [F,L]
+
+  # 4. Ensure robots.txt, sitemap.xml, llms.txt, rss.xml are served directly
+  RewriteRule ^(robots\.txt|sitemap\.xml|llms\.txt|rss\.xml)$ - [L]
+
+  # 5. VitePress cleanUrls handling
+  # Strip explicit /index.html to canonical trailing-slash URL (using THE_REQUEST to avoid DirectoryIndex loop)
+  RewriteCond %{THE_REQUEST} \s/+(?:(.+?)/)?index\.html[\s?] [NC]
+  RewriteRule ^((?:.+/)?)index\.html$ https://jichangceping.biz/$1 [R=301,NC,L]
+
+  # If directory exists with index.html and URL lacks trailing slash, redirect to trailing slash
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteRule ^(.+)$ https://jichangceping.biz/$1/ [R=301,L]
+
+  # If request maps to an existing file or directory, serve directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Resolve /path or /path/ to /path.html when cleanUrls generates <slug>.html
+  RewriteCond %{REQUEST_URI} ^/(.+?)/?$
+  RewriteCond %{DOCUMENT_ROOT}/%1.html -f
+  RewriteRule ^(.+?)/?$ /%1.html [L]
+</IfModule>
+
+# UTF-8 & modern MIME types
+AddDefaultCharset UTF-8
+<IfModule mod_mime.c>
+  AddType text/plain .txt
+  AddType application/xml .xml
+  AddType application/rss+xml .xml
+  AddType image/svg+xml .svg
+  AddType image/webp .webp
+  AddType application/javascript .js .mjs
+  AddType text/css .css
+</IfModule>
+
+# Compression: Brotli (preferred) + Gzip fallback
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/css text/javascript application/javascript application/json application/xml application/rss+xml image/svg+xml
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json application/xml application/rss+xml image/svg+xml
+</IfModule>
+
+# Cache-Control headers
+<IfModule mod_headers.c>
+  # Security headers
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" "expr=%{HTTPS} == 'on'"
+
+  # Short cache for HTML & crawlable feeds/manifests
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "public, max-age=300, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "^(robots\.txt|sitemap\.xml|llms\.txt|rss\.xml)$">
+    Header set Cache-Control "public, max-age=3600, must-revalidate"
+    Header unset X-Robots-Tag
+  </FilesMatch>
+
+  # Long immutable cache for VitePress hashed assets
+  <FilesMatch "\.(js|css|woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # Moderate cache for brand logos & benchmark screenshots
+  <FilesMatch "\.(png|jpe?g|webp|svg|ico)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>

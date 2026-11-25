@@ -1,0 +1,833 @@
+[
+  {
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "存在文档口径冲突",
+      "不支持退款"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 3 项资料口径冲突",
+        "severity": "info",
+        "detail": "entryTrafficGb: 同一份品牌资料摘要行写 59GB，下方轻量版明细与总清单写 69GB/月；本站以套餐明细 69GB/月为主值并保留冲突说明。；affiliateUrl: 两个文档分别记录了 gsyvipaff.com 与 gsyaff.com 推广前缀，后者无 invite code 参数。；benchmarkBatchProtocol: 同一天两组测试采用不同节点订阅架构（62节点 SS vs 60 VLESS + 10 AnyTLS），且 08-11 截图显示 Shadowsocks，品牌资料写 VLESS。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      },
+      {
+        "code": "NO_REFUND",
+        "title": "特殊商品不支持退款",
+        "severity": "caution",
+        "detail": "特殊商品不支持退款，建议先购月付或小额套餐实测晚高峰后再考虑长期订阅。",
+        "mitigation": "优先月付体验，切勿首单直接购买高价年付或定制包。"
+      }
+    ],
+    "refundPolicy": "特殊商品不支持退款，建议先购月付或小额套餐实测晚高峰后再考虑长期订阅。",
+    "dataGaps": []
+  },
+  {
+    "brandSlug": "muguang",
+    "brandName": "暮光加速",
+    "overallRiskLevel": "low",
+    "riskTags": [
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 2 项资料口径冲突",
+        "severity": "info",
+        "detail": "couponCode: 同一节内基础数据给出优惠码 muguang5555，正文介绍却称未查到公开优惠码。；entryMonthlyCny: 年付轻量版折算约 9.08 元/月，月付门槛为 20 元/月。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "feimao",
+    "brandName": "飞猫云",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "仅限专属客户端",
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "EXCLUSIVE_CLIENT_LOCKIN",
+        "title": "不提供第三方通用订阅链接",
+        "severity": "warning",
+        "detail": "专属客户端下载登录即用，不提供第三方订阅链接（无法直接导入 Clash / Shadowrocket）。",
+        "mitigation": "购买前确认所需设备系统均有官方客户端，且不依赖 OpenWrt 软路由或 Clash 自定义规则。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 1 项资料口径冲突",
+        "severity": "info",
+        "detail": "affiliateUrl: 两个资料文件中的推广域名不同（flycataff.com vs flycatvipaff.cc）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "weifeng",
+    "brandName": "微风网络",
+    "overallRiskLevel": "low",
+    "riskTags": [
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 1 项资料口径冲突",
+        "severity": "info",
+        "detail": "entryMonthlyCny: 摘要写了已下线或旧档位“7元/50GB”，而实际套餐表最低年付为清风 ¥137/年（100GB/月，折合 11.42 元/月）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实"
+    ]
+  },
+  {
+    "brandSlug": "dalaoyun",
+    "brandName": "大佬云",
+    "overallRiskLevel": "elevated",
+    "riskTags": [],
+    "riskItems": [],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "xingdaomeng",
+    "brandName": "星岛梦",
+    "overallRiskLevel": "low",
+    "riskTags": [
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 2 项资料口径冲突",
+        "severity": "info",
+        "detail": "protocols: 实际节点协议可能同时支持或已从 Trojan 调整为 Shadowsocks。；affiliateUrl: 推广子域名前缀不同（guangs vs kfccbb）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "yinxingren",
+    "brandName": "隐形人",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "仅限专属客户端",
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "EXCLUSIVE_CLIENT_LOCKIN",
+        "title": "不提供第三方通用订阅链接",
+        "severity": "warning",
+        "detail": "仅限自带专属客户端，不提供订阅链接，Clash / Shadowrocket 等第三方客户端无法使用。",
+        "mitigation": "购买前确认所需设备系统均有官方客户端，且不依赖 OpenWrt 软路由或 Clash 自定义规则。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 3 项资料口径冲突",
+        "severity": "info",
+        "detail": "couponCode: 同一品牌同时存在 yxr888 与 moon80 两个优惠码记录。；entryPlanTraffic: 基础数据写 100GB/月，套餐明细写 144GB/月。；affiliateUrl: 推广子域名前缀不同（yinxingren1 vs varnexa）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实（无免费试用）",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "支付方式待核实",
+      "退款规则待核实"
+    ]
+  },
+  {
+    "brandSlug": "ermao",
+    "brandName": "二猫云",
+    "overallRiskLevel": "low",
+    "riskTags": [
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 3 项资料口径冲突",
+        "severity": "info",
+        "detail": "regions: 同一品牌条目内测速表列有新加坡节点，而下方介绍说明却称缺少新加坡。；protocols: 实测图显示 Shadowsocks，品牌说明写 VLESS。；affiliateUrl: 推广子域名前缀不同（guangs vs waaa）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "wuyou",
+    "brandName": "无忧链接",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "运营年限较短",
+      "仅限专属客户端",
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SHORT_TRACK_RECORD",
+        "title": "2025 年上线新品牌",
+        "severity": "warning",
+        "detail": "运营时间尚短，缺少跨年度长期稳定性验证记录。",
+        "mitigation": "建议先以月付或最低额度测试，避免直接大额年付或多年付。"
+      },
+      {
+        "code": "EXCLUSIVE_CLIENT_LOCKIN",
+        "title": "不提供第三方通用订阅链接",
+        "severity": "warning",
+        "detail": "正文标注 2026 年 10 月起改用官方专属客户端下载登录即用（但汇总表曾提及“订阅无需转换”，2026-07-18 曾以 VLESS 订阅实测，存在新旧切换期冲突）。",
+        "mitigation": "购买前确认所需设备系统均有官方客户端，且不依赖 OpenWrt 软路由或 Clash 自定义规则。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 1 项资料口径冲突",
+        "severity": "info",
+        "detail": "clientMode: 该品牌在 2026 年 10 月调整为专属客户端形态，历史订阅兼容性与现行政策存在差异。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实"
+    ]
+  },
+  {
+    "brandSlug": "weitu",
+    "brandName": "唯兔云",
+    "overallRiskLevel": "low",
+    "riskTags": [
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 2 项资料口径冲突",
+        "severity": "info",
+        "detail": "protocols: 实测图显示 Shadowsocks，品牌说明写 Trojan。；affiliateUrl: 推广子域名前缀不同（guangs vs fast）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实"
+    ]
+  },
+  {
+    "brandSlug": "firefly",
+    "brandName": "Firefly",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "仅限专属客户端",
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "EXCLUSIVE_CLIENT_LOCKIN",
+        "title": "不提供第三方通用订阅链接",
+        "severity": "warning",
+        "detail": "10 月主体资料注明“2026 年 10 月起专属客户端下载登录即用，不提供订阅链接”；2026-08-09 历史资料仅提及 IPLC + VLESS 规格。",
+        "mitigation": "购买前确认所需设备系统均有官方客户端，且不依赖 OpenWrt 软路由或 Clash 自定义规则。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 2 项资料口径冲突",
+        "severity": "info",
+        "detail": "affiliateUrl: 同一域名 vip02.fireflyaff.com 存在两套 invite code，合并为同一实体 firefly 后一并记录。；clientMode: 2026 年 10 月起收紧为仅官方专属客户端登录使用。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "yuzhou",
+    "brandName": "宇宙云",
+    "overallRiskLevel": "elevated",
+    "riskTags": [
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 1 项资料口径冲突",
+        "severity": "info",
+        "detail": "clientMode: 正文与汇总表在自研客户端及最新套餐完整性上存在缺口。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实"
+    ]
+  },
+  {
+    "brandSlug": "u1s1",
+    "brandName": "U1S1",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "运营年限较短",
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SHORT_TRACK_RECORD",
+        "title": "2025 年上线新品牌",
+        "severity": "warning",
+        "detail": "运营时间尚短，缺少跨年度长期稳定性验证记录。",
+        "mitigation": "建议先以月付或最低额度测试，避免直接大额年付或多年付。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 2 项资料口径冲突",
+        "severity": "info",
+        "detail": "plans: 正文提到 1000GB 一次性大流量包，但套餐表未给出价格，本站不编造其售价。；affiliateUrl: 推广子域名前缀不同（guangs vs pkdj7）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "lingmao",
+    "brandName": "灵猫网络",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "运营年限较短",
+      "仅限专属客户端",
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SHORT_TRACK_RECORD",
+        "title": "2025 年上线新品牌",
+        "severity": "warning",
+        "detail": "运营时间尚短，缺少跨年度长期稳定性验证记录。",
+        "mitigation": "建议先以月付或最低额度测试，避免直接大额年付或多年付。"
+      },
+      {
+        "code": "EXCLUSIVE_CLIENT_LOCKIN",
+        "title": "不提供第三方通用订阅链接",
+        "severity": "warning",
+        "detail": "2026 年 10 月起改用专属客户端下载登录即用，不提供订阅链接（但 08-11 曾以 Shadowsocks 测速）。",
+        "mitigation": "购买前确认所需设备系统均有官方客户端，且不依赖 OpenWrt 软路由或 Clash 自定义规则。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 3 项资料口径冲突",
+        "severity": "info",
+        "detail": "couponCode: 同时记录了 lmao888 与 lingmao 两个优惠码。；affiliateUrl: 主域名完全不同（vip01.civetnet.com vs vip02.civetaff.com）。；entryMonthlyCny: 月付 150GB 摘要写 ¥19，套餐表写 ¥25。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "jilian",
+    "brandName": "极连云",
+    "overallRiskLevel": "low",
+    "riskTags": [
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 1 项资料口径冲突",
+        "severity": "info",
+        "detail": "affiliateUrl: 推广子域名前缀不同（guangs vs kdjhao）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "guangnian",
+    "brandName": "光年梯",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "运营年限较短",
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SHORT_TRACK_RECORD",
+        "title": "2025 年上线新品牌",
+        "severity": "warning",
+        "detail": "运营时间尚短，缺少跨年度长期稳定性验证记录。",
+        "mitigation": "建议先以月付或最低额度测试，避免直接大额年付或多年付。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 2 项资料口径冲突",
+        "severity": "info",
+        "detail": "protocols: 品牌资料写 VLESS，实测截图显示 Shadowsocks。；affiliateUrl: 推广子域名前缀不同（guangs vs ggmq）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "yifan",
+    "brandName": "一翻云",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "运营年限较短",
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SHORT_TRACK_RECORD",
+        "title": "2025 年上线新品牌",
+        "severity": "warning",
+        "detail": "运营时间尚短，缺少跨年度长期稳定性验证记录。",
+        "mitigation": "建议先以月付或最低额度测试，避免直接大额年付或多年付。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 2 项资料口径冲突",
+        "severity": "info",
+        "detail": "couponCode: 同一条目存在 yfy6666 与 1FLYYUN 两个优惠码。；affiliateUrl: 推广子域名前缀不同（guangs vs wzjc）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实（官方未提供免费试用）",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "sogo",
+    "brandName": "SOGO 云",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "运营年限较短",
+      "仅限专属客户端",
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SHORT_TRACK_RECORD",
+        "title": "2026 年上线新品牌",
+        "severity": "warning",
+        "detail": "运营时间尚短，缺少跨年度长期稳定性验证记录。",
+        "mitigation": "建议先以月付或最低额度测试，避免直接大额年付或多年付。"
+      },
+      {
+        "code": "EXCLUSIVE_CLIENT_LOCKIN",
+        "title": "不提供第三方通用订阅链接",
+        "severity": "warning",
+        "detail": "正文注明不提供订阅链接，只能通过自研客户端（支持 Win/macOS/iOS/Android 与主流软路由）使用，Clash/Shadowrocket 无法直接导入。",
+        "mitigation": "购买前确认所需设备系统均有官方客户端，且不依赖 OpenWrt 软路由或 Clash 自定义规则。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 3 项资料口径冲突",
+        "severity": "info",
+        "detail": "couponCode: 基础信息写 SOGO10000，汇总表写 sss777。；protocols: 品牌资料写 VLESS，2026-08-11 实测图显示 Shadowsocks。；affiliateUrl: 推广子域名前缀不同（guangs vs wzjc）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实（官方未提供试用）",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实"
+    ]
+  },
+  {
+    "brandSlug": "kexin",
+    "brandName": "可信云",
+    "overallRiskLevel": "low",
+    "riskTags": [
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 2 项资料口径冲突",
+        "severity": "info",
+        "detail": "protocols: 品牌资料写 VLESS，实测截图显示 Shadowsocks。；affiliateUrl: 推广子域名前缀不同（guangs vs work）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "sujie",
+    "brandName": "速界",
+    "overallRiskLevel": "low",
+    "riskTags": [
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 2 项资料口径冲突",
+        "severity": "info",
+        "detail": "protocols: 品牌资料写 VLESS，实测图显示 Shadowsocks。；affiliateUrl: 推广子域名前缀不同（guangs vs work）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "shanyue",
+    "brandName": "闪跃",
+    "overallRiskLevel": "low",
+    "riskTags": [
+      "仅限专属客户端"
+    ],
+    "riskItems": [
+      {
+        "code": "EXCLUSIVE_CLIENT_LOCKIN",
+        "title": "不提供第三方通用订阅链接",
+        "severity": "warning",
+        "detail": "专属客户端下载登录即用，不提供订阅链接。",
+        "mitigation": "购买前确认所需设备系统均有官方客户端，且不依赖 OpenWrt 软路由或 Clash 自定义规则。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "quanqiu",
+    "brandName": "全球云",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "运营年限较短",
+      "仅限专属客户端",
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SHORT_TRACK_RECORD",
+        "title": "2026 年上线新品牌",
+        "severity": "warning",
+        "detail": "运营时间尚短，缺少跨年度长期稳定性验证记录。",
+        "mitigation": "建议先以月付或最低额度测试，避免直接大额年付或多年付。"
+      },
+      {
+        "code": "EXCLUSIVE_CLIENT_LOCKIN",
+        "title": "不提供第三方通用订阅链接",
+        "severity": "warning",
+        "detail": "正文注明专属客户端下载登录即用、不提供订阅链接（但 2026-08-11 测速截图显示以 Shadowsocks 节点完成测速）。",
+        "mitigation": "购买前确认所需设备系统均有官方客户端，且不依赖 OpenWrt 软路由或 Clash 自定义规则。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 2 项资料口径冲突",
+        "severity": "info",
+        "detail": "couponCode: 基础信息列 qq88，汇总表列 qqy7777。；affiliateUrl: 推广子域名前缀不同（guangs vs sswdh）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "支付方式待核实",
+      "退款规则待核实"
+    ]
+  },
+  {
+    "brandSlug": "shandianshu",
+    "brandName": "闪电鼠",
+    "overallRiskLevel": "elevated",
+    "riskTags": [],
+    "riskItems": [],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "yunjiexian",
+    "brandName": "云界线",
+    "overallRiskLevel": "elevated",
+    "riskTags": [
+      "存在文档口径冲突",
+      "推广链接格式异常"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 1 项资料口径冲突",
+        "severity": "info",
+        "detail": "affiliateUrl: 同一文件内出现两组不同的 code 参数，且 URL 均缺少 #/（与其它品牌格式不同）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      },
+      {
+        "code": "URL_FORMAT_ANOMALY",
+        "title": "注册链接格式与主流模板不同",
+        "severity": "warning",
+        "detail": "含推广链接；同文件汇总表第944行记录另一邀请码 ?code=HBaZ91c6，且两处 URL 均缺少 #/ 路由片段，注册前需确认页面可正常打开。",
+        "mitigation": "访问注册前确认域名与证书正常。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "liulianyun",
+    "brandName": "榴莲云",
+    "overallRiskLevel": "elevated",
+    "riskTags": [],
+    "riskItems": [],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "shenxing",
+    "brandName": "神行加速",
+    "overallRiskLevel": "elevated",
+    "riskTags": [],
+    "riskItems": [],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "huanqiuti",
+    "brandName": "环球梯",
+    "overallRiskLevel": "elevated",
+    "riskTags": [
+      "推广链接格式异常"
+    ],
+    "riskItems": [
+      {
+        "code": "URL_FORMAT_ANOMALY",
+        "title": "注册链接格式与主流模板不同",
+        "severity": "warning",
+        "detail": "含推广链接；URL 缺少 #/ 路由片段，注册前建议确认页面可正常加载。",
+        "mitigation": "访问注册前确认域名与证书正常。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "tiziyun",
+    "brandName": "梯子云",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "运营年限较短",
+      "存在文档口径冲突"
+    ],
+    "riskItems": [
+      {
+        "code": "SHORT_TRACK_RECORD",
+        "title": "2025 年上线新品牌",
+        "severity": "warning",
+        "detail": "运营时间尚短，缺少跨年度长期稳定性验证记录。",
+        "mitigation": "建议先以月付或最低额度测试，避免直接大额年付或多年付。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 1 项资料口径冲突",
+        "severity": "info",
+        "detail": "affiliateUrl: 推广子域名前缀不同（tiziyun3 vs varnexa）。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "支付方式待核实",
+      "退款规则待核实"
+    ]
+  },
+  {
+    "brandSlug": "lingdong",
+    "brandName": "灵动云",
+    "overallRiskLevel": "medium",
+    "riskTags": [
+      "运营年限较短",
+      "存在文档口径冲突",
+      "历史存档待复测"
+    ],
+    "riskItems": [
+      {
+        "code": "SHORT_TRACK_RECORD",
+        "title": "2025 年上线新品牌",
+        "severity": "warning",
+        "detail": "运营时间尚短，缺少跨年度长期稳定性验证记录。",
+        "mitigation": "建议先以月付或最低额度测试，避免直接大额年付或多年付。"
+      },
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 1 项资料口径冲突",
+        "severity": "info",
+        "detail": "protocols: 站点页面文案同时出现 VLESS 与 Trojan，实测为 VLESS。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      },
+      {
+        "code": "HISTORICAL_ARCHIVE",
+        "title": "源自 2026-08-09 历史品牌库",
+        "severity": "warning",
+        "detail": "优惠码、套餐价格与独立入口尚未完成近 30 日复测核验。",
+        "mitigation": "仅作参考比对，使用前需重新确认官网可用性。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "退款规则待核实"
+    ]
+  },
+  {
+    "brandSlug": "langwang",
+    "brandName": "浪网",
+    "overallRiskLevel": "elevated",
+    "riskTags": [
+      "存在文档口径冲突",
+      "历史存档待复测"
+    ],
+    "riskItems": [
+      {
+        "code": "SOURCE_CONFLICT",
+        "title": "存在 1 项资料口径冲突",
+        "severity": "info",
+        "detail": "planTraffic: 入门档 150G 字段存在截图遮挡，本站将入门档 trafficGb 保持 null 并在 trafficLabel 注明遮挡。",
+        "mitigation": "下单结算前务必以官网最新套餐页与实际结算价格为准。"
+      },
+      {
+        "code": "HISTORICAL_ARCHIVE",
+        "title": "源自 2026-08-09 历史品牌库",
+        "severity": "warning",
+        "detail": "优惠码、套餐价格与独立入口尚未完成近 30 日复测核验。",
+        "mitigation": "仅作参考比对，使用前需重新确认官网可用性。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "支付方式待核实",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  },
+  {
+    "brandSlug": "edgenova",
+    "brandName": "边缘节点 EdgeNova",
+    "overallRiskLevel": "elevated",
+    "riskTags": [
+      "历史存档待复测"
+    ],
+    "riskItems": [
+      {
+        "code": "HISTORICAL_ARCHIVE",
+        "title": "源自 2026-08-09 历史品牌库",
+        "severity": "warning",
+        "detail": "优惠码、套餐价格与独立入口尚未完成近 30 日复测核验。",
+        "mitigation": "仅作参考比对，使用前需重新确认官网可用性。"
+      }
+    ],
+    "refundPolicy": "待核实",
+    "dataGaps": [
+      "缺少独立测速截图证据",
+      "退款规则待核实",
+      "精确节点总数待核实"
+    ]
+  }
+]

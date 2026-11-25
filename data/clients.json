@@ -1,0 +1,680 @@
+[
+  {
+    "slug": "clash-verge-rev",
+    "name": "Clash Verge Rev",
+    "os": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "category": "桌面规则代理客户端",
+    "coreEngine": "Mihomo (Clash Meta)",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "VLESS",
+      "Trojan",
+      "Hysteria 2",
+      "AnyTLS"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "持续活跃（有可核实跨平台项目资料；macOS 区分 Intel / Apple Silicon，Linux 提供 DEB/RPM/AppImage）",
+    "pricing": "免费开源",
+    "highlights": [
+      "Mihomo 内核与 Clash YAML 订阅管理",
+      "支持规则分流与 TUN 全局虚拟网卡模式",
+      "兼顾新手默认配置与进阶自定义覆写"
+    ],
+    "warnings": [
+      "macOS 下载需区分 Intel 与 Apple Silicon 架构",
+      "Linux 需按发行版选择 DEB/RPM/AppImage 格式"
+    ],
+    "docUrl": "/clients/clash-verge-rev/",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "v2rayn",
+    "name": "v2rayN",
+    "os": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "category": "桌面多核心代理客户端",
+    "coreEngine": "Xray / sing-box 等多核心",
+    "protocols": [
+      "VLESS",
+      "VMess",
+      "Trojan",
+      "Shadowsocks",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "持续活跃（有可核实跨平台项目资料）",
+    "pricing": "免费开源",
+    "highlights": [
+      "支持 Xray 与 sing-box 等多核心切换",
+      "适合多协议节点管理、批量测速与路由规则控制"
+    ],
+    "warnings": [
+      "界面偏工具化，纯新手上手需参考订阅导入教程"
+    ],
+    "docUrl": "/clients/v2rayn/",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "flclash",
+    "name": "FlClash",
+    "os": [
+      "Windows",
+      "Android",
+      "macOS",
+      "Linux"
+    ],
+    "category": "跨平台规则代理客户端",
+    "coreEngine": "Mihomo",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "VLESS",
+      "Trojan",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "持续活跃（有可核实跨平台项目资料，提供 macOS 双芯片架构及多种 Linux 包）",
+    "pricing": "免费开源",
+    "highlights": [
+      "基于 Mihomo 内核，界面简洁",
+      "支持跨桌面端与 Android 统一订阅配置与规则分流"
+    ],
+    "warnings": [
+      "仅支持标准 Clash / Mihomo 订阅导入，不兼容仅限官方客户端登录的机场"
+    ],
+    "docUrl": "/clients/sing-box/",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "clash-nyanpasu",
+    "name": "Clash Nyanpasu",
+    "os": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "category": "桌面多内核 Clash 图形客户端",
+    "coreEngine": "Mihomo / 多内核",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "VLESS",
+      "Trojan",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "开源社区维护（GitHub）",
+    "pricing": "免费开源",
+    "highlights": [
+      "支持多内核切换与 Clash 配置增强管理"
+    ],
+    "warnings": [
+      "适合熟悉 Clash 生态配置的用户"
+    ],
+    "docUrl": "/clients/#clash-nyanpasu",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "hiddify",
+    "name": "Hiddify",
+    "os": [
+      "Windows",
+      "Android",
+      "iOS",
+      "macOS",
+      "Linux"
+    ],
+    "category": "全平台多协议通用客户端",
+    "coreEngine": "sing-box",
+    "protocols": [
+      "VLESS",
+      "VMess",
+      "Trojan",
+      "Shadowsocks",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "持续活跃（有可核实跨平台项目资料）",
+    "pricing": "免费开源",
+    "highlights": [
+      "支持多种订阅格式与自动节点选择",
+      "覆盖五大桌面与移动系统，新手友好"
+    ],
+    "warnings": [
+      "不同订阅格式转换时建议核对分流规则默认策略"
+    ],
+    "docUrl": "/clients/#hiddify",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "karing",
+    "name": "Karing",
+    "os": [
+      "Windows",
+      "Android",
+      "iOS",
+      "macOS",
+      "Linux"
+    ],
+    "category": "全平台 sing-box 系客户端",
+    "coreEngine": "sing-box",
+    "protocols": [
+      "VLESS",
+      "VMess",
+      "Trojan",
+      "Shadowsocks",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub / App Store",
+    "maintenanceStatus": "持续活跃（有可核实跨平台项目资料）",
+    "pricing": "免费（App Store 上架情况以地区为准）",
+    "highlights": [
+      "支持多种订阅格式、多订阅聚合与规则分流",
+      "面向新手的跨设备配置体验"
+    ],
+    "warnings": [
+      "iOS 端获取需注意所属 App Store 地区可用性"
+    ],
+    "docUrl": "/clients/#karing",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "clash-mi",
+    "name": "Clash Mi",
+    "os": [
+      "Windows",
+      "Android",
+      "iOS",
+      "macOS",
+      "Linux"
+    ],
+    "category": "全平台 Mihomo 图形客户端",
+    "coreEngine": "Mihomo",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "VLESS",
+      "Trojan",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub / App Store",
+    "maintenanceStatus": "持续活跃（有可核实跨平台项目资料）",
+    "pricing": "免费（iOS 端以 App Store 地区页面为准）",
+    "highlights": [
+      "全平台支持 Clash YAML 配置与 Mihomo 内核"
+    ],
+    "warnings": [
+      "使用 Mihomo 配置前建议确认机场订阅支持 Clash 格式"
+    ],
+    "docUrl": "/clients/#clash-mi",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "mihomo-party",
+    "name": "Mihomo Party",
+    "os": [
+      "Windows"
+    ],
+    "category": "桌面 Mihomo 配置客户端",
+    "coreEngine": "Mihomo",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "VLESS",
+      "Trojan",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "需单独核实维护状态（不宜未经核实即标为持续更新首选）",
+    "pricing": "免费开源",
+    "highlights": [
+      "适合历史教程参考和配置迁移场景"
+    ],
+    "warnings": [
+      "资料特别提示应单独关注项目维护状态，建议优先考虑 Clash Verge Rev 或 FlClash"
+    ],
+    "docUrl": "/clients/#mihomo-party",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "v2rayng",
+    "name": "v2rayNG",
+    "os": [
+      "Android"
+    ],
+    "category": "安卓 Xray 协议客户端",
+    "coreEngine": "Xray",
+    "protocols": [
+      "VLESS",
+      "VMess",
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "持续活跃（安卓主流介绍对象）",
+    "pricing": "免费开源",
+    "highlights": [
+      "轻量稳定，原生支持 Xray 系协议、单节点链接与订阅导入"
+    ],
+    "warnings": [
+      "仅支持标准节点/订阅格式，规则分流体验相对 Clash 系更偏基础"
+    ],
+    "docUrl": "/clients/v2rayn/",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "clash-meta-for-android",
+    "name": "Clash Meta for Android",
+    "os": [
+      "Android"
+    ],
+    "category": "安卓 Mihomo 规则客户端",
+    "coreEngine": "Mihomo (Clash Meta)",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "VLESS",
+      "Trojan",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "开源社区发布（GitHub）",
+    "pricing": "免费开源",
+    "highlights": [
+      "支持完整 Clash YAML 规则分流配置"
+    ],
+    "warnings": [
+      "请从官方 GitHub Release 获取安装包，勿轻信第三方渠道修改版"
+    ],
+    "docUrl": "/clients/#clash-meta-for-android",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "nekobox-for-android",
+    "name": "NekoBox for Android",
+    "os": [
+      "Android"
+    ],
+    "category": "安卓 sing-box 系客户端",
+    "coreEngine": "sing-box",
+    "protocols": [
+      "VLESS",
+      "VMess",
+      "Trojan",
+      "Shadowsocks",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "维护资源有限（官方项目明确提示）",
+    "pricing": "免费开源",
+    "highlights": [
+      "功能全面，适合有一定基础的安卓用户"
+    ],
+    "warnings": [
+      "官方特别警告：不要使用 Google Play 上同名且已被第三方控制的版本，仅从官方 GitHub 核验下载"
+    ],
+    "docUrl": "/clients/#nekobox-for-android",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "sing-box",
+    "name": "sing-box 官方客户端 (SFA / SFI / SFM / Desktop)",
+    "os": [
+      "Android",
+      "iOS",
+      "macOS",
+      "Linux"
+    ],
+    "category": "官方原生 sing-box 客户端家族",
+    "coreEngine": "sing-box",
+    "protocols": [
+      "VLESS",
+      "VMess",
+      "Trojan",
+      "Shadowsocks",
+      "Hysteria 2",
+      "AnyTLS"
+    ],
+    "officialRepoOrStore": "官方文档 / App Store",
+    "maintenanceStatus": "官方核心持续维护",
+    "pricing": "免费开源",
+    "highlights": [
+      "原生 sing-box 配置支持，性能开销低，协议前沿兼容性强"
+    ],
+    "warnings": [
+      "部分机场仅提供 Clash YAML 或 V2Ray 订阅，原生 sing-box JSON 可能需要转换"
+    ],
+    "docUrl": "/clients/sing-box/",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "shadowrocket",
+    "name": "Shadowrocket（小火箭）",
+    "os": [
+      "iOS"
+    ],
+    "category": "iOS 规则代理客户端",
+    "coreEngine": "自研 iOS 网络扩展引擎",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "VLESS",
+      "Trojan",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "App Store",
+    "maintenanceStatus": "持续活跃更新",
+    "pricing": "付费应用（美国区等非国区 App Store 买断，以当地商店标价为准）",
+    "highlights": [
+      "支持几乎全部主流协议、订阅导入、规则分流与实时流量请求查看",
+      "机场通用性最高的 iOS 客户端"
+    ],
+    "warnings": [
+      "中国区 App Store 未上架，且属于付费应用，需避免购买来源不明的共享账号"
+    ],
+    "docUrl": "/clients/shadowrocket/",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "stash",
+    "name": "Stash",
+    "os": [
+      "iOS"
+    ],
+    "category": "iOS Clash 规则客户端",
+    "coreEngine": "Clash 兼容规则引擎",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "VLESS",
+      "Trojan",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "App Store",
+    "maintenanceStatus": "持续更新",
+    "pricing": "付费应用（以所属地区 App Store 标价为准）",
+    "highlights": [
+      "完美兼容 Clash 风格规则配置、策略组与覆写(Override)功能"
+    ],
+    "warnings": [
+      "美国等 App Store 显示为付费应用"
+    ],
+    "docUrl": "/clients/#stash",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "quantumult-x",
+    "name": "Quantumult X（圈 X）",
+    "os": [
+      "iOS"
+    ],
+    "category": "iOS 进阶分流与脚本客户端",
+    "coreEngine": "自研规则与脚本引擎",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "Trojan",
+      "VLESS"
+    ],
+    "officialRepoOrStore": "App Store",
+    "maintenanceStatus": "持续运营",
+    "pricing": "付费应用（以所属地区 App Store 标价为准）",
+    "highlights": [
+      "支持精细规则分流、HTTP 请求重写、JavaScript 脚本与自定义 DNS"
+    ],
+    "warnings": [
+      "付费应用且订阅格式与 Clash 不同，部分机场需开启 QX 转换参数"
+    ],
+    "docUrl": "/clients/#quantumult-x",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "surge",
+    "name": "Surge (Surge 5 / Surge Mac)",
+    "os": [
+      "iOS",
+      "macOS"
+    ],
+    "category": "iOS / macOS 高级网络调试与代理套件",
+    "coreEngine": "Surge 自研高性能网络引擎",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "Trojan",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "App Store / 官网",
+    "maintenanceStatus": "商业软件持续维护",
+    "pricing": "付费授权 / 含应用内购买",
+    "highlights": [
+      "顶级的网络流量抓包分析、策略组与系统级调试能力"
+    ],
+    "warnings": [
+      "授权价格较高且部分新兴协议支持节奏与开源客户端不同"
+    ],
+    "docUrl": "/clients/#surge",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "streisand",
+    "name": "Streisand",
+    "os": [
+      "iOS"
+    ],
+    "category": "iOS 多协议免费客户端",
+    "coreEngine": "多协议核心",
+    "protocols": [
+      "VLESS",
+      "VMess",
+      "Trojan",
+      "Hysteria",
+      "Shadowsocks"
+    ],
+    "officialRepoOrStore": "App Store",
+    "maintenanceStatus": "App Store 维护",
+    "pricing": "免费（以所属地区 App Store 为准）",
+    "highlights": [
+      "支持 VLESS、VMess、Trojan、Hysteria 等主流协议与订阅导入"
+    ],
+    "warnings": [
+      "高级分流策略功能不如 Shadowrocket / Stash 丰富"
+    ],
+    "docUrl": "/clients/#streisand",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "potatso",
+    "name": "Potatso",
+    "os": [
+      "iOS"
+    ],
+    "category": "iOS 基础代理客户端",
+    "coreEngine": "轻量代理核心",
+    "protocols": [
+      "Shadowsocks",
+      "SSR",
+      "SOCKS",
+      "HTTP(S)"
+    ],
+    "officialRepoOrStore": "App Store",
+    "maintenanceStatus": "基础维护",
+    "pricing": "免费 / 含地区商店差异",
+    "highlights": [
+      "基础 Shadowsocks / SOCKS / HTTP(S) 协议接入"
+    ],
+    "warnings": [
+      "不支持 VLESS 或 Hysteria 2 等新协议，现代机场兼容性较有限"
+    ],
+    "docUrl": "/clients/#potatso",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "oneclick",
+    "name": "OneClick",
+    "os": [
+      "iOS"
+    ],
+    "category": "iOS 轻量订阅客户端",
+    "coreEngine": "轻量代理核心",
+    "protocols": [
+      "VMess",
+      "Shadowsocks",
+      "Trojan"
+    ],
+    "officialRepoOrStore": "App Store",
+    "maintenanceStatus": "App Store 上架",
+    "pricing": "免费（以所属地区 App Store 为准）",
+    "highlights": [
+      "支持 VMess、Shadowsocks、Trojan 与订阅链接导入"
+    ],
+    "warnings": [
+      "不支持 VLESS 与 Hysteria 2 等新协议"
+    ],
+    "docUrl": "/clients/#oneclick",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "v2raya",
+    "name": "v2rayA",
+    "os": [
+      "Linux",
+      "OpenWrt"
+    ],
+    "category": "Linux / 网关 Web 透明代理客户端",
+    "coreEngine": "Xray / v2ray-core",
+    "protocols": [
+      "VLESS",
+      "VMess",
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "开源社区维护",
+    "pricing": "免费开源",
+    "highlights": [
+      "提供 Web 控制界面与系统透明代理",
+      "非常适合无桌面环境的 Linux 主机、服务器及部分 Linux 路由网关"
+    ],
+    "warnings": [
+      "透明代理部署需注意防火墙 nftables/iptables 与端口冲突"
+    ],
+    "docUrl": "/clients/#v2raya",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "openclash",
+    "name": "OpenClash",
+    "os": [
+      "OpenWrt"
+    ],
+    "category": "OpenWrt 软路由规则代理插件",
+    "coreEngine": "Mihomo / Clash",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "VLESS",
+      "Trojan",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "开源社区维护",
+    "pricing": "免费开源",
+    "highlights": [
+      "软路由端生态最成熟，支持订阅转换、规则分流与全网透明代理"
+    ],
+    "warnings": [
+      "安装前须确认 OpenWrt 版本、CPU 架构、包管理器及防火墙依赖"
+    ],
+    "docUrl": "/clients/#openclash",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "passwall2",
+    "name": "PassWall2",
+    "os": [
+      "OpenWrt"
+    ],
+    "category": "OpenWrt 多核心透明代理插件",
+    "coreEngine": "Xray / sing-box",
+    "protocols": [
+      "VLESS",
+      "VMess",
+      "Trojan",
+      "Shadowsocks",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "开源社区维护",
+    "pricing": "免费开源",
+    "highlights": [
+      "支持节点管理、多核心分流透明代理与局域网设备访问控制"
+    ],
+    "warnings": [
+      "须匹配路由器架构与固件内核依赖"
+    ],
+    "docUrl": "/clients/#passwall2",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "nikki",
+    "name": "Nikki",
+    "os": [
+      "OpenWrt"
+    ],
+    "category": "OpenWrt 24.10+ Mihomo 代理插件",
+    "coreEngine": "Mihomo",
+    "protocols": [
+      "Shadowsocks",
+      "VMess",
+      "VLESS",
+      "Trojan",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "开源社区维护",
+    "pricing": "免费开源",
+    "highlights": [
+      "轻量级 Mihomo 透明代理与策略管理"
+    ],
+    "warnings": [
+      "官方项目明确要求 OpenWrt 24.10 及以上版本，旧版固件不兼容"
+    ],
+    "docUrl": "/clients/#nikki",
+    "dataStatus": "Vendor Data"
+  },
+  {
+    "slug": "homeproxy",
+    "name": "HomeProxy",
+    "os": [
+      "OpenWrt"
+    ],
+    "category": "OpenWrt sing-box 路由代理插件",
+    "coreEngine": "sing-box",
+    "protocols": [
+      "VLESS",
+      "VMess",
+      "Trojan",
+      "Shadowsocks",
+      "Hysteria 2"
+    ],
+    "officialRepoOrStore": "GitHub",
+    "maintenanceStatus": "开源社区维护",
+    "pricing": "免费开源",
+    "highlights": [
+      "原生基于 sing-box 与 LuCI 的现代 OpenWrt 路由代理管理"
+    ],
+    "warnings": [
+      "须确认固件版本与 sing-box 内核依赖版本匹配"
+    ],
+    "docUrl": "/clients/#homeproxy",
+    "dataStatus": "Vendor Data"
+  }
+]

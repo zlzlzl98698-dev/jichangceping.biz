@@ -1,0 +1,112 @@
+[
+  {
+    "id": "src-brand-list-32",
+    "title": "32家机场品牌清单.txt（主体 1–28 品牌与对比汇总）",
+    "path": "sources/brand-info/32家机场品牌清单.txt",
+    "sourceType": "vendor-compilation",
+    "capturedDate": "2026-10-19",
+    "dataStatus": "Vendor Data",
+    "summary": "收录 28 个主清单机场品牌（不含合并后的 Firefly 萤火虫与末尾追加 3 家）的推广链接、优惠码、特色、套餐及 2026-10-19 非晚高峰文本测速参考。",
+    "limitations": [
+      "包含服务商自述特征与优惠信息",
+      "部分品牌缺少完整套餐表或存在优惠码/域名前缀冲突"
+    ]
+  },
+  {
+    "id": "src-brand-list-32-appended",
+    "title": "32家机场品牌清单.txt（2026-08-09 历史追加条目）",
+    "path": "sources/brand-info/32家机场品牌清单.txt",
+    "sourceType": "historical-archive",
+    "capturedDate": "2026-08-09",
+    "dataStatus": "Historical Data",
+    "summary": "文末追加的 2026-08-09 品牌库历史记录：灵动云、浪网、边缘节点 EdgeNova 与 Firefly 萤火虫（已合并至 firefly）。",
+    "limitations": [
+      "原文明确标注为历史记录，不保证当前价格、优惠码与入口持续有效"
+    ]
+  },
+  {
+    "id": "src-guangsuyun-info",
+    "title": "光速云品牌信息.txt",
+    "path": "sources/brand-info/光速云品牌信息.txt",
+    "sourceType": "vendor-profile",
+    "capturedDate": "2026-10-19",
+    "dataStatus": "Vendor Data",
+    "summary": "光速云主推品牌专项资料，含 2020 年开业、优惠码 AMM、支付方式、4 档核心套餐详情与 59GB/69GB 口径差异。",
+    "limitations": [
+      "入门摘要写 59GB，轻量版套餐明细写 69GB/月"
+    ]
+  },
+  {
+    "id": "src-aff-prefixes-24",
+    "title": "24个站点的aff替换前缀.txt",
+    "path": "sources/brand-info/24个站点的aff替换前缀.txt",
+    "sourceType": "affiliate-registry",
+    "capturedDate": "2026-10-19",
+    "dataStatus": "Vendor Data",
+    "summary": "共记录 28 行站点替换推广域名前缀（含 25 个在库品牌及 快狸、跨界、飞V 3 个未纳入 31 家品牌库的站点）。",
+    "limitations": [
+      "仅包含域名前缀，不含完整 invite code；多个品牌与主清单子域名存在差异"
+    ]
+  },
+  {
+    "id": "src-clients-txt",
+    "title": "第三方代理客户端.txt",
+    "path": "sources/brand-info/第三方代理客户端.txt",
+    "sourceType": "technical-reference",
+    "capturedDate": "2026-10-19",
+    "dataStatus": "Vendor Data",
+    "summary": "覆盖 Windows、Android、iOS/iPadOS、macOS、Linux、OpenWrt 六大平台 24 款第三方通用代理客户端及维护状态/商店付费提示。",
+    "limitations": [
+      "App Store 售价与上架情况随地区变化，NekoBox 与 Mihomo Party 需关注维护状态提示"
+    ]
+  },
+  {
+    "id": "src-speedtest-2026-08-11",
+    "title": "2026-08-11 测速截图实测资料包（16+2+1）",
+    "path": "sources/speedtest-2026-08-11/speedtest-manifest.json",
+    "sourceType": "measured-screenshot-batch",
+    "capturedDate": "2026-08-11",
+    "dataStatus": "Measured",
+    "summary": "包含 manifest 收录的 16 张 2026-08-11 PNG 测速图（含未入 31 家品牌库的快狸），以及目录内并存的 微风-节点测速实测.png (2026-07-19) 与 无忧链接.jpg / 无忧链接2.jpg (2026-07-18)。",
+    "limitations": [
+      "不同品牌在不同时段测试，非同一控制变量横向榜单",
+      "不得通过目测/OCR 编造未提供原始机器数据的精确均值"
+    ]
+  },
+  {
+    "id": "src-speedtest-guangsuyun-2026-08-19",
+    "title": "光速云 2026-08-19 MiaoKo 实测截图集（5 张）",
+    "path": "docs/public/images/benchmarks/guangsuyun-2026-08-19/",
+    "sourceType": "measured-screenshot-batch",
+    "capturedDate": "2026-08-19",
+    "dataStatus": "Measured",
+    "summary": "包含 3 张 62 节点 Shadowsocks 三网测速图（长沙电信/广西移动/河北联通 2Gbps）及 2 张 70 节点 VLESS+AnyTLS（60 VLESS + 10 电信 AnyTLS，珠海联通 9Gbps）解锁与测速图。",
+    "limitations": [
+      "测速表格单位为 MB（MB/s 级），70 节点批次速度页仅测试 60 个 VLESS 节点且美国02出现 1.60KB 异常"
+    ]
+  },
+  {
+    "id": "src-speedtest-lingdong-2026-07-20",
+    "title": "灵动云 2026-07-20/21 测速与解锁文字实测摘要",
+    "path": "sources/brand-info/32家机场品牌清单.txt",
+    "sourceType": "measured-text-summary",
+    "capturedDate": "2026-07-21",
+    "dataStatus": "Historical Data",
+    "summary": "珠海联通 9Gbps 环境 60 测速 / 60 解锁实测摘要：速度 20–80MB/s、OpenAI 全解锁、TikTok 多失败、新/台 YouTube 送中、美国01 整节点失败。",
+    "limitations": [
+      "仅保留摘要文字，未附带原始逐节点机器表格"
+    ]
+  },
+  {
+    "id": "src-speedtest-text-2026-10-19",
+    "title": "2026-10-19 非晚高峰地区测速文本记录",
+    "path": "sources/brand-info/32家机场品牌清单.txt",
+    "sourceType": "historical-text-benchmark",
+    "capturedDate": "2026-10-19",
+    "dataStatus": "Historical Data",
+    "summary": "标注为 2026-10-19 非晚高峰的港/台/新/日/美 5 地区延迟与下载速率文本记录（15 家品牌有数值，宇宙云与隐形人为空白）。",
+    "limitations": [
+      "明确标注为非晚高峰，不能直接推演晚高峰 20:00–23:00 拥塞表现"
+    ]
+  }
+]

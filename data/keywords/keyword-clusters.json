@@ -1,0 +1,1171 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-24",
+  "totalClusters": 69,
+  "items": [
+    {
+      "clusterId": "cluster-compare",
+      "name": "compare",
+      "pillar": "brands",
+      "primaryIntent": "光速云与飞猫云在价格、专线、客户端自由度与实测上的差异对比",
+      "canonicalHubUrl": "/compare/guangsuyun-vs-feimao/",
+      "coreKeywords": [
+        "光速云和飞猫云对比",
+        "光速云 vs 飞猫云",
+        "飞猫云和光速云哪个好",
+        "光速云和暮光加速对比",
+        "光速云 vs 暮光加速",
+        "暮光和光速云怎么选",
+        "光速云和星岛梦对比",
+        "光速云 vs 星岛梦"
+      ],
+      "keywordCount": 36,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-guides",
+      "name": "guides",
+      "pillar": "guides",
+      "primaryIntent": "从购买订阅到客户端配置、分流优化与测速核验全流程",
+      "canonicalHubUrl": "/guides/",
+      "coreKeywords": [
+        "机场使用教程",
+        "科学上网教程",
+        "代理客户端新手指南",
+        "机场入门教学",
+        "机场订阅导入教程",
+        "订阅链接怎么用",
+        "Clash导入订阅",
+        "订阅转换安全注意"
+      ],
+      "keywordCount": 27,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-clients",
+      "name": "clients",
+      "pillar": "clients",
+      "primaryIntent": "24款全平台第三方代理客户端总览与安全选型",
+      "canonicalHubUrl": "/clients/",
+      "coreKeywords": [
+        "代理客户端软件",
+        "科学上网客户端下载",
+        "代理软件大全",
+        "开源代理客户端",
+        "机场客户端兼容性矩阵",
+        "支持Clash的机场",
+        "专属客户端机场列表",
+        "不提供订阅的机场"
+      ],
+      "keywordCount": 23,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-network",
+      "name": "network",
+      "pillar": "network",
+      "primaryIntent": "直连、中转、BGP、IEPL与IPLC线路架构及落地节点解析",
+      "canonicalHubUrl": "/network/",
+      "coreKeywords": [
+        "机场线路与节点技术",
+        "机场线路类型",
+        "中转与专线区别",
+        "节点拓扑解析",
+        "IEPL和IPLC区别",
+        "什么是IEPL专线",
+        "什么是IPLC专线",
+        "专线机场值不值得买"
+      ],
+      "keywordCount": 22,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-recommend",
+      "name": "recommend",
+      "pillar": "recommend",
+      "primaryIntent": "2026 综合机场推荐与按场景选型指南",
+      "canonicalHubUrl": "/recommend/",
+      "coreKeywords": [
+        "机场推荐",
+        "好用机场推荐",
+        "机场怎么选",
+        "机场推荐指南",
+        "机场排行",
+        "机场排行榜",
+        "机场排名 2026",
+        "梯子排行"
+      ],
+      "keywordCount": 20,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-plans",
+      "name": "plans",
+      "pillar": "plans",
+      "primaryIntent": "机场套餐计费模式与单价评估总览",
+      "canonicalHubUrl": "/plans/",
+      "coreKeywords": [
+        "机场价格套餐",
+        "机场多少钱一个月",
+        "机场流量套餐怎么选",
+        "机场月付年付对比",
+        "机场套餐价格数据库",
+        "机场套餐价格表",
+        "机场每GB成本对比",
+        "机场套餐筛选"
+      ],
+      "keywordCount": 20,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-risks",
+      "name": "risks",
+      "pillar": "risks",
+      "primaryIntent": "机场跑路风险、资金周期控制与隐私安全防范体系",
+      "canonicalHubUrl": "/risks/",
+      "coreKeywords": [
+        "机场风险与避坑指南",
+        "买机场避坑",
+        "机场安全吗",
+        "机场风险控制",
+        "机场跑路征兆与异常信号",
+        "机场要跑路的特征",
+        "如何判断机场稳不稳",
+        "跑路前兆"
+      ],
+      "keywordCount": 20,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-ai-streaming",
+      "name": "ai-streaming",
+      "pillar": "ai-streaming",
+      "primaryIntent": "ChatGPT/Claude/Gemini与Netflix/Disney+/YouTube解锁逻辑总览",
+      "canonicalHubUrl": "/ai-streaming/",
+      "coreKeywords": [
+        "AI与流媒体解锁",
+        "流媒体解锁机场",
+        "AI工具代理节点",
+        "原生IP解锁原理",
+        "ChatGPT Claude Gemini 机场节点",
+        "解锁ChatGPT的机场",
+        "Claude防封号节点",
+        "Gemini解锁地区"
+      ],
+      "keywordCount": 18,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-vpn",
+      "name": "vpn",
+      "pillar": "vpn",
+      "primaryIntent": "传统商业VPN、机场代理与游戏加速器定位总览",
+      "canonicalHubUrl": "/vpn/",
+      "coreKeywords": [
+        "VPN与加速器专题",
+        "VPN推荐对比",
+        "科学上网工具分类",
+        "代理服务选型",
+        "VPN和机场的区别",
+        "机场和VPN哪个好",
+        "传统VPN vs 机场",
+        "为什么用机场不用VPN"
+      ],
+      "keywordCount": 16,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-troubleshooting",
+      "name": "troubleshooting",
+      "pillar": "troubleshooting",
+      "primaryIntent": "代理连接异常、订阅更新报错与系统代理冲突总诊断流程",
+      "canonicalHubUrl": "/troubleshooting/",
+      "coreKeywords": [
+        "机场故障排查指南",
+        "梯子连不上怎么办",
+        "代理软件故障排查",
+        "机场断流解决",
+        "订阅更新失败怎么办",
+        "Clash下载配置失败",
+        "订阅链接打不开",
+        "节点列表为空"
+      ],
+      "keywordCount": 16,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brands",
+      "name": "brands",
+      "pillar": "brands",
+      "primaryIntent": "31家在库机场品牌检索、筛选与核验档案入口",
+      "canonicalHubUrl": "/brands/",
+      "coreKeywords": [
+        "机场品牌库",
+        "机场大全",
+        "机场品牌列表",
+        "机场名录 31 家",
+        "机场深度测评汇总",
+        "机场评测报告",
+        "机场真实测评",
+        "机场测评目录"
+      ],
+      "keywordCount": 12,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-guangsuyun",
+      "name": "brand-guangsuyun",
+      "pillar": "brands",
+      "primaryIntent": "光速云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/guangsuyun/",
+      "coreKeywords": [
+        "光速云测评",
+        "光速云怎么样",
+        "光速云官网",
+        "光速云优惠码",
+        "光速云套餐价格",
+        "光速云跑路了吗",
+        "光速云测速",
+        "LightSpeed 机场测评"
+      ],
+      "keywordCount": 11,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-firefly",
+      "name": "brand-firefly",
+      "pillar": "brands",
+      "primaryIntent": "Firefly 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/firefly/",
+      "coreKeywords": [
+        "Firefly测评",
+        "Firefly怎么样",
+        "Firefly官网",
+        "Firefly优惠码",
+        "Firefly套餐价格",
+        "Firefly跑路了吗",
+        "Firefly测速",
+        "Firefly 机场测评"
+      ],
+      "keywordCount": 9,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-muguang",
+      "name": "brand-muguang",
+      "pillar": "brands",
+      "primaryIntent": "暮光加速 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/muguang/",
+      "coreKeywords": [
+        "暮光加速测评",
+        "暮光加速怎么样",
+        "暮光加速官网",
+        "暮光加速优惠码",
+        "暮光加速套餐价格",
+        "暮光加速跑路了吗",
+        "暮光加速测速",
+        "Twilight 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-feimao",
+      "name": "brand-feimao",
+      "pillar": "brands",
+      "primaryIntent": "飞猫云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/feimao/",
+      "coreKeywords": [
+        "飞猫云测评",
+        "飞猫云怎么样",
+        "飞猫云官网",
+        "飞猫云优惠码",
+        "飞猫云套餐价格",
+        "飞猫云跑路了吗",
+        "飞猫云测速",
+        "FlyCat 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-weifeng",
+      "name": "brand-weifeng",
+      "pillar": "brands",
+      "primaryIntent": "微风网络 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/weifeng/",
+      "coreKeywords": [
+        "微风网络测评",
+        "微风网络怎么样",
+        "微风网络官网",
+        "微风网络优惠码",
+        "微风网络套餐价格",
+        "微风网络跑路了吗",
+        "微风网络测速",
+        "Breezenet 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-xingdaomeng",
+      "name": "brand-xingdaomeng",
+      "pillar": "brands",
+      "primaryIntent": "星岛梦 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/xingdaomeng/",
+      "coreKeywords": [
+        "星岛梦测评",
+        "星岛梦怎么样",
+        "星岛梦官网",
+        "星岛梦优惠码",
+        "星岛梦套餐价格",
+        "星岛梦跑路了吗",
+        "星岛梦测速",
+        "StarDream 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-ermao",
+      "name": "brand-ermao",
+      "pillar": "brands",
+      "primaryIntent": "二猫云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/ermao/",
+      "coreKeywords": [
+        "二猫云测评",
+        "二猫云怎么样",
+        "二猫云官网",
+        "二猫云优惠码",
+        "二猫云套餐价格",
+        "二猫云跑路了吗",
+        "二猫云测速",
+        "2mao 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-wuyou",
+      "name": "brand-wuyou",
+      "pillar": "brands",
+      "primaryIntent": "无忧链接 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/wuyou/",
+      "coreKeywords": [
+        "无忧链接测评",
+        "无忧链接怎么样",
+        "无忧链接官网",
+        "无忧链接优惠码",
+        "无忧链接套餐价格",
+        "无忧链接跑路了吗",
+        "无忧链接测速",
+        "无忧链接 2026年10月专属客户端变化"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-yuzhou",
+      "name": "brand-yuzhou",
+      "pillar": "brands",
+      "primaryIntent": "宇宙云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/yuzhou/",
+      "coreKeywords": [
+        "宇宙云测评",
+        "宇宙云怎么样",
+        "宇宙云官网",
+        "宇宙云优惠码",
+        "宇宙云套餐价格",
+        "宇宙云跑路了吗",
+        "宇宙云测速",
+        "YuZhou 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-yifan",
+      "name": "brand-yifan",
+      "pillar": "brands",
+      "primaryIntent": "一翻云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/yifan/",
+      "coreKeywords": [
+        "一翻云测评",
+        "一翻云怎么样",
+        "一翻云官网",
+        "一翻云优惠码",
+        "一翻云套餐价格",
+        "一翻云跑路了吗",
+        "一翻云测速",
+        "1fly 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-sujie",
+      "name": "brand-sujie",
+      "pillar": "brands",
+      "primaryIntent": "速界 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/sujie/",
+      "coreKeywords": [
+        "速界测评",
+        "速界怎么样",
+        "速界官网",
+        "速界优惠码",
+        "速界套餐价格",
+        "速界跑路了吗",
+        "速界测速",
+        "SuJie 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-shanyue",
+      "name": "brand-shanyue",
+      "pillar": "brands",
+      "primaryIntent": "闪跃 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/shanyue/",
+      "coreKeywords": [
+        "闪跃测评",
+        "闪跃怎么样",
+        "闪跃官网",
+        "闪跃优惠码",
+        "闪跃套餐价格",
+        "闪跃跑路了吗",
+        "闪跃测速",
+        "FlashLeap 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-tiziyun",
+      "name": "brand-tiziyun",
+      "pillar": "brands",
+      "primaryIntent": "梯子云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/tiziyun/",
+      "coreKeywords": [
+        "梯子云测评",
+        "梯子云怎么样",
+        "梯子云官网",
+        "梯子云优惠码",
+        "梯子云套餐价格",
+        "梯子云跑路了吗",
+        "梯子云测速",
+        "LadderCloud 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-lingdong",
+      "name": "brand-lingdong",
+      "pillar": "brands",
+      "primaryIntent": "灵动云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/lingdong/",
+      "coreKeywords": [
+        "灵动云测评",
+        "灵动云怎么样",
+        "灵动云官网",
+        "灵动云优惠码",
+        "灵动云套餐价格",
+        "灵动云跑路了吗",
+        "灵动云测速",
+        "灵动云 2026年7月实测结果"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-langwang",
+      "name": "brand-langwang",
+      "pillar": "brands",
+      "primaryIntent": "浪网 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/langwang/",
+      "coreKeywords": [
+        "浪网测评",
+        "浪网怎么样",
+        "浪网官网",
+        "浪网优惠码",
+        "浪网套餐价格",
+        "浪网跑路了吗",
+        "浪网测速",
+        "WaveNet 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-edgenova",
+      "name": "brand-edgenova",
+      "pillar": "brands",
+      "primaryIntent": "边缘节点 EdgeNova 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/edgenova/",
+      "coreKeywords": [
+        "边缘节点 EdgeNova测评",
+        "边缘节点 EdgeNova怎么样",
+        "边缘节点 EdgeNova官网",
+        "边缘节点 EdgeNova优惠码",
+        "边缘节点 EdgeNova套餐价格",
+        "边缘节点 EdgeNova跑路了吗",
+        "边缘节点 EdgeNova测速",
+        "EdgeNova 机场测评"
+      ],
+      "keywordCount": 8,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-dalaoyun",
+      "name": "brand-dalaoyun",
+      "pillar": "brands",
+      "primaryIntent": "大佬云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/dalaoyun/",
+      "coreKeywords": [
+        "大佬云测评",
+        "大佬云怎么样",
+        "大佬云官网",
+        "大佬云优惠码",
+        "大佬云套餐价格",
+        "大佬云跑路了吗",
+        "大佬云测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-yinxingren",
+      "name": "brand-yinxingren",
+      "pillar": "brands",
+      "primaryIntent": "隐形人 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/yinxingren/",
+      "coreKeywords": [
+        "隐形人测评",
+        "隐形人怎么样",
+        "隐形人官网",
+        "隐形人优惠码",
+        "隐形人套餐价格",
+        "隐形人跑路了吗",
+        "隐形人测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-weitu",
+      "name": "brand-weitu",
+      "pillar": "brands",
+      "primaryIntent": "唯兔云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/weitu/",
+      "coreKeywords": [
+        "唯兔云测评",
+        "唯兔云怎么样",
+        "唯兔云官网",
+        "唯兔云优惠码",
+        "唯兔云套餐价格",
+        "唯兔云跑路了吗",
+        "唯兔云测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-u1s1",
+      "name": "brand-u1s1",
+      "pillar": "brands",
+      "primaryIntent": "U1S1 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/u1s1/",
+      "coreKeywords": [
+        "U1S1测评",
+        "U1S1怎么样",
+        "U1S1官网",
+        "U1S1优惠码",
+        "U1S1套餐价格",
+        "U1S1跑路了吗",
+        "U1S1测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-lingmao",
+      "name": "brand-lingmao",
+      "pillar": "brands",
+      "primaryIntent": "灵猫网络 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/lingmao/",
+      "coreKeywords": [
+        "灵猫网络测评",
+        "灵猫网络怎么样",
+        "灵猫网络官网",
+        "灵猫网络优惠码",
+        "灵猫网络套餐价格",
+        "灵猫网络跑路了吗",
+        "灵猫网络测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-jilian",
+      "name": "brand-jilian",
+      "pillar": "brands",
+      "primaryIntent": "极连云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/jilian/",
+      "coreKeywords": [
+        "极连云测评",
+        "极连云怎么样",
+        "极连云官网",
+        "极连云优惠码",
+        "极连云套餐价格",
+        "极连云跑路了吗",
+        "极连云测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-guangnian",
+      "name": "brand-guangnian",
+      "pillar": "brands",
+      "primaryIntent": "光年梯 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/guangnian/",
+      "coreKeywords": [
+        "光年梯测评",
+        "光年梯怎么样",
+        "光年梯官网",
+        "光年梯优惠码",
+        "光年梯套餐价格",
+        "光年梯跑路了吗",
+        "光年梯测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-sogo",
+      "name": "brand-sogo",
+      "pillar": "brands",
+      "primaryIntent": "SOGO 云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/sogo/",
+      "coreKeywords": [
+        "SOGO 云测评",
+        "SOGO 云怎么样",
+        "SOGO 云官网",
+        "SOGO 云优惠码",
+        "SOGO 云套餐价格",
+        "SOGO 云跑路了吗",
+        "SOGO 云测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-kexin",
+      "name": "brand-kexin",
+      "pillar": "brands",
+      "primaryIntent": "可信云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/kexin/",
+      "coreKeywords": [
+        "可信云测评",
+        "可信云怎么样",
+        "可信云官网",
+        "可信云优惠码",
+        "可信云套餐价格",
+        "可信云跑路了吗",
+        "可信云测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-quanqiu",
+      "name": "brand-quanqiu",
+      "pillar": "brands",
+      "primaryIntent": "全球云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/quanqiu/",
+      "coreKeywords": [
+        "全球云测评",
+        "全球云怎么样",
+        "全球云官网",
+        "全球云优惠码",
+        "全球云套餐价格",
+        "全球云跑路了吗",
+        "全球云测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-shandianshu",
+      "name": "brand-shandianshu",
+      "pillar": "brands",
+      "primaryIntent": "闪电鼠 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/shandianshu/",
+      "coreKeywords": [
+        "闪电鼠测评",
+        "闪电鼠怎么样",
+        "闪电鼠官网",
+        "闪电鼠优惠码",
+        "闪电鼠套餐价格",
+        "闪电鼠跑路了吗",
+        "闪电鼠测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-yunjiexian",
+      "name": "brand-yunjiexian",
+      "pillar": "brands",
+      "primaryIntent": "云界线 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/yunjiexian/",
+      "coreKeywords": [
+        "云界线测评",
+        "云界线怎么样",
+        "云界线官网",
+        "云界线优惠码",
+        "云界线套餐价格",
+        "云界线跑路了吗",
+        "云界线测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-liulianyun",
+      "name": "brand-liulianyun",
+      "pillar": "brands",
+      "primaryIntent": "榴莲云 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/liulianyun/",
+      "coreKeywords": [
+        "榴莲云测评",
+        "榴莲云怎么样",
+        "榴莲云官网",
+        "榴莲云优惠码",
+        "榴莲云套餐价格",
+        "榴莲云跑路了吗",
+        "榴莲云测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-shenxing",
+      "name": "brand-shenxing",
+      "pillar": "brands",
+      "primaryIntent": "神行加速 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/shenxing/",
+      "coreKeywords": [
+        "神行加速测评",
+        "神行加速怎么样",
+        "神行加速官网",
+        "神行加速优惠码",
+        "神行加速套餐价格",
+        "神行加速跑路了吗",
+        "神行加速测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-brand-huanqiuti",
+      "name": "brand-huanqiuti",
+      "pillar": "brands",
+      "primaryIntent": "环球梯 品牌资料、套餐价格、线路实测与风险深度评估",
+      "canonicalHubUrl": "/reviews/huanqiuti/",
+      "coreKeywords": [
+        "环球梯测评",
+        "环球梯怎么样",
+        "环球梯官网",
+        "环球梯优惠码",
+        "环球梯套餐价格",
+        "环球梯跑路了吗",
+        "环球梯测速"
+      ],
+      "keywordCount": 7,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-home",
+      "name": "home",
+      "pillar": "home",
+      "primaryIntent": "实验室首页与全站机场评测导航",
+      "canonicalHubUrl": "/",
+      "coreKeywords": [
+        "机场测评",
+        "机场评测实验室",
+        "Airport Review Lab",
+        "jichangceping.biz"
+      ],
+      "keywordCount": 4,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-about",
+      "name": "about",
+      "pillar": "about",
+      "primaryIntent": "编辑团队、推广披露原则、数据源透明声明与合规提示",
+      "canonicalHubUrl": "/about/",
+      "coreKeywords": [
+        "关于机场测评实验室",
+        "机场测评编辑规范",
+        "佣金披露声明",
+        "联系机场测评"
+      ],
+      "keywordCount": 4,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-nikki",
+      "name": "client-nikki",
+      "pillar": "clients",
+      "primaryIntent": "Nikki 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/nikki/",
+      "coreKeywords": [
+        "Nikki OpenWrt 24.10 插件教程",
+        "Nikki 下载渠道",
+        "Nikki 支持协议",
+        "OpenWrt 24.10 安装 Nikki 要求"
+      ],
+      "keywordCount": 4,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-clash-verge-rev",
+      "name": "client-clash-verge-rev",
+      "pillar": "clients",
+      "primaryIntent": "Clash Verge Rev 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/clash-verge-rev/",
+      "coreKeywords": [
+        "Clash Verge Rev 教程与下载",
+        "Clash Verge Rev 下载渠道",
+        "Clash Verge Rev 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-v2rayn",
+      "name": "client-v2rayn",
+      "pillar": "clients",
+      "primaryIntent": "v2rayN 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/v2rayn/",
+      "coreKeywords": [
+        "v2rayN 使用教程与下载",
+        "v2rayN 下载渠道",
+        "v2rayN 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-v2rayng",
+      "name": "client-v2rayng",
+      "pillar": "clients",
+      "primaryIntent": "v2rayNG 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/v2rayng/",
+      "coreKeywords": [
+        "v2rayNG 安卓使用教程",
+        "v2rayNG 下载渠道",
+        "v2rayNG 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-shadowrocket",
+      "name": "client-shadowrocket",
+      "pillar": "clients",
+      "primaryIntent": "Shadowrocket (小火箭) 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/shadowrocket/",
+      "coreKeywords": [
+        "Shadowrocket 小火箭使用教程",
+        "Shadowrocket (小火箭) 下载渠道",
+        "Shadowrocket (小火箭) 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-mihomo",
+      "name": "client-mihomo",
+      "pillar": "clients",
+      "primaryIntent": "Mihomo 内核 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/mihomo/",
+      "coreKeywords": [
+        "Mihomo 内核客户端生态指南",
+        "Mihomo 内核 下载渠道",
+        "Mihomo 内核 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-sing-box",
+      "name": "client-sing-box",
+      "pillar": "clients",
+      "primaryIntent": "sing-box 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/sing-box/",
+      "coreKeywords": [
+        "sing-box 客户端配置指南",
+        "sing-box 下载渠道",
+        "sing-box 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-flclash",
+      "name": "client-flclash",
+      "pillar": "clients",
+      "primaryIntent": "FlClash 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/flclash/",
+      "coreKeywords": [
+        "FlClash 跨平台客户端教程",
+        "FlClash 下载渠道",
+        "FlClash 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-hiddify",
+      "name": "client-hiddify",
+      "pillar": "clients",
+      "primaryIntent": "Hiddify 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/hiddify/",
+      "coreKeywords": [
+        "Hiddify 全平台客户端教程",
+        "Hiddify 下载渠道",
+        "Hiddify 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-karing",
+      "name": "client-karing",
+      "pillar": "clients",
+      "primaryIntent": "Karing 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/karing/",
+      "coreKeywords": [
+        "Karing 客户端配置教程",
+        "Karing 下载渠道",
+        "Karing 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-stash",
+      "name": "client-stash",
+      "pillar": "clients",
+      "primaryIntent": "Stash 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/stash/",
+      "coreKeywords": [
+        "Stash iOS Clash客户端指南",
+        "Stash 下载渠道",
+        "Stash 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-surge",
+      "name": "client-surge",
+      "pillar": "clients",
+      "primaryIntent": "Surge 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/surge/",
+      "coreKeywords": [
+        "Surge iOS macOS 高级代理指南",
+        "Surge 下载渠道",
+        "Surge 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-quantumult-x",
+      "name": "client-quantumult-x",
+      "pillar": "clients",
+      "primaryIntent": "Quantumult X 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/quantumult-x/",
+      "coreKeywords": [
+        "Quantumult X 圈X 使用教程",
+        "Quantumult X 下载渠道",
+        "Quantumult X 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-clash-meta-for-android",
+      "name": "client-clash-meta-for-android",
+      "pillar": "clients",
+      "primaryIntent": "Clash Meta for Android 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/clash-meta-for-android/",
+      "coreKeywords": [
+        "Clash Meta for Android 下载教程",
+        "Clash Meta for Android 下载渠道",
+        "Clash Meta for Android 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-clash-nyanpasu",
+      "name": "client-clash-nyanpasu",
+      "pillar": "clients",
+      "primaryIntent": "Clash Nyanpasu 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/clash-nyanpasu/",
+      "coreKeywords": [
+        "Clash Nyanpasu 桌面客户端指南",
+        "Clash Nyanpasu 下载渠道",
+        "Clash Nyanpasu 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-clash-mi",
+      "name": "client-clash-mi",
+      "pillar": "clients",
+      "primaryIntent": "Clash Mi 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/clash-mi/",
+      "coreKeywords": [
+        "Clash Mi 全平台客户端指南",
+        "Clash Mi 下载渠道",
+        "Clash Mi 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-openclash",
+      "name": "client-openclash",
+      "pillar": "clients",
+      "primaryIntent": "OpenClash 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/openclash/",
+      "coreKeywords": [
+        "OpenClash 软路由配置教程",
+        "OpenClash 下载渠道",
+        "OpenClash 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-passwall2",
+      "name": "client-passwall2",
+      "pillar": "clients",
+      "primaryIntent": "PassWall2 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/passwall2/",
+      "coreKeywords": [
+        "PassWall2 OpenWrt 配置教程",
+        "PassWall2 下载渠道",
+        "PassWall2 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-homeproxy",
+      "name": "client-homeproxy",
+      "pillar": "clients",
+      "primaryIntent": "HomeProxy 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/homeproxy/",
+      "coreKeywords": [
+        "HomeProxy sing-box 软路由教程",
+        "HomeProxy 下载渠道",
+        "HomeProxy 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-windows",
+      "name": "client-windows",
+      "pillar": "clients",
+      "primaryIntent": "Windows 代理客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/windows/",
+      "coreKeywords": [
+        "Windows 电脑代理客户端推荐",
+        "Windows 代理客户端 下载渠道",
+        "Windows 代理客户端 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-macos",
+      "name": "client-macos",
+      "pillar": "clients",
+      "primaryIntent": "macOS 代理客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/macos/",
+      "coreKeywords": [
+        "macOS 苹果电脑代理客户端推荐",
+        "macOS 代理客户端 下载渠道",
+        "macOS 代理客户端 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-android",
+      "name": "client-android",
+      "pillar": "clients",
+      "primaryIntent": "Android 代理客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/android/",
+      "coreKeywords": [
+        "Android 安卓代理客户端推荐",
+        "Android 代理客户端 下载渠道",
+        "Android 代理客户端 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-ios",
+      "name": "client-ios",
+      "pillar": "clients",
+      "primaryIntent": "iOS 代理客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/ios/",
+      "coreKeywords": [
+        "iOS 苹果手机代理客户端推荐",
+        "iOS 代理客户端 下载渠道",
+        "iOS 代理客户端 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-linux",
+      "name": "client-linux",
+      "pillar": "clients",
+      "primaryIntent": "Linux 代理客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/linux/",
+      "coreKeywords": [
+        "Linux 桌面与终端代理客户端推荐",
+        "Linux 代理客户端 下载渠道",
+        "Linux 代理客户端 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    },
+    {
+      "clusterId": "cluster-client-openwrt",
+      "name": "client-openwrt",
+      "pillar": "clients",
+      "primaryIntent": "OpenWrt 软路由客户端 核心内核、支持协议、官方下载渠道与安全配置指南",
+      "canonicalHubUrl": "/clients/openwrt/",
+      "coreKeywords": [
+        "OpenWrt 软路由代理插件推荐",
+        "OpenWrt 软路由客户端 下载渠道",
+        "OpenWrt 软路由客户端 支持协议"
+      ],
+      "keywordCount": 3,
+      "totalImportedVolume": null
+    }
+  ]
+}

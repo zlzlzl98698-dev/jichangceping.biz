@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-24",
+  "totalOpportunities": 7,
+  "items": [
+    {
+      "id": "opp-01",
+      "title": "2026 晚高峰 (20:00-23:00 CST) 同后端控制变量补测计划",
+      "pillar": "network",
+      "priority": "P0",
+      "targetUrl": "/benchmarks/",
+      "gapReason": "当前 2026-08-11 截图测试时间横跨 00:21–22:46，2026-10-19 为非晚高峰文本记录，缺少同晚高峰控变量横评批次。",
+      "status": "planned"
+    },
+    {
+      "id": "opp-02",
+      "title": "5.6 元入门同质化 5 品牌独立实测补全（大佬云/闪电鼠/云界线/榴莲云/环球梯）",
+      "pillar": "brands",
+      "priority": "P0",
+      "targetUrl": "/plans/budget/",
+      "gapReason": "5 家品牌当前仅含 Vendor Data 与高度相似参数，缺乏独立 MiaoKo 测速与 AI/流媒体截图。",
+      "status": "planned"
+    },
+    {
+      "id": "opp-03",
+      "title": "历史追加品牌 30 日复测核验（灵动云/浪网/EdgeNova）",
+      "pillar": "risks",
+      "priority": "P1",
+      "targetUrl": "/risks/archives/",
+      "gapReason": "三家源自 2026-08-09 历史品牌库档案，浪网存在流量遮挡(\"截150G\")，灵动云实测停留在 07-20/21。",
+      "status": "planned"
+    },
+    {
+      "id": "opp-04",
+      "title": "专属客户端品牌全平台安装与隐私权限实测对比",
+      "pillar": "clients",
+      "priority": "P1",
+      "targetUrl": "/clients/compatibility/",
+      "gapReason": "飞猫云、隐形人、无忧链接、Firefly、灵猫网络、SOGO云、闪跃、全球云 8 家限定 exclusive-only，需补齐各系统客户端包验证。",
+      "status": "planned"
+    },
+    {
+      "id": "opp-05",
+      "title": "AnyTLS 与 Hysteria 2 在弱网与高丢包环境下的实测对比专题",
+      "pillar": "guides",
+      "priority": "P1",
+      "targetUrl": "/knowledge/protocols/",
+      "gapReason": "光速云 08-19 测试首次引入 10 个电信 AnyTLS 节点，一翻云主打 Hysteria 2，需深入补全实测对比文章。",
+      "status": "planned"
+    },
+    {
+      "id": "opp-06",
+      "title": "未入库品牌（快狸 KuaiLi / 跨界 / 飞V）独立档案评估观察",
+      "pillar": "brands",
+      "priority": "P2",
+      "targetUrl": "/benchmarks/",
+      "gapReason": "快狸出现在 2026-08-11 测速图与 24 个站点 aff 表中，跨界与飞V出现在 aff 表中，暂未纳入 31 家主库。",
+      "status": "backlog"
+    },
+    {
+      "id": "opp-07",
+      "title": "GSC 与 Bing Webmaster 首批真实搜索词导入与零点击高曝光词优化",
+      "pillar": "home",
+      "priority": "P0",
+      "targetUrl": "/recommend/",
+      "gapReason": "当前关键词库尚未导入 GSC/Bing 实际搜索量，站点上线抓取稳定后需执行 npm run keywords:import。",
+      "status": "planned"
+    }
+  ]
+}

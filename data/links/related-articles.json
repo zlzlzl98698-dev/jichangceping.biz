@@ -1,0 +1,1225 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-24",
+  "totalPages": 76,
+  "items": {
+    "/": [
+      {
+        "url": "/recommend/",
+        "title": "机场推荐总览",
+        "relationType": "pillar-hub"
+      },
+      {
+        "url": "/rankings/",
+        "title": "2026 机场分级排行",
+        "relationType": "hub-entry"
+      },
+      {
+        "url": "/plans/",
+        "title": "价格与套餐中心",
+        "relationType": "pillar-hub"
+      },
+      {
+        "url": "/brands/",
+        "title": "机场品牌数据库 (31家)",
+        "relationType": "directory-entry"
+      },
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "光速云旗舰深度测评",
+        "relationType": "lead-brand-review"
+      },
+      {
+        "url": "/compare/",
+        "title": "品牌横向对比中心",
+        "relationType": "tool-entry"
+      }
+    ],
+    "/recommend/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "光速云推荐适配评估",
+        "relationType": "recommend-to-review"
+      },
+      {
+        "url": "/reviews/muguang/",
+        "title": "暮光加速推荐适配评估",
+        "relationType": "recommend-to-review"
+      },
+      {
+        "url": "/reviews/feimao/",
+        "title": "飞猫云推荐适配评估",
+        "relationType": "recommend-to-review"
+      },
+      {
+        "url": "/reviews/weifeng/",
+        "title": "微风网络推荐适配评估",
+        "relationType": "recommend-to-review"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "大佬云推荐适配评估",
+        "relationType": "recommend-to-review"
+      },
+      {
+        "url": "/reviews/xingdaomeng/",
+        "title": "星岛梦推荐适配评估",
+        "relationType": "recommend-to-review"
+      }
+    ],
+    "/rankings/": [],
+    "/recommend/stable/": [],
+    "/recommend/beginner/": [],
+    "/recommend/multi-device/": [],
+    "/plans/": [],
+    "/plans/database/": [],
+    "/plans/budget/": [],
+    "/plans/non-expiring/": [
+      {
+        "url": "/compare/non-expiring-plans/",
+        "title": "7 家不限时流量包单价详细对照",
+        "relationType": "pillar-to-compare"
+      }
+    ],
+    "/deals/": [],
+    "/brands/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "光速云深度测评与档案",
+        "relationType": "directory-to-review"
+      },
+      {
+        "url": "/reviews/muguang/",
+        "title": "暮光加速深度测评与档案",
+        "relationType": "directory-to-review"
+      },
+      {
+        "url": "/reviews/feimao/",
+        "title": "飞猫云深度测评与档案",
+        "relationType": "directory-to-review"
+      },
+      {
+        "url": "/reviews/weifeng/",
+        "title": "微风网络深度测评与档案",
+        "relationType": "directory-to-review"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "大佬云深度测评与档案",
+        "relationType": "directory-to-review"
+      },
+      {
+        "url": "/reviews/xingdaomeng/",
+        "title": "星岛梦深度测评与档案",
+        "relationType": "directory-to-review"
+      }
+    ],
+    "/reviews/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "光速云测评报告",
+        "relationType": "hub-to-review"
+      },
+      {
+        "url": "/reviews/muguang/",
+        "title": "暮光加速测评报告",
+        "relationType": "hub-to-review"
+      },
+      {
+        "url": "/reviews/feimao/",
+        "title": "飞猫云测评报告",
+        "relationType": "hub-to-review"
+      },
+      {
+        "url": "/reviews/weifeng/",
+        "title": "微风网络测评报告",
+        "relationType": "hub-to-review"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "大佬云测评报告",
+        "relationType": "hub-to-review"
+      },
+      {
+        "url": "/reviews/xingdaomeng/",
+        "title": "星岛梦测评报告",
+        "relationType": "hub-to-review"
+      }
+    ],
+    "/compare/": [],
+    "/vpn/": [],
+    "/vpn/vpn-vs-airport/": [],
+    "/vpn/platforms/": [],
+    "/vpn/game-booster/": [],
+    "/clients/": [],
+    "/clients/compatibility/": [],
+    "/ai-streaming/": [],
+    "/ai-streaming/ai-tools/": [],
+    "/ai-streaming/streaming/": [],
+    "/ai-streaming/matrix/": [],
+    "/network/": [],
+    "/network/iepl-vs-iplc/": [
+      {
+        "url": "/compare/iepl-vs-iplc/",
+        "title": "IEPL 与 IPLC 代表品牌横向对比",
+        "relationType": "pillar-to-compare"
+      }
+    ],
+    "/network/regions/": [],
+    "/benchmarks/": [],
+    "/methodology/": [],
+    "/guides/": [],
+    "/guides/subscription/": [
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "Clash Verge Rev 订阅导入实操",
+        "relationType": "guide-to-client"
+      },
+      {
+        "url": "/clients/shadowrocket/",
+        "title": "Shadowrocket 小火箭导入步骤",
+        "relationType": "guide-to-client"
+      },
+      {
+        "url": "/troubleshooting/subscription-failed/",
+        "title": "订阅拉取报错排查",
+        "relationType": "guide-to-troubleshooting"
+      }
+    ],
+    "/guides/tun-dns/": [
+      {
+        "url": "/troubleshooting/tun-dns-error/",
+        "title": "TUN 模式断网与 DNS 污染排查",
+        "relationType": "guide-to-troubleshooting"
+      }
+    ],
+    "/guides/speedtest-guide/": [],
+    "/knowledge/": [],
+    "/knowledge/protocols/": [],
+    "/troubleshooting/": [],
+    "/troubleshooting/subscription-failed/": [],
+    "/troubleshooting/node-timeout/": [
+      {
+        "url": "/guides/tun-dns/",
+        "title": "检查系统时间与 TUN 分流配置",
+        "relationType": "troubleshooting-to-guide"
+      },
+      {
+        "url": "/risks/alternatives/",
+        "title": "确认是否服务商停服并查看备选方案",
+        "relationType": "troubleshooting-to-risk"
+      }
+    ],
+    "/troubleshooting/tun-dns-error/": [],
+    "/risks/": [],
+    "/risks/exit-scam-signals/": [
+      {
+        "url": "/risks/alternatives/",
+        "title": "高风险信号排查与备选替代方案",
+        "relationType": "risk-to-alternative"
+      }
+    ],
+    "/risks/billing-risks/": [],
+    "/risks/archives/": [],
+    "/risks/alternatives/": [
+      {
+        "url": "/recommend/stable/",
+        "title": "查看长期稳定筛选标准与推荐",
+        "relationType": "alternative-to-recommend"
+      }
+    ],
+    "/about/": [],
+    "/reviews/guangsuyun/": [
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "对比同价位品牌 大佬云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/ermao/",
+        "title": "对比同价位品牌 二猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/yuzhou/",
+        "title": "对比同价位品牌 宇宙云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/muguang/": [
+      {
+        "url": "/reviews/weifeng/",
+        "title": "对比同价位品牌 微风网络",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/xingdaomeng/",
+        "title": "对比同价位品牌 星岛梦",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/weitu/",
+        "title": "对比同价位品牌 唯兔云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/compatibility/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      },
+      {
+        "url": "/risks/billing-risks/",
+        "title": "阅读年付/不限时风险控制提示",
+        "relationType": "review-to-risk"
+      }
+    ],
+    "/reviews/feimao/": [
+      {
+        "url": "/reviews/lingmao/",
+        "title": "对比同价位品牌 灵猫网络",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/sogo/",
+        "title": "对比同价位品牌 SOGO 云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/quanqiu/",
+        "title": "对比同价位品牌 全球云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/compatibility/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      },
+      {
+        "url": "/risks/billing-risks/",
+        "title": "阅读年付/不限时风险控制提示",
+        "relationType": "review-to-risk"
+      }
+    ],
+    "/reviews/weifeng/": [
+      {
+        "url": "/reviews/muguang/",
+        "title": "对比同价位品牌 暮光加速",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/shenxing/",
+        "title": "对比同价位品牌 神行加速",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/langwang/",
+        "title": "对比同价位品牌 浪网",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/dalaoyun/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/ermao/",
+        "title": "对比同价位品牌 二猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/yuzhou/",
+        "title": "对比同价位品牌 宇宙云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/xingdaomeng/": [
+      {
+        "url": "/reviews/weitu/",
+        "title": "对比同价位品牌 唯兔云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/u1s1/",
+        "title": "对比同价位品牌 U1S1",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/lingdong/",
+        "title": "对比同价位品牌 灵动云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/yinxingren/": [
+      {
+        "url": "/reviews/feimao/",
+        "title": "对比同价位品牌 飞猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/wuyou/",
+        "title": "对比同价位品牌 无忧链接",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/firefly/",
+        "title": "对比同价位品牌 Firefly",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/compatibility/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      },
+      {
+        "url": "/risks/billing-risks/",
+        "title": "阅读年付/不限时风险控制提示",
+        "relationType": "review-to-risk"
+      }
+    ],
+    "/reviews/ermao/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "对比同价位品牌 大佬云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/yuzhou/",
+        "title": "对比同价位品牌 宇宙云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/wuyou/": [
+      {
+        "url": "/reviews/firefly/",
+        "title": "对比同价位品牌 Firefly",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/sogo/",
+        "title": "对比同价位品牌 SOGO 云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/compatibility/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      },
+      {
+        "url": "/risks/billing-risks/",
+        "title": "阅读年付/不限时风险控制提示",
+        "relationType": "review-to-risk"
+      }
+    ],
+    "/reviews/weitu/": [
+      {
+        "url": "/reviews/xingdaomeng/",
+        "title": "对比同价位品牌 星岛梦",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/u1s1/",
+        "title": "对比同价位品牌 U1S1",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/lingdong/",
+        "title": "对比同价位品牌 灵动云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/firefly/": [
+      {
+        "url": "/reviews/wuyou/",
+        "title": "对比同价位品牌 无忧链接",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/sogo/",
+        "title": "对比同价位品牌 SOGO 云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/compatibility/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      },
+      {
+        "url": "/risks/billing-risks/",
+        "title": "阅读年付/不限时风险控制提示",
+        "relationType": "review-to-risk"
+      }
+    ],
+    "/reviews/yuzhou/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "对比同价位品牌 大佬云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/ermao/",
+        "title": "对比同价位品牌 二猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/u1s1/": [
+      {
+        "url": "/reviews/xingdaomeng/",
+        "title": "对比同价位品牌 星岛梦",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/weitu/",
+        "title": "对比同价位品牌 唯兔云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/lingmao/": [
+      {
+        "url": "/reviews/feimao/",
+        "title": "对比同价位品牌 飞猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/sogo/",
+        "title": "对比同价位品牌 SOGO 云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/quanqiu/",
+        "title": "对比同价位品牌 全球云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/compatibility/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      },
+      {
+        "url": "/risks/billing-risks/",
+        "title": "阅读年付/不限时风险控制提示",
+        "relationType": "review-to-risk"
+      }
+    ],
+    "/reviews/jilian/": [
+      {
+        "url": "/reviews/guangnian/",
+        "title": "对比同价位品牌 光年梯",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/ermao/",
+        "title": "对比同价位品牌 二猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/guangnian/": [
+      {
+        "url": "/reviews/jilian/",
+        "title": "对比同价位品牌 极连云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "对比同价位品牌 大佬云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/yifan/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/feimao/",
+        "title": "对比同价位品牌 飞猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/xingdaomeng/",
+        "title": "对比同价位品牌 星岛梦",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/sogo/": [
+      {
+        "url": "/reviews/feimao/",
+        "title": "对比同价位品牌 飞猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/wuyou/",
+        "title": "对比同价位品牌 无忧链接",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/firefly/",
+        "title": "对比同价位品牌 Firefly",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/compatibility/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      },
+      {
+        "url": "/risks/billing-risks/",
+        "title": "阅读年付/不限时风险控制提示",
+        "relationType": "review-to-risk"
+      }
+    ],
+    "/reviews/kexin/": [
+      {
+        "url": "/reviews/sujie/",
+        "title": "对比同价位品牌 速界",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/yifan/",
+        "title": "对比同价位品牌 一翻云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/sujie/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "对比同价位品牌 大佬云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/ermao/",
+        "title": "对比同价位品牌 二猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/shanyue/": [
+      {
+        "url": "/reviews/feimao/",
+        "title": "对比同价位品牌 飞猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/yinxingren/",
+        "title": "对比同价位品牌 隐形人",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/wuyou/",
+        "title": "对比同价位品牌 无忧链接",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/compatibility/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      },
+      {
+        "url": "/risks/billing-risks/",
+        "title": "阅读年付/不限时风险控制提示",
+        "relationType": "review-to-risk"
+      }
+    ],
+    "/reviews/quanqiu/": [
+      {
+        "url": "/reviews/feimao/",
+        "title": "对比同价位品牌 飞猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/lingmao/",
+        "title": "对比同价位品牌 灵猫网络",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/sogo/",
+        "title": "对比同价位品牌 SOGO 云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/compatibility/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      },
+      {
+        "url": "/risks/billing-risks/",
+        "title": "阅读年付/不限时风险控制提示",
+        "relationType": "review-to-risk"
+      }
+    ],
+    "/reviews/shandianshu/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "对比同价位品牌 大佬云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/ermao/",
+        "title": "对比同价位品牌 二猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/yunjiexian/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "对比同价位品牌 大佬云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/ermao/",
+        "title": "对比同价位品牌 二猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/liulianyun/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "对比同价位品牌 大佬云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/ermao/",
+        "title": "对比同价位品牌 二猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/shenxing/": [
+      {
+        "url": "/reviews/weifeng/",
+        "title": "对比同价位品牌 微风网络",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "对比同价位品牌 大佬云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/huanqiuti/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "对比同价位品牌 大佬云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/ermao/",
+        "title": "对比同价位品牌 二猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/tiziyun/": [
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/dalaoyun/",
+        "title": "对比同价位品牌 大佬云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/ermao/",
+        "title": "对比同价位品牌 二猫云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/lingdong/": [
+      {
+        "url": "/reviews/xingdaomeng/",
+        "title": "对比同价位品牌 星岛梦",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/weitu/",
+        "title": "对比同价位品牌 唯兔云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/guangsuyun/",
+        "title": "对比同价位品牌 光速云",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/clash-verge-rev/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/clients/v2rayn/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      }
+    ],
+    "/reviews/langwang/": [
+      {
+        "url": "/reviews/muguang/",
+        "title": "对比同价位品牌 暮光加速",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/weifeng/",
+        "title": "对比同价位品牌 微风网络",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/xingdaomeng/",
+        "title": "对比同价位品牌 星岛梦",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/compatibility/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      },
+      {
+        "url": "/risks/billing-risks/",
+        "title": "阅读年付/不限时风险控制提示",
+        "relationType": "review-to-risk"
+      }
+    ],
+    "/reviews/edgenova/": [
+      {
+        "url": "/reviews/muguang/",
+        "title": "对比同价位品牌 暮光加速",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/weifeng/",
+        "title": "对比同价位品牌 微风网络",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/reviews/xingdaomeng/",
+        "title": "对比同价位品牌 星岛梦",
+        "relationType": "review-to-peer"
+      },
+      {
+        "url": "/clients/compatibility/",
+        "title": "查看适配代理客户端配置教程",
+        "relationType": "review-to-client"
+      },
+      {
+        "url": "/knowledge/protocols/",
+        "title": "了解代理传输协议差异",
+        "relationType": "review-to-knowledge"
+      },
+      {
+        "url": "/risks/billing-risks/",
+        "title": "阅读年付/不限时风险控制提示",
+        "relationType": "review-to-risk"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3660 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-24",
+  "sourceRegistry": [
+    {
+      "id": "src-brand-list-32",
+      "title": "32家机场品牌清单.txt（主体 1–28 品牌与对比汇总）",
+      "path": "sources/brand-info/32家机场品牌清单.txt",
+      "capturedDate": "2026-10-19",
+      "dataStatus": "Vendor Data"
+    },
+    {
+      "id": "src-brand-list-32-appended",
+      "title": "32家机场品牌清单.txt（2026-08-09 历史追加条目）",
+      "path": "sources/brand-info/32家机场品牌清单.txt",
+      "capturedDate": "2026-08-09",
+      "dataStatus": "Historical Data"
+    },
+    {
+      "id": "src-guangsuyun-info",
+      "title": "光速云品牌信息.txt",
+      "path": "sources/brand-info/光速云品牌信息.txt",
+      "capturedDate": "2026-10-19",
+      "dataStatus": "Vendor Data"
+    },
+    {
+      "id": "src-aff-prefixes-24",
+      "title": "24个站点的aff替换前缀.txt",
+      "path": "sources/brand-info/24个站点的aff替换前缀.txt",
+      "capturedDate": "2026-10-19",
+      "dataStatus": "Vendor Data"
+    },
+    {
+      "id": "src-clients-txt",
+      "title": "第三方代理客户端.txt",
+      "path": "sources/brand-info/第三方代理客户端.txt",
+      "capturedDate": "2026-10-19",
+      "dataStatus": "Vendor Data"
+    },
+    {
+      "id": "src-speedtest-2026-08-11",
+      "title": "2026-08-11 测速截图实测资料包（16+2+1）",
+      "path": "sources/speedtest-2026-08-11/speedtest-manifest.json",
+      "capturedDate": "2026-08-11",
+      "dataStatus": "Measured"
+    },
+    {
+      "id": "src-speedtest-guangsuyun-2026-08-19",
+      "title": "光速云 2026-08-19 MiaoKo 实测截图集（5 张）",
+      "path": "docs/public/images/benchmarks/guangsuyun-2026-08-19/",
+      "capturedDate": "2026-08-19",
+      "dataStatus": "Measured"
+    },
+    {
+      "id": "src-speedtest-lingdong-2026-07-20",
+      "title": "灵动云 2026-07-20/21 测速与解锁文字实测摘要",
+      "path": "sources/brand-info/32家机场品牌清单.txt",
+      "capturedDate": "2026-07-21",
+      "dataStatus": "Historical Data"
+    },
+    {
+      "id": "src-speedtest-text-2026-10-19",
+      "title": "2026-10-19 非晚高峰地区测速文本记录",
+      "path": "sources/brand-info/32家机场品牌清单.txt",
+      "capturedDate": "2026-10-19",
+      "dataStatus": "Historical Data"
+    }
+  ],
+  "totalMappedEntities": 431,
+  "items": [
+    {
+      "entityId": "proto-vless",
+      "entityType": "NetworkProtocol",
+      "sourceIds": [
+        "src-clients-txt",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "proto-vless-reality",
+      "entityType": "NetworkProtocol",
+      "sourceIds": [
+        "src-clients-txt",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "proto-shadowsocks",
+      "entityType": "NetworkProtocol",
+      "sourceIds": [
+        "src-clients-txt",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "proto-trojan",
+      "entityType": "NetworkProtocol",
+      "sourceIds": [
+        "src-clients-txt",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "proto-vmess",
+      "entityType": "NetworkProtocol",
+      "sourceIds": [
+        "src-clients-txt",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "proto-hysteria2",
+      "entityType": "NetworkProtocol",
+      "sourceIds": [
+        "src-clients-txt",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "proto-anytls",
+      "entityType": "NetworkProtocol",
+      "sourceIds": [
+        "src-clients-txt",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "proto-tuic",
+      "entityType": "NetworkProtocol",
+      "sourceIds": [
+        "src-clients-txt",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "proto-ssr",
+      "entityType": "NetworkProtocol",
+      "sourceIds": [
+        "src-clients-txt",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-hk",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-tw",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-jp",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-sg",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-us",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-kr",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-my",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-gb",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-fr",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-de",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-tr",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-th",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-br",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "region-sea",
+      "entityType": "Region",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "route-iepl",
+      "entityType": "NetworkRoute",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "route-iplc",
+      "entityType": "NetworkRoute",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "route-intranet",
+      "entityType": "NetworkRoute",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "route-bgp",
+      "entityType": "NetworkRoute",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "route-tri-net",
+      "entityType": "NetworkRoute",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "route-relay",
+      "entityType": "NetworkRoute",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "route-residential-ip",
+      "entityType": "NetworkRoute",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "route-lb",
+      "entityType": "NetworkRoute",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "service-chatgpt",
+      "entityType": "ServiceAvailability",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "service-claude",
+      "entityType": "ServiceAvailability",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "service-gemini",
+      "entityType": "ServiceAvailability",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "service-netflix",
+      "entityType": "ServiceAvailability",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "service-disney",
+      "entityType": "ServiceAvailability",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "service-youtube",
+      "entityType": "ServiceAvailability",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "service-hbomax",
+      "entityType": "ServiceAvailability",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "service-tiktok",
+      "entityType": "ServiceAvailability",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "service-spotify",
+      "entityType": "ServiceAvailability",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19",
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-clash-verge-rev",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-v2rayn",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-flclash",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-clash-nyanpasu",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-hiddify",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-karing",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-clash-mi",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-mihomo-party",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-v2rayng",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-clash-meta-for-android",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-nekobox-for-android",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-sing-box",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-shadowrocket",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-stash",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-quantumult-x",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-surge",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-streisand",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-potatso",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-oneclick",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-v2raya",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-openclash",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-passwall2",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-nikki",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "client-homeproxy",
+      "entityType": "ClientSoftware",
+      "sourceIds": [
+        "src-clients-txt"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-guangsuyun",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-guangsuyun-info",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-guangsuyun-2026-08-19",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-guangsuyun",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-guangsuyun-info",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-guangsuyun-2026-08-19",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-muguang",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-muguang",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-feimao",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-feimao",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-weifeng",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-weifeng",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-dalaoyun",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-dalaoyun",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-xingdaomeng",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-xingdaomeng",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-yinxingren",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-yinxingren",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-ermao",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-ermao",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-wuyou",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-wuyou",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-weitu",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-weitu",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-firefly",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-brand-list-32-appended",
+        "src-aff-prefixes-24",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-firefly",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-brand-list-32-appended",
+        "src-aff-prefixes-24",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-yuzhou",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-yuzhou",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-u1s1",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-u1s1",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-lingmao",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-lingmao",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-jilian",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-jilian",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-guangnian",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-guangnian",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-yifan",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-yifan",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-sogo",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-sogo",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-kexin",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-kexin",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-sujie",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-sujie",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-shanyue",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-shanyue",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-quanqiu",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-quanqiu",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24",
+        "src-speedtest-2026-08-11",
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-shandianshu",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-shandianshu",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-yunjiexian",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-yunjiexian",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-liulianyun",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-liulianyun",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-shenxing",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-shenxing",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-huanqiuti",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-huanqiuti",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-tiziyun",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-tiziyun",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32",
+        "src-aff-prefixes-24"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-lingdong",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32-appended",
+        "src-aff-prefixes-24",
+        "src-speedtest-lingdong-2026-07-20"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-lingdong",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32-appended",
+        "src-aff-prefixes-24",
+        "src-speedtest-lingdong-2026-07-20"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-langwang",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32-appended",
+        "src-aff-prefixes-24"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-langwang",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32-appended",
+        "src-aff-prefixes-24"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "brand-edgenova",
+      "entityType": "Brand",
+      "sourceIds": [
+        "src-brand-list-32-appended",
+        "src-aff-prefixes-24"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "review-edgenova",
+      "entityType": "Review",
+      "sourceIds": [
+        "src-brand-list-32-appended",
+        "src-aff-prefixes-24"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-guangsuyun-147-onetime",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-guangsuyun-info"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-guangsuyun-lite-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-guangsuyun-info"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-guangsuyun-speed-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-guangsuyun-info"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-guangsuyun-stream-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-guangsuyun-quantum-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-guangsuyun-unlimited-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-guangsuyun-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-guangsuyun-info"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-muguang-basic-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-muguang-std-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-muguang-flagship-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-muguang-ultimate-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-muguang-lite-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-muguang-ot-lite",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-muguang-ot-std",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-muguang-ot-large",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-muguang-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-feimao-student-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-feimao-star-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-feimao-ring-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-feimao-galaxy-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-feimao-universe-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-feimao-ot-1tb",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-feimao-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weifeng-breeze-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weifeng-riding-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weifeng-breaking-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weifeng-mastery-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weifeng-ot-270",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weifeng-ot-570",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-xingdaomeng-small-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-xingdaomeng-150-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-xingdaomeng-300-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-xingdaomeng-500-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-xingdaomeng-1t-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-xingdaomeng-ot-100",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-xingdaomeng-ot-300",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-xingdaomeng-ot-1tb",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-xingdaomeng-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-ermao-ot-100",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-ermao-small-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-ermao-white-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-ermao-orange-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-ermao-milk-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-ermao-black-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-wuyou-mini-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-wuyou-shuxin-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-wuyou-shengxin-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-wuyou-suixin-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-wuyou-wangyou-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-wuyou-ot-100",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-wuyou-ot-300",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weitu-annual-75",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weitu-annual-45",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weitu-holiday-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weitu-normal-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weitu-adv-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weitu-pro-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weitu-ult-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weitu-ot-100",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weitu-ot-200",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-weitu-ot-500",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-lite-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-lite-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-lite-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-lite-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-lite-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-lite-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-plus-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-plus-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-plus-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-plus-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-plus-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-plus-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-blaze-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-blaze-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-blaze-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-blaze-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-blaze-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-blaze-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-nova-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-nova-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-nova-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-nova-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-nova-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-nova-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-firefly-ot-100",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yuzhou-entry-historical",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-u1s1-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-u1s1-120-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-u1s1-300-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-u1s1-700-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-u1s1-1500-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingmao-small-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingmao-small-annual-150",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingmao-big-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingmao-big-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingmao-small-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingmao-big-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-jilian-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-guangnian-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yifan-lite-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yifan-comfort-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yifan-pro-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yifan-ult-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yifan-small-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yifan-ot-100",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yifan-ot-250",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yifan-ot-500",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-sogo-small-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-sogo-basic-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-sogo-pref-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-sogo-enh-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-sogo-top-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-sogo-ot-120",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-sogo-ot-250",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-sogo-ot-500",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-sogo-ot-1000",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-kexin-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-sujie-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-shanyue-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-shanyue-flicker-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-shanyue-leap-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-shanyue-teleport-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-shanyue-warp-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-quanqiu-ot-100",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-quanqiu-ot-400",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-quanqiu-ot-800",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-quanqiu-lite-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-quanqiu-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-quanqiu-adv-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-quanqiu-high-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-quanqiu-biz-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-quanqiu-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yinxingren-silver-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yinxingren-gold-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yinxingren-plat-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yinxingren-diamond-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yinxingren-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yinxingren-star-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yinxingren-ot-160",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yinxingren-ot-420",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-yinxingren-ot-1000",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-yulang-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-chuanyun-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-ot-150",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-ot-400",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-ot-800",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-lingdong-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-entry-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-entry-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-entry-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-entry-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-entry-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-entry-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-adv-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-adv-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-adv-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-adv-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-adv-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-adv-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-high-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-high-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-high-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-high-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-high-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-high-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-biz-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-biz-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-biz-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-biz-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-biz-biennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-biz-triennial",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-std-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-ot-180",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-ot-450",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-ot-900",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-langwang-custom-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-promo-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-promo-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-std-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-std-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-std-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-std-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-adv-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-adv-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-adv-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-adv-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-high-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-high-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-high-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-high-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-ult-monthly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-ult-quarterly",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-ult-semiannual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "plan-edgenova-ult-annual",
+      "entityType": "SubscriptionPlan",
+      "sourceIds": [
+        "src-brand-list-32-appended"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-sogo",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-u1s1",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-ermao",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-feimao",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-guangnian",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-guangsuyun",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-jilian",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-kexin",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-lingmao",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-quanqiu",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-sujie",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-weitu",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-xingdaomeng",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-yifan",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0811-yuzhou",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0719-weifeng",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0718-wuyou-speed",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0718-wuyou-unlock",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-2026-08-11"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0819-ss-ct",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0819-ss-cm",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0819-ss-cu",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0819-vless-unlock",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0819-vless-speed",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-guangsuyun-2026-08-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-0720-lingdong-summary",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-lingdong-2026-07-20"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-guangsuyun",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-muguang",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-feimao",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-weifeng",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-xingdaomeng",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-ermao",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-wuyou",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-weitu",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-firefly",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-u1s1",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-lingmao",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-yifan",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-sogo",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-shanyue",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "bench-1019-quanqiu",
+      "entityType": "Benchmark",
+      "sourceIds": [
+        "src-speedtest-text-2026-10-19"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-guangsuyun-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-guangsuyun-no-refund-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-muguang-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-feimao-exclusive-client-lockin-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-feimao-source-conflict-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-weifeng-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-xingdaomeng-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-yinxingren-exclusive-client-lockin-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-yinxingren-source-conflict-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-ermao-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-wuyou-short-track-record-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-wuyou-exclusive-client-lockin-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-wuyou-source-conflict-3",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-weitu-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-firefly-exclusive-client-lockin-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-firefly-source-conflict-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-yuzhou-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-u1s1-short-track-record-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-u1s1-source-conflict-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-lingmao-short-track-record-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-lingmao-exclusive-client-lockin-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-lingmao-source-conflict-3",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-jilian-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-guangnian-short-track-record-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-guangnian-source-conflict-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-yifan-short-track-record-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-yifan-source-conflict-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-sogo-short-track-record-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-sogo-exclusive-client-lockin-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-sogo-source-conflict-3",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-kexin-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-sujie-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-shanyue-exclusive-client-lockin-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-quanqiu-short-track-record-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-quanqiu-exclusive-client-lockin-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-quanqiu-source-conflict-3",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-yunjiexian-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-yunjiexian-url-format-anomaly-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-huanqiuti-url-format-anomaly-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-tiziyun-short-track-record-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-tiziyun-source-conflict-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-lingdong-short-track-record-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-lingdong-source-conflict-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-lingdong-historical-archive-3",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-langwang-source-conflict-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-langwang-historical-archive-2",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    },
+    {
+      "entityId": "risk-edgenova-historical-archive-1",
+      "entityType": "RiskEvent",
+      "sourceIds": [
+        "src-brand-list-32"
+      ],
+      "verifiedDate": "2026-11-24"
+    }
+  ]
+}

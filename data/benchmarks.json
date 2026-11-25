@@ -1,0 +1,1513 @@
+[
+  {
+    "id": "bench-0811-sogo",
+    "brandSlug": "sogo",
+    "brandName": "SOGO 云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T18:57:59+08:00",
+    "isPeakHours": null,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/SOGO云-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-sogo.webp"
+  },
+  {
+    "id": "bench-0811-u1s1",
+    "brandSlug": "u1s1",
+    "brandName": "U1S1",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T22:33:29+08:00",
+    "isPeakHours": true,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/U1S1-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-u1s1.webp"
+  },
+  {
+    "id": "bench-0811-ermao",
+    "brandSlug": "ermao",
+    "brandName": "二猫云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T10:45:27+08:00",
+    "isPeakHours": false,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/二猫云-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-ermao.webp"
+  },
+  {
+    "id": "bench-0811-feimao",
+    "brandSlug": "feimao",
+    "brandName": "飞猫云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T08:52:30+08:00",
+    "isPeakHours": false,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/飞猫云-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-feimao.webp"
+  },
+  {
+    "id": "bench-0811-guangnian",
+    "brandSlug": "guangnian",
+    "brandName": "光年梯",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T14:38:04+08:00",
+    "isPeakHours": false,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/光年梯-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-guangnian.webp"
+  },
+  {
+    "id": "bench-0811-guangsuyun",
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T14:32:56+08:00",
+    "isPeakHours": false,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/光速云-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-guangsuyun.webp"
+  },
+  {
+    "id": "bench-0811-jilian",
+    "brandSlug": "jilian",
+    "brandName": "极连云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T22:46:50+08:00",
+    "isPeakHours": true,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/极连云-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-jilian.webp"
+  },
+  {
+    "id": "bench-0811-kexin",
+    "brandSlug": "kexin",
+    "brandName": "可信云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T15:32:35+08:00",
+    "isPeakHours": false,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/可信云-节点测速实测.png",
+    "dateConfidence": "date-inferred-from-batch-time-visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included",
+      "Full calendar date should be checked against the original test record before publication."
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-kexin.webp"
+  },
+  {
+    "id": "bench-0811-lingmao",
+    "brandSlug": "lingmao",
+    "brandName": "灵猫网络",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T18:45:40+08:00",
+    "isPeakHours": null,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/灵猫网络-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-lingmao.webp"
+  },
+  {
+    "id": "bench-0811-quanqiu",
+    "brandSlug": "quanqiu",
+    "brandName": "全球云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T15:50:43+08:00",
+    "isPeakHours": false,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/全球云-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-quanqiu.webp"
+  },
+  {
+    "id": "bench-0811-sujie",
+    "brandSlug": "sujie",
+    "brandName": "速界",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T15:39:36+08:00",
+    "isPeakHours": false,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/速界-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-sujie.webp"
+  },
+  {
+    "id": "bench-0811-weitu",
+    "brandSlug": "weitu",
+    "brandName": "唯兔云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T13:55:08+08:00",
+    "isPeakHours": false,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/唯兔云-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-weitu.webp"
+  },
+  {
+    "id": "bench-0811-xingdaomeng",
+    "brandSlug": "xingdaomeng",
+    "brandName": "星岛梦",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T01:48:13+08:00",
+    "isPeakHours": false,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/星岛梦-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-xingdaomeng.webp"
+  },
+  {
+    "id": "bench-0811-yifan",
+    "brandSlug": "yifan",
+    "brandName": "一翻云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T00:21:30+08:00",
+    "isPeakHours": false,
+    "toolName": "MAI-TEST-BOT 2.0.0-dev",
+    "backendEnv": "珠海联通 5Gbps · 32 线程 · Ping 5 次",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/2026-08-11/一翻云-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 Shadowsocks，工具 MAI-TEST-BOT 2.0.0-dev，后端 珠海联通 5Gbps · 32 线程 · Ping 5 次。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-yifan.webp"
+  },
+  {
+    "id": "bench-0811-yuzhou",
+    "brandSlug": "yuzhou",
+    "brandName": "宇宙云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-11T21:04:24+08:00",
+    "isPeakHours": true,
+    "toolName": "main 4.3.3 (696) / miaosu 4.7.0 (A11-32)",
+    "backendEnv": "珠海联通 9Gbps · 32 线程",
+    "protocolDisplayed": "VLESS",
+    "imagePath": "/images/benchmarks/2026-08-11/宇宙云-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "原始测速截图（1122×1402 PNG），协议显示 VLESS，工具 main 4.3.3 (696) / miaosu 4.7.0 (A11-32)，后端 珠海联通 9Gbps · 32 线程。",
+      "按数据真实性规范保留原始截图，不通过目测或 OCR 伪造聚合均值；详情请直接查验原图。"
+    ],
+    "limitations": [
+      "single-day snapshot",
+      "brands tested at different times",
+      "not a controlled cross-brand ranking",
+      "does not test AI or streaming unlock",
+      "does not prove long-term stability",
+      "raw machine-readable measurements were not included"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0811-yuzhou.webp"
+  },
+  {
+    "id": "bench-0719-weifeng",
+    "brandSlug": "weifeng",
+    "brandName": "微风网络",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-07-19T18:38:20+08:00",
+    "isPeakHours": null,
+    "toolName": "MiaoKo 主端 4.3.3 (696) / 喵速 4.7.0 ([A11-32])",
+    "backendEnv": "珠海联通 9Gbps · 32 线程",
+    "protocolDisplayed": "VLESS",
+    "imagePath": "/images/benchmarks/2026-08-11/微风-节点测速实测.png",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "50/50 VLESS 节点测速（香港 15 / 台湾 5 / 新加坡 10 / 日本 10 / 美国 10）。",
+      "原图数值单位为 MB（MB/s）：香港 01–15 平均速度约 468.91MB–546.20MB（最高 619.64MB，TLS RTT 97–211ms，FullCone）；新加坡约 135.34MB–401.25MB；日本 01–10 多数 79.73MB–257.97MB（日本05 仅 8.00KB）；台湾约 73.28MB–103.00MB（台湾02 为 0.00B）；美国约 9.90MB–21.03MB。"
+    ],
+    "limitations": [
+      "测试时间 18:38:20 CST（傍晚），存在台湾02 0.00B 与日本05 8.00KB 异常节点，未按 Mbps 擅自换算。"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0719-weifeng.webp"
+  },
+  {
+    "id": "bench-0718-wuyou-speed",
+    "brandSlug": "wuyou",
+    "brandName": "无忧链接",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-07-18T21:40:48+08:00",
+    "isPeakHours": true,
+    "toolName": "MiaoKo 主端 4.3.3 (696) / 喵速 4.7.0 ([A11-32])",
+    "backendEnv": "珠海联通 9Gbps · 32 线程",
+    "protocolDisplayed": "VLESS",
+    "imagePath": "/images/benchmarks/2026-08-11/无忧链接.jpg",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "晚高峰（21:40:48 CST）50/50 VLESS 节点测速（HKG 15 / TYO 10 / SIN 10 / LAX 10 / TPE 5）。",
+      "原图数值单位为 MB（MB/s）：香港 HKG 01–15 平均速度约 392.62MB–547.22MB（最高 638.48MB，TLS RTT 100–130ms，FullCone）；新加坡 SIN-01 达 352.70MB，但 SIN-02 仅 17.59KB；日本 TYO 60.17MB–198.31MB；台湾 TPE 65.74MB–94.72MB；美国 LAX 12.13MB–18.13MB。"
+    ],
+    "limitations": [
+      "存在 SIN-02 17.59KB 异常低速节点，且无忧链接已声明 2026 年 10 月起转向专属客户端。"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0718-wuyou-speed.webp"
+  },
+  {
+    "id": "bench-0718-wuyou-unlock",
+    "brandSlug": "wuyou",
+    "brandName": "无忧链接",
+    "batchType": "unlock-evidence",
+    "testedAt": "2026-07-18T21:47:23+08:00",
+    "isPeakHours": true,
+    "toolName": "MiaoKo 主端 4.3.3 (696) / 喵速 4.7.0 ([A11-32])",
+    "backendEnv": "珠海联通 9Gbps · 32 线程",
+    "protocolDisplayed": "VLESS",
+    "imagePath": "/images/benchmarks/2026-08-11/无忧链接2.jpg",
+    "dateConfidence": "visible-in-image",
+    "metrics": [],
+    "notes": [
+      "晚高峰（21:47:23 CST）50/50 VLESS 节点御三家流媒体实测（YouTube / Netflix / Disney+）。",
+      "Netflix 与 Disney+ 全 50 节点显示解锁对应地区；YouTube 49/50 节点解锁，香港 HKG-01 显示送中(CN)。"
+    ],
+    "limitations": [
+      "仅包含 YouTube / Netflix / Disney+ 三项流媒体，未包含 AI 工具或 TikTok 实测列。"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-2026-08-11",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0718-wuyou-unlock.webp"
+  },
+  {
+    "id": "bench-0819-ss-ct",
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-19T12:13:01+08:00",
+    "isPeakHours": false,
+    "toolName": "MiaoKo 主端 4.3.3 (697) / 喵速 SC-2.3.1 (normalspeed)",
+    "backendEnv": "A-长沙电信@2Gbps · 6 线程",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/guangsuyun-2026-08-19/photo_2026-08-19_12-13-01.jpg",
+    "dateConfidence": "visible-in-filename-and-batch",
+    "metrics": [],
+    "notes": [
+      "62/62 Shadowsocks 节点普通测速（平均速度降序，单位 MB/KB）。",
+      "最高均值节点：日本09 49.38MB（峰值 55.72MB，TLS RTT 71ms）；香港专线节点均值约 35.35MB–42.57MB（TLS RTT 20–31ms）；新加坡约 34.93MB–42.75MB；台湾约 15.42MB–42.67MB；美国约 29.81MB–34.85MB；法/英/土/马/泰约 8.45MB–15.31MB；德国01 仅 4.32KB。",
+      "同步显示 Disney+/Netflix/YouTube/OpenAI/Gemini 解锁列：日/美/台/英/法/德 Gemini 多失败，新加坡/土耳其/马来西亚可解锁 Gemini，香港 OpenAI 仅 APP(HK)。"
+    ],
+    "limitations": [
+      "2026-08-19 12:13–12:20 CST 日间非晚高峰测试快照。",
+      "保留德国01 / 美国02 等 KB 级异常低速节点及 SG/TW YouTube 送中实测记录。"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-guangsuyun-2026-08-19",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0819-ss-ct.webp"
+  },
+  {
+    "id": "bench-0819-ss-cm",
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-19T12:13:50+08:00",
+    "isPeakHours": false,
+    "toolName": "MiaoKo 主端 4.3.3 (697) / 喵速 SC-2.3.1 (normalspeed)",
+    "backendEnv": "A-广西移动@2Gbps · 6 线程",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/guangsuyun-2026-08-19/photo_2026-08-19_12-13-50.jpg",
+    "dateConfidence": "visible-in-filename-and-batch",
+    "metrics": [],
+    "notes": [
+      "62/62 Shadowsocks 节点普通测速（平均速度降序，单位 MB/KB）。",
+      "最高均值节点：新加坡01 53.12MB（峰值 56.53MB，TLS RTT 65ms）；日本多数 44.25MB–52.89MB；香港专线约 33.09MB–52.04MB；台湾约 46.71MB–51.92MB；美国约 33.62MB–38.99MB；英/法/土约 20.41MB–21.93MB；泰国 12.41MB，马来西亚 11.49MB–12.00MB；德国01 43.08KB（峰值 199.08KB）。"
+    ],
+    "limitations": [
+      "2026-08-19 12:13–12:20 CST 日间非晚高峰测试快照。",
+      "保留德国01 / 美国02 等 KB 级异常低速节点及 SG/TW YouTube 送中实测记录。"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-guangsuyun-2026-08-19",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0819-ss-cm.webp"
+  },
+  {
+    "id": "bench-0819-ss-cu",
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-19T12:13:58+08:00",
+    "isPeakHours": false,
+    "toolName": "MiaoKo 主端 4.3.3 (697) / 喵速 SC-2.3.1 (normalspeed)",
+    "backendEnv": "河北联通@2Gbps · 6 线程",
+    "protocolDisplayed": "Shadowsocks",
+    "imagePath": "/images/benchmarks/guangsuyun-2026-08-19/photo_2026-08-19_12-13-58.jpg",
+    "dateConfidence": "visible-in-filename-and-batch",
+    "metrics": [],
+    "notes": [
+      "62/62 Shadowsocks 节点普通测速（平均速度降序，单位 MB/KB）。",
+      "最高均值节点：新加坡01 41.85MB（峰值 49.72MB，TLS RTT 113ms）；香港专线约 18.90MB–35.93MB；日本约 14.88MB–34.50MB；台湾03 37.49MB / 台湾01 4.79MB；美国约 9.36MB–22.17MB；德国01 在联通后端回升至 10.98MB。"
+    ],
+    "limitations": [
+      "2026-08-19 12:13–12:20 CST 日间非晚高峰测试快照。",
+      "保留德国01 / 美国02 等 KB 级异常低速节点及 SG/TW YouTube 送中实测记录。"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-guangsuyun-2026-08-19",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0819-ss-cu.webp"
+  },
+  {
+    "id": "bench-0819-vless-unlock",
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "batchType": "unlock-evidence",
+    "testedAt": "2026-08-19T12:18:40+08:00",
+    "isPeakHours": false,
+    "toolName": "MiaoKo 主端 4.3.3 (696) / 喵速 4.7.0 ([A14-1])",
+    "backendEnv": "珠海联通 9Gbps · 单线程",
+    "protocolDisplayed": "VLESS + AnyTLS (60 VLESS + 10 电信 AnyTLS)",
+    "imagePath": "/images/benchmarks/guangsuyun-2026-08-19/photo_2026-08-19_12-18-40.jpg",
+    "dateConfidence": "visible-in-filename-and-batch",
+    "metrics": [],
+    "notes": [
+      "70/70 节点基础流媒体与 OpenAI 解锁测试（含 JP×10、SG×10、US×10、TW×10、HK×20 共 60 个 VLESS 节点 + 10 个电信 AnyTLS 节点）。",
+      "YouTube：JP/US/HK 多数解锁，SG 10 节点与 TW 9 节点显示送中(CN)；Netflix 与 Disney+：JP/SG/US/TW/HK 绝大多数解锁（部分节点 N/A，TW 识别为 GB）；OpenAI：JP/US/SG/TW 绝大多数解锁，HK 多识别为 US 或 JP；TikTok：US 全解锁，JP/TW 约半数解锁半数失败，HK 多显示 ALISG 或失败；电信 AnyTLS 节点多数流媒体/AI 显示 N/A 或失败。"
+    ],
+    "limitations": [
+      "2026-08-19 12:13–12:20 CST 日间非晚高峰测试快照。",
+      "保留德国01 / 美国02 等 KB 级异常低速节点及 SG/TW YouTube 送中实测记录。"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-guangsuyun-2026-08-19",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0819-vless-unlock.webp"
+  },
+  {
+    "id": "bench-0819-vless-speed",
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "batchType": "screenshot-evidence",
+    "testedAt": "2026-08-19T12:20:10+08:00",
+    "isPeakHours": false,
+    "toolName": "MiaoKo 主端 4.3.3 (696) / 喵速 4.7.0 ([A14-1])",
+    "backendEnv": "珠海联通 9Gbps · 单线程 (线程=1)",
+    "protocolDisplayed": "VLESS (60/70 订阅节点)",
+    "imagePath": "/images/benchmarks/guangsuyun-2026-08-19/photo_2026-08-19_12-20-10.jpg",
+    "dateConfidence": "visible-in-filename-and-batch",
+    "metrics": [],
+    "notes": [
+      "70 节点订阅中 60 个 VLESS 节点测速结果（10 个电信 AnyTLS 节点未出现在速度页）。",
+      "原图单位为 MB（MB/s）：香港01–20 平均速度约 375.35MB–424.21MB（峰值最高 500.78MB，FullCone）；新加坡01–10 约 219.96MB–315.87MB；美国 9 节点约 313.77MB–370.94MB（峰值最高 468.16MB），但美国02 仅 1.60KB（峰值 16.00KB）；台湾01–10 约 71.22MB–126.35MB；日本01–10 约 98.89MB–104.16MB。"
+    ],
+    "limitations": [
+      "2026-08-19 12:13–12:20 CST 日间非晚高峰测试快照。",
+      "保留德国01 / 美国02 等 KB 级异常低速节点及 SG/TW YouTube 送中实测记录。"
+    ],
+    "dataStatus": "Measured",
+    "sourceId": "src-speedtest-guangsuyun-2026-08-19",
+    "thumbnailPath": "/images/benchmarks/thumbs/bench-0819-vless-speed.webp"
+  },
+  {
+    "id": "bench-0720-lingdong-summary",
+    "brandSlug": "lingdong",
+    "brandName": "灵动云",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-07-20/21",
+    "isPeakHours": null,
+    "toolName": "历史实测文字摘要（60 测速 / 60 解锁）",
+    "backendEnv": "珠海联通 9Gbps",
+    "protocolDisplayed": "VLESS",
+    "dateConfidence": "text-record",
+    "metrics": [],
+    "notes": [
+      "速度够用级（20–80MB/s）、HTTPS 延迟偏高；OpenAI 各地区基本全解锁（亮点）。",
+      "异常与局限：TikTok 多失败、新/台 YouTube 送中、美国01 整节点失败；台湾落地识别偏欧（Netflix / Disney+ 识别为 ES）。"
+    ],
+    "limitations": [
+      "历史摘要（2026-07-20/21），未注明具体时点是否为晚高峰，且原文档标注需近 30 日复测。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-lingdong-2026-07-20"
+  },
+  {
+    "id": "bench-1019-guangsuyun",
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 22,
+        "downloadMbps": 529,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 41,
+        "downloadMbps": 114,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 46,
+        "downloadMbps": 387,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 57,
+        "downloadMbps": 135,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 143,
+        "downloadMbps": 18,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-muguang",
+    "brandSlug": "muguang",
+    "brandName": "暮光加速",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 26,
+        "downloadMbps": 509,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 40,
+        "downloadMbps": 107,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 43,
+        "downloadMbps": 419,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 53,
+        "downloadMbps": 150,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 160,
+        "downloadMbps": 19,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-feimao",
+    "brandSlug": "feimao",
+    "brandName": "飞猫云",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 21,
+        "downloadMbps": 526,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 41,
+        "downloadMbps": 116,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 45,
+        "downloadMbps": 413,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 54,
+        "downloadMbps": 138,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 178,
+        "downloadMbps": 14,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-weifeng",
+    "brandSlug": "weifeng",
+    "brandName": "微风网络",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 25,
+        "downloadMbps": 546,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 40,
+        "downloadMbps": 115,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 43,
+        "downloadMbps": 384,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 54,
+        "downloadMbps": 131,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 167,
+        "downloadMbps": 17,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-xingdaomeng",
+    "brandSlug": "xingdaomeng",
+    "brandName": "星岛梦",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 27,
+        "downloadMbps": 504,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 41,
+        "downloadMbps": 103,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 44,
+        "downloadMbps": 411,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 57,
+        "downloadMbps": 136,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 177,
+        "downloadMbps": 18,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-ermao",
+    "brandSlug": "ermao",
+    "brandName": "二猫云",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 22,
+        "downloadMbps": 481,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 41,
+        "downloadMbps": 118,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 46,
+        "downloadMbps": 407,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 53,
+        "downloadMbps": 143,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 134,
+        "downloadMbps": 17,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-wuyou",
+    "brandSlug": "wuyou",
+    "brandName": "无忧链接",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 23,
+        "downloadMbps": 531,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 41,
+        "downloadMbps": 107,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 42,
+        "downloadMbps": 418,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 55,
+        "downloadMbps": 147,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 145,
+        "downloadMbps": 17,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-weitu",
+    "brandSlug": "weitu",
+    "brandName": "唯兔云",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 27,
+        "downloadMbps": 500,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 37,
+        "downloadMbps": 100,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 44,
+        "downloadMbps": 414,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 56,
+        "downloadMbps": 147,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 179,
+        "downloadMbps": 17,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-firefly",
+    "brandSlug": "firefly",
+    "brandName": "Firefly",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 27,
+        "downloadMbps": 547,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 39,
+        "downloadMbps": 135,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 42,
+        "downloadMbps": 445,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 57,
+        "downloadMbps": 147,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 143,
+        "downloadMbps": 30,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-u1s1",
+    "brandSlug": "u1s1",
+    "brandName": "U1S1",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 24,
+        "downloadMbps": 538,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 39,
+        "downloadMbps": 107,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 46,
+        "downloadMbps": 414,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 57,
+        "downloadMbps": 133,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 134,
+        "downloadMbps": 20,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-lingmao",
+    "brandSlug": "lingmao",
+    "brandName": "灵猫网络",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 22,
+        "downloadMbps": 492,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 40,
+        "downloadMbps": 109,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 46,
+        "downloadMbps": 409,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 57,
+        "downloadMbps": 147,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 164,
+        "downloadMbps": 19,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-yifan",
+    "brandSlug": "yifan",
+    "brandName": "一翻云",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 23,
+        "downloadMbps": 477,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 40,
+        "downloadMbps": 117,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 42,
+        "downloadMbps": 390,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 53,
+        "downloadMbps": 136,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 180,
+        "downloadMbps": 20,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-sogo",
+    "brandSlug": "sogo",
+    "brandName": "SOGO 云",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 26,
+        "downloadMbps": 488,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 39,
+        "downloadMbps": 118,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 43,
+        "downloadMbps": 401,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 57,
+        "downloadMbps": 137,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 140,
+        "downloadMbps": 17,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-shanyue",
+    "brandSlug": "shanyue",
+    "brandName": "闪跃",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 23,
+        "downloadMbps": 548,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 38,
+        "downloadMbps": 110,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 44,
+        "downloadMbps": 383,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 53,
+        "downloadMbps": 144,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 143,
+        "downloadMbps": 18,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  },
+  {
+    "id": "bench-1019-quanqiu",
+    "brandSlug": "quanqiu",
+    "brandName": "全球云",
+    "batchType": "text-historical-record",
+    "testedAt": "2026-10-19",
+    "isPeakHours": false,
+    "toolName": "文本历史测速记录",
+    "backendEnv": "原文标注非晚高峰（未注明运营商与线程）",
+    "protocolDisplayed": "未单独标注",
+    "dateConfidence": "text-record",
+    "metrics": [
+      {
+        "region": "香港",
+        "latencyMs": 25,
+        "downloadMbps": 489,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "台湾",
+        "latencyMs": 37,
+        "downloadMbps": 117,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "新加坡",
+        "latencyMs": 45,
+        "downloadMbps": 430,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "日本",
+        "latencyMs": 55,
+        "downloadMbps": 133,
+        "uploadMbps": null,
+        "lossRate": null
+      },
+      {
+        "region": "美国",
+        "latencyMs": 138,
+        "downloadMbps": 18,
+        "uploadMbps": null,
+        "lossRate": null
+      }
+    ],
+    "notes": [
+      "源自 32家机场品牌清单.txt 的 2026-10-19 非晚高峰地区延迟与下载速率文本记录。"
+    ],
+    "limitations": [
+      "非晚高峰时段记录，不能代表 20:00–23:00 晚高峰稳定表现，且缺少原始截图文件。"
+    ],
+    "dataStatus": "Historical Data",
+    "sourceId": "src-speedtest-text-2026-10-19"
+  }
+]

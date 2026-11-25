@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# VitePress build & cache artifacts
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# Environment variables (keep template)
+.env
+.env.*
+!.env.example
+
+# Duplicate raw binary copies already stored in docs/public/images/benchmarks/2026-08-11/
+sources/speedtest-2026-08-11/*.png
+sources/speedtest-2026-08-11/*.jpg
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*

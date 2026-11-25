@@ -1,0 +1,1095 @@
+[
+  {
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "foundedYear": 2020,
+    "timeline": [
+      {
+        "date": "2020",
+        "event": "光速云 品牌资料标注起始运营年份（2020 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-guangsuyun-info"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-08-19",
+        "event": "完成 5 张 MiaoKo 专项实测截图（62 节点三网 Shadowsocks 测速 + 70 节点 VLESS/AnyTLS 解锁与测速）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-guangsuyun-2026-08-19"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [entryTrafficGb]：同一份品牌资料摘要行写 59GB，下方轻量版明细与总清单写 69GB/月；本站以套餐明细 69GB/月为主值并保留冲突说明。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：两个文档分别记录了 gsyvipaff.com 与 gsyaff.com 推广前缀，后者无 invite code 参数。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [benchmarkBatchProtocol]：同一天两组测试采用不同节点订阅架构（62节点 SS vs 60 VLESS + 10 AnyTLS），且 08-11 截图显示 Shadowsocks，品牌资料写 VLESS。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "entryTrafficGb: 69GB/月（轻量版 99元/年） vs 59GB/月",
+      "affiliateUrl: https://sahude.gsyvipaff.com/#/?code=keqgvT5Y vs https://mdlky.gsyaff.com",
+      "benchmarkBatchProtocol: 62节点 Shadowsocks (2026-08-19 三网 normalspeed) vs 70节点 VLESS + 10 电信 AnyTLS (2026-08-19 珠海联通)"
+    ]
+  },
+  {
+    "brandSlug": "muguang",
+    "brandName": "暮光加速",
+    "foundedYear": 2023,
+    "timeline": [
+      {
+        "date": "2023",
+        "event": "暮光加速 品牌资料标注起始运营年份（2023 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [couponCode]：同一节内基础数据给出优惠码 muguang5555，正文介绍却称未查到公开优惠码。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [entryMonthlyCny]：年付轻量版折算约 9.08 元/月，月付门槛为 20 元/月。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "couponCode: muguang5555 vs 目前没有查到公开的优惠码信息",
+      "entryMonthlyCny: ¥109/年 (¥9.08/月 · 70GB) vs 20元/月 120GB/月（基础数据） / 9元/月起（正文）"
+    ]
+  },
+  {
+    "brandSlug": "feimao",
+    "brandName": "飞猫云",
+    "foundedYear": 2023,
+    "timeline": [
+      {
+        "date": "2023",
+        "event": "飞猫云 品牌资料标注起始运营年份（2023 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：两个资料文件中的推广域名不同（flycataff.com vs flycatvipaff.cc）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "affiliateUrl: https://guangs.flycataff.com/#/?code=6uq0Xe9y vs https://flycat1.flycatvipaff.cc"
+    ]
+  },
+  {
+    "brandSlug": "weifeng",
+    "brandName": "微风网络",
+    "foundedYear": 2023,
+    "timeline": [
+      {
+        "date": "2023",
+        "event": "微风网络 品牌资料标注起始运营年份（2023 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-07-19",
+        "event": "18:38 CST MiaoKo 50 节点 VLESS 测速实测截图存档",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [entryMonthlyCny]：摘要写了已下线或旧档位“7元/50GB”，而实际套餐表最低年付为清风 ¥137/年（100GB/月，折合 11.42 元/月）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "entryMonthlyCny: ¥137/年（¥11.42/月 · 100GB/月） vs 年付约7元/月 50GB/月"
+    ]
+  },
+  {
+    "brandSlug": "dalaoyun",
+    "brandName": "大佬云",
+    "foundedYear": 2024,
+    "timeline": [
+      {
+        "date": "2024",
+        "event": "大佬云 品牌资料标注起始运营年份（2024 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": []
+  },
+  {
+    "brandSlug": "xingdaomeng",
+    "brandName": "星岛梦",
+    "foundedYear": 2020,
+    "timeline": [
+      {
+        "date": "2020",
+        "event": "星岛梦 品牌资料标注起始运营年份（2020 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [protocols]：实际节点协议可能同时支持或已从 Trojan 调整为 Shadowsocks。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（guangs vs kfccbb）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "protocols: Shadowsocks（2026-08-11 测速截图实测显示） vs Trojan（32家清单介绍说明）",
+      "affiliateUrl: https://guangs.xingdaomeng.com/#/?code=1TynBYnR vs https://kfccbb.xingdaomeng.com"
+    ]
+  },
+  {
+    "brandSlug": "yinxingren",
+    "brandName": "隐形人",
+    "foundedYear": 2024,
+    "timeline": [
+      {
+        "date": "2024",
+        "event": "隐形人 品牌资料标注起始运营年份（2024 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [couponCode]：同一品牌同时存在 yxr888 与 moon80 两个优惠码记录。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [entryPlanTraffic]：基础数据写 100GB/月，套餐明细写 144GB/月。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（yinxingren1 vs varnexa）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "couponCode: moon80（8折） vs yxr888",
+      "entryPlanTraffic: 白银纪元 ¥24/月 144GB/月 vs 24元/月 100GB/月",
+      "affiliateUrl: https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT vs https://varnexa.invisibleaff.com"
+    ]
+  },
+  {
+    "brandSlug": "ermao",
+    "brandName": "二猫云",
+    "foundedYear": 2023,
+    "timeline": [
+      {
+        "date": "2023",
+        "event": "二猫云 品牌资料标注起始运营年份（2023 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [regions]：同一品牌条目内测速表列有新加坡节点，而下方介绍说明却称缺少新加坡。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [protocols]：实测图显示 Shadowsocks，品牌说明写 VLESS。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（guangs vs waaa）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "regions: 香港、台湾、新加坡、日本、美国（2026-10-19 测速表含新加坡 46ms/407Mbps） vs 正文第254行称“比不少同类机场少了新加坡这一站”",
+      "protocols: Shadowsocks（2026-08-11 测速截图实测显示） vs VLESS（32家清单介绍说明第254行）",
+      "affiliateUrl: https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW vs https://waaa.2maoyunaff.cc"
+    ]
+  },
+  {
+    "brandSlug": "wuyou",
+    "brandName": "无忧链接",
+    "foundedYear": 2025,
+    "timeline": [
+      {
+        "date": "2025",
+        "event": "无忧链接 品牌资料标注起始运营年份（2025 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-07-18",
+        "event": "晚高峰 21:40 / 21:47 CST MiaoKo 50 节点 VLESS 测速与御三家流媒体实测截图存档",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-10",
+        "event": "品牌资料注明自 2026 年 10 月起改用官方专属客户端登录使用，不再提供第三方订阅链接",
+        "category": "policy-change",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [clientMode]：该品牌在 2026 年 10 月调整为专属客户端形态，历史订阅兼容性与现行政策存在差异。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "clientMode: 2026 年 10 月起官方专属客户端（登录即用） vs 订阅无需转换（汇总表第926行）及 2026-07-18 VLESS 订阅实测"
+    ]
+  },
+  {
+    "brandSlug": "weitu",
+    "brandName": "唯兔云",
+    "foundedYear": 2023,
+    "timeline": [
+      {
+        "date": "2023",
+        "event": "唯兔云 品牌资料标注起始运营年份（2023 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [protocols]：实测图显示 Shadowsocks，品牌说明写 Trojan。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（guangs vs fast）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "protocols: Shadowsocks（2026-08-11 测速截图实测显示） vs Trojan（32家清单介绍说明第333行）",
+      "affiliateUrl: https://guangs.v2yunvipaff.com/#/?code=xIutqOBA vs https://fast.v2yunvipaff.com"
+    ]
+  },
+  {
+    "brandSlug": "firefly",
+    "brandName": "Firefly",
+    "foundedYear": null,
+    "timeline": [
+      {
+        "date": "2026-08-09",
+        "event": "收录于 2026-08-09 历史品牌库档案（Firefly 萤火虫条目）",
+        "category": "data-snapshot",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-brand-list-32-appended"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-10",
+        "event": "品牌资料注明自 2026 年 10 月起改用官方专属客户端登录使用，不再提供第三方订阅链接",
+        "category": "policy-change",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：同一域名 vip02.fireflyaff.com 存在两套 invite code，合并为同一实体 firefly 后一并记录。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [clientMode]：2026 年 10 月起收紧为仅官方专属客户端登录使用。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "affiliateUrl: https://vip02.fireflyaff.com/#/?code=2n7VURre vs https://vip02.fireflyaff.com/#/?code=jTp9wSgZ",
+      "clientMode: exclusive-only（2026 年 10 月起专属客户端，不提供订阅链接） vs 2026-08-09 历史记录未限定专属客户端，仅写 IPLC + VLESS"
+    ]
+  },
+  {
+    "brandSlug": "yuzhou",
+    "brandName": "宇宙云",
+    "foundedYear": null,
+    "timeline": [
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [clientMode]：正文与汇总表在自研客户端及最新套餐完整性上存在缺口。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "clientMode: 待核实（正文第384行） vs IEPL+VLESS+自研客户端（汇总表第931行）"
+    ]
+  },
+  {
+    "brandSlug": "u1s1",
+    "brandName": "U1S1",
+    "foundedYear": 2025,
+    "timeline": [
+      {
+        "date": "2025",
+        "event": "U1S1 品牌资料标注起始运营年份（2025 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [plans]：正文提到 1000GB 一次性大流量包，但套餐表未给出价格，本站不编造其售价。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（guangs vs pkdj7）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "plans: 套餐表含 5 档周期套餐（60GB 年付至 1500GB 月付） vs 正文第438行提及“还有 1000GB 的一次性大流量包”",
+      "affiliateUrl: https://guangs.vipaff.cc/#/?code=xhX5X22f vs https://pkdj7.vipaff.cc"
+    ]
+  },
+  {
+    "brandSlug": "lingmao",
+    "brandName": "灵猫网络",
+    "foundedYear": 2025,
+    "timeline": [
+      {
+        "date": "2025",
+        "event": "灵猫网络 品牌资料标注起始运营年份（2025 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-10",
+        "event": "品牌资料注明自 2026 年 10 月起改用官方专属客户端登录使用，不再提供第三方订阅链接",
+        "category": "policy-change",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [couponCode]：同时记录了 lmao888 与 lingmao 两个优惠码。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：主域名完全不同（vip01.civetnet.com vs vip02.civetaff.com）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [entryMonthlyCny]：月付 150GB 摘要写 ¥19，套餐表写 ¥25。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "couponCode: lingmao（8折，年付小包不适用） vs lmao888",
+      "affiliateUrl: https://vip01.civetnet.com/#/?code=8MIAyxak vs https://vip02.civetaff.com",
+      "entryMonthlyCny: ¥85/年（¥7.08/月 · 45GB）；月付Small ¥25（150GB） vs 19元/月 150GB/月（第445行）/ 7.1元/月起（第448行）"
+    ]
+  },
+  {
+    "brandSlug": "jilian",
+    "brandName": "极连云",
+    "foundedYear": 2024,
+    "timeline": [
+      {
+        "date": "2024",
+        "event": "极连云 品牌资料标注起始运营年份（2024 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（guangs vs kdjhao）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "affiliateUrl: https://guangs.jlyvipaff.com/#/?code=VM1rKGUu vs https://kdjhao.jlyvipaff.com"
+    ]
+  },
+  {
+    "brandSlug": "guangnian",
+    "brandName": "光年梯",
+    "foundedYear": 2025,
+    "timeline": [
+      {
+        "date": "2025",
+        "event": "光年梯 品牌资料标注起始运营年份（2025 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [protocols]：品牌资料写 VLESS，实测截图显示 Shadowsocks。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（guangs vs ggmq）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "protocols: Shadowsocks（2026-08-11 测速截图实测显示） vs VLESS（32家清单第511行）",
+      "affiliateUrl: https://guangs.gntaff.com/#/?code=X1FoxjGE vs https://ggmq.gntaff.com"
+    ]
+  },
+  {
+    "brandSlug": "yifan",
+    "brandName": "一翻云",
+    "foundedYear": 2025,
+    "timeline": [
+      {
+        "date": "2025",
+        "event": "一翻云 品牌资料标注起始运营年份（2025 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [couponCode]：同一条目存在 yfy6666 与 1FLYYUN 两个优惠码。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（guangs vs wzjc）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "couponCode: 1FLYYUN（9折） vs yfy6666",
+      "affiliateUrl: https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r vs https://wzjc.1flyunaff.cc"
+    ]
+  },
+  {
+    "brandSlug": "sogo",
+    "brandName": "SOGO 云",
+    "foundedYear": 2026,
+    "timeline": [
+      {
+        "date": "2026",
+        "event": "SOGO 云 品牌资料标注起始运营年份（2026 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [couponCode]：基础信息写 SOGO10000，汇总表写 sss777。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [protocols]：品牌资料写 VLESS，2026-08-11 实测图显示 Shadowsocks。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（guangs vs wzjc）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "couponCode: SOGO10000（9折） vs sss777",
+      "protocols: Shadowsocks（2026-08-11 测速截图实测显示） vs VLESS（32家清单第569、577行）",
+      "affiliateUrl: https://guangs.sogoyunaff.cc/#/?code=327Vs0w7 vs https://wzjc.sogoyunaff.cc"
+    ]
+  },
+  {
+    "brandSlug": "kexin",
+    "brandName": "可信云",
+    "foundedYear": 2024,
+    "timeline": [
+      {
+        "date": "2024",
+        "event": "可信云 品牌资料标注起始运营年份（2024 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [protocols]：品牌资料写 VLESS，实测截图显示 Shadowsocks。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（guangs vs work）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "protocols: Shadowsocks（2026-08-11 测速截图实测显示） vs VLESS（32家清单第616行）",
+      "affiliateUrl: https://guangs.kosingaff.com/#/register?code=UYDtNlCY vs https://work.kosingaff.com"
+    ]
+  },
+  {
+    "brandSlug": "sujie",
+    "brandName": "速界",
+    "foundedYear": 2024,
+    "timeline": [
+      {
+        "date": "2024",
+        "event": "速界 品牌资料标注起始运营年份（2024 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [protocols]：品牌资料写 VLESS，实测图显示 Shadowsocks。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（guangs vs work）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "protocols: Shadowsocks（2026-08-11 测速截图实测显示） vs VLESS（32家清单第638行）",
+      "affiliateUrl: https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB vs https://work.speedworldaff.cc"
+    ]
+  },
+  {
+    "brandSlug": "shanyue",
+    "brandName": "闪跃",
+    "foundedYear": null,
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      }
+    ],
+    "conflictsSummary": []
+  },
+  {
+    "brandSlug": "quanqiu",
+    "brandName": "全球云",
+    "foundedYear": 2026,
+    "timeline": [
+      {
+        "date": "2026",
+        "event": "全球云 品牌资料标注起始运营年份（2026 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-08-11",
+        "event": "纳入 2026-08-11 16 家机场实测截图批次（PNG 原始证据留存）",
+        "category": "benchmark",
+        "dataStatus": "Measured",
+        "sourceId": "src-speedtest-2026-08-11"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "记录 2026-10-19 非晚高峰 5 地区延迟与下载速率文本数据",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-text-2026-10-19"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [couponCode]：基础信息列 qq88，汇总表列 qqy7777。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（guangs vs sswdh）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "couponCode: qq88（8折） vs qqy7777",
+      "affiliateUrl: https://guangs.gcvipaff.com/#/?code=Ov2nvU9C vs https://sswdh.gcvipaff.com"
+    ]
+  },
+  {
+    "brandSlug": "shandianshu",
+    "brandName": "闪电鼠",
+    "foundedYear": 2024,
+    "timeline": [
+      {
+        "date": "2024",
+        "event": "闪电鼠 品牌资料标注起始运营年份（2024 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": []
+  },
+  {
+    "brandSlug": "yunjiexian",
+    "brandName": "云界线",
+    "foundedYear": 2024,
+    "timeline": [
+      {
+        "date": "2024",
+        "event": "云界线 品牌资料标注起始运营年份（2024 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：同一文件内出现两组不同的 code 参数，且 URL 均缺少 #/（与其它品牌格式不同）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "affiliateUrl: https://qwerty.yunjiexianaff.com/?code=aycnwNUi vs https://qwerty.yunjiexianaff.com/?code=HBaZ91c6"
+    ]
+  },
+  {
+    "brandSlug": "liulianyun",
+    "brandName": "榴莲云",
+    "foundedYear": 2024,
+    "timeline": [
+      {
+        "date": "2024",
+        "event": "榴莲云 品牌资料标注起始运营年份（2024 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": []
+  },
+  {
+    "brandSlug": "shenxing",
+    "brandName": "神行加速",
+    "foundedYear": 2024,
+    "timeline": [
+      {
+        "date": "2024",
+        "event": "神行加速 品牌资料标注起始运营年份（2024 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": []
+  },
+  {
+    "brandSlug": "huanqiuti",
+    "brandName": "环球梯",
+    "foundedYear": 2024,
+    "timeline": [
+      {
+        "date": "2024",
+        "event": "环球梯 品牌资料标注起始运营年份（2024 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": []
+  },
+  {
+    "brandSlug": "tiziyun",
+    "brandName": "梯子云",
+    "foundedYear": 2025,
+    "timeline": [
+      {
+        "date": "2025",
+        "event": "梯子云 品牌资料标注起始运营年份（2025 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [affiliateUrl]：推广子域名前缀不同（tiziyun3 vs varnexa）。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "affiliateUrl: https://tiziyun3.ladderaff.com/#/?code=7EmnpHs0 vs https://varnexa.ladderaff.com"
+    ]
+  },
+  {
+    "brandSlug": "lingdong",
+    "brandName": "灵动云",
+    "foundedYear": 2025,
+    "timeline": [
+      {
+        "date": "2025",
+        "event": "灵动云 品牌资料标注起始运营年份（2025 年）",
+        "category": "launch",
+        "dataStatus": "Vendor Data",
+        "sourceId": "src-brand-list-32-appended"
+      },
+      {
+        "date": "2026-07-20/21",
+        "event": "珠海联通 9Gbps 环境 60 测速 / 60 解锁实测文字摘要记录",
+        "category": "benchmark",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-speedtest-lingdong-2026-07-20"
+      },
+      {
+        "date": "2026-08-09",
+        "event": "收录于 2026-08-09 历史品牌库档案",
+        "category": "data-snapshot",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-brand-list-32-appended"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [protocols]：站点页面文案同时出现 VLESS 与 Trojan，实测为 VLESS。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "protocols: VLESS（2026-07-20/21 实测） vs 站点页面文案 VLESS / Trojan 混提"
+    ]
+  },
+  {
+    "brandSlug": "langwang",
+    "brandName": "浪网",
+    "foundedYear": null,
+    "timeline": [
+      {
+        "date": "2026-08-09",
+        "event": "收录于 2026-08-09 历史品牌库档案",
+        "category": "data-snapshot",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-brand-list-32-appended"
+      },
+      {
+        "date": "2026-11-24",
+        "event": "数据审计发现字段冲突 [planTraffic]：入门档 150G 字段存在截图遮挡，本站将入门档 trafficGb 保持 null 并在 trafficLabel 注明遮挡。",
+        "category": "conflict",
+        "dataStatus": "Conflicting",
+        "sourceId": "src-brand-list-32"
+      }
+    ],
+    "conflictsSummary": [
+      "planTraffic: 入门档记录“截150G”（截图部分遮挡） vs 正文第1083行明确提示“套餐流量与设备限制被遮挡”"
+    ]
+  },
+  {
+    "brandSlug": "edgenova",
+    "brandName": "边缘节点 EdgeNova",
+    "foundedYear": null,
+    "timeline": [
+      {
+        "date": "2026-08-09",
+        "event": "收录于 2026-08-09 历史品牌库档案",
+        "category": "data-snapshot",
+        "dataStatus": "Historical Data",
+        "sourceId": "src-brand-list-32-appended"
+      }
+    ],
+    "conflictsSummary": []
+  }
+]

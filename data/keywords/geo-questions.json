@@ -1,0 +1,400 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-24",
+  "totalQuestions": 31,
+  "items": [
+    {
+      "id": "gq-01",
+      "question": "2026 年选择机场订阅，先买月付还是直接买年付更稳妥？",
+      "intent": "commercial",
+      "pillar": "risks",
+      "targetUrl": "/risks/billing-risks/",
+      "relatedEntities": [
+        "brand-guangsuyun",
+        "brand-feimao"
+      ],
+      "answerFirstGuidance": "先通过月付或最低入门档在本地晚高峰(20:00–23:00)实测7天，确认客户端兼容与线路表现后再决定是否转年付。",
+      "evidenceRequirement": "引用 31 家品牌退款政策现状(多为待核实或特殊商品不退)"
+    },
+    {
+      "id": "gq-02",
+      "question": "光速云 99 元/年轻量版到底是 59GB 还是 69GB 流量？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/guangsuyun/",
+      "relatedEntities": [
+        "brand-guangsuyun",
+        "plan-guangsuyun-lite-annual"
+      ],
+      "answerFirstGuidance": "按套餐明细与总清单主值记为 69GB/月（折合 ¥8.25/月），同时如实披露品牌文档第8行摘要曾出现 59GB 旧口径冲突。",
+      "evidenceRequirement": "引用 data/brands.json conflicts 记录"
+    },
+    {
+      "id": "gq-03",
+      "question": "光速云 2026-08-19 实测截图为什么同时有 62 节点和 70 节点两组数据？",
+      "intent": "commercial",
+      "pillar": "network",
+      "targetUrl": "/reviews/guangsuyun/",
+      "relatedEntities": [
+        "brand-guangsuyun",
+        "bench-0819-ss-ct",
+        "bench-0819-vless-speed"
+      ],
+      "answerFirstGuidance": "同日两组测试采用了不同订阅批次：三网 normalspeed 使用 62 节点 Shadowsocks，珠海联通 9Gbps 单线程使用 60 VLESS + 10 电信 AnyTLS，二者不可混算均值。",
+      "evidenceRequirement": "引用 data/benchmarks.json 08-19 5张实测图"
+    },
+    {
+      "id": "gq-04",
+      "question": "飞猫云、隐形人、SOGO 云和 Clash Verge Rev 兼容吗？",
+      "intent": "commercial",
+      "pillar": "clients",
+      "targetUrl": "/clients/compatibility/",
+      "relatedEntities": [
+        "brand-feimao",
+        "brand-yinxingren",
+        "brand-sogo",
+        "client-clash-verge-rev"
+      ],
+      "answerFirstGuidance": "不兼容。这几家品牌资料标明仅提供专属客户端登录使用（exclusive-only），不提供通用订阅链接。",
+      "evidenceRequirement": "引用 data/client-compatibility.json"
+    },
+    {
+      "id": "gq-05",
+      "question": "IEPL 专线和 IPLC 专线在机场测速与延迟上有什么实际区别？",
+      "intent": "informational",
+      "pillar": "network",
+      "targetUrl": "/network/iepl-vs-iplc/",
+      "relatedEntities": [
+        "route-iepl",
+        "route-iplc"
+      ],
+      "answerFirstGuidance": "二者均属于跨境内网传输层概念，核心价值在于绕开公网拥塞；实际体验仍取决于入口带宽、晚高峰超售比与落地 IP 质量。",
+      "evidenceRequirement": "引用 /network/iepl-vs-iplc/ 技术分析"
+    },
+    {
+      "id": "gq-06",
+      "question": "为什么香港节点打开 ChatGPT 显示不可用或只支持 App？",
+      "intent": "troubleshooting",
+      "pillar": "ai-streaming",
+      "targetUrl": "/ai-streaming/ai-tools/",
+      "relatedEntities": [
+        "service-chatgpt",
+        "region-hk",
+        "brand-guangsuyun"
+      ],
+      "answerFirstGuidance": "OpenAI 对香港地区实施访问限制；部分机场虽在香港节点做分流解锁，但常识别为 US 或仅在移动端 App 可用，稳定网页端建议切至美/日/新节点。",
+      "evidenceRequirement": "引用光速云 08-19 VLESS 70节点解锁图"
+    },
+    {
+      "id": "gq-07",
+      "question": "新加坡和台湾节点在 YouTube 上出现送中（CN）是怎么回事？",
+      "intent": "troubleshooting",
+      "pillar": "ai-streaming",
+      "targetUrl": "/ai-streaming/streaming/",
+      "relatedEntities": [
+        "service-youtube",
+        "region-sg",
+        "region-tw"
+      ],
+      "answerFirstGuidance": "因落地 IP 被 Google 定位数据库纠偏至 CN，导致无广告或地区异常，并非节点断网，通常需切换至香港、日本或美国正常标注节点。",
+      "evidenceRequirement": "引用光速云 08-19 与灵动云 07-20 实测异常记录"
+    },
+    {
+      "id": "gq-08",
+      "question": "为什么 5.6 元/月档位的大佬云、闪电鼠、云界线、榴莲云、环球梯参数很像？",
+      "intent": "commercial",
+      "pillar": "plans",
+      "targetUrl": "/plans/budget/",
+      "relatedEntities": [
+        "brand-dalaoyun",
+        "brand-shandianshu",
+        "brand-yunjiexian",
+        "brand-liulianyun",
+        "brand-huanqiuti"
+      ],
+      "answerFirstGuidance": "这 5 家品牌在原始资料中呈现高度同质化的 5.6 元/月 60GB VLESS+IEPL 模板且均缺少独立实测截图，购前需按新站风控对待。",
+      "evidenceRequirement": "引用 data/brands.json & data/risk-records.json"
+    },
+    {
+      "id": "gq-09",
+      "question": "安卓用户下载 NekoBox for Android 有什么安全注意事项？",
+      "intent": "informational",
+      "pillar": "clients",
+      "targetUrl": "/clients/android/",
+      "relatedEntities": [
+        "client-nekobox-for-android"
+      ],
+      "answerFirstGuidance": "官方项目已明确提示维护资源有限，且警告切勿下载 Google Play 上已被第三方控制的同名应用，务必仅从官方 GitHub Release 获取。",
+      "evidenceRequirement": "引用 data/clients.json warnings"
+    },
+    {
+      "id": "gq-10",
+      "question": "OpenWrt 软路由安装 Nikki 插件对固件版本有什么要求？",
+      "intent": "informational",
+      "pillar": "clients",
+      "targetUrl": "/clients/nikki/",
+      "relatedEntities": [
+        "client-nikki"
+      ],
+      "answerFirstGuidance": "Nikki 官方项目明确要求 OpenWrt 24.10 及以上版本，旧版 OpenWrt 固件不兼容，旧系统用户应考虑 OpenClash 或 PassWall2。",
+      "evidenceRequirement": "引用 data/clients.json nikki 记录"
+    },
+    {
+      "id": "gq-11",
+      "question": "非晚高峰的测速数据可以用来给机场排座次吗？",
+      "intent": "informational",
+      "pillar": "network",
+      "targetUrl": "/methodology/",
+      "relatedEntities": [
+        "src-speedtest-text-2026-10-19",
+        "src-speedtest-2026-08-11"
+      ],
+      "answerFirstGuidance": "不可以。2026-10-19 文本记录明确标注为非晚高峰，2026-08-11 截图也测试于不同时段，只能作为基线参考，不能替代 20:00–23:00 晚高峰并发压力测试。",
+      "evidenceRequirement": "引用 data/benchmarks.json batchType & limitations"
+    },
+    {
+      "id": "gq-12",
+      "question": "无忧链接和 Firefly 在 2026 年 10 月后客户端模式发生了什么变化？",
+      "intent": "informational",
+      "pillar": "risks",
+      "targetUrl": "/risks/archives/",
+      "relatedEntities": [
+        "brand-wuyou",
+        "brand-firefly"
+      ],
+      "answerFirstGuidance": "两家品牌资料均注明自 2026 年 10 月起收紧为仅官方专属客户端登录即用，不再提供第三方通用订阅链接，软路由与 Clash 用户需注意兼容性变化。",
+      "evidenceRequirement": "引用 data/brand-history.json policy-change 事件"
+    },
+    {
+      "id": "gq-13",
+      "question": "MiaoKo 测速截图中的 MB 单位和 Mbps 带宽怎么区分？",
+      "intent": "informational",
+      "pillar": "guides",
+      "targetUrl": "/guides/speedtest-guide/",
+      "relatedEntities": [
+        "bench-0819-vless-speed",
+        "bench-0719-weifeng"
+      ],
+      "answerFirstGuidance": "1 MB/s 等于 8 Mbps。MiaoKo 测速页常以 MB（MB/s 级）展示实际文件传输速率，本站严格按原图单位标注，不做擅自换算。",
+      "evidenceRequirement": "引用 data/benchmarks.json 07-18/07-19/08-19 notes"
+    },
+    {
+      "id": "gq-14",
+      "question": "订阅更新报错 TLS handshake timeout 或节点全部 timeout 如何快速定位？",
+      "intent": "troubleshooting",
+      "pillar": "troubleshooting",
+      "targetUrl": "/troubleshooting/node-timeout/",
+      "relatedEntities": [
+        "client-clash-verge-rev",
+        "client-v2rayn"
+      ],
+      "answerFirstGuidance": "优先核查设备系统时间误差（超过 60 秒会导致 TLS/VLESS 握手失败）、本地网络是否屏蔽订阅域名以及套餐流量是否到期清零。",
+      "evidenceRequirement": "引用 /troubleshooting/node-timeout/ 排查清单"
+    },
+    {
+      "id": "gq-15",
+      "question": "一次性不限时流量包适合作为主力还是备用？",
+      "intent": "commercial",
+      "pillar": "plans",
+      "targetUrl": "/plans/non-expiring/",
+      "relatedEntities": [
+        "plan-guangsuyun-147-onetime",
+        "plan-xingdaomeng-ot-1tb"
+      ],
+      "answerFirstGuidance": "不限时流量包的每 GB 单价通常在 ¥0.60–¥1.46/GB（远高于包月套餐的 ¥0.11–¥0.19/GB），更适合低频轻度用户或作为主力机场失联时的应急备用。",
+      "evidenceRequirement": "引用 data/plans.json one-time 套餐计算数据"
+    },
+    {
+      "id": "gq-brand-guangsuyun",
+      "question": "光速云 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/guangsuyun/",
+      "relatedEntities": [
+        "brand-guangsuyun"
+      ],
+      "answerFirstGuidance": "提供自研客户端，同时支持 Clash、Shadowrocket 等第三方客户端订阅导入。 当前数据状态为 Measured，存在 3 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (guangsuyun) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-muguang",
+      "question": "暮光加速 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/muguang/",
+      "relatedEntities": [
+        "brand-muguang"
+      ],
+      "answerFirstGuidance": "品牌资料宣称覆盖 Windows、macOS、iOS、Android、Linux 全平台，但是否强制自研客户端或提供订阅链接尚未明确。 当前数据状态为 Vendor Data，存在 2 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (muguang) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-feimao",
+      "question": "飞猫云 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/feimao/",
+      "relatedEntities": [
+        "brand-feimao"
+      ],
+      "answerFirstGuidance": "专属客户端下载登录即用，不提供第三方订阅链接（无法直接导入 Clash / Shadowrocket）。 当前数据状态为 Measured，存在 1 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (feimao) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-weifeng",
+      "question": "微风网络 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/weifeng/",
+      "relatedEntities": [
+        "brand-weifeng"
+      ],
+      "answerFirstGuidance": "品牌资料未明确限定专属客户端，2026-07-19 实测截图通过 VLESS 订阅导入 MiaoKo 测试。 当前数据状态为 Measured，存在 1 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (weifeng) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-dalaoyun",
+      "question": "大佬云 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/dalaoyun/",
+      "relatedEntities": [
+        "brand-dalaoyun"
+      ],
+      "answerFirstGuidance": "品牌资料标注支持自研客户端 + 第三方订阅导入。 当前数据状态为 Vendor Data，存在 0 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (dalaoyun) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-xingdaomeng",
+      "question": "星岛梦 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/xingdaomeng/",
+      "relatedEntities": [
+        "brand-xingdaomeng"
+      ],
+      "answerFirstGuidance": "品牌资料未明确限制专属客户端，2026-08-11 实测通过 Shadowsocks 订阅节点测速。 当前数据状态为 Measured，存在 2 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (xingdaomeng) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-yinxingren",
+      "question": "隐形人 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/yinxingren/",
+      "relatedEntities": [
+        "brand-yinxingren"
+      ],
+      "answerFirstGuidance": "仅限自带专属客户端，不提供订阅链接，Clash / Shadowrocket 等第三方客户端无法使用。 当前数据状态为 Conflicting，存在 3 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (yinxingren) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-ermao",
+      "question": "二猫云 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/ermao/",
+      "relatedEntities": [
+        "brand-ermao"
+      ],
+      "answerFirstGuidance": "配备独家定制客户端；正文提及 VLESS 协议，且 2026-08-11 截图显示 Shadowsocks 节点可测速，具体第三方订阅权限以官网为准。 当前数据状态为 Measured，存在 3 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (ermao) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-wuyou",
+      "question": "无忧链接 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/wuyou/",
+      "relatedEntities": [
+        "brand-wuyou"
+      ],
+      "answerFirstGuidance": "正文标注 2026 年 10 月起改用官方专属客户端下载登录即用（但汇总表曾提及“订阅无需转换”，2026-07-18 曾以 VLESS 订阅实测，存在新旧切换期冲突）。 当前数据状态为 Measured，存在 1 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (wuyou) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-weitu",
+      "question": "唯兔云 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/weitu/",
+      "relatedEntities": [
+        "brand-weitu"
+      ],
+      "answerFirstGuidance": "品牌资料未强制限制专属客户端，2026-08-11 实测通过 Shadowsocks 节点测速。 当前数据状态为 Measured，存在 2 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (weitu) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-firefly",
+      "question": "Firefly 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/firefly/",
+      "relatedEntities": [
+        "brand-firefly"
+      ],
+      "answerFirstGuidance": "10 月主体资料注明“2026 年 10 月起专属客户端下载登录即用，不提供订阅链接”；2026-08-09 历史资料仅提及 IPLC + VLESS 规格。 当前数据状态为 Conflicting，存在 2 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (firefly) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-yuzhou",
+      "question": "宇宙云 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/yuzhou/",
+      "relatedEntities": [
+        "brand-yuzhou"
+      ],
+      "answerFirstGuidance": "正文标注“待核实”，汇总表提及自研客户端；2026-08-11 测速截图通过 VLESS 订阅测速。 当前数据状态为 Unverified，存在 1 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (yuzhou) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-u1s1",
+      "question": "U1S1 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/u1s1/",
+      "relatedEntities": [
+        "brand-u1s1"
+      ],
+      "answerFirstGuidance": "品牌资料未明确限定专属客户端，2026-08-11 晚高峰测速通过 Shadowsocks 节点完成。 当前数据状态为 Measured，存在 2 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (u1s1) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-lingmao",
+      "question": "灵猫网络 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/lingmao/",
+      "relatedEntities": [
+        "brand-lingmao"
+      ],
+      "answerFirstGuidance": "2026 年 10 月起改用专属客户端下载登录即用，不提供订阅链接（但 08-11 曾以 Shadowsocks 测速）。 当前数据状态为 Conflicting，存在 3 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (lingmao) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-jilian",
+      "question": "极连云 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/jilian/",
+      "relatedEntities": [
+        "brand-jilian"
+      ],
+      "answerFirstGuidance": "品牌资料明确支持自研客户端 + 第三方客户端，2026-08-11 晚高峰通过 Shadowsocks 测速。 当前数据状态为 Measured，存在 1 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (jilian) 与 data/risk-records.json"
+    },
+    {
+      "id": "gq-brand-guangnian",
+      "question": "光年梯 支持哪些客户端，目前有哪些已知数据缺口或文档冲突？",
+      "intent": "commercial",
+      "pillar": "brands",
+      "targetUrl": "/reviews/guangnian/",
+      "relatedEntities": [
+        "brand-guangnian"
+      ],
+      "answerFirstGuidance": "支持自研客户端 + 第三方订阅导入。 当前数据状态为 Measured，存在 2 项记录冲突，具体请核查测评页冲突说明与实测批次时间。",
+      "evidenceRequirement": "引用 data/brands.json (guangnian) 与 data/risk-records.json"
+    }
+  ]
+}

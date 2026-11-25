@@ -1,0 +1,2929 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-11-24",
+  "totalItems": 345,
+  "items": [
+    {
+      "entityId": "proto-vless",
+      "canonicalName": "VLESS",
+      "entityType": "NetworkProtocol",
+      "aliases": [
+        "VLESS-XTLS",
+        "Xray VLESS"
+      ]
+    },
+    {
+      "entityId": "proto-vless-reality",
+      "canonicalName": "VLESS-Reality",
+      "entityType": "NetworkProtocol",
+      "aliases": [
+        "Reality",
+        "VLESS+Reality"
+      ]
+    },
+    {
+      "entityId": "proto-shadowsocks",
+      "canonicalName": "Shadowsocks",
+      "entityType": "NetworkProtocol",
+      "aliases": [
+        "SS",
+        "SS2022",
+        "Shadowsocks-2022"
+      ]
+    },
+    {
+      "entityId": "proto-trojan",
+      "canonicalName": "Trojan",
+      "entityType": "NetworkProtocol",
+      "aliases": [
+        "Trojan-GFW",
+        "Trojan-Go"
+      ]
+    },
+    {
+      "entityId": "proto-vmess",
+      "canonicalName": "VMess",
+      "entityType": "NetworkProtocol",
+      "aliases": [
+        "V2Ray VMess"
+      ]
+    },
+    {
+      "entityId": "proto-hysteria2",
+      "canonicalName": "Hysteria 2",
+      "entityType": "NetworkProtocol",
+      "aliases": [
+        "Hy2",
+        "Hysteria2"
+      ]
+    },
+    {
+      "entityId": "proto-anytls",
+      "canonicalName": "AnyTLS",
+      "entityType": "NetworkProtocol",
+      "aliases": [
+        "AnyTLS 协议"
+      ]
+    },
+    {
+      "entityId": "proto-tuic",
+      "canonicalName": "TUIC",
+      "entityType": "NetworkProtocol",
+      "aliases": [
+        "TUIC v5"
+      ]
+    },
+    {
+      "entityId": "proto-ssr",
+      "canonicalName": "SSR",
+      "entityType": "NetworkProtocol",
+      "aliases": [
+        "ShadowsocksR"
+      ]
+    },
+    {
+      "entityId": "region-hk",
+      "canonicalName": "香港",
+      "entityType": "Region",
+      "aliases": [
+        "HK",
+        "HKG",
+        "港区"
+      ]
+    },
+    {
+      "entityId": "region-tw",
+      "canonicalName": "台湾",
+      "entityType": "Region",
+      "aliases": [
+        "TW",
+        "TPE",
+        "台区"
+      ]
+    },
+    {
+      "entityId": "region-jp",
+      "canonicalName": "日本",
+      "entityType": "Region",
+      "aliases": [
+        "JP",
+        "TYO",
+        "日区"
+      ]
+    },
+    {
+      "entityId": "region-sg",
+      "canonicalName": "新加坡",
+      "entityType": "Region",
+      "aliases": [
+        "SG",
+        "SIN",
+        "狮城"
+      ]
+    },
+    {
+      "entityId": "region-us",
+      "canonicalName": "美国",
+      "entityType": "Region",
+      "aliases": [
+        "US",
+        "LAX",
+        "美区"
+      ]
+    },
+    {
+      "entityId": "region-kr",
+      "canonicalName": "韩国",
+      "entityType": "Region",
+      "aliases": [
+        "KR",
+        "韩区"
+      ]
+    },
+    {
+      "entityId": "region-my",
+      "canonicalName": "马来西亚",
+      "entityType": "Region",
+      "aliases": [
+        "MY",
+        "马来"
+      ]
+    },
+    {
+      "entityId": "region-gb",
+      "canonicalName": "英国",
+      "entityType": "Region",
+      "aliases": [
+        "UK",
+        "GB",
+        "英区"
+      ]
+    },
+    {
+      "entityId": "region-fr",
+      "canonicalName": "法国",
+      "entityType": "Region",
+      "aliases": [
+        "FR",
+        "法区"
+      ]
+    },
+    {
+      "entityId": "region-de",
+      "canonicalName": "德国",
+      "entityType": "Region",
+      "aliases": [
+        "DE",
+        "德区"
+      ]
+    },
+    {
+      "entityId": "region-tr",
+      "canonicalName": "土耳其",
+      "entityType": "Region",
+      "aliases": [
+        "TR",
+        "土区"
+      ]
+    },
+    {
+      "entityId": "region-th",
+      "canonicalName": "泰国",
+      "entityType": "Region",
+      "aliases": [
+        "TH",
+        "泰区"
+      ]
+    },
+    {
+      "entityId": "region-br",
+      "canonicalName": "巴西",
+      "entityType": "Region",
+      "aliases": [
+        "BR",
+        "南美"
+      ]
+    },
+    {
+      "entityId": "region-sea",
+      "canonicalName": "东南亚",
+      "entityType": "Region",
+      "aliases": [
+        "SEA",
+        "东南亚多区"
+      ]
+    },
+    {
+      "entityId": "route-iepl",
+      "canonicalName": "IEPL专线",
+      "entityType": "NetworkRoute",
+      "aliases": [
+        "IEPL",
+        "国际以太网专线",
+        "全线 IEPL 专线",
+        "全节点 IEPL 物理专线"
+      ]
+    },
+    {
+      "entityId": "route-iplc",
+      "canonicalName": "IPLC专线",
+      "entityType": "NetworkRoute",
+      "aliases": [
+        "IPLC",
+        "企业级 IPLC 专线",
+        "IPLC/IEPL专线中转"
+      ]
+    },
+    {
+      "entityId": "route-intranet",
+      "canonicalName": "企业级内网专线",
+      "entityType": "NetworkRoute",
+      "aliases": [
+        "企业内网专线"
+      ]
+    },
+    {
+      "entityId": "route-bgp",
+      "canonicalName": "BGP智能调度",
+      "entityType": "NetworkRoute",
+      "aliases": [
+        "BGP",
+        "BGP智能优化",
+        "BGP专线"
+      ]
+    },
+    {
+      "entityId": "route-tri-net",
+      "canonicalName": "三网优化",
+      "entityType": "NetworkRoute",
+      "aliases": [
+        "三网直连优化"
+      ]
+    },
+    {
+      "entityId": "route-relay",
+      "canonicalName": "中转优化线路",
+      "entityType": "NetworkRoute",
+      "aliases": [
+        "专线/中转混合（正文未强调顶级专线）",
+        "国内中转"
+      ]
+    },
+    {
+      "entityId": "route-residential-ip",
+      "canonicalName": "原生住宅 IP",
+      "entityType": "NetworkRoute",
+      "aliases": [
+        "原生IP",
+        "住宅IP"
+      ]
+    },
+    {
+      "entityId": "route-lb",
+      "canonicalName": "智能负载均衡",
+      "entityType": "NetworkRoute",
+      "aliases": [
+        "多线路自动分配"
+      ]
+    },
+    {
+      "entityId": "service-chatgpt",
+      "canonicalName": "ChatGPT",
+      "entityType": "ServiceAvailability",
+      "aliases": [
+        "OpenAI",
+        "GPT-4o",
+        "ChatGPT Web"
+      ]
+    },
+    {
+      "entityId": "service-claude",
+      "canonicalName": "Claude",
+      "entityType": "ServiceAvailability",
+      "aliases": [
+        "Anthropic Claude",
+        "Claude AI"
+      ]
+    },
+    {
+      "entityId": "service-gemini",
+      "canonicalName": "Gemini",
+      "entityType": "ServiceAvailability",
+      "aliases": [
+        "Google Gemini",
+        "Google AI"
+      ]
+    },
+    {
+      "entityId": "service-netflix",
+      "canonicalName": "Netflix",
+      "entityType": "ServiceAvailability",
+      "aliases": [
+        "NF",
+        "奈飞"
+      ]
+    },
+    {
+      "entityId": "service-disney",
+      "canonicalName": "Disney+",
+      "entityType": "ServiceAvailability",
+      "aliases": [
+        "DisneyPlus",
+        "D+",
+        "迪士尼+"
+      ]
+    },
+    {
+      "entityId": "service-youtube",
+      "canonicalName": "YouTube",
+      "entityType": "ServiceAvailability",
+      "aliases": [
+        "YT",
+        "油管",
+        "YouTube Premium"
+      ]
+    },
+    {
+      "entityId": "service-hbomax",
+      "canonicalName": "HBO Max",
+      "entityType": "ServiceAvailability",
+      "aliases": [
+        "Max",
+        "HBO"
+      ]
+    },
+    {
+      "entityId": "service-tiktok",
+      "canonicalName": "TikTok",
+      "entityType": "ServiceAvailability",
+      "aliases": [
+        "TT",
+        "国际版抖音"
+      ]
+    },
+    {
+      "entityId": "service-spotify",
+      "canonicalName": "Spotify",
+      "entityType": "ServiceAvailability",
+      "aliases": [
+        "声田"
+      ]
+    },
+    {
+      "entityId": "client-clash-verge-rev",
+      "canonicalName": "Clash Verge Rev",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "clash-verge-rev",
+        "Clash Verge Rev",
+        "Mihomo (Clash Meta)"
+      ]
+    },
+    {
+      "entityId": "client-v2rayn",
+      "canonicalName": "v2rayN",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "v2rayn",
+        "v2rayN",
+        "Xray / sing-box 等多核心"
+      ]
+    },
+    {
+      "entityId": "client-flclash",
+      "canonicalName": "FlClash",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "flclash",
+        "FlClash",
+        "Mihomo"
+      ]
+    },
+    {
+      "entityId": "client-clash-nyanpasu",
+      "canonicalName": "Clash Nyanpasu",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "clash-nyanpasu",
+        "Clash Nyanpasu",
+        "Mihomo / 多内核"
+      ]
+    },
+    {
+      "entityId": "client-hiddify",
+      "canonicalName": "Hiddify",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "hiddify",
+        "Hiddify",
+        "sing-box"
+      ]
+    },
+    {
+      "entityId": "client-karing",
+      "canonicalName": "Karing",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "karing",
+        "Karing",
+        "sing-box"
+      ]
+    },
+    {
+      "entityId": "client-clash-mi",
+      "canonicalName": "Clash Mi",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "clash-mi",
+        "Clash Mi",
+        "Mihomo"
+      ]
+    },
+    {
+      "entityId": "client-mihomo-party",
+      "canonicalName": "Mihomo Party",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "mihomo-party",
+        "Mihomo Party",
+        "Mihomo"
+      ]
+    },
+    {
+      "entityId": "client-v2rayng",
+      "canonicalName": "v2rayNG",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "v2rayng",
+        "v2rayNG",
+        "Xray"
+      ]
+    },
+    {
+      "entityId": "client-clash-meta-for-android",
+      "canonicalName": "Clash Meta for Android",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "clash-meta-for-android",
+        "Clash Meta for Android",
+        "Mihomo (Clash Meta)"
+      ]
+    },
+    {
+      "entityId": "client-nekobox-for-android",
+      "canonicalName": "NekoBox for Android",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "nekobox-for-android",
+        "NekoBox for Android",
+        "sing-box"
+      ]
+    },
+    {
+      "entityId": "client-sing-box",
+      "canonicalName": "sing-box 官方客户端 (SFA / SFI / SFM / Desktop)",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "sing-box",
+        "sing-box 官方客户端 (SFA / SFI / SFM / Desktop)"
+      ]
+    },
+    {
+      "entityId": "client-shadowrocket",
+      "canonicalName": "Shadowrocket（小火箭）",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "shadowrocket",
+        "Shadowrocket",
+        "自研 iOS 网络扩展引擎"
+      ]
+    },
+    {
+      "entityId": "client-stash",
+      "canonicalName": "Stash",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "stash",
+        "Stash",
+        "Clash 兼容规则引擎"
+      ]
+    },
+    {
+      "entityId": "client-quantumult-x",
+      "canonicalName": "Quantumult X（圈 X）",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "quantumult-x",
+        "Quantumult X",
+        "自研规则与脚本引擎"
+      ]
+    },
+    {
+      "entityId": "client-surge",
+      "canonicalName": "Surge (Surge 5 / Surge Mac)",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "surge",
+        "Surge (Surge 5 / Surge Mac)",
+        "Surge 自研高性能网络引擎"
+      ]
+    },
+    {
+      "entityId": "client-streisand",
+      "canonicalName": "Streisand",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "streisand",
+        "Streisand",
+        "多协议核心"
+      ]
+    },
+    {
+      "entityId": "client-potatso",
+      "canonicalName": "Potatso",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "potatso",
+        "Potatso",
+        "轻量代理核心"
+      ]
+    },
+    {
+      "entityId": "client-oneclick",
+      "canonicalName": "OneClick",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "oneclick",
+        "OneClick",
+        "轻量代理核心"
+      ]
+    },
+    {
+      "entityId": "client-v2raya",
+      "canonicalName": "v2rayA",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "v2raya",
+        "v2rayA",
+        "Xray / v2ray-core"
+      ]
+    },
+    {
+      "entityId": "client-openclash",
+      "canonicalName": "OpenClash",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "openclash",
+        "OpenClash",
+        "Mihomo / Clash"
+      ]
+    },
+    {
+      "entityId": "client-passwall2",
+      "canonicalName": "PassWall2",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "passwall2",
+        "PassWall2",
+        "Xray / sing-box"
+      ]
+    },
+    {
+      "entityId": "client-nikki",
+      "canonicalName": "Nikki",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "nikki",
+        "Nikki",
+        "Mihomo"
+      ]
+    },
+    {
+      "entityId": "client-homeproxy",
+      "canonicalName": "HomeProxy",
+      "entityType": "ClientSoftware",
+      "aliases": [
+        "homeproxy",
+        "HomeProxy",
+        "sing-box"
+      ]
+    },
+    {
+      "entityId": "brand-guangsuyun",
+      "canonicalName": "光速云",
+      "entityType": "Brand",
+      "aliases": [
+        "LightSpeed",
+        "光速云 LightSpeed",
+        "guangsuyun"
+      ]
+    },
+    {
+      "entityId": "review-guangsuyun",
+      "canonicalName": "光速云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "光速云评测",
+        "光速云测评"
+      ]
+    },
+    {
+      "entityId": "brand-muguang",
+      "canonicalName": "暮光加速",
+      "entityType": "Brand",
+      "aliases": [
+        "muguang",
+        "暮光网络",
+        "暮光",
+        "Twilight"
+      ]
+    },
+    {
+      "entityId": "review-muguang",
+      "canonicalName": "暮光加速 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "暮光加速评测",
+        "暮光加速测评"
+      ]
+    },
+    {
+      "entityId": "brand-feimao",
+      "canonicalName": "飞猫云",
+      "entityType": "Brand",
+      "aliases": [
+        "feimao",
+        "FlyCat"
+      ]
+    },
+    {
+      "entityId": "review-feimao",
+      "canonicalName": "飞猫云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "飞猫云评测",
+        "飞猫云测评"
+      ]
+    },
+    {
+      "entityId": "brand-weifeng",
+      "canonicalName": "微风网络",
+      "entityType": "Brand",
+      "aliases": [
+        "weifeng",
+        "微风",
+        "Breezenet"
+      ]
+    },
+    {
+      "entityId": "review-weifeng",
+      "canonicalName": "微风网络 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "微风网络评测",
+        "微风网络测评"
+      ]
+    },
+    {
+      "entityId": "brand-dalaoyun",
+      "canonicalName": "大佬云",
+      "entityType": "Brand",
+      "aliases": [
+        "dalaoyun"
+      ]
+    },
+    {
+      "entityId": "review-dalaoyun",
+      "canonicalName": "大佬云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "大佬云评测",
+        "大佬云测评"
+      ]
+    },
+    {
+      "entityId": "brand-xingdaomeng",
+      "canonicalName": "星岛梦",
+      "entityType": "Brand",
+      "aliases": [
+        "xingdaomeng",
+        "StarDream",
+        "星岛梦 StarDream"
+      ]
+    },
+    {
+      "entityId": "review-xingdaomeng",
+      "canonicalName": "星岛梦 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "星岛梦评测",
+        "星岛梦测评"
+      ]
+    },
+    {
+      "entityId": "brand-yinxingren",
+      "canonicalName": "隐形人",
+      "entityType": "Brand",
+      "aliases": [
+        "yinxingren",
+        "Invisible"
+      ]
+    },
+    {
+      "entityId": "review-yinxingren",
+      "canonicalName": "隐形人 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "隐形人评测",
+        "隐形人测评"
+      ]
+    },
+    {
+      "entityId": "brand-ermao",
+      "canonicalName": "二猫云",
+      "entityType": "Brand",
+      "aliases": [
+        "ermao",
+        "2mao",
+        "二猫云 2mao"
+      ]
+    },
+    {
+      "entityId": "review-ermao",
+      "canonicalName": "二猫云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "二猫云评测",
+        "二猫云测评"
+      ]
+    },
+    {
+      "entityId": "brand-wuyou",
+      "canonicalName": "无忧链接",
+      "entityType": "Brand",
+      "aliases": [
+        "wuyou",
+        "无忧"
+      ]
+    },
+    {
+      "entityId": "review-wuyou",
+      "canonicalName": "无忧链接 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "无忧链接评测",
+        "无忧链接测评"
+      ]
+    },
+    {
+      "entityId": "brand-weitu",
+      "canonicalName": "唯兔云",
+      "entityType": "Brand",
+      "aliases": [
+        "weitu",
+        "V2云",
+        "唯兔云（V2云）"
+      ]
+    },
+    {
+      "entityId": "review-weitu",
+      "canonicalName": "唯兔云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "唯兔云评测",
+        "唯兔云测评"
+      ]
+    },
+    {
+      "entityId": "brand-firefly",
+      "canonicalName": "Firefly",
+      "entityType": "Brand",
+      "aliases": [
+        "firefly",
+        "Firefly 萤火虫",
+        "飞为",
+        "飞为（Firefly）",
+        "Firefly"
+      ]
+    },
+    {
+      "entityId": "review-firefly",
+      "canonicalName": "Firefly 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "Firefly评测",
+        "Firefly测评"
+      ]
+    },
+    {
+      "entityId": "brand-yuzhou",
+      "canonicalName": "宇宙云",
+      "entityType": "Brand",
+      "aliases": [
+        "yuzhou",
+        "YuZhou",
+        "宇宙云 YuZhou"
+      ]
+    },
+    {
+      "entityId": "review-yuzhou",
+      "canonicalName": "宇宙云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "宇宙云评测",
+        "宇宙云测评"
+      ]
+    },
+    {
+      "entityId": "brand-u1s1",
+      "canonicalName": "U1S1",
+      "entityType": "Brand",
+      "aliases": [
+        "u1s1",
+        "有一说一",
+        "U1S1（有一说一）"
+      ]
+    },
+    {
+      "entityId": "review-u1s1",
+      "canonicalName": "U1S1 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "U1S1评测",
+        "U1S1测评"
+      ]
+    },
+    {
+      "entityId": "brand-lingmao",
+      "canonicalName": "灵猫网络",
+      "entityType": "Brand",
+      "aliases": [
+        "lingmao",
+        "灵猫"
+      ]
+    },
+    {
+      "entityId": "review-lingmao",
+      "canonicalName": "灵猫网络 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "灵猫网络评测",
+        "灵猫网络测评"
+      ]
+    },
+    {
+      "entityId": "brand-jilian",
+      "canonicalName": "极连云",
+      "entityType": "Brand",
+      "aliases": [
+        "jilian"
+      ]
+    },
+    {
+      "entityId": "review-jilian",
+      "canonicalName": "极连云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "极连云评测",
+        "极连云测评"
+      ]
+    },
+    {
+      "entityId": "brand-guangnian",
+      "canonicalName": "光年梯",
+      "entityType": "Brand",
+      "aliases": [
+        "guangnian"
+      ]
+    },
+    {
+      "entityId": "review-guangnian",
+      "canonicalName": "光年梯 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "光年梯评测",
+        "光年梯测评"
+      ]
+    },
+    {
+      "entityId": "brand-yifan",
+      "canonicalName": "一翻云",
+      "entityType": "Brand",
+      "aliases": [
+        "yifan",
+        "1fly",
+        "一翻云 1fly"
+      ]
+    },
+    {
+      "entityId": "review-yifan",
+      "canonicalName": "一翻云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "一翻云评测",
+        "一翻云测评"
+      ]
+    },
+    {
+      "entityId": "brand-sogo",
+      "canonicalName": "SOGO 云",
+      "entityType": "Brand",
+      "aliases": [
+        "sogo",
+        "Sogo云"
+      ]
+    },
+    {
+      "entityId": "review-sogo",
+      "canonicalName": "SOGO 云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "SOGO 云评测",
+        "SOGO 云测评"
+      ]
+    },
+    {
+      "entityId": "brand-kexin",
+      "canonicalName": "可信云",
+      "entityType": "Brand",
+      "aliases": [
+        "kexin"
+      ]
+    },
+    {
+      "entityId": "review-kexin",
+      "canonicalName": "可信云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "可信云评测",
+        "可信云测评"
+      ]
+    },
+    {
+      "entityId": "brand-sujie",
+      "canonicalName": "速界",
+      "entityType": "Brand",
+      "aliases": [
+        "sujie",
+        "速界 SuJie",
+        "SuJie"
+      ]
+    },
+    {
+      "entityId": "review-sujie",
+      "canonicalName": "速界 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "速界评测",
+        "速界测评"
+      ]
+    },
+    {
+      "entityId": "brand-shanyue",
+      "canonicalName": "闪跃",
+      "entityType": "Brand",
+      "aliases": [
+        "shanyue",
+        "FlashLeap",
+        "闪跃 FlashLeap"
+      ]
+    },
+    {
+      "entityId": "review-shanyue",
+      "canonicalName": "闪跃 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "闪跃评测",
+        "闪跃测评"
+      ]
+    },
+    {
+      "entityId": "brand-quanqiu",
+      "canonicalName": "全球云",
+      "entityType": "Brand",
+      "aliases": [
+        "quanqiu"
+      ]
+    },
+    {
+      "entityId": "review-quanqiu",
+      "canonicalName": "全球云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "全球云评测",
+        "全球云测评"
+      ]
+    },
+    {
+      "entityId": "brand-shandianshu",
+      "canonicalName": "闪电鼠",
+      "entityType": "Brand",
+      "aliases": [
+        "shandianshu"
+      ]
+    },
+    {
+      "entityId": "review-shandianshu",
+      "canonicalName": "闪电鼠 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "闪电鼠评测",
+        "闪电鼠测评"
+      ]
+    },
+    {
+      "entityId": "brand-yunjiexian",
+      "canonicalName": "云界线",
+      "entityType": "Brand",
+      "aliases": [
+        "yunjiexian"
+      ]
+    },
+    {
+      "entityId": "review-yunjiexian",
+      "canonicalName": "云界线 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "云界线评测",
+        "云界线测评"
+      ]
+    },
+    {
+      "entityId": "brand-liulianyun",
+      "canonicalName": "榴莲云",
+      "entityType": "Brand",
+      "aliases": [
+        "liulianyun"
+      ]
+    },
+    {
+      "entityId": "review-liulianyun",
+      "canonicalName": "榴莲云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "榴莲云评测",
+        "榴莲云测评"
+      ]
+    },
+    {
+      "entityId": "brand-shenxing",
+      "canonicalName": "神行加速",
+      "entityType": "Brand",
+      "aliases": [
+        "shenxing"
+      ]
+    },
+    {
+      "entityId": "review-shenxing",
+      "canonicalName": "神行加速 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "神行加速评测",
+        "神行加速测评"
+      ]
+    },
+    {
+      "entityId": "brand-huanqiuti",
+      "canonicalName": "环球梯",
+      "entityType": "Brand",
+      "aliases": [
+        "huanqiuti"
+      ]
+    },
+    {
+      "entityId": "review-huanqiuti",
+      "canonicalName": "环球梯 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "环球梯评测",
+        "环球梯测评"
+      ]
+    },
+    {
+      "entityId": "brand-tiziyun",
+      "canonicalName": "梯子云",
+      "entityType": "Brand",
+      "aliases": [
+        "tiziyun",
+        "LadderCloud",
+        "梯子云 LadderCloud"
+      ]
+    },
+    {
+      "entityId": "review-tiziyun",
+      "canonicalName": "梯子云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "梯子云评测",
+        "梯子云测评"
+      ]
+    },
+    {
+      "entityId": "brand-lingdong",
+      "canonicalName": "灵动云",
+      "entityType": "Brand",
+      "aliases": [
+        "lingdong"
+      ]
+    },
+    {
+      "entityId": "review-lingdong",
+      "canonicalName": "灵动云 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "灵动云评测",
+        "灵动云测评"
+      ]
+    },
+    {
+      "entityId": "brand-langwang",
+      "canonicalName": "浪网",
+      "entityType": "Brand",
+      "aliases": [
+        "langwang",
+        "WaveNet",
+        "浪网 WaveNet"
+      ]
+    },
+    {
+      "entityId": "review-langwang",
+      "canonicalName": "浪网 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "浪网评测",
+        "浪网测评"
+      ]
+    },
+    {
+      "entityId": "brand-edgenova",
+      "canonicalName": "边缘节点 EdgeNova",
+      "entityType": "Brand",
+      "aliases": [
+        "edgenova",
+        "EdgeNova",
+        "边缘节点"
+      ]
+    },
+    {
+      "entityId": "review-edgenova",
+      "canonicalName": "边缘节点 EdgeNova 深度测评",
+      "entityType": "Review",
+      "aliases": [
+        "边缘节点 EdgeNova评测",
+        "边缘节点 EdgeNova测评"
+      ]
+    },
+    {
+      "entityId": "plan-guangsuyun-147-onetime",
+      "canonicalName": "光速云·致敬斯诺克147永久套餐",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "光速云·致敬斯诺克147永久套餐"
+      ]
+    },
+    {
+      "entityId": "plan-guangsuyun-lite-annual",
+      "canonicalName": "光速云·轻量版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "光速云·轻量版"
+      ]
+    },
+    {
+      "entityId": "plan-guangsuyun-speed-monthly",
+      "canonicalName": "光速云·极速版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "光速云·极速版"
+      ]
+    },
+    {
+      "entityId": "plan-guangsuyun-stream-monthly",
+      "canonicalName": "光速云·流光版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "光速云·流光版"
+      ]
+    },
+    {
+      "entityId": "plan-guangsuyun-quantum-monthly",
+      "canonicalName": "光速云·量子版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "光速云·量子版"
+      ]
+    },
+    {
+      "entityId": "plan-guangsuyun-unlimited-monthly",
+      "canonicalName": "光速云·无界版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "光速云·无界版"
+      ]
+    },
+    {
+      "entityId": "plan-guangsuyun-custom-monthly",
+      "canonicalName": "光速云·定制套餐",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "光速云·定制套餐"
+      ]
+    },
+    {
+      "entityId": "plan-muguang-basic-monthly",
+      "canonicalName": "【暮光·基础版】",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "【暮光·基础版】"
+      ]
+    },
+    {
+      "entityId": "plan-muguang-std-monthly",
+      "canonicalName": "【暮光·标准版】",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "【暮光·标准版】"
+      ]
+    },
+    {
+      "entityId": "plan-muguang-flagship-monthly",
+      "canonicalName": "【暮光·旗舰版】",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "【暮光·旗舰版】"
+      ]
+    },
+    {
+      "entityId": "plan-muguang-ultimate-monthly",
+      "canonicalName": "【暮光·至尊版】",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "【暮光·至尊版】"
+      ]
+    },
+    {
+      "entityId": "plan-muguang-lite-annual",
+      "canonicalName": "【暮光·年付轻量版】",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "【暮光·年付轻量版】"
+      ]
+    },
+    {
+      "entityId": "plan-muguang-ot-lite",
+      "canonicalName": "【暮光·不限时轻量包】",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "【暮光·不限时轻量包】"
+      ]
+    },
+    {
+      "entityId": "plan-muguang-ot-std",
+      "canonicalName": "【暮光·不限时标准包】",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "【暮光·不限时标准包】"
+      ]
+    },
+    {
+      "entityId": "plan-muguang-ot-large",
+      "canonicalName": "【暮光·不限时大容量包】",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "【暮光·不限时大容量包】"
+      ]
+    },
+    {
+      "entityId": "plan-muguang-custom-monthly",
+      "canonicalName": "独享私人定制节点",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "独享私人定制节点"
+      ]
+    },
+    {
+      "entityId": "plan-feimao-student-annual",
+      "canonicalName": "飞猫·学生版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "飞猫·学生版"
+      ]
+    },
+    {
+      "entityId": "plan-feimao-star-monthly",
+      "canonicalName": "飞猫·星耀版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "飞猫·星耀版"
+      ]
+    },
+    {
+      "entityId": "plan-feimao-ring-monthly",
+      "canonicalName": "飞猫·星环版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "飞猫·星环版"
+      ]
+    },
+    {
+      "entityId": "plan-feimao-galaxy-monthly",
+      "canonicalName": "飞猫·银河版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "飞猫·银河版"
+      ]
+    },
+    {
+      "entityId": "plan-feimao-universe-monthly",
+      "canonicalName": "飞猫·宇宙版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "飞猫·宇宙版"
+      ]
+    },
+    {
+      "entityId": "plan-feimao-ot-1tb",
+      "canonicalName": "飞猫·不限时套餐",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "飞猫·不限时套餐"
+      ]
+    },
+    {
+      "entityId": "plan-feimao-custom-monthly",
+      "canonicalName": "飞猫·定制套餐",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "飞猫·定制套餐"
+      ]
+    },
+    {
+      "entityId": "plan-weifeng-breeze-annual",
+      "canonicalName": "清风 (Breeze)",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "清风 (Breeze)"
+      ]
+    },
+    {
+      "entityId": "plan-weifeng-riding-monthly",
+      "canonicalName": "乘风 (Riding)",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "乘风 (Riding)"
+      ]
+    },
+    {
+      "entityId": "plan-weifeng-breaking-monthly",
+      "canonicalName": "破风 (Breaking)",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "破风 (Breaking)"
+      ]
+    },
+    {
+      "entityId": "plan-weifeng-mastery-monthly",
+      "canonicalName": "御风 (Mastery)",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "御风 (Mastery)"
+      ]
+    },
+    {
+      "entityId": "plan-weifeng-ot-270",
+      "canonicalName": "信风·不限时",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "信风·不限时"
+      ]
+    },
+    {
+      "entityId": "plan-weifeng-ot-570",
+      "canonicalName": "长风·不限时",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "长风·不限时"
+      ]
+    },
+    {
+      "entityId": "plan-xingdaomeng-small-annual",
+      "canonicalName": "星岛梦·贴心小包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "星岛梦·贴心小包"
+      ]
+    },
+    {
+      "entityId": "plan-xingdaomeng-150-monthly",
+      "canonicalName": "星岛梦·超量150G",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "星岛梦·超量150G"
+      ]
+    },
+    {
+      "entityId": "plan-xingdaomeng-300-monthly",
+      "canonicalName": "星岛梦·进阶300G",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "星岛梦·进阶300G"
+      ]
+    },
+    {
+      "entityId": "plan-xingdaomeng-500-monthly",
+      "canonicalName": "星岛梦·闪光500G",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "星岛梦·闪光500G"
+      ]
+    },
+    {
+      "entityId": "plan-xingdaomeng-1t-monthly",
+      "canonicalName": "星岛梦·旗舰1T版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "星岛梦·旗舰1T版"
+      ]
+    },
+    {
+      "entityId": "plan-xingdaomeng-ot-100",
+      "canonicalName": "星岛梦·永久不限时100",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "星岛梦·永久不限时100"
+      ]
+    },
+    {
+      "entityId": "plan-xingdaomeng-ot-300",
+      "canonicalName": "星岛梦·永久不限时300",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "星岛梦·永久不限时300"
+      ]
+    },
+    {
+      "entityId": "plan-xingdaomeng-ot-1tb",
+      "canonicalName": "星岛梦·永久不限时1TB",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "星岛梦·永久不限时1TB"
+      ]
+    },
+    {
+      "entityId": "plan-xingdaomeng-custom-monthly",
+      "canonicalName": "星岛梦·定制套餐",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "星岛梦·定制套餐"
+      ]
+    },
+    {
+      "entityId": "plan-ermao-ot-100",
+      "canonicalName": "二猫云·不限时套餐",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "二猫云·不限时套餐"
+      ]
+    },
+    {
+      "entityId": "plan-ermao-small-annual",
+      "canonicalName": "二猫年付小包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "二猫年付小包"
+      ]
+    },
+    {
+      "entityId": "plan-ermao-white-monthly",
+      "canonicalName": "二猫云·白猫套餐",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "二猫云·白猫套餐"
+      ]
+    },
+    {
+      "entityId": "plan-ermao-orange-monthly",
+      "canonicalName": "二猫云·橘猫畅玩版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "二猫云·橘猫畅玩版"
+      ]
+    },
+    {
+      "entityId": "plan-ermao-milk-monthly",
+      "canonicalName": "二猫云·牛奶猫尊享版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "二猫云·牛奶猫尊享版"
+      ]
+    },
+    {
+      "entityId": "plan-ermao-black-monthly",
+      "canonicalName": "二猫云·黑猫重度用户版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "二猫云·黑猫重度用户版"
+      ]
+    },
+    {
+      "entityId": "plan-wuyou-mini-annual",
+      "canonicalName": "MINI链接",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "MINI链接"
+      ]
+    },
+    {
+      "entityId": "plan-wuyou-shuxin-monthly",
+      "canonicalName": "舒心链接",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "舒心链接"
+      ]
+    },
+    {
+      "entityId": "plan-wuyou-shengxin-monthly",
+      "canonicalName": "省心链接",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "省心链接"
+      ]
+    },
+    {
+      "entityId": "plan-wuyou-suixin-monthly",
+      "canonicalName": "随心链接",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "随心链接"
+      ]
+    },
+    {
+      "entityId": "plan-wuyou-wangyou-monthly",
+      "canonicalName": "忘忧链接",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "忘忧链接"
+      ]
+    },
+    {
+      "entityId": "plan-wuyou-ot-100",
+      "canonicalName": "100G永久不限时 无忧链接",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "100G永久不限时 无忧链接"
+      ]
+    },
+    {
+      "entityId": "plan-wuyou-ot-300",
+      "canonicalName": "300G永久不限时 无忧链接",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "300G永久不限时 无忧链接"
+      ]
+    },
+    {
+      "entityId": "plan-weitu-annual-75",
+      "canonicalName": "唯兔云·年付加强专线",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "唯兔云·年付加强专线"
+      ]
+    },
+    {
+      "entityId": "plan-weitu-annual-45",
+      "canonicalName": "唯兔云·年付版限量款",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "唯兔云·年付版限量款"
+      ]
+    },
+    {
+      "entityId": "plan-weitu-holiday-monthly",
+      "canonicalName": "唯兔云·节假日限时开启（14.9元）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "唯兔云·节假日限时开启（14.9元）"
+      ]
+    },
+    {
+      "entityId": "plan-weitu-normal-monthly",
+      "canonicalName": "唯兔云·普通版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "唯兔云·普通版"
+      ]
+    },
+    {
+      "entityId": "plan-weitu-adv-monthly",
+      "canonicalName": "唯兔云·进阶版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "唯兔云·进阶版"
+      ]
+    },
+    {
+      "entityId": "plan-weitu-pro-monthly",
+      "canonicalName": "唯兔云·专业版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "唯兔云·专业版"
+      ]
+    },
+    {
+      "entityId": "plan-weitu-ult-monthly",
+      "canonicalName": "唯兔云·至尊版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "唯兔云·至尊版"
+      ]
+    },
+    {
+      "entityId": "plan-weitu-ot-100",
+      "canonicalName": "唯兔云·永久不限时 100G",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "唯兔云·永久不限时 100G"
+      ]
+    },
+    {
+      "entityId": "plan-weitu-ot-200",
+      "canonicalName": "唯兔云·永久不限时 200G",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "唯兔云·永久不限时 200G"
+      ]
+    },
+    {
+      "entityId": "plan-weitu-ot-500",
+      "canonicalName": "唯兔云·永久不限时 500G",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "唯兔云·永久不限时 500G"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-annual",
+      "canonicalName": "Firefly 年付版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly 年付版"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-lite-monthly",
+      "canonicalName": "Firefly Lite",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Lite"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-lite-quarterly",
+      "canonicalName": "Firefly Lite（季付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Lite（季付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-lite-semiannual",
+      "canonicalName": "Firefly Lite（半年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Lite（半年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-lite-annual",
+      "canonicalName": "Firefly Lite（年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Lite（年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-lite-biennial",
+      "canonicalName": "Firefly Lite（两年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Lite（两年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-lite-triennial",
+      "canonicalName": "Firefly Lite（三年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Lite（三年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-plus-monthly",
+      "canonicalName": "Firefly Plus",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Plus"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-plus-quarterly",
+      "canonicalName": "Firefly Plus（季付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Plus（季付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-plus-semiannual",
+      "canonicalName": "Firefly Plus（半年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Plus（半年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-plus-annual",
+      "canonicalName": "Firefly Plus（年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Plus（年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-plus-biennial",
+      "canonicalName": "Firefly Plus（两年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Plus（两年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-plus-triennial",
+      "canonicalName": "Firefly Plus（三年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Plus（三年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-blaze-monthly",
+      "canonicalName": "Firefly Blaze",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Blaze"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-blaze-quarterly",
+      "canonicalName": "Firefly Blaze（季付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Blaze（季付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-blaze-semiannual",
+      "canonicalName": "Firefly Blaze（半年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Blaze（半年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-blaze-annual",
+      "canonicalName": "Firefly Blaze（年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Blaze（年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-blaze-biennial",
+      "canonicalName": "Firefly Blaze（两年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Blaze（两年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-blaze-triennial",
+      "canonicalName": "Firefly Blaze（三年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Blaze（三年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-nova-monthly",
+      "canonicalName": "Firefly Nova",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Nova"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-nova-quarterly",
+      "canonicalName": "Firefly Nova（季付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Nova（季付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-nova-semiannual",
+      "canonicalName": "Firefly Nova（半年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Nova（半年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-nova-annual",
+      "canonicalName": "Firefly Nova（年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Nova（年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-nova-biennial",
+      "canonicalName": "Firefly Nova（两年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Nova（两年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-nova-triennial",
+      "canonicalName": "Firefly Nova（三年付）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly Nova（三年付）"
+      ]
+    },
+    {
+      "entityId": "plan-firefly-ot-100",
+      "canonicalName": "Firefly 不限时",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "Firefly 不限时"
+      ]
+    },
+    {
+      "entityId": "plan-yuzhou-entry-historical",
+      "canonicalName": "历史年付起价（待核实）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "历史年付起价（待核实）"
+      ]
+    },
+    {
+      "entityId": "plan-u1s1-annual",
+      "canonicalName": "u1s1·就是好用包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "u1s1·就是好用包"
+      ]
+    },
+    {
+      "entityId": "plan-u1s1-120-monthly",
+      "canonicalName": "u1s1·普通人真够了包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "u1s1·普通人真够了包"
+      ]
+    },
+    {
+      "entityId": "plan-u1s1-300-monthly",
+      "canonicalName": "u1s1·你以为用不到包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "u1s1·你以为用不到包"
+      ]
+    },
+    {
+      "entityId": "plan-u1s1-700-monthly",
+      "canonicalName": "u1s1·瘾大就拉满包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "u1s1·瘾大就拉满包"
+      ]
+    },
+    {
+      "entityId": "plan-u1s1-1500-monthly",
+      "canonicalName": "u1s1·我全都要包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "u1s1·我全都要包"
+      ]
+    },
+    {
+      "entityId": "plan-lingmao-small-annual",
+      "canonicalName": "灵猫·年付小包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵猫·年付小包"
+      ]
+    },
+    {
+      "entityId": "plan-lingmao-small-annual-150",
+      "canonicalName": "灵猫·年付Small",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵猫·年付Small"
+      ]
+    },
+    {
+      "entityId": "plan-lingmao-big-annual",
+      "canonicalName": "灵猫·年付Big",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵猫·年付Big"
+      ]
+    },
+    {
+      "entityId": "plan-lingmao-big-quarterly",
+      "canonicalName": "灵猫·季付Big",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵猫·季付Big"
+      ]
+    },
+    {
+      "entityId": "plan-lingmao-small-monthly",
+      "canonicalName": "灵猫·月付Small",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵猫·月付Small"
+      ]
+    },
+    {
+      "entityId": "plan-lingmao-big-monthly",
+      "canonicalName": "灵猫·月付Big",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵猫·月付Big"
+      ]
+    },
+    {
+      "entityId": "plan-jilian-entry-monthly",
+      "canonicalName": "极连云·基础月付档",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极连云·基础月付档"
+      ]
+    },
+    {
+      "entityId": "plan-guangnian-entry-monthly",
+      "canonicalName": "光年梯·基础月付档",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "光年梯·基础月付档"
+      ]
+    },
+    {
+      "entityId": "plan-yifan-lite-monthly",
+      "canonicalName": "轻享版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "轻享版"
+      ]
+    },
+    {
+      "entityId": "plan-yifan-comfort-monthly",
+      "canonicalName": "舒享版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "舒享版"
+      ]
+    },
+    {
+      "entityId": "plan-yifan-pro-monthly",
+      "canonicalName": "尊享版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "尊享版"
+      ]
+    },
+    {
+      "entityId": "plan-yifan-ult-monthly",
+      "canonicalName": "极致版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极致版"
+      ]
+    },
+    {
+      "entityId": "plan-yifan-small-annual",
+      "canonicalName": "98¥·年付小包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "98¥·年付小包"
+      ]
+    },
+    {
+      "entityId": "plan-yifan-ot-100",
+      "canonicalName": "轻享版·不限时包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "轻享版·不限时包"
+      ]
+    },
+    {
+      "entityId": "plan-yifan-ot-250",
+      "canonicalName": "舒享版·不限时包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "舒享版·不限时包"
+      ]
+    },
+    {
+      "entityId": "plan-yifan-ot-500",
+      "canonicalName": "尊享版·不限时包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "尊享版·不限时包"
+      ]
+    },
+    {
+      "entityId": "plan-sogo-small-annual",
+      "canonicalName": "小包-年付版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "小包-年付版"
+      ]
+    },
+    {
+      "entityId": "plan-sogo-basic-monthly",
+      "canonicalName": "基础版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "基础版"
+      ]
+    },
+    {
+      "entityId": "plan-sogo-pref-monthly",
+      "canonicalName": "优选版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "优选版"
+      ]
+    },
+    {
+      "entityId": "plan-sogo-enh-monthly",
+      "canonicalName": "强化版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "强化版"
+      ]
+    },
+    {
+      "entityId": "plan-sogo-top-monthly",
+      "canonicalName": "顶配版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "顶配版"
+      ]
+    },
+    {
+      "entityId": "plan-sogo-ot-120",
+      "canonicalName": "SOGO基础餐不限时版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "SOGO基础餐不限时版"
+      ]
+    },
+    {
+      "entityId": "plan-sogo-ot-250",
+      "canonicalName": "SOGO优选餐不限时版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "SOGO优选餐不限时版"
+      ]
+    },
+    {
+      "entityId": "plan-sogo-ot-500",
+      "canonicalName": "SOGO强化餐不限时版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "SOGO强化餐不限时版"
+      ]
+    },
+    {
+      "entityId": "plan-sogo-ot-1000",
+      "canonicalName": "SOGO至尊餐不限时版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "SOGO至尊餐不限时版"
+      ]
+    },
+    {
+      "entityId": "plan-kexin-entry-monthly",
+      "canonicalName": "可信云·基础月付档",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "可信云·基础月付档"
+      ]
+    },
+    {
+      "entityId": "plan-sujie-entry-monthly",
+      "canonicalName": "速界·基础月付档",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "速界·基础月付档"
+      ]
+    },
+    {
+      "entityId": "plan-shanyue-annual",
+      "canonicalName": "闪跃年付版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "闪跃年付版"
+      ]
+    },
+    {
+      "entityId": "plan-shanyue-flicker-monthly",
+      "canonicalName": "闪动 (Flicker)",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "闪动 (Flicker)"
+      ]
+    },
+    {
+      "entityId": "plan-shanyue-leap-monthly",
+      "canonicalName": "飞跃 (Leap)",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "飞跃 (Leap)"
+      ]
+    },
+    {
+      "entityId": "plan-shanyue-teleport-monthly",
+      "canonicalName": "瞬移 (Teleport)",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "瞬移 (Teleport)"
+      ]
+    },
+    {
+      "entityId": "plan-shanyue-warp-monthly",
+      "canonicalName": "跃迁 (Warp)",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "跃迁 (Warp)"
+      ]
+    },
+    {
+      "entityId": "plan-quanqiu-ot-100",
+      "canonicalName": "BGP 智能优化·不限时轻量包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "BGP 智能优化·不限时轻量包"
+      ]
+    },
+    {
+      "entityId": "plan-quanqiu-ot-400",
+      "canonicalName": "BGP 智能优化·不限时标准包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "BGP 智能优化·不限时标准包"
+      ]
+    },
+    {
+      "entityId": "plan-quanqiu-ot-800",
+      "canonicalName": "BGP 智能优化·不限时大容量包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "BGP 智能优化·不限时大容量包"
+      ]
+    },
+    {
+      "entityId": "plan-quanqiu-lite-annual",
+      "canonicalName": "轻量版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "轻量版"
+      ]
+    },
+    {
+      "entityId": "plan-quanqiu-entry-monthly",
+      "canonicalName": "BGP 智能优化·入门方案",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "BGP 智能优化·入门方案"
+      ]
+    },
+    {
+      "entityId": "plan-quanqiu-adv-monthly",
+      "canonicalName": "BGP 智能优化·进阶方案",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "BGP 智能优化·进阶方案"
+      ]
+    },
+    {
+      "entityId": "plan-quanqiu-high-monthly",
+      "canonicalName": "BGP 智能优化·高端方案",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "BGP 智能优化·高端方案"
+      ]
+    },
+    {
+      "entityId": "plan-quanqiu-biz-monthly",
+      "canonicalName": "BGP 智能优化·商业方案",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "BGP 智能优化·商业方案"
+      ]
+    },
+    {
+      "entityId": "plan-quanqiu-custom-monthly",
+      "canonicalName": "独享私人专线节点",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "独享私人专线节点"
+      ]
+    },
+    {
+      "entityId": "plan-yinxingren-silver-monthly",
+      "canonicalName": "隐形人 白银纪元",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "隐形人 白银纪元"
+      ]
+    },
+    {
+      "entityId": "plan-yinxingren-gold-monthly",
+      "canonicalName": "隐形人 黄金序列",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "隐形人 黄金序列"
+      ]
+    },
+    {
+      "entityId": "plan-yinxingren-plat-monthly",
+      "canonicalName": "隐形人 铂金至臻",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "隐形人 铂金至臻"
+      ]
+    },
+    {
+      "entityId": "plan-yinxingren-diamond-monthly",
+      "canonicalName": "隐形人 钻石穹顶",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "隐形人 钻石穹顶"
+      ]
+    },
+    {
+      "entityId": "plan-yinxingren-custom-monthly",
+      "canonicalName": "王者定制版",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "王者定制版"
+      ]
+    },
+    {
+      "entityId": "plan-yinxingren-star-annual",
+      "canonicalName": "星耀风暴 365天不熄",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "星耀风暴 365天不熄"
+      ]
+    },
+    {
+      "entityId": "plan-yinxingren-ot-160",
+      "canonicalName": "一次性小流量",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "一次性小流量"
+      ]
+    },
+    {
+      "entityId": "plan-yinxingren-ot-420",
+      "canonicalName": "一次性标准流量包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "一次性标准流量包"
+      ]
+    },
+    {
+      "entityId": "plan-yinxingren-ot-1000",
+      "canonicalName": "一次性精英流量包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "一次性精英流量包"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-monthly",
+      "canonicalName": "灵动·拂风",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·拂风"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-quarterly",
+      "canonicalName": "灵动·拂风",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·拂风"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-semiannual",
+      "canonicalName": "灵动·拂风",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·拂风"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-annual",
+      "canonicalName": "灵动·拂风",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·拂风"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-biennial",
+      "canonicalName": "灵动·拂风",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·拂风"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-fufeng-triennial",
+      "canonicalName": "灵动·拂风",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·拂风"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-yulang-monthly",
+      "canonicalName": "灵动·驭浪",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·驭浪"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-yulang-quarterly",
+      "canonicalName": "灵动·驭浪",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·驭浪"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-yulang-semiannual",
+      "canonicalName": "灵动·驭浪",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·驭浪"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-yulang-annual",
+      "canonicalName": "灵动·驭浪",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·驭浪"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-yulang-biennial",
+      "canonicalName": "灵动·驭浪",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·驭浪"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-yulang-triennial",
+      "canonicalName": "灵动·驭浪",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·驭浪"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-monthly",
+      "canonicalName": "灵动·破晓",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·破晓"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-quarterly",
+      "canonicalName": "灵动·破晓",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·破晓"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-semiannual",
+      "canonicalName": "灵动·破晓",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·破晓"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-annual",
+      "canonicalName": "灵动·破晓",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·破晓"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-biennial",
+      "canonicalName": "灵动·破晓",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·破晓"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-poxiao-triennial",
+      "canonicalName": "灵动·破晓",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·破晓"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-monthly",
+      "canonicalName": "灵动·凌霄",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·凌霄"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-quarterly",
+      "canonicalName": "灵动·凌霄",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·凌霄"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-semiannual",
+      "canonicalName": "灵动·凌霄",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·凌霄"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-annual",
+      "canonicalName": "灵动·凌霄",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·凌霄"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-biennial",
+      "canonicalName": "灵动·凌霄",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·凌霄"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-lingxiao-triennial",
+      "canonicalName": "灵动·凌霄",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·凌霄"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-chuanyun-annual",
+      "canonicalName": "灵动·穿云",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·穿云"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-ot-150",
+      "canonicalName": "灵动·闲云（小流量包）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·闲云（小流量包）"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-ot-400",
+      "canonicalName": "灵动·惊云（标准流量包）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·惊云（标准流量包）"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-ot-800",
+      "canonicalName": "灵动·飞云（精英流量包）",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动·飞云（精英流量包）"
+      ]
+    },
+    {
+      "entityId": "plan-lingdong-custom-monthly",
+      "canonicalName": "灵动云·至尊私人定制",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "灵动云·至尊私人定制"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-entry-monthly",
+      "canonicalName": "浪网 入门",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 入门"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-entry-quarterly",
+      "canonicalName": "浪网 入门",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 入门"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-entry-semiannual",
+      "canonicalName": "浪网 入门",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 入门"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-entry-annual",
+      "canonicalName": "浪网 入门",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 入门"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-entry-biennial",
+      "canonicalName": "浪网 入门",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 入门"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-entry-triennial",
+      "canonicalName": "浪网 入门",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 入门"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-adv-monthly",
+      "canonicalName": "浪网 进阶",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 进阶"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-adv-quarterly",
+      "canonicalName": "浪网 进阶",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 进阶"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-adv-semiannual",
+      "canonicalName": "浪网 进阶",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 进阶"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-adv-annual",
+      "canonicalName": "浪网 进阶",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 进阶"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-adv-biennial",
+      "canonicalName": "浪网 进阶",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 进阶"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-adv-triennial",
+      "canonicalName": "浪网 进阶",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 进阶"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-high-monthly",
+      "canonicalName": "浪网 高端",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 高端"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-high-quarterly",
+      "canonicalName": "浪网 高端",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 高端"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-high-semiannual",
+      "canonicalName": "浪网 高端",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 高端"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-high-annual",
+      "canonicalName": "浪网 高端",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 高端"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-high-biennial",
+      "canonicalName": "浪网 高端",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 高端"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-high-triennial",
+      "canonicalName": "浪网 高端",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 高端"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-biz-monthly",
+      "canonicalName": "浪网 商业",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 商业"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-biz-quarterly",
+      "canonicalName": "浪网 商业",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 商业"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-biz-semiannual",
+      "canonicalName": "浪网 商业",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 商业"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-biz-annual",
+      "canonicalName": "浪网 商业",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 商业"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-biz-biennial",
+      "canonicalName": "浪网 商业",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 商业"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-biz-triennial",
+      "canonicalName": "浪网 商业",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 商业"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-std-annual",
+      "canonicalName": "浪网 年付标准",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 年付标准"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-ot-180",
+      "canonicalName": "浪网 小流量包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 小流量包"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-ot-450",
+      "canonicalName": "浪网 标准流量包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 标准流量包"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-ot-900",
+      "canonicalName": "浪网 精英流量包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 精英流量包"
+      ]
+    },
+    {
+      "entityId": "plan-langwang-custom-monthly",
+      "canonicalName": "浪网 定制线路包",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "浪网 定制线路包"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-promo-monthly",
+      "canonicalName": "限时月付",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "限时月付"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-promo-annual",
+      "canonicalName": "限时年付",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "限时年付"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-std-monthly",
+      "canonicalName": "极界·标准",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·标准"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-std-quarterly",
+      "canonicalName": "极界·标准",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·标准"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-std-semiannual",
+      "canonicalName": "极界·标准",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·标准"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-std-annual",
+      "canonicalName": "极界·标准",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·标准"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-adv-monthly",
+      "canonicalName": "极界·进阶",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·进阶"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-adv-quarterly",
+      "canonicalName": "极界·进阶",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·进阶"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-adv-semiannual",
+      "canonicalName": "极界·进阶",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·进阶"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-adv-annual",
+      "canonicalName": "极界·进阶",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·进阶"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-high-monthly",
+      "canonicalName": "极界·高级",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·高级"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-high-quarterly",
+      "canonicalName": "极界·高级",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·高级"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-high-semiannual",
+      "canonicalName": "极界·高级",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·高级"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-high-annual",
+      "canonicalName": "极界·高级",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·高级"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-ult-monthly",
+      "canonicalName": "极界·极限",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·极限"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-ult-quarterly",
+      "canonicalName": "极界·极限",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·极限"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-ult-semiannual",
+      "canonicalName": "极界·极限",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·极限"
+      ]
+    },
+    {
+      "entityId": "plan-edgenova-ult-annual",
+      "canonicalName": "极界·极限",
+      "entityType": "SubscriptionPlan",
+      "aliases": [
+        "极界·极限"
+      ]
+    }
+  ]
+}

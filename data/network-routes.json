@@ -1,0 +1,1443 @@
+[
+  {
+    "brandSlug": "guangsuyun",
+    "brandName": "光速云",
+    "architectureType": "IEPL专线 + 企业级内网专线 + IPLC专线",
+    "routeTypes": [
+      "IEPL专线",
+      "企业级内网专线",
+      "IPLC专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks",
+      "AnyTLS"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "日本",
+      "新加坡",
+      "美国",
+      "马来西亚",
+      "英国",
+      "法国",
+      "德国",
+      "土耳其",
+      "泰国",
+      "巴西"
+    ],
+    "nodeCountLabel": "62 节点（2026-08-19 SS 批次）/ 70 节点（2026-08-19 VLESS+AnyTLS 批次）；品牌资料列 57+ 节点（港20/台5/日10/新10/美10/马2及英法德土泰巴）",
+    "bandwidthClaim": "单节点最高 2.5Gbps（品牌资料）",
+    "ipTypeClaim": "原生稳定节点 / 定制专属原生 IP（08-19 MiaoKo ASN 显示部分为商宽/机房 IP）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS / Shadowsocks / AnyTLS 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线 + 企业级内网专线 + IPLC专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、日本、新加坡、美国、马来西亚、英国、法国、德国、土耳其、泰国、巴西 · 62 节点（2026-08-19 SS 批次）/ 70 节点（2026-08-19 VLESS+AnyTLS 批次）；品牌资料列 57+ 节点（港20/台5/日10/新10/美10/马2及英法德土泰巴）",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-guangsuyun-info",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-guangsuyun-2026-08-19",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "muguang",
+    "brandName": "暮光加速",
+    "architectureType": "BGP智能调度 + 专线级出口",
+    "routeTypes": [
+      "BGP智能调度",
+      "专线级出口"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "待核实（品牌资料未标注具体节点数）",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "待核实 加密连接（unverified）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "BGP智能调度 + 专线级出口",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 待核实（品牌资料未标注具体节点数）",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Vendor Data",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "feimao",
+    "brandName": "飞猫云",
+    "architectureType": "专线/中转混合（正文未强调顶级专线）",
+    "routeTypes": [
+      "专线/中转混合（正文未强调顶级专线）"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "Shadowsocks 加密连接（exclusive-only）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "专线/中转混合（正文未强调顶级专线）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "weifeng",
+    "brandName": "微风网络",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "50 节点（2026-07-19 实测截图显示 50/50 节点：港15/台5/新10/日10/美10）",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料称多地原生 IP 节点",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS 加密连接（unverified）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 50 节点（2026-07-19 实测截图显示 50/50 节点：港15/台5/新10/日10/美10）",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "dalaoyun",
+    "brandName": "大佬云",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Vendor Data",
+    "sourceIds": [
+      "src-brand-list-32"
+    ]
+  },
+  {
+    "brandSlug": "xingdaomeng",
+    "brandName": "星岛梦",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "日本",
+      "美国",
+      "新加坡",
+      "韩国",
+      "东南亚"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "Trojan / Shadowsocks 加密连接（unverified）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、日本、美国、新加坡、韩国、东南亚 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "yinxingren",
+    "brandName": "隐形人",
+    "architectureType": "企业级 IPLC 专线",
+    "routeTypes": [
+      "企业级 IPLC 专线"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "美国",
+      "新加坡",
+      "台湾"
+    ],
+    "nodeCountLabel": "品牌汇总表提及 60+ 节点详细清单（正文未列具体数量）",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "待核实 加密连接（exclusive-only）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "企业级 IPLC 专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、日本、美国、新加坡、台湾 · 品牌汇总表提及 60+ 节点详细清单（正文未列具体数量）",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Conflicting",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24"
+    ]
+  },
+  {
+    "brandSlug": "ermao",
+    "brandName": "二猫云",
+    "architectureType": "全线 IEPL 专线",
+    "routeTypes": [
+      "全线 IEPL 专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS / Shadowsocks 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "全线 IEPL 专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "wuyou",
+    "brandName": "无忧链接",
+    "architectureType": "待核实（品牌资料未标注 IEPL/IPLC 专线）",
+    "routeTypes": [
+      "待核实（品牌资料未标注 IEPL/IPLC 专线）"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "50 节点（2026-07-18 晚高峰实测截图显示 50/50 节点：HKG 15 / TYO 10 / SIN 10 / LAX 10 / TPE 5）",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "正文标注 2026 年 10 月起改用官方专属客户端下载登录即用（但汇总表曾提及“订阅无需转换”，2026-07-18 曾以 VLESS 订阅实测，存在新旧切换期冲突）。",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "国内接入入口",
+        "detail": "线路架构待核实（无独立抓包/链路报告）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地节点",
+        "detail": "香港 / 台湾 / 新加坡 / 日本 / 美国",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "weitu",
+    "brandName": "唯兔云",
+    "architectureType": "IPLC专线 + 三网优化 + 智能负载均衡",
+    "routeTypes": [
+      "IPLC专线",
+      "三网优化",
+      "智能负载均衡"
+    ],
+    "protocols": [
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "60+ 节点（汇总表标注）",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "Trojan / Shadowsocks 加密连接（unverified）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IPLC专线 + 三网优化 + 智能负载均衡",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 60+ 节点（汇总表标注）",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "firefly",
+    "brandName": "Firefly",
+    "architectureType": "IPLC专线",
+    "routeTypes": [
+      "IPLC专线"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料称原生 IP",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS 加密连接（exclusive-only）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IPLC专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Conflicting",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-brand-list-32-appended",
+      "src-aff-prefixes-24",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "yuzhou",
+    "brandName": "宇宙云",
+    "architectureType": "IEPL专线 + 三网优化 + 智能负载均衡",
+    "routeTypes": [
+      "IEPL专线",
+      "三网优化",
+      "智能负载均衡"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "60+ 节点（较早期历史资料）",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线 + 三网优化 + 智能负载均衡",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 60+ 节点（较早期历史资料）",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Unverified",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11"
+    ]
+  },
+  {
+    "brandSlug": "u1s1",
+    "brandName": "U1S1",
+    "architectureType": "IPLC专线",
+    "routeTypes": [
+      "IPLC专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "官方宣称 2000Mbps 带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "Shadowsocks 加密连接（unverified）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IPLC专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "lingmao",
+    "brandName": "灵猫网络",
+    "architectureType": "中转优化线路",
+    "routeTypes": [
+      "中转优化线路"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "Shadowsocks 加密连接（exclusive-only）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "中转优化线路",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Conflicting",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "jilian",
+    "brandName": "极连云",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "Shadowsocks 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11"
+    ]
+  },
+  {
+    "brandSlug": "guangnian",
+    "brandName": "光年梯",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS / Shadowsocks 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11"
+    ]
+  },
+  {
+    "brandSlug": "yifan",
+    "brandName": "一翻云",
+    "architectureType": "全节点 IEPL 物理专线 + 原生住宅 IP",
+    "routeTypes": [
+      "全节点 IEPL 物理专线",
+      "原生住宅 IP"
+    ],
+    "protocols": [
+      "Hysteria 2",
+      "VLESS-Reality",
+      "Shadowsocks"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "官方称单节点 2Gbps 大带宽、晚高峰 0 丢包",
+    "ipTypeClaim": "品牌资料称搭配原生住宅 IP",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "Hysteria 2 / VLESS-Reality / Shadowsocks 加密连接（third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "全节点 IEPL 物理专线 + 原生住宅 IP",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "sogo",
+    "brandName": "SOGO 云",
+    "architectureType": "全线 IEPL 专线 + 三网 BGP 优化",
+    "routeTypes": [
+      "全线 IEPL 专线",
+      "三网 BGP 优化"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "日本",
+      "新加坡",
+      "美国",
+      "韩国",
+      "其他10+国家地区"
+    ],
+    "nodeCountLabel": "15 个国家和地区（品牌资料称本站覆盖面最广）",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS / Shadowsocks 加密连接（exclusive-only）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "全线 IEPL 专线 + 三网 BGP 优化",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、日本、新加坡、美国、韩国、其他10+国家地区 · 15 个国家和地区（品牌资料称本站覆盖面最广）",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "kexin",
+    "brandName": "可信云",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS / Shadowsocks 加密连接（third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11"
+    ]
+  },
+  {
+    "brandSlug": "sujie",
+    "brandName": "速界",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS / Shadowsocks 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11"
+    ]
+  },
+  {
+    "brandSlug": "shanyue",
+    "brandName": "闪跃",
+    "architectureType": "纯 IPLC 专线 + 骨干网接入",
+    "routeTypes": [
+      "纯 IPLC 专线",
+      "骨干网接入"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料称原生 IP 全解锁",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "待核实 加密连接（exclusive-only）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "纯 IPLC 专线 + 骨干网接入",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Vendor Data",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "quanqiu",
+    "brandName": "全球云",
+    "architectureType": "IPLC/IEPL专线中转 + BGP智能优化",
+    "routeTypes": [
+      "IPLC/IEPL专线中转",
+      "BGP智能优化"
+    ],
+    "protocols": [
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "60+ 节点（品牌资料）",
+    "bandwidthClaim": "官方称 2Gbps+ 带宽资源",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "Trojan / Shadowsocks 加密连接（exclusive-only）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IPLC/IEPL专线中转 + BGP智能优化",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 60+ 节点（品牌资料）",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Measured",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24",
+      "src-speedtest-2026-08-11",
+      "src-speedtest-text-2026-10-19"
+    ]
+  },
+  {
+    "brandSlug": "shandianshu",
+    "brandName": "闪电鼠",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Vendor Data",
+    "sourceIds": [
+      "src-brand-list-32"
+    ]
+  },
+  {
+    "brandSlug": "yunjiexian",
+    "brandName": "云界线",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Conflicting",
+    "sourceIds": [
+      "src-brand-list-32"
+    ]
+  },
+  {
+    "brandSlug": "liulianyun",
+    "brandName": "榴莲云",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "待核实 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Unverified",
+    "sourceIds": [
+      "src-brand-list-32"
+    ]
+  },
+  {
+    "brandSlug": "shenxing",
+    "brandName": "神行加速",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Vendor Data",
+    "sourceIds": [
+      "src-brand-list-32"
+    ]
+  },
+  {
+    "brandSlug": "huanqiuti",
+    "brandName": "环球梯",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Vendor Data",
+    "sourceIds": [
+      "src-brand-list-32"
+    ]
+  },
+  {
+    "brandSlug": "tiziyun",
+    "brandName": "梯子云",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国",
+      "台湾"
+    ],
+    "nodeCountLabel": "60+ 节点（品牌资料）",
+    "bandwidthClaim": "官方称 2Gbps+ 独立带宽（含 500Mbps 级高峰冗余）",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS 加密连接（self-hosted-and-third-party）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、日本、新加坡、美国、台湾 · 60+ 节点（品牌资料）",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Vendor Data",
+    "sourceIds": [
+      "src-brand-list-32",
+      "src-aff-prefixes-24"
+    ]
+  },
+  {
+    "brandSlug": "lingdong",
+    "brandName": "灵动云",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "VLESS",
+      "Trojan"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "nodeCountLabel": "60 节点（2026-07-20/21 实测摘要提及 60 测速 / 60 解锁）",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "VLESS / Trojan 加密连接（unverified）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "香港、台湾、新加坡、日本、美国 · 60 节点（2026-07-20/21 实测摘要提及 60 测速 / 60 解锁）",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Historical Data",
+    "sourceIds": [
+      "src-brand-list-32-appended",
+      "src-aff-prefixes-24",
+      "src-speedtest-lingdong-2026-07-20"
+    ]
+  },
+  {
+    "brandSlug": "langwang",
+    "brandName": "浪网",
+    "architectureType": "IEPL专线",
+    "routeTypes": [
+      "IEPL专线"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "待核实 加密连接（unverified）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "IEPL专线",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Historical Data",
+    "sourceIds": [
+      "src-brand-list-32-appended",
+      "src-aff-prefixes-24"
+    ]
+  },
+  {
+    "brandSlug": "edgenova",
+    "brandName": "边缘节点 EdgeNova",
+    "architectureType": "高速直连 + IPLC + 多线路自动分配",
+    "routeTypes": [
+      "高速直连",
+      "IPLC",
+      "多线路自动分配"
+    ],
+    "protocols": [
+      "待核实"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "nodeCountLabel": "待核实",
+    "bandwidthClaim": "品牌资料未明确标注具体单节点峰值带宽",
+    "ipTypeClaim": "品牌资料未作原生/住宅 IP 专项说明（以实测 ASN/解锁为准）",
+    "topologySteps": [
+      {
+        "stage": "client",
+        "label": "用户终端",
+        "detail": "待核实 加密连接（unverified）",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "transit",
+        "label": "跨境传输层（厂商声明架构示意图）",
+        "detail": "高速直连 + IPLC + 多线路自动分配",
+        "isDiagramOnly": true
+      },
+      {
+        "stage": "exit",
+        "label": "海外落地出口",
+        "detail": "待核实 · 待核实",
+        "isDiagramOnly": true
+      }
+    ],
+    "dataStatus": "Historical Data",
+    "sourceIds": [
+      "src-brand-list-32-appended",
+      "src-aff-prefixes-24"
+    ]
+  }
+]

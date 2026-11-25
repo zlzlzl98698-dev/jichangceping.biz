@@ -1,0 +1,803 @@
+请对当前【全新网站】执行一次完整的“上线前搜索引擎 SEO 基础设施初始化”。
+
+当前网站属于新站，可以在正式上线和提交搜索引擎之前统一整理 URL、Sitemap、robots、canonical、SEO Head 和抓取规则。
+
+目标：
+
+一次性完成：
+
+1. Bing 搜索基础接入
+2. Google 搜索基础接入
+3. 神马搜索 / UC / 夸克相关抓取基础配置
+4. 百度基础抓取兼容
+5. Sitemap
+6. robots.txt
+7. canonical
+8. Title / Description / H1
+9. Schema
+10. URL规范
+11. 搜索引擎抓取兼容
+12. Astro静态构建检查
+13. 正式上线前SEO验收
+
+================================
+一、先读取项目，不要盲目修改
+================================
+
+首先检查：
+
+- package.json
+- Astro配置
+- src/pages
+- src/layouts
+- src/components
+- content目录
+- public目录
+- 当前SEO组件
+- 当前robots.txt
+- 当前Sitemap配置
+- 当前canonical逻辑
+- 当前URL结构
+
+先理解现有项目架构，再修改。
+
+不要重复安装已有功能。
+
+不要为了SEO安装大型无关插件。
+
+如果现有方案已经正确，则复用现有实现。
+
+================================
+二、确定唯一正式主域名
+================================
+
+正式域名：
+
+https://【我的域名】/
+
+例如：
+
+https://jichangvpn.club/
+
+全站必须统一使用这个正式域名。
+
+检查并统一：
+
+- canonical
+- Sitemap
+- Open Graph URL
+- Schema URL
+- RSS
+- 内部绝对链接
+- robots Sitemap声明
+
+禁止混入：
+
+http版本
+www版本
+Cloudflare Pages临时域名
+Vercel临时域名
+localhost
+测试域名
+
+如果：
+
+https://www.域名/
+
+也存在，应规划301到正式主域名。
+
+如果需要Cloudflare DNS或Redirect Rules才能完成，只报告需要操作的内容，不要虚构已经修改成功。
+
+================================
+三、统一URL规范
+================================
+
+这是新站，可以现在一次定型。
+
+要求：
+
+1. URL简短；
+2. URL语义明确；
+3. 全站统一小写英文slug；
+4. 不使用随机数字；
+5. 不使用日期型URL；
+6. 不使用中文URL；
+7. 不重复建立相同搜索意图页面；
+8. 一个搜索意图对应一个主要URL；
+9. 正式上线后尽量不再批量修改slug。
+
+例如：
+
+/vpn/
+/jichang/
+/clash/
+/nodes/
+/tizi/
+/free/
+/tutorial/
+/brands/
+
+文章例如：
+
+/vpn/best-vpn/
+/vpn/windows/
+/clash/nodes/
+/clash/subscription/
+/nodes/hong-kong/
+/nodes/japan/
+
+不要建立：
+
+/article?id=123
+/page-123
+/post-20260903-001
+
+这种无SEO语义URL。
+
+================================
+四、建立全站SEO Head系统
+================================
+
+建立或完善统一SEO组件。
+
+每个可索引页面必须支持：
+
+title
+description
+canonical
+robots
+Open Graph
+Twitter Card
+publishedTime
+modifiedTime
+
+文章页另外支持：
+
+author
+category
+tags
+cover
+updatedDate
+
+确保：
+
+每页title唯一；
+每页description尽量唯一；
+每页只有一个canonical；
+每页只有一个主要H1。
+
+不要全站共用同一个Title和Description。
+
+================================
+五、Canonical
+================================
+
+所有正式页面必须输出：
+
+<link rel="canonical" href="当前页面正式URL">
+
+例如：
+
+首页：
+
+https://域名/
+
+VPN：
+
+https://域名/vpn/
+
+文章：
+
+https://域名/vpn/best-vpn/
+
+要求：
+
+canonical必须：
+
+- 自引用
+- HTTPS
+- 正式主域名
+- 不带追踪参数
+- 不指向错误页面
+- 不全部指向首页
+
+================================
+六、Sitemap
+================================
+
+建立：
+
+https://域名/sitemap.xml
+
+如果Astro项目适合使用官方Sitemap集成，可以采用官方方案。
+
+要求：
+
+Sitemap自动收录：
+
+- 首页
+- 栏目页
+- 专题页
+- 正式文章
+- 品牌页
+- 可索引数据库页面
+
+排除：
+
+- 404
+- draft
+- admin
+- 测试页
+- 搜索结果
+- 重复URL
+- noindex页面
+- 参数页面
+- canonical指向其他页面的重复页
+
+要求：
+
+HTTP 200
+
+XML格式正确
+
+所有URL使用：
+
+https://正式域名/
+
+以后新增文章能够自动进入Sitemap。
+
+如果页面很多，可以使用：
+
+sitemap-index.xml
++
+多个子Sitemap
+
+但不要在当前规模不需要时过度复杂化。
+
+================================
+七、robots.txt
+================================
+
+建立：
+
+https://域名/robots.txt
+
+基础推荐：
+
+User-agent: *
+Allow: /
+
+Sitemap: https://域名/sitemap.xml
+
+同时确保正常搜索爬虫可访问：
+
+Googlebot
+bingbot
+Baiduspider
+yisouspider
+
+不要出现：
+
+User-agent: *
+Disallow: /
+
+不要误屏蔽：
+
+/vpn/
+/jichang/
+/clash/
+/nodes/
+/tizi/
+/free/
+/tutorial/
+/brands/
+
+以及正式文章目录。
+
+如果项目存在真正不希望被索引的内部目录，可以单独合理屏蔽。
+
+================================
+八、神马搜索 / yisouspider
+================================
+
+确保神马搜索爬虫：
+
+yisouspider
+
+能够正常访问网站。
+
+检查：
+
+robots是否允许
+页面是否HTTP 200
+正文是否存在于HTML
+是否存在noindex
+是否存在X-Robots-Tag: noindex
+Cloudflare是否可能误拦截正常爬虫
+是否强制JS Challenge
+是否返回403/429
+
+如果需要显式规则，可以：
+
+User-agent: yisouspider
+Allow: /
+
+但如果：
+
+User-agent: *
+Allow: /
+
+已经覆盖，则不需要重复制造复杂规则。
+
+================================
+九、搜索引擎验证代码预留
+================================
+
+在全站公共<head>中为以下站长平台建立安全验证能力：
+
+Google Search Console
+Bing Webmaster Tools
+神马站长平台
+百度搜索资源平台
+
+如果我提供了验证Meta，则原样加入公共Head。
+
+例如：
+
+【Google验证代码】
+
+【Bing验证代码】
+
+【神马验证代码】
+
+【百度验证代码】
+
+如果当前没有提供某个平台验证码：
+
+不要编造验证码。
+
+只确保以后可以方便加入。
+
+验证代码必须直接出现在最终HTML源码中，不要使用客户端JavaScript动态插入。
+
+================================
+十、结构化数据 Schema
+================================
+
+根据页面类型合理配置JSON-LD。
+
+全站：
+
+Organization
+WebSite
+
+首页：
+
+WebSite
+Organization
+
+栏目：
+
+CollectionPage
+BreadcrumbList
+ItemList（适合时）
+
+文章：
+
+Article 或 BlogPosting
+BreadcrumbList
+
+FAQ存在真实FAQ内容时：
+
+FAQPage
+
+教程真正符合步骤内容时：
+
+HowTo
+
+品牌页：
+
+WebPage
+BreadcrumbList
+
+禁止：
+
+为了SEO给所有页面乱加FAQPage；
+页面没有FAQ却输出FAQ Schema；
+页面没有步骤却输出HowTo；
+Schema中的内容与页面实际内容不一致。
+
+================================
+十一、网站内链结构
+================================
+
+建立：
+
+首页
+→ 核心栏目
+→ 专题
+→ 长尾文章
+→ 相关内容
+
+并保证：
+
+页面点击深度原则上不超过3层。
+
+文章页面应该具备：
+
+- 面包屑
+- 所属栏目
+- 相关阅读
+- 上下文自然内链
+
+核心页面应该链接到相关Cluster文章。
+
+Cluster文章应该回链对应Pillar页面。
+
+不要机械地给每篇文章塞完全相同的几十条内链。
+
+================================
+十二、导航抓取
+================================
+
+检查主导航。
+
+所有重要导航入口必须尽量使用：
+
+<a href="...">
+
+而不是全部依赖：
+
+onclick
+JS事件
+客户端路由状态
+
+主要导航包括：
+
+VPN
+机场推荐
+Clash
+节点
+梯子推荐
+免费资源
+使用教程
+品牌库
+
+搜索引擎在不执行复杂JavaScript的情况下也应该能够发现这些URL。
+
+================================
+十三、移动端与性能
+================================
+
+检查：
+
+viewport
+响应式布局
+字体加载
+图片尺寸
+图片lazyload
+CLS
+LCP
+JS体积
+CSS体积
+
+Astro原则：
+
+尽量静态生成。
+
+只有：
+
+搜索
+主题切换
+移动菜单
+对比工具
+
+等需要交互的地方使用客户端JS。
+
+不要把整站做成不必要的SPA。
+
+================================
+十四、图片SEO
+================================
+
+正式内容图片要求：
+
+- 合理文件名
+- width
+- height
+- alt
+- lazy loading
+- WebP/AVIF（适合时）
+
+alt要描述图片实际内容。
+
+禁止堆关键词。
+
+Logo、装饰背景不需要强行堆SEO alt。
+
+================================
+十五、首页SEO检查
+================================
+
+首页必须具备：
+
+唯一Title
+唯一Description
+唯一H1
+Canonical
+主要导航
+核心栏目介绍
+重要专题入口
+品牌/内容入口
+内部链接
+WebSite Schema
+Organization Schema
+
+首页不要：
+
+把几十个关键词全部堆在H1；
+堆100个完全无解释链接；
+复制大量文章正文；
+制造隐藏SEO文本。
+
+================================
+十六、栏目SEO检查
+================================
+
+以下存在的栏目：
+
+/vpn/
+/jichang/
+/clash/
+/nodes/
+/tizi/
+/free/
+/tutorial/
+/brands/
+
+每个栏目要求：
+
+独立Title
+独立Description
+独立H1
+栏目说明
+子栏目入口
+相关文章
+面包屑
+canonical
+可索引
+Sitemap收录
+
+栏目页不能只有一堆文章卡片而完全没有主题说明。
+
+================================
+十七、404与异常URL
+================================
+
+建立正常404页面。
+
+检查：
+
+不存在URL返回真正404。
+
+不要：
+
+所有404都返回200。
+
+不要制造：
+
+Soft 404
+
+检查：
+
+重复斜杠
+大小写URL
+尾部斜杠策略
+参数URL
+http/https
+www/裸域
+
+保持统一。
+
+================================
+十八、索引控制
+================================
+
+正式内容：
+
+index, follow
+
+不需要索引的内部页面：
+
+根据实际情况noindex。
+
+禁止：
+
+首页noindex
+栏目noindex
+文章noindex
+全站X-Robots-Tag: noindex
+
+上线前做一次全项目搜索：
+
+noindex
+nofollow
+Disallow
+X-Robots-Tag
+
+确认没有开发环境残留。
+
+================================
+十九、构建验收
+================================
+
+读取package.json后使用项目当前真实包管理器执行：
+
+build
+
+不要自行假设npm/pnpm/bun。
+
+必须确认：
+
+构建成功。
+
+检查最终输出目录：
+
+首页HTML
+核心栏目HTML
+robots.txt
+sitemap.xml
+
+并检查最终HTML中：
+
+title
+description
+canonical
+H1
+Schema
+
+均正常输出。
+
+================================
+二十、新站搜索引擎上线准备
+================================
+
+完成技术配置以后，输出需要我人工执行的提交清单：
+
+【Bing】
+
+Bing Webmaster Tools
+添加域名
+验证所有权
+提交：
+https://域名/sitemap.xml
+
+
+【Google】
+
+Google Search Console
+添加域名
+验证所有权
+提交：
+https://域名/sitemap.xml
+
+
+【神马】
+
+神马站长平台
+添加网站
+验证：
+shenma-site-verification
+提交：
+https://域名/sitemap.xml
+
+
+【百度】
+
+百度搜索资源平台
+添加网站
+完成验证
+提交Sitemap（如果账号当前具备该功能）
+
+================================
+二十一、上线前保护
+================================
+
+因为这是新站，现在允许一次性修正：
+
+URL结构
+canonical
+Sitemap
+robots
+SEO组件
+页面目录
+
+但是：
+
+完成本次初始化并正式上线后，
+
+从此将该站视为生产站。
+
+以后禁止：
+
+随意批量修改slug
+大规模删除URL
+频繁更换www/裸域
+重建URL体系
+随意改变canonical
+反复修改目录结构
+
+后续SEO以：
+
+增量文章
+内容更新
+内部链接
+专题扩展
+品牌数据库
+结构化数据优化
+
+为主。
+
+================================
+二十二、最终输出报告
+================================
+
+执行完成后输出：
+
+【网站】
+正式域名：
+框架：
+构建方式：
+
+【URL】
+正式主域：
+尾斜杠策略：
+URL规范：
+
+【SEO Head】
+Title：
+Description：
+Canonical：
+Robots：
+OG：
+Schema：
+
+【Sitemap】
+地址：
+状态：
+URL数量：
+异常URL：
+
+【robots】
+地址：
+状态：
+Googlebot：
+bingbot：
+Baiduspider：
+yisouspider：
+
+逐项说明：
+
+HTTP状态
+Index状态
+Canonical
+Sitemap状态
+
+【构建】
+命令：
+结果：
+错误：
+警告：
+
+【需要我人工完成】
+只列真正需要人工做的事情：
+
+1. 部署正式网站
+2. 添加Bing站长平台
+3. 添加Google Search Console
+4. 添加神马站长平台
+5. 添加百度搜索资源平台
+6. 提交Sitemap
+7. 完成对应Meta/DNS验证
+
+不要声称无法验证的线上步骤已经完成。
